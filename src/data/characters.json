@@ -1,0 +1,192 @@
+[
+  {
+    "id": "jesus",
+    "name": "Jesus",
+    "fullName": "Jesus of Nazareth",
+    "description": "Itinerant Jewish teacher and central figure of the Christian faith.",
+    "period": "c. 4 BC – 30 AD",
+    "birthplace": "Bethlehem, Judea",
+    "locations": ["Bethlehem", "Nazareth", "Capernaum", "Galilee", "Jerusalem"],
+    "biography": [
+      "Born in Bethlehem during the reign of Herod the Great and raised in Nazareth as the son of a craftsman, Jesus lived an obscure life until roughly the age of thirty. He then began a public ministry of teaching, healing, and gathering disciples around him in the towns of Galilee.",
+      "His message of the kingdom of God drew crowds and the attention of the religious establishment. He taught in synagogues, on hillsides, and over shared meals — often through parables that subverted the expectations of his hearers.",
+      "He was crucified in Jerusalem under Pontius Pilate during Passover. His followers proclaimed his resurrection three days later — the foundational claim of the movement that became the Christian church."
+    ],
+    "references": [
+      { "ref": "Matthew 5–7", "note": "The Sermon on the Mount" },
+      { "ref": "John 1:1–14", "note": "The Word made flesh" },
+      { "ref": "Luke 24:1–12", "note": "The empty tomb" }
+    ]
+  },
+  {
+    "id": "abraham",
+    "name": "Abraham",
+    "fullName": "Abraham (Abram)",
+    "description": "Patriarch of Israel and recipient of the foundational covenant.",
+    "period": "c. 2000 – 1825 BC",
+    "birthplace": "Ur of the Chaldeans",
+    "locations": ["Ur", "Haran", "Canaan", "Egypt", "Hebron"],
+    "biography": [
+      "Called by God to leave Ur and journey to a land he had not yet seen, Abraham became the patriarchal figure through whom three monotheistic faiths trace their origin. The covenant promised him land, descendants, and blessing — though most of these would only be fulfilled long after his lifetime.",
+      "His story turns on faith tested at the edges of human experience: leaving home in old age, waiting decades for a promised heir, and ascending Mount Moriah with that same son in obedience to a command he could not yet understand.",
+      "He died at Hebron and was buried beside Sarah in the cave of Machpelah — a small piece of the promised land already in his hands."
+    ],
+    "references": [
+      { "ref": "Genesis 12:1–9", "note": "The call of Abram" },
+      { "ref": "Genesis 15", "note": "The covenant" },
+      { "ref": "Genesis 22", "note": "The binding of Isaac" }
+    ]
+  },
+  {
+    "id": "moses",
+    "name": "Moses",
+    "fullName": "Moses",
+    "description": "Prophet and lawgiver who led Israel out of Egypt.",
+    "period": "c. 1391 – 1271 BC",
+    "birthplace": "Goshen, Egypt",
+    "locations": ["Egypt", "Midian", "Mount Sinai", "the Wilderness", "Mount Nebo"],
+    "biography": [
+      "Born to Hebrew slaves and raised in Pharaoh's household, Moses fled into Midian after killing an Egyptian overseer. For forty years he tended flocks, until a voice from a burning bush sent him back to confront the most powerful ruler of his world.",
+      "He led Israel out of slavery through ten plagues and a parted sea. At Sinai he received the Law that would shape Israelite life for centuries — and mediated between a holy God and a stubborn people through forty years of wilderness wandering.",
+      "He died on Mount Nebo within sight of the promised land but was not permitted to enter it. Scripture remembers him as the prophet whom no other in Israel surpassed."
+    ],
+    "references": [
+      { "ref": "Exodus 3", "note": "The burning bush" },
+      { "ref": "Exodus 20", "note": "The giving of the Ten Commandments" },
+      { "ref": "Deuteronomy 34", "note": "The death of Moses" }
+    ]
+  },
+  {
+    "id": "david",
+    "name": "David",
+    "fullName": "David, son of Jesse",
+    "description": "Shepherd, poet, and second king of Israel.",
+    "period": "c. 1040 – 970 BC",
+    "birthplace": "Bethlehem, Judah",
+    "locations": ["Bethlehem", "Hebron", "Jerusalem", "En Gedi", "the Judean wilderness"],
+    "biography": [
+      "Anointed king by the prophet Samuel while still a boy tending sheep, David rose to fame for defeating the Philistine champion Goliath and serving in the court of King Saul. Saul's jealousy soon drove him into years of exile and pursuit through the wilderness of Judah.",
+      "After Saul's death he was crowned king of Judah at Hebron, then of all Israel. He made Jerusalem his capital and brought the ark of the covenant there, fixing the city's place at the center of Israelite life.",
+      "His reign — marked by triumph, scandal, and grief — became the template against which every later king of Judah was measured. The psalms attributed to him remain among the most-read poetry in the world."
+    ],
+    "references": [
+      { "ref": "1 Samuel 17", "note": "David and Goliath" },
+      { "ref": "2 Samuel 7", "note": "The Davidic covenant" },
+      { "ref": "Psalm 23", "note": "The Lord is my shepherd" }
+    ]
+  },
+  {
+    "id": "mary",
+    "name": "Mary",
+    "fullName": "Mary of Nazareth",
+    "description": "Mother of Jesus, present from his birth to the cross.",
+    "period": "c. 18 BC – c. 41 AD",
+    "birthplace": "Nazareth, Galilee",
+    "locations": ["Nazareth", "Bethlehem", "Egypt", "Cana", "Jerusalem"],
+    "biography": [
+      "A young woman of Nazareth betrothed to Joseph, Mary said yes to the angel Gabriel's announcement and bore Jesus in Bethlehem. Her song — the Magnificat — speaks of a God who topples the proud and lifts up the lowly.",
+      "She appears at pivotal moments throughout the Gospels: the flight to Egypt, the wedding at Cana, the foot of the cross, and the upper room at Pentecost — a quiet, steady presence across the whole arc of her son's life and the early days of the church.",
+      "Tradition places her later years in Ephesus under the care of John the apostle. She is remembered first as the one who heard the impossible and answered, \"let it be to me according to your word.\""
+    ],
+    "references": [
+      { "ref": "Luke 1:26–56", "note": "The Annunciation and the Magnificat" },
+      { "ref": "John 2:1–11", "note": "The wedding at Cana" },
+      { "ref": "John 19:25–27", "note": "At the foot of the cross" }
+    ]
+  },
+  {
+    "id": "paul",
+    "name": "Paul",
+    "fullName": "Paul of Tarsus",
+    "description": "Apostle to the Gentiles and author of much of the New Testament.",
+    "period": "c. 5 – 65 AD",
+    "birthplace": "Tarsus, Cilicia",
+    "locations": ["Tarsus", "Jerusalem", "Damascus", "Antioch", "Corinth", "Ephesus", "Rome"],
+    "biography": [
+      "A Pharisee trained in Jerusalem under Gamaliel, Saul of Tarsus first appears in scripture approving the stoning of Stephen and persecuting the early church. A blinding encounter with the risen Christ on the road to Damascus reordered his life entirely.",
+      "As Paul, he became the great missionary of the early movement, planting churches across the Roman world on three long journeys and writing the letters that would become foundational scripture for the church.",
+      "He was arrested in Jerusalem, appealed his case to Caesar, and was taken under guard to Rome. Tradition holds he was martyred there under the emperor Nero."
+    ],
+    "references": [
+      { "ref": "Acts 9:1–19", "note": "The road to Damascus" },
+      { "ref": "Romans 8", "note": "Life in the Spirit" },
+      { "ref": "Philippians 3:7–14", "note": "Pressing on toward the goal" }
+    ]
+  },
+  {
+    "id": "ruth",
+    "name": "Ruth",
+    "fullName": "Ruth the Moabite",
+    "description": "A foreign widow whose loyalty placed her in the lineage of David.",
+    "period": "c. 1100 BC, in the days of the Judges",
+    "birthplace": "Moab",
+    "locations": ["Moab", "the road to Bethlehem", "Bethlehem", "the fields of Boaz"],
+    "biography": [
+      "Famine had driven an Israelite family from Bethlehem into Moab, where Ruth married into it — and was widowed young, alongside her mother-in-law Naomi and her sister-in-law Orpah. When Naomi resolved to return home, Ruth refused to be sent back: \"where you go I will go.\"",
+      "In Bethlehem the two widows survived on the leftovers of the barley harvest. There Ruth met Boaz, a kinsman of her late husband, who acted as a redeemer and married her — restoring Naomi's line and her household.",
+      "Their child Obed would become the grandfather of King David, and through him an ancestor of Jesus. The book that bears her name is one of only two in the Hebrew Bible named for a woman."
+    ],
+    "references": [
+      { "ref": "Ruth 1:16–17", "note": "Where you go I will go" },
+      { "ref": "Ruth 2", "note": "Gleaning in the fields of Boaz" },
+      { "ref": "Ruth 4:13–22", "note": "The genealogy to David" }
+    ]
+  },
+  {
+    "id": "esther",
+    "name": "Esther",
+    "fullName": "Esther (Hadassah)",
+    "description": "Jewish queen of Persia who saved her people from annihilation.",
+    "period": "5th century BC",
+    "birthplace": "Susa, Persia",
+    "locations": ["Susa (Shushan)", "the citadel", "the royal palace of Xerxes"],
+    "biography": [
+      "Orphaned and raised by her cousin Mordecai in the Persian capital of Susa, Esther was chosen as queen to King Xerxes without revealing her Jewish identity. She moved through the court for years as a hidden insider.",
+      "When the king's adviser Haman engineered a decree to destroy the Jews throughout the empire, Mordecai pressed her to act — \"who knows whether you have come to the kingdom for such a time as this.\" Risking her life by approaching the king uninvited, she exposed Haman's plot at a private banquet.",
+      "Haman was executed; the Jews were granted the right to defend themselves; and the festival of Purim was instituted to remember the deliverance. The book is the only one in the Bible that does not mention God by name — and yet his hand is visible on every page."
+    ],
+    "references": [
+      { "ref": "Esther 4:13–17", "note": "For such a time as this" },
+      { "ref": "Esther 7", "note": "The exposure of Haman" },
+      { "ref": "Esther 9:20–32", "note": "The institution of Purim" }
+    ]
+  },
+  {
+    "id": "solomon",
+    "name": "Solomon",
+    "fullName": "Solomon, son of David",
+    "description": "Third king of Israel and builder of the first temple.",
+    "period": "c. 990 – 931 BC",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "Gibeon", "the temple mount", "Megiddo", "Ezion-geber"],
+    "biography": [
+      "Inheriting a kingdom at its zenith, Solomon famously asked God for wisdom rather than wealth and received both. His court became renowned far beyond Israel's borders, drawing emissaries — including the Queen of Sheba — from across the ancient world.",
+      "He built the first temple in Jerusalem, the centerpiece of Israelite worship for nearly four centuries. Trade flourished; cities were fortified; the wisdom literature later collected in Proverbs and Ecclesiastes was traced to his hand.",
+      "His reign also turned cautionary. Heavy taxation, foreign alliances sealed by political marriages, and the accumulation of wealth that the Law had warned against eroded the kingdom from within. After his death, the united monarchy split in two."
+    ],
+    "references": [
+      { "ref": "1 Kings 3:5–14", "note": "The gift of wisdom" },
+      { "ref": "1 Kings 8", "note": "The dedication of the temple" },
+      { "ref": "Ecclesiastes 1", "note": "Vanity of vanities" }
+    ]
+  },
+  {
+    "id": "john-the-baptist",
+    "name": "John the Baptist",
+    "fullName": "John the Baptist",
+    "description": "Wilderness prophet who announced the coming of Christ.",
+    "period": "c. 4 BC – c. 30 AD",
+    "birthplace": "Hill country of Judea",
+    "locations": ["Judean wilderness", "the Jordan River", "Bethany beyond the Jordan", "Machaerus"],
+    "biography": [
+      "Son of the priest Zechariah and Elizabeth — a relative of Mary — John appeared in the wilderness in camel-hair garments, calling Israel to repentance and baptizing in the Jordan. Crowds streamed out from Jerusalem to hear him.",
+      "He recognized Jesus as the one whose coming he had announced and baptized him in the Jordan. \"He must increase,\" John said of his cousin, \"but I must decrease\" — a deliberate stepping aside as the ministry he had prepared the way for began.",
+      "His public denunciation of Herod Antipas's marriage to his brother's wife led to his imprisonment and beheading at the desert fortress of Machaerus. Jesus called him the greatest of those born of women."
+    ],
+    "references": [
+      { "ref": "Matthew 3", "note": "Preaching in the wilderness" },
+      { "ref": "Luke 1:5–25", "note": "The annunciation to Zechariah" },
+      { "ref": "John 1:19–34", "note": "Behold the Lamb of God" }
+    ]
+  }
+]

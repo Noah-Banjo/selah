@@ -1,0 +1,167 @@
+[
+  {
+    "id": "selah",
+    "word": "סֶלָה",
+    "transliteration": "Selah",
+    "language": "Hebrew",
+    "translation": "pause, lift up",
+    "context": "A liturgical interjection scattered through the Psalms — likely an instruction to pause and reflect.",
+    "definition": "A musical or liturgical term whose precise meaning is uncertain, but most likely a directive to pause, lift up, or reflect on what has just been spoken or sung. It appears 71 times in the Psalter and three times in Habakkuk.",
+    "verses": ["Psalm 3:2, 4, 8", "Psalm 46:7, 11", "Habakkuk 3:3, 9, 13"],
+    "significance": "Selah is a pause built into scripture itself — a sanctioned silence. Worship is not only spoken but also rests; truth is meant to be sat with before the next line begins."
+  },
+  {
+    "id": "shalom",
+    "word": "שָׁלוֹם",
+    "transliteration": "Shalom",
+    "language": "Hebrew",
+    "translation": "peace, wholeness, completeness",
+    "context": "More than the absence of conflict — the deepest blessing one Hebrew could speak over another.",
+    "definition": "A rich Hebrew noun spanning peace, wholeness, completeness, prosperity, and the integration of all things as they should be. Used as both a greeting and a theological vision of human and cosmic flourishing.",
+    "verses": ["Numbers 6:24–26", "Isaiah 9:6", "Psalm 122:6"],
+    "significance": "Where English peace is mostly the absence of war, shalom is the presence of flourishing. The biblical hope is not a quiet world but a whole one — relationships restored, justice settled, creation at rest."
+  },
+  {
+    "id": "logos",
+    "word": "λόγος",
+    "transliteration": "Logos",
+    "language": "Greek",
+    "translation": "word, reason, discourse",
+    "context": "John takes a Greek philosophical term and identifies it with Christ — the Word made flesh.",
+    "definition": "Word, speech, reason, or rational principle. In Greek philosophy, Logos was the ordering rationality behind the cosmos. John's prologue claims this Logos became a particular human being in first-century Judea.",
+    "verses": ["John 1:1, 14", "Hebrews 4:12", "1 John 1:1"],
+    "significance": "John's audacious move bridges Athens and Jerusalem: the rational principle behind reality is not an abstraction but a person. Christ is what God has been saying about himself from the beginning."
+  },
+  {
+    "id": "agape",
+    "word": "ἀγάπη",
+    "transliteration": "Agape",
+    "language": "Greek",
+    "translation": "self-giving love",
+    "context": "Distinct from eros and philia — the willed, sacrificial love commanded toward God and neighbor.",
+    "definition": "The highest of the Greek words for love. Distinct from eros (romantic), philia (friendship), and storge (familial), agape names a love that is chosen rather than felt — a willed orientation toward another's good regardless of merit or response.",
+    "verses": ["1 Corinthians 13", "John 3:16", "1 John 4:7–8"],
+    "significance": "Agape reframes love as action, not emotion. It can be commanded — even toward enemies — because it does not require the cooperation of feeling. It is the kind of love God is said to be."
+  },
+  {
+    "id": "ruach",
+    "word": "רוּחַ",
+    "transliteration": "Ruach",
+    "language": "Hebrew",
+    "translation": "spirit, breath, wind",
+    "context": "The unseen, animating force — present at creation and in the prophets.",
+    "definition": "A single Hebrew word spanning wind, breath, and spirit. Ruach is the invisible force that gives life — the breath in the lungs, the wind across the wilderness, and the Spirit of God that hovers over the deep.",
+    "verses": ["Genesis 1:2", "Ezekiel 37:9–10", "Psalm 51:11"],
+    "significance": "The same word that names the wind names the Spirit of God — what is unseen and yet undeniably moving. From the breath that hovered over the chaos to the breath that filled dry bones, ruach is the texture of divine presence."
+  },
+  {
+    "id": "emet",
+    "word": "אֱמֶת",
+    "transliteration": "Emet",
+    "language": "Hebrew",
+    "translation": "truth, faithfulness, reliability",
+    "context": "Hebrew truth is less a correct proposition and more a steadfastness you can stake your life on.",
+    "definition": "From the root aman — the same root that gives us amen. Emet names what is firm, faithful, reliable, and trustworthy. It applies to people who keep their word, witnesses whose testimony holds, and a God who keeps covenant.",
+    "verses": ["Psalm 31:5", "Exodus 34:6", "Zechariah 8:3"],
+    "significance": "Truth in Hebrew is closer to fidelity than to factuality. God is described as abundant in hesed and emet — overflowing love and the unshakable reliability that keeps the love from being mere sentiment."
+  },
+  {
+    "id": "hesed",
+    "word": "חֶסֶד",
+    "transliteration": "Hesed",
+    "language": "Hebrew",
+    "translation": "covenant loyalty, steadfast love",
+    "context": "The nearly untranslatable word for the love that does not let go.",
+    "definition": "A Hebrew word combining love, loyalty, and obligation — the steadfast covenant love a faithful partner shows even when the other has failed. Translators reach for compound phrases: lovingkindness, steadfast love, covenant faithfulness.",
+    "verses": ["Psalm 136 (refrain)", "Lamentations 3:22–23", "Micah 6:8"],
+    "significance": "Hesed is the texture of God's relationship with his people — love that has signed something, that is bound, that keeps showing up. Where ordinary love would walk away, hesed remains."
+  },
+  {
+    "id": "kairos",
+    "word": "καιρός",
+    "transliteration": "Kairos",
+    "language": "Greek",
+    "translation": "appointed time, opportune moment",
+    "context": "Distinct from chronos — not the ticking clock but the charged, decisive moment.",
+    "definition": "Where chronos measures sequential, quantitative time — minutes, days, years — kairos names a qualitative moment: the right time, the appointed time, the opportunity that must not be missed.",
+    "verses": ["Mark 1:15", "Galatians 4:4", "Ephesians 5:16"],
+    "significance": "Scripture insists that history is not only duration but timing. There are moments when the kingdom is at hand and the door swings open. Kairos names the now that the chronos was waiting for."
+  },
+  {
+    "id": "pneuma",
+    "word": "πνεῦμα",
+    "transliteration": "Pneuma",
+    "language": "Greek",
+    "translation": "spirit, breath, wind",
+    "context": "The Greek inheritor of ruach — the Spirit at Pentecost, blowing where it wishes.",
+    "definition": "The Greek counterpart to Hebrew ruach, carrying the same breadth of meaning across breath, wind, and spirit. In the New Testament it most often names the Holy Spirit and the human spirit's response.",
+    "verses": ["John 3:8", "Acts 2:1–4", "Romans 8:26–27"],
+    "significance": "The same dynamic, life-giving breath that hovered over Genesis becomes the wind of Pentecost. Pneuma binds the testaments: the God who created by breathing now empowers the church by the same Spirit."
+  },
+  {
+    "id": "maranatha",
+    "word": "μαράνα θά",
+    "transliteration": "Maranatha",
+    "language": "Aramaic",
+    "translation": "Our Lord, come!",
+    "context": "An Aramaic prayer preserved untranslated in the Greek New Testament — the heart-cry of the early church.",
+    "definition": "An Aramaic phrase preserved in the Greek text without translation. Most likely marana tha — \"Our Lord, come!\" — though some read it as maran atha — \"Our Lord has come.\" Used as a closing prayer in early Christian gatherings.",
+    "verses": ["1 Corinthians 16:22", "Revelation 22:20 (parallel: 'Come, Lord Jesus')"],
+    "significance": "Paul did not bother to translate it for his Greek-speaking readers — they already knew the word. Maranatha is the early church's prayer in its native tongue, the longing for the return of Christ left raw and untranslated."
+  },
+  {
+    "id": "abba",
+    "word": "אַבָּא",
+    "transliteration": "Abba",
+    "language": "Aramaic",
+    "translation": "Father (intimate)",
+    "context": "Not a formal religious title but the warm, familial word a child would use for a parent.",
+    "definition": "The Aramaic word for father in its familiar form — closer to papa than to a formal patriarchal title. Used by Jesus in his prayer in Gethsemane and taken up by Paul as the cry the Spirit teaches in the heart of the believer.",
+    "verses": ["Mark 14:36", "Romans 8:15", "Galatians 4:6"],
+    "significance": "Abba reframes prayer as the speech of children. Jesus addresses God in his most agonized hour with the warmest possible word — and Paul claims the same word now belongs in the mouths of those adopted into the family."
+  },
+  {
+    "id": "amen",
+    "word": "אָמֵן",
+    "transliteration": "Amen",
+    "language": "Hebrew",
+    "translation": "so be it, truly",
+    "context": "A word of agreement that stakes the speaker's reliability on what was just spoken.",
+    "definition": "From the root aman — to be firm, faithful, trustworthy. Used as a congregational response affirming what has been spoken, and uniquely by Jesus as a prefix to authoritative declarations: amen, I say to you.",
+    "verses": ["Deuteronomy 27:15–26", "Matthew 5:18", "Revelation 22:20–21"],
+    "significance": "The final word of the Bible. Amen is the human answer to divine speech — agreement, ratification, the staking of one's life on what has been said. Jesus's strange habit of beginning sentences with it claims the authority to declare truth before it is even uttered."
+  },
+  {
+    "id": "hallelujah",
+    "word": "הַלְלוּ יָהּ",
+    "transliteration": "Hallelu-Yah",
+    "language": "Hebrew",
+    "translation": "Praise Yah(weh)",
+    "context": "A literal command — \"you all, praise Yahweh.\" The crescendo of the Psalter and the song of Revelation.",
+    "definition": "A compound: hallelu, the plural imperative of the verb \"praise,\" joined to Yah, a shortened form of the divine name YHWH. Untranslated in most languages because it carries the divine name within itself.",
+    "verses": ["Psalms 146–150 (the final hallel)", "Revelation 19:1–6"],
+    "significance": "The Psalter does not end with a prayer or a meditation but a command — five psalms shouting praise. Revelation hears the same word in heaven. Hallelujah binds the worship of Israel to the worship around the throne."
+  },
+  {
+    "id": "gehenna",
+    "word": "γέεννα",
+    "transliteration": "Gehenna",
+    "language": "Greek",
+    "translation": "the Valley of Hinnom; hell",
+    "context": "Jesus draws on a real, infamous valley outside Jerusalem to picture final judgment.",
+    "definition": "A Greek transliteration of the Hebrew Ge-Hinnom — the Valley of Hinnom outside Jerusalem, historically a site of child sacrifice under Israel's worst kings. Jesus uses the name as his most common image for eschatological judgment.",
+    "verses": ["Matthew 5:22, 29–30", "Mark 9:43–48", "Matthew 23:33"],
+    "significance": "Jesus does not invent hell from abstractions. He points to a literal place outside the city walls — a real ravine with a grim history — and warns that its image is also a destiny. The geography anchors the warning."
+  },
+  {
+    "id": "shekinah",
+    "word": "שְׁכִינָה",
+    "transliteration": "Shekinah",
+    "language": "Hebrew",
+    "translation": "dwelling, divine presence",
+    "context": "The rabbinic name for the visible, manifest presence of God among his people.",
+    "definition": "A post-biblical Hebrew term — not in the Hebrew Bible itself but coined by the rabbis from the verb shakan, \"to dwell\" — naming the glorious, manifest presence of God: the cloud over the tabernacle, the fire on Sinai, the glory filling the temple.",
+    "verses": ["Exodus 40:34–35", "1 Kings 8:10–11", "John 1:14 (parallel: 'tabernacled among us')"],
+    "significance": "John's prologue says the Word skenosen — pitched his tent — among us, deliberately echoing the language of God's presence in the tabernacle. Christ is the new Shekinah: the divine presence walking the earth in a body."
+  }
+]
