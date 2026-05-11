@@ -65,8 +65,14 @@ function App() {
 
         <footer className="footer">
           <div className="footer__inner">
-            <span className="footer__brand">Selah</span>
-            <span className="footer__meta">© {new Date().getFullYear()}</span>
+            <span className="footer__brand">Built with curiosity and reverence</span>
+            <nav className="footer__nav" aria-label="Footer">
+              {NAV_ITEMS.map((item) => (
+                <Link key={item.label} to={item.to} className="footer__link">
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
           </div>
         </footer>
       </div>

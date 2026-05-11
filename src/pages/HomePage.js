@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import characters from '../data/characters.json';
 import locations from '../data/locations.json';
@@ -44,6 +44,21 @@ const MAX_PER_GROUP = 4;
 function HomePage() {
   const [query, setQuery] = useState('');
   const navigate = useNavigate();
+  const searchRef = useRef(null);
+
+  const featuredCharacter = useMemo(() => {
+    const dayIndex = Math.floor(Date.now() / 86400000);
+    return characters[dayIndex % characters.length];
+  }, []);
+
+  const scrollToSearch = () => {
+    if (!searchRef.current) return;
+    searchRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const input = searchRef.current.querySelector('input');
+    if (input) {
+      setTimeout(() => input.focus({ preventScroll: true }), 400);
+    }
+  };
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -102,7 +117,7 @@ function HomePage() {
             the people, and the language of scripture.
           </p>
 
-          <div className="global-search">
+          <div className="global-search" ref={searchRef}>
             <div className="global-search__field">
               <span className="global-search__icon" aria-hidden="true">⌕</span>
               <input
@@ -239,6 +254,61 @@ function HomePage() {
               </a>
             );
           })}
+        </div>
+      </section>
+
+      <section className="about" aria-labelledby="about-heading">
+        <div className="about__inner">
+          <span className="about__eyebrow">About</span>
+          <h2 className="about__title" id="about-heading">What is Selah?</h2>
+          <div className="about__paragraphs">
+            <p>
+              Selah is an interactive atlas of the biblical world. It maps the
+              geography that the prophets walked, traces the lives behind the
+              names, and surfaces the Hebrew and Greek words behind the English
+              text — all in one place, all linked together.
+            </p>
+            <p>
+              It is built for the curious. Students, teachers, the merely
+              interested — anyone who has read a verse and wished they could see
+              where it happened, who else was in the room, or what the original
+              word actually meant. Nothing here assumes you already know the
+              answers.
+            </p>
+            <p>
+              Most Bible apps are reading tools. Selah is an exploring tool. You
+              can wander from a person to the places they touched, from a word
+              to the verses where it appears, from a moment on the timeline to
+              the web of people around it. It is scripture as a world, not just
+              as a text.
+            </p>
+          </div>
+          <button
+            type="button"
+            className="about__cta"
+            onClick={scrollToSearch}
+          >
+            Start Exploring
+            <span aria-hidden="true">↑</span>
+          </button>
+        </div>
+      </section>
+
+      <section className="featured" aria-labelledby="featured-heading">
+        <div className="featured__inner">
+          <span className="featured__eyebrow">Featured Character of the Day</span>
+          <h2 className="featured__name" id="featured-heading">
+            {featuredCharacter.name}
+          </h2>
+          <p className="featured__period">{featuredCharacter.period}</p>
+          <p className="featured__desc">{featuredCharacter.description}</p>
+          <Link
+            to={`/characters/${featuredCharacter.id}`}
+            className="featured__cta"
+          >
+            View Profile
+            <span aria-hidden="true">→</span>
+          </Link>
         </div>
       </section>
     </>
