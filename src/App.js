@@ -7,6 +7,7 @@ import MapPage from './pages/MapPage';
 import WordsPage from './pages/WordsPage';
 import TimelinePage from './pages/TimelinePage';
 import BiblePage from './pages/BiblePage';
+import RelationshipsPage from './pages/RelationshipsPage';
 
 const NAV_ITEMS = [
   { label: 'Map', to: '/map' },
@@ -14,6 +15,7 @@ const NAV_ITEMS = [
   { label: 'Words', to: '/words' },
   { label: 'Timeline', to: '/timeline' },
   { label: 'Bible', to: '/bible' },
+  { label: 'Network', to: '/relationships' },
 ];
 
 function App() {
@@ -57,6 +59,7 @@ function App() {
             <Route path="/words" element={<WordsPage />} />
             <Route path="/timeline" element={<TimelinePage />} />
             <Route path="/bible" element={<BiblePage />} />
+            <Route path="/relationships" element={<RelationshipsPage />} />
           </Routes>
         </main>
 

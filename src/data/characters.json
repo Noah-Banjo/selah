@@ -17,6 +17,9 @@
       { "ref": "Genesis 6–9", "note": "The Flood narrative" },
       { "ref": "Hebrews 11:7", "note": "Noah listed among the faithful" },
       { "ref": "Matthew 24:37–39", "note": "Jesus invokes the days of Noah" }
+    ],
+    "relationships": [
+      { "characterId": "abraham", "type": "Descendant", "description": "Tenth generation from Noah through the line of Shem." }
     ]
   },
   {
@@ -37,6 +40,12 @@
       { "ref": "Genesis 12:1–9", "note": "The call of Abram" },
       { "ref": "Genesis 15", "note": "The covenant" },
       { "ref": "Genesis 22", "note": "The binding of Isaac" }
+    ],
+    "relationships": [
+      { "characterId": "noah", "type": "Ancestor", "description": "Ten generations back through the line of Shem." },
+      { "characterId": "isaac", "type": "Son", "description": "Son of promise, born to him and Sarah in their old age." },
+      { "characterId": "jacob", "type": "Grandson", "description": "Through Isaac, inheritor of the covenant promise." },
+      { "characterId": "jesus", "type": "Descendant", "description": "The promised seed in whom all nations would be blessed." }
     ]
   },
   {
@@ -57,6 +66,11 @@
       { "ref": "Genesis 22", "note": "The binding of Isaac" },
       { "ref": "Genesis 26", "note": "Wells, famine, and covenant renewal" },
       { "ref": "Hebrews 11:17–20", "note": "Listed among the faithful" }
+    ],
+    "relationships": [
+      { "characterId": "abraham", "type": "Father", "description": "Bound him on Mount Moriah; trusted he would be spared." },
+      { "characterId": "jacob", "type": "Son", "description": "Younger twin who took the firstborn's blessing by deceit." },
+      { "characterId": "jesus", "type": "Descendant", "description": "Foreshadowed in Isaac's near-sacrifice on Mount Moriah." }
     ]
   },
   {
@@ -77,6 +91,9 @@
       { "ref": "Job 1–2", "note": "The wager and the catastrophe" },
       { "ref": "Job 38–42", "note": "The voice from the whirlwind" },
       { "ref": "James 5:11", "note": "The patience of Job" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Successor", "description": "The ultimate righteous sufferer Job's anguish anticipates." }
     ]
   },
   {
@@ -97,6 +114,12 @@
       { "ref": "Genesis 27", "note": "The stolen blessing" },
       { "ref": "Genesis 28:10–22", "note": "The ladder at Bethel" },
       { "ref": "Genesis 32:22–32", "note": "Wrestling at Peniel" }
+    ],
+    "relationships": [
+      { "characterId": "isaac", "type": "Father", "description": "Blind father whose blessing he stole from Esau." },
+      { "characterId": "abraham", "type": "Grandfather", "description": "Patriarch from whom the covenant promise descended." },
+      { "characterId": "joseph", "type": "Son", "description": "Beloved son sold by his brothers; reunited in Egypt." },
+      { "characterId": "jesus", "type": "Descendant", "description": "Through Judah, the lion of the tribe." }
     ]
   },
   {
@@ -117,6 +140,11 @@
       { "ref": "Genesis 37", "note": "The coat and the sale" },
       { "ref": "Genesis 41", "note": "The rise to Egypt's throne" },
       { "ref": "Genesis 50:15–21", "note": "Forgiveness of his brothers" }
+    ],
+    "relationships": [
+      { "characterId": "jacob", "type": "Father", "description": "Aging father who mourned him as dead for years." },
+      { "characterId": "isaac", "type": "Grandfather", "description": "Patriarch through whose line the promise ran." },
+      { "characterId": "abraham", "type": "Ancestor", "description": "Great-grandfather in the covenant line." }
     ]
   },
   {
@@ -137,6 +165,11 @@
       { "ref": "Joshua 2", "note": "Hiding the spies" },
       { "ref": "Joshua 6:22–25", "note": "Sparing of her household" },
       { "ref": "Hebrews 11:31; Matthew 1:5", "note": "Commended for faith; in the line of Jesus" }
+    ],
+    "relationships": [
+      { "characterId": "joshua", "type": "Ally", "description": "Sheltered his spies before the fall of Jericho." },
+      { "characterId": "david", "type": "Descendant", "description": "Great-grandmother of David through Boaz." },
+      { "characterId": "jesus", "type": "Descendant", "description": "In the messianic line through Boaz and David." }
     ]
   },
   {
@@ -157,6 +190,11 @@
       { "ref": "Exodus 3", "note": "The burning bush" },
       { "ref": "Exodus 20", "note": "The giving of the Ten Commandments" },
       { "ref": "Deuteronomy 34", "note": "The death of Moses" }
+    ],
+    "relationships": [
+      { "characterId": "joshua", "type": "Disciple", "description": "Trained as successor through forty years of wilderness." },
+      { "characterId": "abraham", "type": "Ancestor", "description": "Sent to lead the children of Abraham out of Egypt." },
+      { "characterId": "jesus", "type": "Successor", "description": "The new Moses who fulfills the Law and frees a greater Israel." }
     ]
   },
   {
@@ -177,6 +215,11 @@
       { "ref": "Joshua 1", "note": "Be strong and courageous" },
       { "ref": "Joshua 6", "note": "The fall of Jericho" },
       { "ref": "Joshua 24:14–15", "note": "Choose this day whom you will serve" }
+    ],
+    "relationships": [
+      { "characterId": "moses", "type": "Mentor", "description": "Apprenticed under him; received the mantle at the Jordan." },
+      { "characterId": "rahab", "type": "Ally", "description": "Spared in Jericho's fall for sheltering his spies." },
+      { "characterId": "abraham", "type": "Ancestor", "description": "Led Abraham's offspring into the promised land." }
     ]
   },
   {
@@ -197,6 +240,9 @@
       { "ref": "Judges 4", "note": "The defeat of Sisera" },
       { "ref": "Judges 5", "note": "The Song of Deborah" },
       { "ref": "Judges 4:4", "note": "Deborah, prophetess and judge" }
+    ],
+    "relationships": [
+      { "characterId": "samuel", "type": "Successor", "description": "Last great judge before the era that gave way to Samuel." }
     ]
   },
   {
@@ -217,6 +263,11 @@
       { "ref": "Ruth 1", "note": "The loss and the return" },
       { "ref": "Ruth 3", "note": "Counsel on the threshing floor" },
       { "ref": "Ruth 4:13–17", "note": "A son born to Naomi" }
+    ],
+    "relationships": [
+      { "characterId": "ruth", "type": "Daughter-in-law", "description": "Refused to be sent back to Moab after the deaths." },
+      { "characterId": "david", "type": "Descendant", "description": "Great-grandmother of David through Boaz and Ruth." },
+      { "characterId": "jesus", "type": "Descendant", "description": "In the line of David and the Messiah." }
     ]
   },
   {
@@ -237,26 +288,11 @@
       { "ref": "Ruth 1:16–17", "note": "Where you go I will go" },
       { "ref": "Ruth 2", "note": "Gleaning in the fields of Boaz" },
       { "ref": "Ruth 4:13–22", "note": "The genealogy to David" }
-    ]
-  },
-  {
-    "id": "hannah",
-    "name": "Hannah",
-    "fullName": "Hannah, mother of Samuel",
-    "description": "Barren wife whose prayer for a son birthed the prophet who would anoint Israel's kings.",
-    "period": "c. 1100s BC",
-    "birthplace": "Ramathaim-zophim, Ephraim",
-    "locations": ["Ramathaim-zophim", "Shiloh"],
-    "birthYear": -1110,
-    "biography": [
-      "Hannah was one of two wives of Elkanah; the other wife had children and would not let her forget that she did not. Year after year she made the pilgrimage to the sanctuary at Shiloh and ate her share of the offering through tears.",
-      "On one such visit she prayed so silently and so intensely that Eli the priest assumed she was drunk. She was not. She was vowing that if God gave her a son she would give him back, dedicated for life to the sanctuary. The child she bore was named Samuel — 'I asked the Lord for him.'",
-      "When he was weaned, she walked him to Shiloh and left him there. Her song of thanksgiving — 'the bows of the mighty are broken, but the feeble bind on strength' — became the template for Mary's Magnificat a thousand years later. The prophet she had asked God for would go on to anoint Saul and David, the first kings of Israel."
     ],
-    "references": [
-      { "ref": "1 Samuel 1", "note": "The vow at Shiloh" },
-      { "ref": "1 Samuel 2:1–10", "note": "The Song of Hannah" },
-      { "ref": "Luke 1:46–55", "note": "Echoed in the Magnificat" }
+    "relationships": [
+      { "characterId": "naomi", "type": "Mother-in-law", "description": "Followed her home to Bethlehem after the loss." },
+      { "characterId": "david", "type": "Descendant", "description": "Great-grandmother of King David through Boaz." },
+      { "characterId": "jesus", "type": "Descendant", "description": "In the messianic line through David." }
     ]
   },
   {
@@ -277,6 +313,32 @@
       { "ref": "Judges 13", "note": "His Nazirite calling from birth" },
       { "ref": "Judges 16", "note": "Delilah and the final temple" },
       { "ref": "Hebrews 11:32", "note": "Listed among the faithful" }
+    ],
+    "relationships": [
+      { "characterId": "samuel", "type": "Successor", "description": "The prophet whose rise brought the age of judges to its close." }
+    ]
+  },
+  {
+    "id": "hannah",
+    "name": "Hannah",
+    "fullName": "Hannah, mother of Samuel",
+    "description": "Barren wife whose prayer for a son birthed the prophet who would anoint Israel's kings.",
+    "period": "c. 1100s BC",
+    "birthplace": "Ramathaim-zophim, Ephraim",
+    "locations": ["Ramathaim-zophim", "Shiloh"],
+    "birthYear": -1110,
+    "biography": [
+      "Hannah was one of two wives of Elkanah; the other wife had children and would not let her forget that she did not. Year after year she made the pilgrimage to the sanctuary at Shiloh and ate her share of the offering through tears.",
+      "On one such visit she prayed so silently and so intensely that Eli the priest assumed she was drunk. She was not. She was vowing that if God gave her a son she would give him back, dedicated for life to the sanctuary. The child she bore was named Samuel — 'I asked the Lord for him.'",
+      "When he was weaned, she walked him to Shiloh and left him there. Her song of thanksgiving — 'the bows of the mighty are broken, but the feeble bind on strength' — became the template for Mary's Magnificat a thousand years later. The prophet she had asked God for would go on to anoint Saul and David, the first kings of Israel."
+    ],
+    "references": [
+      { "ref": "1 Samuel 1", "note": "The vow at Shiloh" },
+      { "ref": "1 Samuel 2:1–10", "note": "The Song of Hannah" },
+      { "ref": "Luke 1:46–55", "note": "Echoed in the Magnificat" }
+    ],
+    "relationships": [
+      { "characterId": "samuel", "type": "Son", "description": "Asked of the Lord; given to the sanctuary at weaning." }
     ]
   },
   {
@@ -297,6 +359,13 @@
       { "ref": "1 Samuel 3", "note": "The Lord calls Samuel" },
       { "ref": "1 Samuel 8", "note": "Israel demands a king" },
       { "ref": "1 Samuel 16", "note": "The anointing of David" }
+    ],
+    "relationships": [
+      { "characterId": "hannah", "type": "Mother", "description": "Dedicated him to Shiloh in fulfillment of her vow." },
+      { "characterId": "saul", "type": "Disciple", "description": "Anointed Saul as Israel's first king." },
+      { "characterId": "david", "type": "Disciple", "description": "Anointed David in Bethlehem as Saul's replacement." },
+      { "characterId": "samson", "type": "Predecessor", "description": "The last great judge of the prior generation." },
+      { "characterId": "deborah", "type": "Predecessor", "description": "An earlier judge whose era his ministry closed." }
     ]
   },
   {
@@ -317,6 +386,10 @@
       { "ref": "1 Samuel 9–10", "note": "The lost donkeys and the anointing" },
       { "ref": "1 Samuel 15", "note": "Disobedience at Amalek" },
       { "ref": "1 Samuel 31; 2 Samuel 1:17–27", "note": "Saul's death and David's lament" }
+    ],
+    "relationships": [
+      { "characterId": "samuel", "type": "Mentor", "description": "The prophet who anointed him as Israel's first king." },
+      { "characterId": "david", "type": "Rival", "description": "Pursued him through the wilderness in jealous rage." }
     ]
   },
   {
@@ -337,6 +410,16 @@
       { "ref": "1 Samuel 17", "note": "David and Goliath" },
       { "ref": "2 Samuel 7", "note": "The Davidic covenant" },
       { "ref": "Psalm 23", "note": "The Lord is my shepherd" }
+    ],
+    "relationships": [
+      { "characterId": "ruth", "type": "Ancestor", "description": "Great-grandmother through Obed and Jesse." },
+      { "characterId": "naomi", "type": "Ancestor", "description": "Great-grandmother through Boaz and Ruth." },
+      { "characterId": "rahab", "type": "Ancestor", "description": "Great-grandmother through Boaz." },
+      { "characterId": "samuel", "type": "Mentor", "description": "Anointed him in Bethlehem while still a boy with the sheep." },
+      { "characterId": "saul", "type": "Rival", "description": "Pursued him through the wilderness for years." },
+      { "characterId": "bathsheba", "type": "Wife", "description": "Taken in adultery; later mother of his successor Solomon." },
+      { "characterId": "solomon", "type": "Son", "description": "Successor to the throne and builder of the temple." },
+      { "characterId": "jesus", "type": "Descendant", "description": "The promised messianic king of his house." }
     ]
   },
   {
@@ -357,6 +440,11 @@
       { "ref": "2 Samuel 11–12", "note": "David, Uriah, and the prophet Nathan" },
       { "ref": "1 Kings 1", "note": "Securing Solomon's accession" },
       { "ref": "Matthew 1:6", "note": "In the genealogy of Jesus" }
+    ],
+    "relationships": [
+      { "characterId": "david", "type": "Husband", "description": "Took her while her husband Uriah was at war." },
+      { "characterId": "solomon", "type": "Son", "description": "Bore him to David; secured his accession with Nathan's help." },
+      { "characterId": "jesus", "type": "Descendant", "description": "In the messianic line through Solomon." }
     ]
   },
   {
@@ -377,6 +465,11 @@
       { "ref": "1 Kings 3:5–14", "note": "The gift of wisdom" },
       { "ref": "1 Kings 8", "note": "The dedication of the temple" },
       { "ref": "Ecclesiastes 1", "note": "Vanity of vanities" }
+    ],
+    "relationships": [
+      { "characterId": "david", "type": "Father", "description": "The king whose throne he inherited." },
+      { "characterId": "bathsheba", "type": "Mother", "description": "Queen mother who secured his accession." },
+      { "characterId": "jesus", "type": "Descendant", "description": "In the Davidic line through which the Messiah came." }
     ]
   },
   {
@@ -397,6 +490,10 @@
       { "ref": "1 Kings 18", "note": "Contest with the prophets of Baal on Carmel" },
       { "ref": "1 Kings 19", "note": "The still small voice at Horeb" },
       { "ref": "2 Kings 2:1–12", "note": "Taken up in a whirlwind" }
+    ],
+    "relationships": [
+      { "characterId": "elisha", "type": "Disciple", "description": "Threw his mantle on Elisha at the plow." },
+      { "characterId": "john-the-baptist", "type": "Successor", "description": "Came in the spirit and power of Elijah as the forerunner." }
     ]
   },
   {
@@ -417,6 +514,9 @@
       { "ref": "1 Kings 19:19–21", "note": "Called from the plow" },
       { "ref": "2 Kings 4", "note": "The widow's oil and the Shunammite's son" },
       { "ref": "2 Kings 5", "note": "The healing of Naaman" }
+    ],
+    "relationships": [
+      { "characterId": "elijah", "type": "Mentor", "description": "Received a double portion of his spirit at the Jordan." }
     ]
   },
   {
@@ -437,6 +537,9 @@
       { "ref": "Jonah 1–2", "note": "The storm and the great fish" },
       { "ref": "Jonah 3", "note": "The repentance of Nineveh" },
       { "ref": "Matthew 12:38–41", "note": "The sign of Jonah" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Successor", "description": "His three days in the great fish was a sign of the resurrection." }
     ]
   },
   {
@@ -457,6 +560,9 @@
       { "ref": "Isaiah 6", "note": "The vision in the temple" },
       { "ref": "Isaiah 40", "note": "Comfort, comfort my people" },
       { "ref": "Isaiah 53", "note": "The Suffering Servant" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Successor", "description": "Foretold the Suffering Servant who would bear the sins of many." }
     ]
   },
   {
@@ -477,6 +583,9 @@
       { "ref": "Jeremiah 1:4–10", "note": "Before I formed you in the womb" },
       { "ref": "Jeremiah 31:31–34", "note": "The new covenant" },
       { "ref": "Lamentations 3:22–23", "note": "His mercies are new every morning" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Successor", "description": "Foretold the new covenant fulfilled in Christ's blood." }
     ]
   },
   {
@@ -497,6 +606,9 @@
       { "ref": "Daniel 2", "note": "The dream of the statue" },
       { "ref": "Daniel 6", "note": "The lions' den" },
       { "ref": "Daniel 7", "note": "The Son of Man" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Successor", "description": "Saw 'one like a Son of Man' coming on the clouds of heaven." }
     ]
   },
   {
@@ -517,6 +629,9 @@
       { "ref": "Esther 4:13–17", "note": "For such a time as this" },
       { "ref": "Esther 7", "note": "The exposure of Haman" },
       { "ref": "Esther 9:20–32", "note": "The institution of Purim" }
+    ],
+    "relationships": [
+      { "characterId": "nehemiah", "type": "Companion", "description": "Fellow figure in the Persian court a generation apart." }
     ]
   },
   {
@@ -537,6 +652,9 @@
       { "ref": "Ezra 7", "note": "Coming up from Babylon" },
       { "ref": "Ezra 9–10", "note": "The crisis of intermarriage" },
       { "ref": "Nehemiah 8", "note": "Reading the law at the Water Gate" }
+    ],
+    "relationships": [
+      { "characterId": "nehemiah", "type": "Ally", "description": "Together renewed the Torah and rebuilt Jerusalem." }
     ]
   },
   {
@@ -557,6 +675,10 @@
       { "ref": "Nehemiah 1–2", "note": "The cupbearer's prayer and request" },
       { "ref": "Nehemiah 4", "note": "Building with sword in hand" },
       { "ref": "Nehemiah 13", "note": "Reforms of the Sabbath and temple" }
+    ],
+    "relationships": [
+      { "characterId": "ezra", "type": "Ally", "description": "Together renewed the Torah and rebuilt Jerusalem." },
+      { "characterId": "esther", "type": "Companion", "description": "Earlier figure of the same Persian court." }
     ]
   },
   {
@@ -577,6 +699,14 @@
       { "ref": "Luke 1:26–56", "note": "The Annunciation and the Magnificat" },
       { "ref": "John 2:1–11", "note": "The wedding at Cana" },
       { "ref": "John 19:25–27", "note": "At the foot of the cross" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Son", "description": "Bore him in Bethlehem after Gabriel's announcement." },
+      { "characterId": "john-the-baptist", "type": "Relative", "description": "Son of her cousin Elizabeth." },
+      { "characterId": "john-apostle", "type": "Companion", "description": "Entrusted with her care by Jesus from the cross." },
+      { "characterId": "mary-magdalene", "type": "Companion", "description": "Stood with her at the foot of the cross." },
+      { "characterId": "david", "type": "Ancestor", "description": "Through her line, the Davidic blood runs to Jesus." },
+      { "characterId": "abraham", "type": "Ancestor", "description": "In the line of the seed promised to Abraham." }
     ]
   },
   {
@@ -597,6 +727,11 @@
       { "ref": "Matthew 3", "note": "Preaching in the wilderness" },
       { "ref": "Luke 1:5–25", "note": "The annunciation to Zechariah" },
       { "ref": "John 1:19–34", "note": "Behold the Lamb of God" }
+    ],
+    "relationships": [
+      { "characterId": "mary", "type": "Relative", "description": "Cousin through his mother Elizabeth." },
+      { "characterId": "jesus", "type": "Relative", "description": "Cousin and the one he baptized in the Jordan." },
+      { "characterId": "elijah", "type": "Predecessor", "description": "Came in his spirit and power as the forerunner." }
     ]
   },
   {
@@ -617,6 +752,20 @@
       { "ref": "Matthew 5–7", "note": "The Sermon on the Mount" },
       { "ref": "John 1:1–14", "note": "The Word made flesh" },
       { "ref": "Luke 24:1–12", "note": "The empty tomb" }
+    ],
+    "relationships": [
+      { "characterId": "mary", "type": "Mother", "description": "Bore him in Bethlehem; stood at his cross." },
+      { "characterId": "john-the-baptist", "type": "Relative", "description": "Cousin and forerunner who baptized him." },
+      { "characterId": "peter", "type": "Disciple", "description": "Renamed Simon as Peter, 'rock'; restored him after his denial." },
+      { "characterId": "john-apostle", "type": "Disciple", "description": "The beloved disciple, entrusted with his mother from the cross." },
+      { "characterId": "thomas", "type": "Disciple", "description": "The doubter who confessed 'My Lord and my God.'" },
+      { "characterId": "judas-iscariot", "type": "Disciple", "description": "One of the twelve; betrayed him with a kiss in Gethsemane." },
+      { "characterId": "mary-magdalene", "type": "Friend", "description": "Healed of seven demons; first witness of the resurrection." },
+      { "characterId": "martha", "type": "Friend", "description": "Welcomed him into her home in Bethany." },
+      { "characterId": "lazarus", "type": "Friend", "description": "Called out of the tomb in Bethany after four days." },
+      { "characterId": "paul", "type": "Disciple", "description": "Appeared to him on the Damascus road; called him as apostle." },
+      { "characterId": "david", "type": "Ancestor", "description": "Son of David; the messianic king of his house." },
+      { "characterId": "abraham", "type": "Ancestor", "description": "The seed of Abraham in whom all nations are blessed." }
     ]
   },
   {
@@ -637,6 +786,13 @@
       { "ref": "Matthew 16:13–20", "note": "You are the Christ" },
       { "ref": "John 21:15–19", "note": "Do you love me? Feed my sheep" },
       { "ref": "Acts 2", "note": "The sermon at Pentecost" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Called him from his nets; renamed him Rock." },
+      { "characterId": "john-apostle", "type": "Friend", "description": "Fellow apostle and inner-three companion." },
+      { "characterId": "paul", "type": "Companion", "description": "Apostolic colleague; once confronted by Paul at Antioch." },
+      { "characterId": "thomas", "type": "Companion", "description": "Fellow apostle." },
+      { "characterId": "judas-iscariot", "type": "Companion", "description": "Fellow apostle who fell from the twelve." }
     ]
   },
   {
@@ -657,6 +813,12 @@
       { "ref": "Matthew 26:14–16", "note": "Thirty pieces of silver" },
       { "ref": "Matthew 26:47–50", "note": "The kiss in Gethsemane" },
       { "ref": "Matthew 27:3–10", "note": "Remorse and death" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Lord and master whom he betrayed for thirty pieces of silver." },
+      { "characterId": "peter", "type": "Companion", "description": "Fellow apostle on the road." },
+      { "characterId": "john-apostle", "type": "Companion", "description": "Fellow apostle." },
+      { "characterId": "thomas", "type": "Companion", "description": "Fellow apostle." }
     ]
   },
   {
@@ -677,6 +839,12 @@
       { "ref": "Luke 8:1–3", "note": "Among the women who supported the ministry" },
       { "ref": "John 19:25", "note": "At the foot of the cross" },
       { "ref": "John 20:11–18", "note": "Mary, the empty tomb, and the risen Christ" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Healed her of seven demons; she became first witness of his resurrection." },
+      { "characterId": "mary", "type": "Companion", "description": "Stood with the mother of Jesus at the foot of the cross." },
+      { "characterId": "john-apostle", "type": "Companion", "description": "Together at the cross; brought him word of the empty tomb." },
+      { "characterId": "peter", "type": "Companion", "description": "Brought him word of the empty tomb on resurrection morning." }
     ]
   },
   {
@@ -697,6 +865,10 @@
       { "ref": "Luke 10:38–42", "note": "Martha and Mary in the home" },
       { "ref": "John 11", "note": "The death and raising of Lazarus" },
       { "ref": "John 12:1–2", "note": "Supper at Bethany" }
+    ],
+    "relationships": [
+      { "characterId": "lazarus", "type": "Brother", "description": "Older brother whose death she mourned in Bethany." },
+      { "characterId": "jesus", "type": "Friend", "description": "Welcomed him to her table in Bethany." }
     ]
   },
   {
@@ -717,6 +889,10 @@
       { "ref": "John 11:1–44", "note": "Lazarus, come out" },
       { "ref": "John 12:1–11", "note": "At table with Jesus in Bethany" },
       { "ref": "Luke 16:19–31", "note": "A separate Lazarus in Jesus's parable" }
+    ],
+    "relationships": [
+      { "characterId": "martha", "type": "Sister", "description": "Sister of the household in Bethany." },
+      { "characterId": "jesus", "type": "Friend", "description": "Called out of the tomb after four days." }
     ]
   },
   {
@@ -737,6 +913,12 @@
       { "ref": "Acts 9:1–19", "note": "The road to Damascus" },
       { "ref": "Romans 8", "note": "Life in the Spirit" },
       { "ref": "Philippians 3:7–14", "note": "Pressing on toward the goal" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Appeared to him on the road to Damascus and called him as apostle." },
+      { "characterId": "peter", "type": "Companion", "description": "Fellow apostle; clashed with him at Antioch over Gentile inclusion." },
+      { "characterId": "john-apostle", "type": "Companion", "description": "Among the pillars of the Jerusalem church (Galatians 2)." },
+      { "characterId": "abraham", "type": "Ancestor", "description": "Argued that all who have faith are children of Abraham." }
     ]
   },
   {
@@ -757,6 +939,12 @@
       { "ref": "John 11:16", "note": "Let us go too, that we may die with him" },
       { "ref": "John 14:5", "note": "How can we know the way?" },
       { "ref": "John 20:24–29", "note": "My Lord and my God" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "The risen Lord who let him touch the wounds." },
+      { "characterId": "peter", "type": "Companion", "description": "Fellow apostle." },
+      { "characterId": "john-apostle", "type": "Companion", "description": "Fellow apostle." },
+      { "characterId": "judas-iscariot", "type": "Companion", "description": "Fellow apostle who fell from the twelve." }
     ]
   },
   {
@@ -777,6 +965,14 @@
       { "ref": "John 13:23", "note": "The disciple whom Jesus loved" },
       { "ref": "John 19:26–27", "note": "Behold your mother" },
       { "ref": "Revelation 1:9", "note": "I, John, was on the island called Patmos" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "The beloved disciple; entrusted with his mother from the cross." },
+      { "characterId": "mary", "type": "Companion", "description": "Took her into his care after the cross." },
+      { "characterId": "peter", "type": "Friend", "description": "Inner-three companion; ran with him to the empty tomb." },
+      { "characterId": "thomas", "type": "Companion", "description": "Fellow apostle." },
+      { "characterId": "mary-magdalene", "type": "Companion", "description": "With her at the cross; ran to the tomb at her word." },
+      { "characterId": "paul", "type": "Companion", "description": "Pillar of the Jerusalem church alongside Paul (Galatians 2)." }
     ]
   }
 ]

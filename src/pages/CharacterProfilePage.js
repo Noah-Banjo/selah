@@ -1,7 +1,13 @@
-import { Fragment } from 'react';
+import { Fragment, useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import characters from '../data/characters.json';
 import { findLocationByLabel } from '../data/locationLookup';
+import { categorize } from '../data/relationshipCategories';
+
+const charactersById = characters.reduce((acc, c) => {
+  acc[c.id] = c;
+  return acc;
+}, {});
 
 const encodeBibleRef = (ref) =>
   ref
@@ -14,6 +20,17 @@ const encodeBibleRef = (ref) =>
 function CharacterProfilePage() {
   const { id } = useParams();
   const character = characters.find((c) => c.id === id);
+
+  const relationships = useMemo(() => {
+    if (!character?.relationships) return [];
+    return character.relationships
+      .map((r) => ({
+        ...r,
+        other: charactersById[r.characterId],
+        category: categorize(r.type),
+      }))
+      .filter((r) => r.other);
+  }, [character]);
 
   if (!character) {
     return (
@@ -42,6 +59,15 @@ function CharacterProfilePage() {
           <span className="profile__eyebrow">{character.period}</span>
           <h1 className="profile__name">{character.fullName}</h1>
           <p className="profile__description">{character.description}</p>
+          {relationships.length > 0 && (
+            <Link
+              to={`/relationships?focus=${character.id}`}
+              className="profile__graph-button"
+            >
+              View in Graph
+              <span aria-hidden="true">→</span>
+            </Link>
+          )}
         </header>
 
         <div className="profile__meta">
@@ -121,6 +147,27 @@ function CharacterProfilePage() {
             })}
           </ul>
         </div>
+
+        {relationships.length > 0 && (
+          <div className="profile__section">
+            <h2 className="profile__section-title">Relationships</h2>
+            <div className="relationship-grid">
+              {relationships.map((r) => (
+                <Link
+                  key={r.characterId}
+                  to={`/characters/${r.other.id}`}
+                  className={`relationship-card relationship-card--${r.category}`}
+                >
+                  <span className={`relationship-card__type relationship-card__type--${r.category}`}>
+                    {r.type}
+                  </span>
+                  <span className="relationship-card__name">{r.other.name}</span>
+                  <span className="relationship-card__desc">{r.description}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
