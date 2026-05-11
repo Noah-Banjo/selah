@@ -5,11 +5,13 @@ import CharactersPage from './pages/CharactersPage';
 import CharacterProfilePage from './pages/CharacterProfilePage';
 import MapPage from './pages/MapPage';
 import WordsPage from './pages/WordsPage';
+import TimelinePage from './pages/TimelinePage';
 
 const NAV_ITEMS = [
   { label: 'Map', to: '/map' },
   { label: 'Characters', to: '/characters' },
   { label: 'Words', to: '/words' },
+  { label: 'Timeline', to: '/timeline' },
 ];
 
 function App() {
@@ -51,6 +53,7 @@ function App() {
             <Route path="/characters" element={<CharactersPage />} />
             <Route path="/characters/:id" element={<CharacterProfilePage />} />
             <Route path="/words" element={<WordsPage />} />
+            <Route path="/timeline" element={<TimelinePage />} />
           </Routes>
         </main>
 

@@ -29,6 +29,14 @@ const SECTIONS = [
       'Explore the original Hebrew and Greek — the texture of the language behind the text.',
     to: '/words',
   },
+  {
+    id: 'timeline',
+    eyebrow: 'Chronology',
+    title: 'Timeline',
+    description:
+      'Two thousand years on one horizon — from Abraham to the apostles, plotted in gold.',
+    to: '/timeline',
+  },
 ];
 
 const MAX_PER_GROUP = 4;

@@ -1,21 +1,22 @@
 [
   {
-    "id": "jesus",
-    "name": "Jesus",
-    "fullName": "Jesus of Nazareth",
-    "description": "Itinerant Jewish teacher and central figure of the Christian faith.",
-    "period": "c. 4 BC – 30 AD",
-    "birthplace": "Bethlehem, Judea",
-    "locations": ["Bethlehem", "Nazareth", "Capernaum", "Galilee", "Jerusalem"],
+    "id": "noah",
+    "name": "Noah",
+    "fullName": "Noah, son of Lamech",
+    "description": "Builder of the ark; the man through whom humanity was preserved through the flood.",
+    "period": "antediluvian (traditional c. 2900 BC)",
+    "birthplace": "the world before the flood",
+    "locations": ["the antediluvian world", "the ark", "Mount Ararat"],
+    "birthYear": -2800,
     "biography": [
-      "Born in Bethlehem during the reign of Herod the Great and raised in Nazareth as the son of a craftsman, Jesus lived an obscure life until roughly the age of thirty. He then began a public ministry of teaching, healing, and gathering disciples around him in the towns of Galilee.",
-      "His message of the kingdom of God drew crowds and the attention of the religious establishment. He taught in synagogues, on hillsides, and over shared meals — often through parables that subverted the expectations of his hearers.",
-      "He was crucified in Jerusalem under Pontius Pilate during Passover. His followers proclaimed his resurrection three days later — the foundational claim of the movement that became the Christian church."
+      "In an age when, scripture says, the wickedness of humanity had become so great that God grieved he had made them, Noah is introduced with a single line of contrast: 'Noah found favor in the eyes of the Lord.' Commanded to build a vessel for a coming flood, he spent decades working on a wooden ship while the world around him went on unchanged.",
+      "The flood came as foretold. Noah, his wife, his three sons — Shem, Ham, and Japheth — and their wives entered the ark with representatives of every living kind. The rains fell forty days; the waters prevailed for many months. When the ark came to rest on the mountains of Ararat, the world that emerged was a world begun again.",
+      "God set a rainbow in the sky as the sign of a covenant never to destroy the earth so again. Noah planted a vineyard, fathered the nations through his three sons, and lived three hundred and fifty more years. The New Testament names him as a preacher of righteousness and a foreshadowing of salvation."
     ],
     "references": [
-      { "ref": "Matthew 5–7", "note": "The Sermon on the Mount" },
-      { "ref": "John 1:1–14", "note": "The Word made flesh" },
-      { "ref": "Luke 24:1–12", "note": "The empty tomb" }
+      { "ref": "Genesis 6–9", "note": "The Flood narrative" },
+      { "ref": "Hebrews 11:7", "note": "Noah listed among the faithful" },
+      { "ref": "Matthew 24:37–39", "note": "Jesus invokes the days of Noah" }
     ]
   },
   {
@@ -26,6 +27,7 @@
     "period": "c. 2000 – 1825 BC",
     "birthplace": "Ur of the Chaldeans",
     "locations": ["Ur", "Haran", "Canaan", "Egypt", "Hebron"],
+    "birthYear": -2000,
     "biography": [
       "Called by God to leave Ur and journey to a land he had not yet seen, Abraham became the patriarchal figure through whom three monotheistic faiths trace their origin. The covenant promised him land, descendants, and blessing — though most of these would only be fulfilled long after his lifetime.",
       "His story turns on faith tested at the edges of human experience: leaving home in old age, waiting decades for a promised heir, and ascending Mount Moriah with that same son in obedience to a command he could not yet understand.",
@@ -38,6 +40,106 @@
     ]
   },
   {
+    "id": "isaac",
+    "name": "Isaac",
+    "fullName": "Isaac, son of Abraham",
+    "description": "Son of promise to Abraham and Sarah; second of the three patriarchs.",
+    "period": "c. 1900 – 1720 BC",
+    "birthplace": "Canaan",
+    "locations": ["Beersheba", "Mount Moriah", "Gerar", "Hebron"],
+    "birthYear": -1900,
+    "biography": [
+      "Isaac arrived as a laugh — a child born to a hundred-year-old father and a ninety-year-old mother long past the possibility of bearing one. His name means 'he laughs,' and the story of his birth is told with the dry humor of a God who keeps impossible promises.",
+      "His most piercing moment came not in his own choices but in his father's: bound upon an altar on Mount Moriah and saved at the last moment by a divine voice and the substitute of a ram. He went on to marry Rebekah, father the twins Jacob and Esau, and quietly dig the wells of his father in the southern lands of Canaan.",
+      "In old age, blind and trembling, he was deceived by Jacob into giving him the blessing meant for the firstborn — a moment of pathos that nevertheless became the carrying point of the covenant. He died at Hebron, aged a hundred and eighty, and was buried beside Sarah and Abraham in the cave of Machpelah."
+    ],
+    "references": [
+      { "ref": "Genesis 22", "note": "The binding of Isaac" },
+      { "ref": "Genesis 26", "note": "Wells, famine, and covenant renewal" },
+      { "ref": "Hebrews 11:17–20", "note": "Listed among the faithful" }
+    ]
+  },
+  {
+    "id": "job",
+    "name": "Job",
+    "fullName": "Job of Uz",
+    "description": "A righteous man whose extreme suffering opens scripture's deepest meditation on it.",
+    "period": "patriarchal era (uncertain, 2nd millennium BC)",
+    "birthplace": "the land of Uz",
+    "locations": ["the land of Uz", "the ash heap"],
+    "birthYear": -1900,
+    "biography": [
+      "Job is introduced as 'blameless and upright, one who feared God and turned away from evil' — the kind of moral resume that should guarantee a peaceful life. In a single afternoon, raiders, fire from heaven, and a desert wind strip him of his herds, his servants, and all ten of his children. He is then struck with sores from head to foot.",
+      "His three friends arrive to comfort him; instead they argue that such suffering must be punishment for hidden sin. Across thirty-eight chapters of poetry, Job refuses to confess to something he did not do — and refuses, equally, to curse the God he no longer understands. He demands an audience.",
+      "When God finally speaks, it is not to explain but to ask questions of his own: where were you when I laid the earth's foundations? Job is not given an answer, but a presence. He receives back twice what he lost and the longer life of one who has seen what most never see. The book bearing his name remains the most relentless wrestling in scripture with the silence of God in the face of pain."
+    ],
+    "references": [
+      { "ref": "Job 1–2", "note": "The wager and the catastrophe" },
+      { "ref": "Job 38–42", "note": "The voice from the whirlwind" },
+      { "ref": "James 5:11", "note": "The patience of Job" }
+    ]
+  },
+  {
+    "id": "jacob",
+    "name": "Jacob",
+    "fullName": "Jacob (Israel), son of Isaac",
+    "description": "Patriarch whose twelve sons became the tribes of Israel.",
+    "period": "c. 1850 – 1700 BC",
+    "birthplace": "Canaan",
+    "locations": ["Beersheba", "Bethel", "Haran", "Peniel", "Shechem", "Egypt"],
+    "birthYear": -1850,
+    "biography": [
+      "Born clutching the heel of his twin brother Esau, Jacob's life is one long story of striving and outmaneuvering. He bought Esau's birthright for a bowl of stew, deceived his blind father into giving him the firstborn's blessing, and then fled the wrath of the brother he had wronged.",
+      "In exile with his uncle Laban he worked fourteen years for the woman he loved, fathered twelve sons and a daughter, and amassed flocks through cunning of his own. Returning to Canaan in fear of Esau, he wrestled a stranger by the Jabbok River through the night and was given a new name: Israel — 'one who strives with God.' He limped from that encounter for the rest of his life.",
+      "His later years brought another long grief: the apparent loss of his beloved son Joseph and the famine that drove him at last into Egypt. There he was reunited with the son he believed dead, blessed Pharaoh, and died at a hundred and forty-seven. His twelve sons would become the tribes of the people who still bear his second name."
+    ],
+    "references": [
+      { "ref": "Genesis 27", "note": "The stolen blessing" },
+      { "ref": "Genesis 28:10–22", "note": "The ladder at Bethel" },
+      { "ref": "Genesis 32:22–32", "note": "Wrestling at Peniel" }
+    ]
+  },
+  {
+    "id": "joseph",
+    "name": "Joseph",
+    "fullName": "Joseph, son of Jacob",
+    "description": "Favored son sold into slavery who rose to govern Egypt and save his family.",
+    "period": "c. 1760 – 1650 BC",
+    "birthplace": "Haran (Paddan Aram)",
+    "locations": ["Canaan", "Dothan", "Egypt", "Pharaoh's prison", "the court of Pharaoh"],
+    "birthYear": -1760,
+    "biography": [
+      "The eleventh of Jacob's twelve sons and the firstborn of his beloved Rachel, Joseph was given a coat that the rest of his brothers could not miss as a sign of favor. His dreams of grain bundles and stars bowing to him did not help. They sold him to a passing caravan and told their father that wild animals had killed him.",
+      "In Egypt he served the captain of Pharaoh's guard, refused the advances of his master's wife, and was thrown into prison for a crime he had not committed. There he interpreted the dreams of fellow prisoners — and eventually of Pharaoh himself, predicting seven years of plenty followed by seven of famine. He was lifted from the dungeon to second only to Pharaoh in a single day.",
+      "When his brothers, unaware, came down to Egypt seeking grain, he tested them, forgave them, and brought his father and the whole family into Egypt. 'You meant evil against me,' he told the brothers who had sold him, 'but God meant it for good.' He died at a hundred and ten, asking that his bones be carried back to the promised land when God remembered his people."
+    ],
+    "references": [
+      { "ref": "Genesis 37", "note": "The coat and the sale" },
+      { "ref": "Genesis 41", "note": "The rise to Egypt's throne" },
+      { "ref": "Genesis 50:15–21", "note": "Forgiveness of his brothers" }
+    ]
+  },
+  {
+    "id": "rahab",
+    "name": "Rahab",
+    "fullName": "Rahab of Jericho",
+    "description": "A Canaanite woman of Jericho whose faith spared her family in the city's fall.",
+    "period": "c. 15th century BC",
+    "birthplace": "Jericho",
+    "locations": ["Jericho"],
+    "birthYear": -1430,
+    "biography": [
+      "Rahab is introduced with a label the Hebrew text does not soften: a prostitute living in the wall of Jericho. When two Israelite spies arrived in her city ahead of Joshua's army, she hid them under stalks of flax on her rooftop and lied to the king's men who came looking.",
+      "Her reasoning was simple and clear-eyed: she had heard what the God of Israel had done — the parting of the Sea of Reeds, the defeat of the Amorite kings — and she had drawn a conclusion. 'The Lord your God,' she told the spies, 'he is God in heaven above and on earth beneath.' She asked only that her family be spared.",
+      "When Jericho fell, the scarlet cord in her window marked the house that survived the destruction. She lived among Israel from that day forward; the New Testament names her as a mother in the family line of David — and of Jesus. The harlot of Jericho stands twice on the short list of those commended for faith."
+    ],
+    "references": [
+      { "ref": "Joshua 2", "note": "Hiding the spies" },
+      { "ref": "Joshua 6:22–25", "note": "Sparing of her household" },
+      { "ref": "Hebrews 11:31; Matthew 1:5", "note": "Commended for faith; in the line of Jesus" }
+    ]
+  },
+  {
     "id": "moses",
     "name": "Moses",
     "fullName": "Moses",
@@ -45,6 +147,7 @@
     "period": "c. 1391 – 1271 BC",
     "birthplace": "Goshen, Egypt",
     "locations": ["Egypt", "Midian", "Mount Sinai", "the Wilderness", "Mount Nebo"],
+    "birthYear": -1391,
     "biography": [
       "Born to Hebrew slaves and raised in Pharaoh's household, Moses fled into Midian after killing an Egyptian overseer. For forty years he tended flocks, until a voice from a burning bush sent him back to confront the most powerful ruler of his world.",
       "He led Israel out of slavery through ten plagues and a parted sea. At Sinai he received the Law that would shape Israelite life for centuries — and mediated between a holy God and a stubborn people through forty years of wilderness wandering.",
@@ -57,6 +160,166 @@
     ]
   },
   {
+    "id": "joshua",
+    "name": "Joshua",
+    "fullName": "Joshua, son of Nun",
+    "description": "Moses's successor; the general who led Israel into the promised land.",
+    "period": "c. 1380 – 1270 BC",
+    "birthplace": "Egypt",
+    "locations": ["Egypt", "Mount Sinai", "the Jordan River", "Jericho", "Ai", "Shechem", "Shiloh"],
+    "birthYear": -1380,
+    "biography": [
+      "Born into slavery in Egypt, Joshua appears first as Moses's assistant and military commander, then as one of the twelve spies sent into Canaan. While ten of the twelve came back terrified, Joshua and Caleb came back believing the land could be taken. The other ten and their generation never entered it; Joshua led the next one across.",
+      "His campaigns to take Canaan are remembered in vivid set pieces: the Jordan rolling back, the walls of Jericho collapsing after seven days of marching, the sun standing still at Gibeon. He divided the land by lot among the twelve tribes and renewed the covenant at Shechem.",
+      "His final speech is a piece of plain-spoken Hebrew prose that has outlasted its century: 'choose this day whom you will serve. As for me and my house, we will serve the Lord.' He died at a hundred and ten and was buried in his tribal inheritance in the hill country of Ephraim."
+    ],
+    "references": [
+      { "ref": "Joshua 1", "note": "Be strong and courageous" },
+      { "ref": "Joshua 6", "note": "The fall of Jericho" },
+      { "ref": "Joshua 24:14–15", "note": "Choose this day whom you will serve" }
+    ]
+  },
+  {
+    "id": "deborah",
+    "name": "Deborah",
+    "fullName": "Deborah, prophetess and judge",
+    "description": "The only female judge of Israel and a wartime leader against Canaanite oppression.",
+    "period": "c. 12th century BC",
+    "birthplace": "hill country of Ephraim",
+    "locations": ["the palm of Deborah", "Mount Tabor", "the Kishon valley"],
+    "birthYear": -1180,
+    "biography": [
+      "Israel's life in the period of the Judges was a cycle of forgetting, oppression, crying out, and being rescued. In one of those cycles, with the people groaning under twenty years of Canaanite rule, Deborah sat under a palm tree in the hill country and gave judgment for whoever came to her.",
+      "She summoned Barak the general and ordered him to muster ten thousand men against the iron chariots of Sisera. Barak agreed to go only if she went with him. She did — and warned him that the honor of the victory would not be his but a woman's. The rains came, the wadi flooded, Sisera's chariots bogged in the mud, and the battle was won.",
+      "Sisera himself fled on foot to the tent of a woman named Jael, who killed him with a tent peg as he slept. The song of triumph that follows is one of the oldest pieces of Hebrew poetry preserved in scripture. Israel had peace for forty years under Deborah's hand."
+    ],
+    "references": [
+      { "ref": "Judges 4", "note": "The defeat of Sisera" },
+      { "ref": "Judges 5", "note": "The Song of Deborah" },
+      { "ref": "Judges 4:4", "note": "Deborah, prophetess and judge" }
+    ]
+  },
+  {
+    "id": "naomi",
+    "name": "Naomi",
+    "fullName": "Naomi of Bethlehem",
+    "description": "Widow whose return from Moab opened the way for Ruth's redemption.",
+    "period": "c. 1100s BC, in the days of the Judges",
+    "birthplace": "Bethlehem",
+    "locations": ["Bethlehem", "Moab"],
+    "birthYear": -1130,
+    "biography": [
+      "Driven by famine from Bethlehem into Moab, Naomi watched the loss of her husband Elimelech and then, ten years later, both of her sons. She was left in a foreign country with two foreign daughters-in-law and no future she could see.",
+      "She decided to walk home. She tried to send her daughters-in-law back to their own families; one went, the other — Ruth — refused. 'Where you go I will go,' Ruth told her. Naomi arrived in Bethlehem so changed by grief that the women of the town barely recognized her. 'Do not call me Naomi,' she said. 'Call me Mara — bitter.'",
+      "It is Naomi who quietly orchestrates Ruth's marriage to Boaz, advising the younger woman through every step. When Ruth and Boaz have a son, the women of Bethlehem lay him on Naomi's lap and say: 'a son has been born to Naomi.' The bitter woman becomes the grandmother in the lineage of David."
+    ],
+    "references": [
+      { "ref": "Ruth 1", "note": "The loss and the return" },
+      { "ref": "Ruth 3", "note": "Counsel on the threshing floor" },
+      { "ref": "Ruth 4:13–17", "note": "A son born to Naomi" }
+    ]
+  },
+  {
+    "id": "ruth",
+    "name": "Ruth",
+    "fullName": "Ruth the Moabite",
+    "description": "A foreign widow whose loyalty placed her in the lineage of David.",
+    "period": "c. 1100 BC, in the days of the Judges",
+    "birthplace": "Moab",
+    "locations": ["Moab", "the road to Bethlehem", "Bethlehem", "the fields of Boaz"],
+    "birthYear": -1110,
+    "biography": [
+      "Famine had driven an Israelite family from Bethlehem into Moab, where Ruth married into it — and was widowed young, alongside her mother-in-law Naomi and her sister-in-law Orpah. When Naomi resolved to return home, Ruth refused to be sent back: 'where you go I will go.'",
+      "In Bethlehem the two widows survived on the leftovers of the barley harvest. There Ruth met Boaz, a kinsman of her late husband, who acted as a redeemer and married her — restoring Naomi's line and her household.",
+      "Their child Obed would become the grandfather of King David, and through him an ancestor of Jesus. The book that bears her name is one of only two in the Hebrew Bible named for a woman."
+    ],
+    "references": [
+      { "ref": "Ruth 1:16–17", "note": "Where you go I will go" },
+      { "ref": "Ruth 2", "note": "Gleaning in the fields of Boaz" },
+      { "ref": "Ruth 4:13–22", "note": "The genealogy to David" }
+    ]
+  },
+  {
+    "id": "hannah",
+    "name": "Hannah",
+    "fullName": "Hannah, mother of Samuel",
+    "description": "Barren wife whose prayer for a son birthed the prophet who would anoint Israel's kings.",
+    "period": "c. 1100s BC",
+    "birthplace": "Ramathaim-zophim, Ephraim",
+    "locations": ["Ramathaim-zophim", "Shiloh"],
+    "birthYear": -1110,
+    "biography": [
+      "Hannah was one of two wives of Elkanah; the other wife had children and would not let her forget that she did not. Year after year she made the pilgrimage to the sanctuary at Shiloh and ate her share of the offering through tears.",
+      "On one such visit she prayed so silently and so intensely that Eli the priest assumed she was drunk. She was not. She was vowing that if God gave her a son she would give him back, dedicated for life to the sanctuary. The child she bore was named Samuel — 'I asked the Lord for him.'",
+      "When he was weaned, she walked him to Shiloh and left him there. Her song of thanksgiving — 'the bows of the mighty are broken, but the feeble bind on strength' — became the template for Mary's Magnificat a thousand years later. The prophet she had asked God for would go on to anoint Saul and David, the first kings of Israel."
+    ],
+    "references": [
+      { "ref": "1 Samuel 1", "note": "The vow at Shiloh" },
+      { "ref": "1 Samuel 2:1–10", "note": "The Song of Hannah" },
+      { "ref": "Luke 1:46–55", "note": "Echoed in the Magnificat" }
+    ]
+  },
+  {
+    "id": "samson",
+    "name": "Samson",
+    "fullName": "Samson, son of Manoah",
+    "description": "Nazirite strongman and judge whose strength and folly are equally legendary.",
+    "period": "c. 1100 BC",
+    "birthplace": "Zorah, tribe of Dan",
+    "locations": ["Zorah", "Timnah", "Gaza", "the Valley of Sorek"],
+    "birthYear": -1100,
+    "biography": [
+      "Born to barren parents and dedicated from the womb as a Nazirite — set apart, with uncut hair and no contact with the dead — Samson grew up under a divine vocation and a wildly undisciplined character. His strength was legendary: he tore a lion apart with his hands, killed a thousand Philistines with the jawbone of a donkey, and carried off the gates of Gaza on his shoulders.",
+      "His vocation was to begin Israel's deliverance from the Philistines; his fatal weakness was an inability to leave Philistine women alone. He told the secret of his strength to Delilah — that it lay in his uncut hair — and she sold him to his enemies. They shaved his head, gouged out his eyes, and put him to grinding grain in a Gazan prison.",
+      "At a great Philistine feast in the temple of Dagon they brought out the blinded Samson to entertain them. His hair had been growing back. He prayed for strength one last time, pushed apart the central pillars of the temple, and brought the building down on himself and the rulers of the Philistines. 'The dead which he slew at his death,' the text says, 'were more than those which he slew in his life.'"
+    ],
+    "references": [
+      { "ref": "Judges 13", "note": "His Nazirite calling from birth" },
+      { "ref": "Judges 16", "note": "Delilah and the final temple" },
+      { "ref": "Hebrews 11:32", "note": "Listed among the faithful" }
+    ]
+  },
+  {
+    "id": "samuel",
+    "name": "Samuel",
+    "fullName": "Samuel the prophet",
+    "description": "Last of the judges and first of the great prophets; the kingmaker of Israel.",
+    "period": "c. 1080 – 1000 BC",
+    "birthplace": "Ramathaim-zophim, Ephraim",
+    "locations": ["Shiloh", "Ramah", "Mizpah", "Gilgal", "Bethlehem"],
+    "birthYear": -1080,
+    "biography": [
+      "Dedicated by his mother Hannah to the sanctuary at Shiloh, Samuel grew up in the household of the priest Eli. As a boy he heard a voice calling his name in the night and answered, on Eli's coaching, 'speak, Lord, your servant is listening.' Eli's own sons had been corrupt, and Samuel's first prophetic word was the announcement of their fall.",
+      "He became Israel's last judge — a circuit-riding prophet who heard cases and rebuked idols and led the people in repentance after decades of Philistine pressure. When they demanded a king like the surrounding nations, he warned them what kings would do and anointed Saul anyway.",
+      "When Saul disobeyed, Samuel — heartbroken — sought out a younger son of Jesse in Bethlehem and anointed David in his place. He died before Saul's reign ended, but the king he had once anointed would later summon his ghost from beyond the grave on the eve of his own ruin."
+    ],
+    "references": [
+      { "ref": "1 Samuel 3", "note": "The Lord calls Samuel" },
+      { "ref": "1 Samuel 8", "note": "Israel demands a king" },
+      { "ref": "1 Samuel 16", "note": "The anointing of David" }
+    ]
+  },
+  {
+    "id": "saul",
+    "name": "Saul",
+    "fullName": "Saul, son of Kish",
+    "description": "First king of Israel; a tragic figure whose reign ended in madness and defeat.",
+    "period": "c. 1080 – 1010 BC",
+    "birthplace": "Gibeah of Benjamin",
+    "locations": ["Gibeah", "Ramah", "Jabesh-gilead", "Mount Gilboa", "Endor"],
+    "birthYear": -1080,
+    "biography": [
+      "A head taller than anyone in Israel, Saul was sent out to find his father's lost donkeys and came home anointed king. He won an early victory rescuing the men of Jabesh-gilead from the Ammonites and seemed, for a time, the answer to Israel's prayer for a leader.",
+      "But Saul could not wait. He offered sacrifices Samuel had reserved to himself; he disobeyed the command of total destruction at Amalek and spared the king and the spoil. Samuel told him the kingdom would be taken from him. He grew suspicious, melancholic, violent — hurling spears at the young harpist David whose fame was rising at his court.",
+      "He pursued David for years through the wilderness. On the eve of his last battle with the Philistines he sought out a medium at Endor to call up the dead Samuel — who told him only that he would die the next day. He did, falling on his own sword on Mount Gilboa as his sons died around him. David, who had refused twice to lift a hand against him, composed his lament."
+    ],
+    "references": [
+      { "ref": "1 Samuel 9–10", "note": "The lost donkeys and the anointing" },
+      { "ref": "1 Samuel 15", "note": "Disobedience at Amalek" },
+      { "ref": "1 Samuel 31; 2 Samuel 1:17–27", "note": "Saul's death and David's lament" }
+    ]
+  },
+  {
     "id": "david",
     "name": "David",
     "fullName": "David, son of Jesse",
@@ -64,6 +327,7 @@
     "period": "c. 1040 – 970 BC",
     "birthplace": "Bethlehem, Judah",
     "locations": ["Bethlehem", "Hebron", "Jerusalem", "En Gedi", "the Judean wilderness"],
+    "birthYear": -1040,
     "biography": [
       "Anointed king by the prophet Samuel while still a boy tending sheep, David rose to fame for defeating the Philistine champion Goliath and serving in the court of King Saul. Saul's jealousy soon drove him into years of exile and pursuit through the wilderness of Judah.",
       "After Saul's death he was crowned king of Judah at Hebron, then of all Israel. He made Jerusalem his capital and brought the ark of the covenant there, fixing the city's place at the center of Israelite life.",
@@ -76,79 +340,23 @@
     ]
   },
   {
-    "id": "mary",
-    "name": "Mary",
-    "fullName": "Mary of Nazareth",
-    "description": "Mother of Jesus, present from his birth to the cross.",
-    "period": "c. 18 BC – c. 41 AD",
-    "birthplace": "Nazareth, Galilee",
-    "locations": ["Nazareth", "Bethlehem", "Egypt", "Cana", "Jerusalem"],
+    "id": "bathsheba",
+    "name": "Bathsheba",
+    "fullName": "Bathsheba, daughter of Eliam",
+    "description": "Wife of Uriah and David; mother of Solomon and a queen mother in Israel.",
+    "period": "c. 1010 – 950 BC",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem"],
+    "birthYear": -1010,
     "biography": [
-      "A young woman of Nazareth betrothed to Joseph, Mary said yes to the angel Gabriel's announcement and bore Jesus in Bethlehem. Her song — the Magnificat — speaks of a God who topples the proud and lifts up the lowly.",
-      "She appears at pivotal moments throughout the Gospels: the flight to Egypt, the wedding at Cana, the foot of the cross, and the upper room at Pentecost — a quiet, steady presence across the whole arc of her son's life and the early days of the church.",
-      "Tradition places her later years in Ephesus under the care of John the apostle. She is remembered first as the one who heard the impossible and answered, \"let it be to me according to your word.\""
+      "Bathsheba enters scripture being seen — bathing on a rooftop in Jerusalem while her husband Uriah is away at war. King David, walking on his own rooftop, sees her and sends for her. She becomes pregnant; David arranges Uriah's death to cover his trespass; the prophet Nathan confronts him with a parable about a stolen lamb.",
+      "Her first son by David dies in infancy as the cost of the sin announced. Years later she bears another son, Solomon — 'beloved of the Lord' — and quietly, with Nathan's help, secures his accession to the throne over his older half-brother Adonijah.",
+      "She appears one last time, in old age, sitting on a throne at her son's right hand. The woman who had been wronged in her youth ends as queen mother of the most renowned king of Israel — and, the Gospels note, an ancestor of Jesus, named in Matthew's genealogy with discreet honor as 'the wife of Uriah.'"
     ],
     "references": [
-      { "ref": "Luke 1:26–56", "note": "The Annunciation and the Magnificat" },
-      { "ref": "John 2:1–11", "note": "The wedding at Cana" },
-      { "ref": "John 19:25–27", "note": "At the foot of the cross" }
-    ]
-  },
-  {
-    "id": "paul",
-    "name": "Paul",
-    "fullName": "Paul of Tarsus",
-    "description": "Apostle to the Gentiles and author of much of the New Testament.",
-    "period": "c. 5 – 65 AD",
-    "birthplace": "Tarsus, Cilicia",
-    "locations": ["Tarsus", "Jerusalem", "Damascus", "Antioch", "Corinth", "Ephesus", "Rome"],
-    "biography": [
-      "A Pharisee trained in Jerusalem under Gamaliel, Saul of Tarsus first appears in scripture approving the stoning of Stephen and persecuting the early church. A blinding encounter with the risen Christ on the road to Damascus reordered his life entirely.",
-      "As Paul, he became the great missionary of the early movement, planting churches across the Roman world on three long journeys and writing the letters that would become foundational scripture for the church.",
-      "He was arrested in Jerusalem, appealed his case to Caesar, and was taken under guard to Rome. Tradition holds he was martyred there under the emperor Nero."
-    ],
-    "references": [
-      { "ref": "Acts 9:1–19", "note": "The road to Damascus" },
-      { "ref": "Romans 8", "note": "Life in the Spirit" },
-      { "ref": "Philippians 3:7–14", "note": "Pressing on toward the goal" }
-    ]
-  },
-  {
-    "id": "ruth",
-    "name": "Ruth",
-    "fullName": "Ruth the Moabite",
-    "description": "A foreign widow whose loyalty placed her in the lineage of David.",
-    "period": "c. 1100 BC, in the days of the Judges",
-    "birthplace": "Moab",
-    "locations": ["Moab", "the road to Bethlehem", "Bethlehem", "the fields of Boaz"],
-    "biography": [
-      "Famine had driven an Israelite family from Bethlehem into Moab, where Ruth married into it — and was widowed young, alongside her mother-in-law Naomi and her sister-in-law Orpah. When Naomi resolved to return home, Ruth refused to be sent back: \"where you go I will go.\"",
-      "In Bethlehem the two widows survived on the leftovers of the barley harvest. There Ruth met Boaz, a kinsman of her late husband, who acted as a redeemer and married her — restoring Naomi's line and her household.",
-      "Their child Obed would become the grandfather of King David, and through him an ancestor of Jesus. The book that bears her name is one of only two in the Hebrew Bible named for a woman."
-    ],
-    "references": [
-      { "ref": "Ruth 1:16–17", "note": "Where you go I will go" },
-      { "ref": "Ruth 2", "note": "Gleaning in the fields of Boaz" },
-      { "ref": "Ruth 4:13–22", "note": "The genealogy to David" }
-    ]
-  },
-  {
-    "id": "esther",
-    "name": "Esther",
-    "fullName": "Esther (Hadassah)",
-    "description": "Jewish queen of Persia who saved her people from annihilation.",
-    "period": "5th century BC",
-    "birthplace": "Susa, Persia",
-    "locations": ["Susa (Shushan)", "the citadel", "the royal palace of Xerxes"],
-    "biography": [
-      "Orphaned and raised by her cousin Mordecai in the Persian capital of Susa, Esther was chosen as queen to King Xerxes without revealing her Jewish identity. She moved through the court for years as a hidden insider.",
-      "When the king's adviser Haman engineered a decree to destroy the Jews throughout the empire, Mordecai pressed her to act — \"who knows whether you have come to the kingdom for such a time as this.\" Risking her life by approaching the king uninvited, she exposed Haman's plot at a private banquet.",
-      "Haman was executed; the Jews were granted the right to defend themselves; and the festival of Purim was instituted to remember the deliverance. The book is the only one in the Bible that does not mention God by name — and yet his hand is visible on every page."
-    ],
-    "references": [
-      { "ref": "Esther 4:13–17", "note": "For such a time as this" },
-      { "ref": "Esther 7", "note": "The exposure of Haman" },
-      { "ref": "Esther 9:20–32", "note": "The institution of Purim" }
+      { "ref": "2 Samuel 11–12", "note": "David, Uriah, and the prophet Nathan" },
+      { "ref": "1 Kings 1", "note": "Securing Solomon's accession" },
+      { "ref": "Matthew 1:6", "note": "In the genealogy of Jesus" }
     ]
   },
   {
@@ -159,6 +367,7 @@
     "period": "c. 990 – 931 BC",
     "birthplace": "Jerusalem",
     "locations": ["Jerusalem", "Gibeon", "the temple mount", "Megiddo", "Ezion-geber"],
+    "birthYear": -990,
     "biography": [
       "Inheriting a kingdom at its zenith, Solomon famously asked God for wisdom rather than wealth and received both. His court became renowned far beyond Israel's borders, drawing emissaries — including the Queen of Sheba — from across the ancient world.",
       "He built the first temple in Jerusalem, the centerpiece of Israelite worship for nearly four centuries. Trade flourished; cities were fortified; the wisdom literature later collected in Proverbs and Ecclesiastes was traced to his hand.",
@@ -171,6 +380,206 @@
     ]
   },
   {
+    "id": "elijah",
+    "name": "Elijah",
+    "fullName": "Elijah the Tishbite",
+    "description": "Wilderness prophet who confronted King Ahab and the prophets of Baal.",
+    "period": "9th century BC (active c. 870 BC)",
+    "birthplace": "Tishbe in Gilead",
+    "locations": ["Tishbe", "Cherith", "Zarephath", "Mount Carmel", "Mount Horeb", "the Jordan"],
+    "birthYear": -895,
+    "biography": [
+      "Elijah erupts into scripture without genealogy or introduction, announcing to King Ahab that there would be no rain in Israel until he said so. The drought lasted three years. Elijah survived it fed by ravens at a desert brook, then by an unending jar of flour in a widow's home in Zarephath.",
+      "The contest on Mount Carmel ended the famine. Four hundred and fifty prophets of Baal called on their god from morning to evening with no answer; Elijah drenched his altar three times with water and prayed once, and fire fell. The drought broke that day in a small cloud rising from the sea.",
+      "He fled the wrath of Queen Jezebel into the wilderness, was fed by an angel, and came at last to Mount Horeb where God passed by — not in wind, earthquake, or fire, but in a sound of sheer silence. He anointed Elisha as his successor and was taken up to heaven in a whirlwind, his mantle falling to the younger prophet at the Jordan."
+    ],
+    "references": [
+      { "ref": "1 Kings 18", "note": "Contest with the prophets of Baal on Carmel" },
+      { "ref": "1 Kings 19", "note": "The still small voice at Horeb" },
+      { "ref": "2 Kings 2:1–12", "note": "Taken up in a whirlwind" }
+    ]
+  },
+  {
+    "id": "elisha",
+    "name": "Elisha",
+    "fullName": "Elisha, son of Shaphat",
+    "description": "Successor of Elijah; prophet of double portion and quiet miracles.",
+    "period": "9th century BC (active c. 850–800 BC)",
+    "birthplace": "Abel-meholah",
+    "locations": ["Abel-meholah", "Gilgal", "Jericho", "Bethel", "Samaria", "Damascus"],
+    "birthYear": -880,
+    "biography": [
+      "Elijah found Elisha plowing with twelve yoke of oxen and threw his mantle across his shoulders. Elisha slaughtered the oxen, used the plows for firewood, fed his neighbors, and followed the older prophet. When Elijah was taken up, Elisha picked up the fallen mantle and parted the Jordan with it on his return.",
+      "Where Elijah's ministry was dramatic and confrontational, Elisha's was strung through with smaller miracles done close to the ground: purifying a poisoned spring, multiplying a widow's oil, raising the Shunammite woman's son, healing the leprosy of the Syrian commander Naaman in the Jordan.",
+      "He served as prophet across the reigns of four kings of Israel. On his deathbed the king of Israel wept over him; even after his death, the touch of his bones revived a corpse hastily thrown into his grave. His name means 'God is salvation' — the same root from which the names Joshua and Jesus come."
+    ],
+    "references": [
+      { "ref": "1 Kings 19:19–21", "note": "Called from the plow" },
+      { "ref": "2 Kings 4", "note": "The widow's oil and the Shunammite's son" },
+      { "ref": "2 Kings 5", "note": "The healing of Naaman" }
+    ]
+  },
+  {
+    "id": "jonah",
+    "name": "Jonah",
+    "fullName": "Jonah, son of Amittai",
+    "description": "Prophet who fled God's call to preach to Nineveh.",
+    "period": "8th century BC",
+    "birthplace": "Gath-hepher, Galilee",
+    "locations": ["Gath-hepher", "Joppa", "the belly of the great fish", "Nineveh"],
+    "birthYear": -790,
+    "biography": [
+      "Told by God to go east and preach against Nineveh — the capital of an empire infamous for cruelty — Jonah boarded a ship sailing west to Tarshish, the farthest known port in the opposite direction. A storm overtook the ship; the sailors, drawing lots, discovered he was the cause and at his own insistence threw him overboard.",
+      "A great fish swallowed him. From its belly he prayed. After three days and nights it spat him out on dry land. He walked east this time and delivered the shortest, sourest sermon in scripture: 'forty days more, and Nineveh shall be overthrown.' The whole city, from king to cattle, repented. God relented.",
+      "Jonah was furious. He had not wanted Nineveh saved — he had known, he says, that God was gracious and slow to anger and merciful, and that was the trouble. The book ends with God asking him a question about a withered plant and a city of a hundred and twenty thousand people who did not know their right hand from their left, and does not record his answer."
+    ],
+    "references": [
+      { "ref": "Jonah 1–2", "note": "The storm and the great fish" },
+      { "ref": "Jonah 3", "note": "The repentance of Nineveh" },
+      { "ref": "Matthew 12:38–41", "note": "The sign of Jonah" }
+    ]
+  },
+  {
+    "id": "isaiah",
+    "name": "Isaiah",
+    "fullName": "Isaiah, son of Amoz",
+    "description": "Prophet to Judah whose oracles span judgment, exile, and the coming Servant.",
+    "period": "8th century BC (active c. 740–680 BC)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "the temple"],
+    "birthYear": -760,
+    "biography": [
+      "Isaiah received his call in the year King Uzziah died — a vision in the temple of the Lord enthroned, attended by six-winged seraphim, the doorposts shaking and the house full of smoke. 'Whom shall I send?' the voice asked. 'Here am I,' Isaiah answered. 'Send me.'",
+      "For four decades he served as prophet to the kings of Judah while the Assyrian empire pressed in. He counseled Ahaz to trust God rather than political alliance, advised Hezekiah through Sennacherib's siege of Jerusalem, and saw the city spared overnight by an angel of the Lord. He also foresaw a deeper exile yet to come.",
+      "The second half of the book that bears his name turns away from judgment toward consolation — 'comfort, comfort my people' — and toward a mysterious Servant of the Lord who would be pierced for the transgressions of the many. The early church would read those chapters as a portrait of Christ written seven hundred years before he came."
+    ],
+    "references": [
+      { "ref": "Isaiah 6", "note": "The vision in the temple" },
+      { "ref": "Isaiah 40", "note": "Comfort, comfort my people" },
+      { "ref": "Isaiah 53", "note": "The Suffering Servant" }
+    ]
+  },
+  {
+    "id": "jeremiah",
+    "name": "Jeremiah",
+    "fullName": "Jeremiah, son of Hilkiah",
+    "description": "The weeping prophet who saw the fall of Jerusalem and the start of exile.",
+    "period": "c. 650 – 570 BC",
+    "birthplace": "Anathoth, Benjamin",
+    "locations": ["Anathoth", "Jerusalem", "Egypt"],
+    "birthYear": -640,
+    "biography": [
+      "Called as a young man — 'I am only a boy,' he protested — Jeremiah preached for forty years to a city that did not want to hear him. He warned Judah that Babylon was coming as the instrument of judgment, urged surrender, and was accused of treason for it. He was beaten, put in stocks, lowered into a muddy cistern to die, and dragged out half-alive by a foreign servant.",
+      "Jerusalem fell as he had foretold. The temple was burned; the king was blinded and led off in chains. Jeremiah remained in the rubble of the city, then was carried against his will down into Egypt by a band of fellow Judeans fleeing Babylonian reprisal.",
+      "Through all of it he wept — in scripture's most personal prophetic voice. The book of Lamentations sits beside his oracles. He also wrote, in the middle of the catastrophe, of a new covenant God would one day make: a law written not on stone but on the heart. The promise outlived the prophet who heard it."
+    ],
+    "references": [
+      { "ref": "Jeremiah 1:4–10", "note": "Before I formed you in the womb" },
+      { "ref": "Jeremiah 31:31–34", "note": "The new covenant" },
+      { "ref": "Lamentations 3:22–23", "note": "His mercies are new every morning" }
+    ]
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel",
+    "fullName": "Daniel of Judah",
+    "description": "Hebrew exile in Babylon known for dream interpretation and the lion's den.",
+    "period": "c. 620 – 535 BC",
+    "birthplace": "Judah (taken to Babylon c. 605 BC)",
+    "locations": ["Jerusalem", "Babylon", "Susa"],
+    "birthYear": -620,
+    "biography": [
+      "Taken from Jerusalem as a young nobleman in the first deportation to Babylon, Daniel and three of his companions were enrolled in the royal academy and given new names. He refused to defile himself with the king's food and rose, on his own terms, to serve in the courts of Nebuchadnezzar, Belshazzar, and Darius.",
+      "He interpreted dreams the Babylonian wise men could not — a great statue of metals representing empires, a tree felled by heaven, a hand writing on the palace wall. When a jealous court conspired against him by making prayer to anyone but the king a capital crime, he prayed at his open window three times a day as he always had. He spent the night in the lion's den and emerged unharmed at dawn.",
+      "The second half of the book bearing his name is one long apocalyptic vision: kingdoms rising and falling, a Son of Man coming on the clouds, a resurrection of the dead at the end of days. Daniel lived to see the Persian decree that began the return to Jerusalem — though he himself, by then an old man on the banks of the Tigris, did not go home."
+    ],
+    "references": [
+      { "ref": "Daniel 2", "note": "The dream of the statue" },
+      { "ref": "Daniel 6", "note": "The lions' den" },
+      { "ref": "Daniel 7", "note": "The Son of Man" }
+    ]
+  },
+  {
+    "id": "esther",
+    "name": "Esther",
+    "fullName": "Esther (Hadassah)",
+    "description": "Jewish queen of Persia who saved her people from annihilation.",
+    "period": "5th century BC",
+    "birthplace": "Susa, Persia",
+    "locations": ["Susa (Shushan)", "the citadel", "the royal palace of Xerxes"],
+    "birthYear": -485,
+    "biography": [
+      "Orphaned and raised by her cousin Mordecai in the Persian capital of Susa, Esther was chosen as queen to King Xerxes without revealing her Jewish identity. She moved through the court for years as a hidden insider.",
+      "When the king's adviser Haman engineered a decree to destroy the Jews throughout the empire, Mordecai pressed her to act — 'who knows whether you have come to the kingdom for such a time as this.' Risking her life by approaching the king uninvited, she exposed Haman's plot at a private banquet.",
+      "Haman was executed; the Jews were granted the right to defend themselves; and the festival of Purim was instituted to remember the deliverance. The book is the only one in the Bible that does not mention God by name — and yet his hand is visible on every page."
+    ],
+    "references": [
+      { "ref": "Esther 4:13–17", "note": "For such a time as this" },
+      { "ref": "Esther 7", "note": "The exposure of Haman" },
+      { "ref": "Esther 9:20–32", "note": "The institution of Purim" }
+    ]
+  },
+  {
+    "id": "ezra",
+    "name": "Ezra",
+    "fullName": "Ezra the scribe",
+    "description": "Priest and scribe who led a second wave of returnees and renewed the Torah in Jerusalem.",
+    "period": "5th century BC (active c. 458 BC)",
+    "birthplace": "Babylon",
+    "locations": ["Babylon", "Jerusalem"],
+    "birthYear": -480,
+    "biography": [
+      "Born in exile and trained as a priest in the line of Aaron, Ezra led a second wave of returnees from Babylon up to Jerusalem nearly eighty years after the first. He came armed with a Persian decree, the king's treasury, and a heart, the text says, set on studying and teaching the law of the Lord.",
+      "He found a community that had returned but drifted — intermarried with the surrounding peoples, careless with the covenant. He tore his garments and sat appalled until the evening sacrifice, then led the people through a long and painful work of repentance.",
+      "His most enduring scene comes in Nehemiah's book: standing on a wooden platform in the square before the Water Gate, reading the law aloud from morning until midday while Levites translated and explained, and the people wept as they understood. He is remembered as the father of the scribes and the architect of post-exilic Judaism."
+    ],
+    "references": [
+      { "ref": "Ezra 7", "note": "Coming up from Babylon" },
+      { "ref": "Ezra 9–10", "note": "The crisis of intermarriage" },
+      { "ref": "Nehemiah 8", "note": "Reading the law at the Water Gate" }
+    ]
+  },
+  {
+    "id": "nehemiah",
+    "name": "Nehemiah",
+    "fullName": "Nehemiah, son of Hacaliah",
+    "description": "Persian court official who rebuilt Jerusalem's walls.",
+    "period": "5th century BC (active c. 445 BC)",
+    "birthplace": "Susa, Persia (born in exile)",
+    "locations": ["Susa", "Jerusalem"],
+    "birthYear": -480,
+    "biography": [
+      "Nehemiah was cupbearer to the Persian king Artaxerxes when news reached him that the walls of Jerusalem were still broken and its gates burned. He wept, fasted, and prayed for days — then asked the king for leave to go and rebuild. He was given letters, timber, and a military escort.",
+      "Within fifty-two days, against the hostility of Sanballat and Tobiah and a steady stream of threats, he rallied the people of Jerusalem to finish the walls. Half worked while half stood guard; each man kept a sword at his side.",
+      "He served as governor for twelve years, then twelve more after a return to Persia. With Ezra he renewed the covenant, restored the Sabbath, and reformed the temple economy. The book bearing his name ends mid-thought, with a string of plain prayers: 'remember me, O my God, for good.'"
+    ],
+    "references": [
+      { "ref": "Nehemiah 1–2", "note": "The cupbearer's prayer and request" },
+      { "ref": "Nehemiah 4", "note": "Building with sword in hand" },
+      { "ref": "Nehemiah 13", "note": "Reforms of the Sabbath and temple" }
+    ]
+  },
+  {
+    "id": "mary",
+    "name": "Mary",
+    "fullName": "Mary of Nazareth",
+    "description": "Mother of Jesus, present from his birth to the cross.",
+    "period": "c. 18 BC – c. 41 AD",
+    "birthplace": "Nazareth, Galilee",
+    "locations": ["Nazareth", "Bethlehem", "Egypt", "Cana", "Jerusalem"],
+    "birthYear": -18,
+    "biography": [
+      "A young woman of Nazareth betrothed to Joseph, Mary said yes to the angel Gabriel's announcement and bore Jesus in Bethlehem. Her song — the Magnificat — speaks of a God who topples the proud and lifts up the lowly.",
+      "She appears at pivotal moments throughout the Gospels: the flight to Egypt, the wedding at Cana, the foot of the cross, and the upper room at Pentecost — a quiet, steady presence across the whole arc of her son's life and the early days of the church.",
+      "Tradition places her later years in Ephesus under the care of John the apostle. She is remembered first as the one who heard the impossible and answered, \"let it be to me according to your word.\""
+    ],
+    "references": [
+      { "ref": "Luke 1:26–56", "note": "The Annunciation and the Magnificat" },
+      { "ref": "John 2:1–11", "note": "The wedding at Cana" },
+      { "ref": "John 19:25–27", "note": "At the foot of the cross" }
+    ]
+  },
+  {
     "id": "john-the-baptist",
     "name": "John the Baptist",
     "fullName": "John the Baptist",
@@ -178,6 +587,7 @@
     "period": "c. 4 BC – c. 30 AD",
     "birthplace": "Hill country of Judea",
     "locations": ["Judean wilderness", "the Jordan River", "Bethany beyond the Jordan", "Machaerus"],
+    "birthYear": -4,
     "biography": [
       "Son of the priest Zechariah and Elizabeth — a relative of Mary — John appeared in the wilderness in camel-hair garments, calling Israel to repentance and baptizing in the Jordan. Crowds streamed out from Jerusalem to hear him.",
       "He recognized Jesus as the one whose coming he had announced and baptized him in the Jordan. \"He must increase,\" John said of his cousin, \"but I must decrease\" — a deliberate stepping aside as the ministry he had prepared the way for began.",
@@ -187,6 +597,186 @@
       { "ref": "Matthew 3", "note": "Preaching in the wilderness" },
       { "ref": "Luke 1:5–25", "note": "The annunciation to Zechariah" },
       { "ref": "John 1:19–34", "note": "Behold the Lamb of God" }
+    ]
+  },
+  {
+    "id": "jesus",
+    "name": "Jesus",
+    "fullName": "Jesus of Nazareth",
+    "description": "Itinerant Jewish teacher and central figure of the Christian faith.",
+    "period": "c. 4 BC – 30 AD",
+    "birthplace": "Bethlehem, Judea",
+    "locations": ["Bethlehem", "Nazareth", "Capernaum", "Galilee", "Jerusalem"],
+    "birthYear": -4,
+    "biography": [
+      "Born in Bethlehem during the reign of Herod the Great and raised in Nazareth as the son of a craftsman, Jesus lived an obscure life until roughly the age of thirty. He then began a public ministry of teaching, healing, and gathering disciples around him in the towns of Galilee.",
+      "His message of the kingdom of God drew crowds and the attention of the religious establishment. He taught in synagogues, on hillsides, and over shared meals — often through parables that subverted the expectations of his hearers.",
+      "He was crucified in Jerusalem under Pontius Pilate during Passover. His followers proclaimed his resurrection three days later — the foundational claim of the movement that became the Christian church."
+    ],
+    "references": [
+      { "ref": "Matthew 5–7", "note": "The Sermon on the Mount" },
+      { "ref": "John 1:1–14", "note": "The Word made flesh" },
+      { "ref": "Luke 24:1–12", "note": "The empty tomb" }
+    ]
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "fullName": "Simon Peter (Cephas)",
+    "description": "Fisherman, denier, and leader of the apostles; first preacher at Pentecost.",
+    "period": "c. 1 BC – 64 AD",
+    "birthplace": "Bethsaida, Galilee",
+    "locations": ["Bethsaida", "Capernaum", "Jerusalem", "Antioch", "Rome"],
+    "birthYear": 1,
+    "biography": [
+      "A Galilean fisherman with a brother named Andrew, Simon was renamed Peter — 'rock' — by Jesus at their first meeting. He left his nets at a word and became the first-named of the twelve apostles. He walked on water (briefly), confessed Jesus as the Christ (first), and rebuked him for talking of crucifixion (poorly).",
+      "On the night of the arrest he denied three times that he knew the man he had sworn to die with. Days later by the Sea of Galilee, after the resurrection, Jesus asked him three times if he loved him and three times told him to feed the sheep. The denials were undone one by one.",
+      "He preached the sermon at Pentecost that began the church and opened it to the Gentiles when he baptized the centurion Cornelius. Tradition holds he was crucified upside down in Rome under Nero, having asked not to die in the same posture as his Lord. Two letters in the New Testament bear his name."
+    ],
+    "references": [
+      { "ref": "Matthew 16:13–20", "note": "You are the Christ" },
+      { "ref": "John 21:15–19", "note": "Do you love me? Feed my sheep" },
+      { "ref": "Acts 2", "note": "The sermon at Pentecost" }
+    ]
+  },
+  {
+    "id": "judas-iscariot",
+    "name": "Judas Iscariot",
+    "fullName": "Judas Iscariot",
+    "description": "The disciple who betrayed Jesus for thirty pieces of silver.",
+    "period": "c. 3 – 30 AD",
+    "birthplace": "Kerioth (likely Judea)",
+    "locations": ["Galilee", "Jerusalem", "the Garden of Gethsemane", "the Field of Blood"],
+    "birthYear": 3,
+    "biography": [
+      "One of the twelve, Judas is named in each Gospel list with the addendum that he betrayed Jesus. John notes in passing that he kept the common purse and stole from it. The other Gospels move more quickly to the moment when he went to the chief priests and bargained for thirty pieces of silver — the price, in Exodus, of a slave gored by an ox.",
+      "He led the arresting party to Gethsemane and identified Jesus with a kiss. By morning, seeing that Jesus was condemned, he flung the silver back into the temple. The priests would not take it; he hanged himself.",
+      "His name has become a byword for betrayal, but the texts that name him do so with surprising restraint. Matthew records his remorse; Acts records the field his blood money bought; the early church preached him neither as a victim of fate nor a simple villain but as a participant in something the Gospel writers could not pretend to fully understand."
+    ],
+    "references": [
+      { "ref": "Matthew 26:14–16", "note": "Thirty pieces of silver" },
+      { "ref": "Matthew 26:47–50", "note": "The kiss in Gethsemane" },
+      { "ref": "Matthew 27:3–10", "note": "Remorse and death" }
+    ]
+  },
+  {
+    "id": "mary-magdalene",
+    "name": "Mary Magdalene",
+    "fullName": "Mary of Magdala",
+    "description": "First witness of the resurrection; called the apostle to the apostles.",
+    "period": "c. 5 – 60s AD",
+    "birthplace": "Magdala, on the Sea of Galilee",
+    "locations": ["Magdala", "Galilee", "Jerusalem", "Bethany"],
+    "birthYear": 5,
+    "biography": [
+      "Luke introduces her as a woman from whom Jesus had cast out seven demons. From that point she belongs to the small company of women who traveled with him, supported the mission from their own resources, and stayed close where most of the male disciples fell away.",
+      "She was at the cross when most of the apostles had fled. She watched where Joseph of Arimathea laid the body. On the third morning she came back with spices to anoint it and found the tomb open and empty — and a gardener standing nearby who said her name.",
+      "She was the first to see the risen Christ and the first sent to tell the others. The early church would call her apostola apostolorum: the apostle to the apostles. Centuries of confused legend later identified her with other women in the Gospels; the texts themselves leave her as she is — a Galilean disciple at the center of the Easter narrative."
+    ],
+    "references": [
+      { "ref": "Luke 8:1–3", "note": "Among the women who supported the ministry" },
+      { "ref": "John 19:25", "note": "At the foot of the cross" },
+      { "ref": "John 20:11–18", "note": "Mary, the empty tomb, and the risen Christ" }
+    ]
+  },
+  {
+    "id": "martha",
+    "name": "Martha",
+    "fullName": "Martha of Bethany",
+    "description": "Sister of Lazarus and Mary; host to Jesus and a confessor of his messiahship.",
+    "period": "c. 5 – 60s AD",
+    "birthplace": "Bethany, Judea",
+    "locations": ["Bethany"],
+    "birthYear": 5,
+    "biography": [
+      "Martha is introduced as the practical sister: while Mary sat at Jesus's feet listening, Martha was anxious about preparations and asked him to send her sister to help. He gently refused — 'Mary has chosen the good portion' — and Martha is sometimes remembered, unfairly, only for that scene.",
+      "When their brother Lazarus fell ill and died, it was Martha who ran out to meet Jesus on the road before he reached the house. Their exchange contains one of the great confessions of the Gospels: he told her that he was the resurrection and the life and asked if she believed it. 'Yes, Lord,' she answered. 'I believe that you are the Christ, the Son of God.'",
+      "She appears once more, hosting Jesus at supper days before his death — still serving, but with the unmistakable warmth of one whose house was always open to him. Her name has come down the centuries as a byword for hospitality and for sturdy, articulate faith."
+    ],
+    "references": [
+      { "ref": "Luke 10:38–42", "note": "Martha and Mary in the home" },
+      { "ref": "John 11", "note": "The death and raising of Lazarus" },
+      { "ref": "John 12:1–2", "note": "Supper at Bethany" }
+    ]
+  },
+  {
+    "id": "lazarus",
+    "name": "Lazarus",
+    "fullName": "Lazarus of Bethany",
+    "description": "Brother of Martha and Mary; raised from the dead four days after dying.",
+    "period": "c. 5 – 60s AD",
+    "birthplace": "Bethany, Judea",
+    "locations": ["Bethany"],
+    "birthYear": 5,
+    "biography": [
+      "Lazarus is given few words of his own in scripture; almost everything we know about him is told through the people around him. He, his sister Martha, and his sister Mary lived in Bethany, a village a short walk from Jerusalem, and Jesus loved them all.",
+      "When he fell ill, the sisters sent word; Jesus deliberately delayed two days. By the time he arrived, Lazarus had been in the tomb four days — long enough in the warm climate, Martha worried, for the body to stink. Jesus wept at the tomb anyway. Then he called out one name: 'Lazarus, come out.' And Lazarus walked out, still wrapped in his grave clothes.",
+      "His public resurrection turned the religious authorities decisively against Jesus; John reports that they also plotted to kill Lazarus, since people were leaving them to follow him. He appears one last time at the supper in Bethany, quietly at table with the man who had called him out of the grave."
+    ],
+    "references": [
+      { "ref": "John 11:1–44", "note": "Lazarus, come out" },
+      { "ref": "John 12:1–11", "note": "At table with Jesus in Bethany" },
+      { "ref": "Luke 16:19–31", "note": "A separate Lazarus in Jesus's parable" }
+    ]
+  },
+  {
+    "id": "paul",
+    "name": "Paul",
+    "fullName": "Paul of Tarsus",
+    "description": "Apostle to the Gentiles and author of much of the New Testament.",
+    "period": "c. 5 – 65 AD",
+    "birthplace": "Tarsus, Cilicia",
+    "locations": ["Tarsus", "Jerusalem", "Damascus", "Antioch", "Corinth", "Ephesus", "Rome"],
+    "birthYear": 5,
+    "biography": [
+      "A Pharisee trained in Jerusalem under Gamaliel, Saul of Tarsus first appears in scripture approving the stoning of Stephen and persecuting the early church. A blinding encounter with the risen Christ on the road to Damascus reordered his life entirely.",
+      "As Paul, he became the great missionary of the early movement, planting churches across the Roman world on three long journeys and writing the letters that would become foundational scripture for the church.",
+      "He was arrested in Jerusalem, appealed his case to Caesar, and was taken under guard to Rome. Tradition holds he was martyred there under the emperor Nero."
+    ],
+    "references": [
+      { "ref": "Acts 9:1–19", "note": "The road to Damascus" },
+      { "ref": "Romans 8", "note": "Life in the Spirit" },
+      { "ref": "Philippians 3:7–14", "note": "Pressing on toward the goal" }
+    ]
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "fullName": "Thomas (Didymus)",
+    "description": "The apostle remembered for honest doubt and a definitive confession.",
+    "period": "c. 5 – 70s AD",
+    "birthplace": "Galilee",
+    "locations": ["Galilee", "Jerusalem", "(tradition: India)"],
+    "birthYear": 5,
+    "biography": [
+      "Thomas is named in all four Gospel lists of the apostles, with the Greek nickname Didymus — 'twin.' John's Gospel gives him a voice the others do not. When Jesus turned back toward Bethany after Lazarus's death and danger, it was Thomas who said, 'let us go too, that we may die with him.'",
+      "After the resurrection he was missing when Jesus first appeared to the disciples behind locked doors. He told the others he would not believe it until he had seen and touched the wounds himself. A week later Jesus appeared again and offered him exactly that. Thomas answered with what is perhaps the most complete confession of any disciple in the Gospels: 'My Lord and my God.'",
+      "Early Christian tradition has him preaching the gospel as far east as India, where the ancient Mar Thoma church still claims him as founder. He is remembered now for a single hesitation, but the words that followed it have echoed through the worship of the church for two thousand years."
+    ],
+    "references": [
+      { "ref": "John 11:16", "note": "Let us go too, that we may die with him" },
+      { "ref": "John 14:5", "note": "How can we know the way?" },
+      { "ref": "John 20:24–29", "note": "My Lord and my God" }
+    ]
+  },
+  {
+    "id": "john-apostle",
+    "name": "John the Apostle",
+    "fullName": "John, son of Zebedee",
+    "description": "Fisherman, evangelist, and the disciple whom Jesus loved.",
+    "period": "c. 6 – 100 AD",
+    "birthplace": "Bethsaida or Capernaum, Galilee",
+    "locations": ["Galilee", "Jerusalem", "Samaria", "Ephesus", "Patmos"],
+    "birthYear": 6,
+    "biography": [
+      "John and his brother James — sons of Zebedee, called by Jesus the 'sons of thunder' — were fishermen on the Sea of Galilee when they were summoned to follow. He became one of the inner three with Peter and James, present at the Transfiguration and in Gethsemane, and the only male disciple at the foot of the cross.",
+      "Jesus entrusted his mother to him from the cross: 'behold your mother.' He ran with Peter to the empty tomb on the resurrection morning and stooped down to look in. After Pentecost he ministered in Jerusalem and Samaria; tradition places his later years in Ephesus, caring for the church there and for Mary.",
+      "Of the twelve, he alone is said to have died of old age — exiled, before that, to the rocky island of Patmos under the emperor Domitian, where he received the visions recorded in Revelation. His Gospel and three letters speak again and again of a single theme: God is love, and we are loved."
+    ],
+    "references": [
+      { "ref": "John 13:23", "note": "The disciple whom Jesus loved" },
+      { "ref": "John 19:26–27", "note": "Behold your mother" },
+      { "ref": "Revelation 1:9", "note": "I, John, was on the island called Patmos" }
     ]
   }
 ]
