@@ -1,6 +1,15 @@
+import { Fragment } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import characters from '../data/characters.json';
 import { findLocationByLabel } from '../data/locationLookup';
+
+const encodeBibleRef = (ref) =>
+  ref
+    .replace(/\([^)]*\)/g, '')
+    .replace(/[–—]/g, '-')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/\s+/g, '+');
 
 function CharacterProfilePage() {
   const { id } = useParams();
@@ -86,12 +95,30 @@ function CharacterProfilePage() {
         <div className="profile__section">
           <h2 className="profile__section-title">Scripture</h2>
           <ul className="reference-list">
-            {character.references.map((r) => (
-              <li key={r.ref} className="reference">
-                <span className="reference__ref">{r.ref}</span>
-                <span className="reference__note">{r.note}</span>
-              </li>
-            ))}
+            {character.references.map((r) => {
+              const parts = r.ref.split(';').map((s) => s.trim()).filter(Boolean);
+              return (
+                <li key={r.ref} className="reference">
+                  <span className="reference__ref">
+                    {parts.map((part, i) => (
+                      <Fragment key={part}>
+                        <Link
+                          to={`/bible?ref=${encodeBibleRef(part)}`}
+                          className="reference__link"
+                          title={`Read ${part}`}
+                        >
+                          {part}
+                        </Link>
+                        {i < parts.length - 1 && (
+                          <span className="reference__sep">;{' '}</span>
+                        )}
+                      </Fragment>
+                    ))}
+                  </span>
+                  <span className="reference__note">{r.note}</span>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
