@@ -1,4 +1,12 @@
-import { BrowserRouter, NavLink, Link, Routes, Route } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import {
+  BrowserRouter,
+  NavLink,
+  Link,
+  Routes,
+  Route,
+  useLocation,
+} from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/HomePage';
 import CharactersPage from './pages/CharactersPage';
@@ -18,37 +26,89 @@ const NAV_ITEMS = [
   { label: 'Network', to: '/relationships' },
 ];
 
+function NavBar() {
+  const [open, setOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setOpen(false);
+  }, [location.pathname, location.search]);
+
+  useEffect(() => {
+    if (open) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => {
+        document.body.style.overflow = prev;
+      };
+    }
+  }, [open]);
+
+  return (
+    <header className={`nav${open ? ' nav--menu-open' : ''}`}>
+      <div className="nav__inner">
+        <Link className="logo" to="/" aria-label="Selah home">
+          <span className="logo__mark" aria-hidden="true" />
+          <span className="logo__text">Selah</span>
+        </Link>
+
+        <nav className="nav__links" aria-label="Primary">
+          {NAV_ITEMS.map((item) => (
+            <NavLink
+              key={item.label}
+              to={item.to}
+              className={({ isActive }) =>
+                `nav__link${isActive ? ' nav__link--active' : ''}`
+              }
+            >
+              {item.label}
+            </NavLink>
+          ))}
+        </nav>
+
+        <button
+          type="button"
+          className={`nav__hamburger${open ? ' nav__hamburger--open' : ''}`}
+          aria-label={open ? 'Close menu' : 'Open menu'}
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+        </button>
+      </div>
+
+      <div
+        className={`nav__overlay${open ? ' nav__overlay--open' : ''}`}
+        role="dialog"
+        aria-modal="true"
+        aria-hidden={!open}
+      >
+        <nav className="nav__overlay-links" aria-label="Mobile primary">
+          {NAV_ITEMS.map((item) => (
+            <NavLink
+              key={item.label}
+              to={item.to}
+              className={({ isActive }) =>
+                `nav__overlay-link${isActive ? ' nav__overlay-link--active' : ''}`
+              }
+              onClick={() => setOpen(false)}
+            >
+              {item.label}
+            </NavLink>
+          ))}
+        </nav>
+      </div>
+    </header>
+  );
+}
+
 function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        <header className="nav">
-          <div className="nav__inner">
-            <Link className="logo" to="/" aria-label="Selah home">
-              <span className="logo__mark" aria-hidden="true" />
-              <span className="logo__text">Selah</span>
-            </Link>
-            <nav className="nav__links" aria-label="Primary">
-              {NAV_ITEMS.map((item) =>
-                item.to ? (
-                  <NavLink
-                    key={item.label}
-                    to={item.to}
-                    className={({ isActive }) =>
-                      `nav__link${isActive ? ' nav__link--active' : ''}`
-                    }
-                  >
-                    {item.label}
-                  </NavLink>
-                ) : (
-                  <a key={item.label} className="nav__link" href={item.href}>
-                    {item.label}
-                  </a>
-                )
-              )}
-            </nav>
-          </div>
-        </header>
+        <NavBar />
 
         <main>
           <Routes>

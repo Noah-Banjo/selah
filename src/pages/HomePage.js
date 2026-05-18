@@ -60,6 +60,20 @@ function HomePage() {
     }
   };
 
+  const surpriseMe = () => {
+    const choice = Math.floor(Math.random() * 3);
+    if (choice === 0) {
+      const c = characters[Math.floor(Math.random() * characters.length)];
+      navigate(`/characters/${c.id}`);
+    } else if (choice === 1) {
+      const w = words[Math.floor(Math.random() * words.length)];
+      navigate(`/words?open=${w.id}`);
+    } else {
+      const l = locations[Math.floor(Math.random() * locations.length)];
+      navigate(`/map?location=${l.id}`);
+    }
+  };
+
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return null;
@@ -139,6 +153,15 @@ function HomePage() {
                 </button>
               )}
             </div>
+
+            <button
+              type="button"
+              className="surprise-btn"
+              onClick={surpriseMe}
+            >
+              Surprise Me
+              <span aria-hidden="true">→</span>
+            </button>
 
             {results && (
               <div className="global-search__results" role="listbox">

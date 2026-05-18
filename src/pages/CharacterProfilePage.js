@@ -1,4 +1,4 @@
-import { Fragment, useMemo } from 'react';
+import { Fragment, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import characters from '../data/characters.json';
 import { findLocationByLabel } from '../data/locationLookup';
@@ -20,6 +20,17 @@ const encodeBibleRef = (ref) =>
 function CharacterProfilePage() {
   const { id } = useParams();
   const character = characters.find((c) => c.id === id);
+  const [toast, setToast] = useState(null);
+
+  const handleShare = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setToast('Link copied!');
+    } catch (e) {
+      setToast('Could not copy');
+    }
+    setTimeout(() => setToast(null), 2200);
+  };
 
   const relationships = useMemo(() => {
     if (!character?.relationships) return [];
@@ -59,15 +70,26 @@ function CharacterProfilePage() {
           <span className="profile__eyebrow">{character.period}</span>
           <h1 className="profile__name">{character.fullName}</h1>
           <p className="profile__description">{character.description}</p>
-          {relationships.length > 0 && (
-            <Link
-              to={`/relationships?focus=${character.id}`}
-              className="profile__graph-button"
+          <div className="profile__actions">
+            {relationships.length > 0 && (
+              <Link
+                to={`/relationships?focus=${character.id}`}
+                className="profile__graph-button"
+              >
+                View in Graph
+                <span aria-hidden="true">→</span>
+              </Link>
+            )}
+            <button
+              type="button"
+              className="share-button"
+              onClick={handleShare}
+              aria-label="Copy link to this profile"
             >
-              View in Graph
-              <span aria-hidden="true">→</span>
-            </Link>
-          )}
+              <span className="share-button__icon" aria-hidden="true">⤴</span>
+              Share
+            </button>
+          </div>
         </header>
 
         <div className="profile__meta">
@@ -147,6 +169,12 @@ function CharacterProfilePage() {
             })}
           </ul>
         </div>
+
+        {toast && (
+          <div className="toast" role="status" aria-live="polite">
+            {toast}
+          </div>
+        )}
 
         {relationships.length > 0 && (
           <div className="profile__section">

@@ -59,8 +59,10 @@ function RelationshipsPage() {
   const svgRef = useRef(null);
   const containerRef = useRef(null);
   const [hovered, setHovered] = useState(null);
+  const [graphReady, setGraphReady] = useState(false);
 
   useEffect(() => {
+    setGraphReady(false);
     const container = containerRef.current;
     const svgEl = svgRef.current;
     if (!container || !svgEl) return;
@@ -181,7 +183,10 @@ function RelationshipsPage() {
       .style('stroke-width', 3)
       .text((d) => d.name);
 
+    let settled = false;
     const simulation = forceSimulation(nodes)
+      .alphaDecay(0.045)
+      .velocityDecay(0.45)
       .force(
         'link',
         forceLink(links)
@@ -199,6 +204,16 @@ function RelationshipsPage() {
           .attr('x2', (d) => d.target.x)
           .attr('y2', (d) => d.target.y);
         nodeSel.attr('transform', (d) => `translate(${d.x},${d.y})`);
+        if (!settled && simulation.alpha() < 0.05) {
+          settled = true;
+          setGraphReady(true);
+        }
+      })
+      .on('end', () => {
+        if (!settled) {
+          settled = true;
+          setGraphReady(true);
+        }
       });
 
     if (focusId) {
@@ -271,8 +286,20 @@ function RelationshipsPage() {
           ))}
         </ul>
 
+        <p className="graph-mobile-notice" role="note">
+          Best viewed on desktop — pinch to zoom and drag to pan on touch
+          devices.
+        </p>
+
         <div className="graph-container" ref={containerRef}>
           <svg ref={svgRef} className="graph-svg" />
+          <div
+            className={`graph-loading${graphReady ? ' graph-loading--hidden' : ''}`}
+            aria-hidden={graphReady}
+          >
+            <div className="graph-loading__pulse" />
+            <span>Drawing the network…</span>
+          </div>
           {hovered && (
             <div
               className="graph-tooltip"

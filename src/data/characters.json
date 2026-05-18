@@ -1,5 +1,28 @@
 [
   {
+    "id": "enoch",
+    "name": "Enoch",
+    "fullName": "Enoch, son of Jared",
+    "description": "Seventh from Adam who walked with God and was taken without dying.",
+    "period": "antediluvian (traditional c. 3400 BC)",
+    "birthplace": "the antediluvian world",
+    "locations": ["the world before the flood"],
+    "birthYear": -3380,
+    "biography": [
+      "Enoch belongs to the long genealogy of Genesis 5, where each entry follows a fixed pattern: he lived, he fathered sons and daughters, he died. Enoch's entry breaks the pattern. He lived three hundred and sixty-five years; he walked with God; and he was not, for God took him.",
+      "He is one of two figures in scripture said to have been taken without dying, the other being the prophet Elijah. His remembered legacy outside Genesis is small but striking: Hebrews lists him among the heroes of faith, and Jude quotes a prophecy attributed to him about the Lord coming with his holy ones.",
+      "He fathered Methuselah, the longest-lived man in the Bible, and was great-grandfather to Noah. His brief place in the narrative is a small door cracked open in the wall of Genesis 5 — a hint that death is not the only ending for a life lived with God."
+    ],
+    "references": [
+      { "ref": "Genesis 5:21–24", "note": "Enoch walked with God" },
+      { "ref": "Hebrews 11:5", "note": "Taken so that he should not see death" },
+      { "ref": "Jude 14–15", "note": "A prophecy attributed to Enoch" }
+    ],
+    "relationships": [
+      { "characterId": "noah", "type": "Ancestor", "description": "Great-grandfather of Noah through Methuselah and Lamech." }
+    ]
+  },
+  {
     "id": "noah",
     "name": "Noah",
     "fullName": "Noah, son of Lamech",
@@ -20,6 +43,30 @@
     ],
     "relationships": [
       { "characterId": "abraham", "type": "Descendant", "description": "Tenth generation from Noah through the line of Shem." }
+    ]
+  },
+  {
+    "id": "melchizedek",
+    "name": "Melchizedek",
+    "fullName": "Melchizedek, king of Salem",
+    "description": "Priest-king of Salem who blessed Abraham and prefigured an eternal priesthood.",
+    "period": "patriarchal era (c. 2000 BC)",
+    "birthplace": "unknown",
+    "locations": ["Salem", "the Valley of Shaveh"],
+    "birthYear": -2050,
+    "biography": [
+      "Melchizedek appears in Genesis 14 without genealogy or backstory, walking out from Salem to meet Abraham as he returns from rescuing Lot. He brings bread and wine, blesses Abraham in the name of God Most High, and receives a tenth of the spoils. Then he disappears from the narrative.",
+      "Psalm 110 picks him up again seven centuries later: a Davidic oracle promising a king who will be a priest forever after the order of Melchizedek. The Letter to the Hebrews builds an entire christology on that line, contrasting his unbroken priesthood with the line of Levi.",
+      "Whether he was a historical Canaanite ruler whose city Salem became Jerusalem, a theophany, or a mysterious righteous Gentile, scripture preserves him as a figure 'without father or mother, without genealogy' — and so as a foreshadowing of Christ's priesthood, which has neither beginning nor end."
+    ],
+    "references": [
+      { "ref": "Genesis 14:18–20", "note": "Bread, wine, and blessing of Abraham" },
+      { "ref": "Psalm 110:4", "note": "A priest forever after the order of Melchizedek" },
+      { "ref": "Hebrews 7", "note": "The eternal priesthood applied to Christ" }
+    ],
+    "relationships": [
+      { "characterId": "abraham", "type": "Ally", "description": "Blessed him with bread and wine after the rescue of Lot." },
+      { "characterId": "jesus", "type": "Successor", "description": "His priesthood foreshadows Christ's eternal priesthood." }
     ]
   },
   {
@@ -46,6 +93,103 @@
       { "characterId": "isaac", "type": "Son", "description": "Son of promise, born to him and Sarah in their old age." },
       { "characterId": "jacob", "type": "Grandson", "description": "Through Isaac, inheritor of the covenant promise." },
       { "characterId": "jesus", "type": "Descendant", "description": "The promised seed in whom all nations would be blessed." }
+    ]
+  },
+  {
+    "id": "sarah",
+    "name": "Sarah",
+    "fullName": "Sarah (Sarai), wife of Abraham",
+    "description": "Matriarch of Israel; mother of Isaac long past the age of bearing.",
+    "period": "c. 2000 – 1875 BC",
+    "birthplace": "Ur of the Chaldeans",
+    "locations": ["Ur", "Haran", "Canaan", "Egypt", "Gerar", "Hebron"],
+    "birthYear": -1990,
+    "biography": [
+      "Originally Sarai, she followed Abraham out of Ur into Canaan, into Egypt during famine, and into the long detours of his wandering. Twice she was passed off as his sister to protect his life; twice she was taken into a foreign king's house and twice God intervened. Through ten years of childlessness she gave her servant Hagar to Abraham as a surrogate, then watched the household turn to resentment.",
+      "When three visitors announced that she would bear a son within the year, she laughed inside her tent — and was overheard. The son she bore was Isaac, 'he laughs.' Tradition has her ninety years old at his birth; her ninety-year laugh became the seed of the covenant promise.",
+      "She died at a hundred and twenty-seven and Abraham bought the cave of Machpelah at Hebron to bury her — the first piece of the promised land legally his. Peter would later hold her up to the church as a pattern of quiet faith; the New Testament names her among those who saw the promise from afar and trusted it."
+    ],
+    "references": [
+      { "ref": "Genesis 17:15–21", "note": "Renamed Sarah; the promise of Isaac" },
+      { "ref": "Genesis 18:9–15", "note": "Sarah's laugh" },
+      { "ref": "Hebrews 11:11; 1 Peter 3:6", "note": "Named among the faithful" }
+    ],
+    "relationships": [
+      { "characterId": "abraham", "type": "Husband", "description": "Followed him out of Ur and through forty years of wandering." },
+      { "characterId": "isaac", "type": "Son", "description": "Bore him at ninety, the long-promised child." },
+      { "characterId": "hagar", "type": "Rival", "description": "Her own servant who bore Abraham a son before her, then was sent away." }
+    ]
+  },
+  {
+    "id": "hagar",
+    "name": "Hagar",
+    "fullName": "Hagar the Egyptian",
+    "description": "Sarah's servant; mother of Ishmael and the first person in scripture to name God.",
+    "period": "c. 2000 – 1940 BC",
+    "birthplace": "Egypt",
+    "locations": ["Canaan", "the wilderness of Shur", "Beer-lahai-roi", "Paran"],
+    "birthYear": -2000,
+    "biography": [
+      "Hagar was Sarah's Egyptian maid, given to Abraham as a surrogate when the long-promised child had not yet come. She conceived; Sarah grew resentful; she fled into the wilderness. There the angel of the Lord found her by a spring and told her to return.",
+      "She is the first person in the Bible to name God: El Roi, the God who sees me. She returned and bore Ishmael, who would become the father of a vast Arab line. Years later, after Isaac's birth and weaning, conflict between the two boys led Sarah to demand Hagar's exile.",
+      "Cast out a second time with bread and a skin of water, she sat down at a distance from her dying son in the wilderness of Beersheba and wept. God heard the boy's voice, opened her eyes to a well, and promised that Ishmael too would become a great nation. Paul would later read her story allegorically; Genesis simply remembers the woman whom God found twice in the wilderness."
+    ],
+    "references": [
+      { "ref": "Genesis 16", "note": "Flight and the God who sees" },
+      { "ref": "Genesis 21:8–21", "note": "Exile and God's provision in the wilderness" },
+      { "ref": "Galatians 4:21–31", "note": "Paul's allegory of the two covenants" }
+    ],
+    "relationships": [
+      { "characterId": "abraham", "type": "Companion", "description": "Mother of his firstborn Ishmael." },
+      { "characterId": "sarah", "type": "Rival", "description": "Mistress who first gave her to Abraham, then sent her away." }
+    ]
+  },
+  {
+    "id": "lot",
+    "name": "Lot",
+    "fullName": "Lot, son of Haran",
+    "description": "Nephew of Abraham; saved from Sodom's destruction at the last moment.",
+    "period": "c. 2000 – 1925 BC",
+    "birthplace": "Ur of the Chaldeans",
+    "locations": ["Ur", "Haran", "Canaan", "Sodom", "Zoar", "the hills of Moab"],
+    "birthYear": -2000,
+    "biography": [
+      "Lot was Abraham's nephew, taken in after his father Haran's death and brought along on the journey out of Ur. In Canaan their flocks grew too large to share the land, and Abraham let Lot choose first. Lot chose the well-watered Jordan valley and pitched his tent toward Sodom.",
+      "He was captured when four kings of the east raided the cities of the plain; Abraham rescued him with a band of three hundred and eighteen men. Years later, two angels came to Sodom in the evening, and Lot took them into his house. By morning his sons-in-law had laughed at his warning, his wife had looked back and turned to a pillar of salt, and the cities lay in ash and brimstone.",
+      "He fled with two daughters into a cave in the hills of Moab. The daughters, fearing they would die childless, made him drunk and bore the children who became the nations of Moab and Ammon. Peter would call him 'righteous Lot,' a man whose soul was tormented day after day by the deeds of his neighbors."
+    ],
+    "references": [
+      { "ref": "Genesis 13", "note": "The parting from Abraham" },
+      { "ref": "Genesis 19", "note": "The destruction of Sodom" },
+      { "ref": "2 Peter 2:7–8", "note": "Righteous Lot, distressed by lawless deeds" }
+    ],
+    "relationships": [
+      { "characterId": "abraham", "type": "Relative", "description": "Uncle who rescued him from kings and tried to spare him from Sodom." }
+    ]
+  },
+  {
+    "id": "rebekah",
+    "name": "Rebekah",
+    "fullName": "Rebekah, wife of Isaac",
+    "description": "Watered the camels at the well; mother of Jacob and Esau.",
+    "period": "c. 1920 – 1820 BC",
+    "birthplace": "Paddan Aram",
+    "locations": ["Paddan Aram", "Beer-lahai-roi", "Gerar", "Hebron"],
+    "birthYear": -1920,
+    "biography": [
+      "Abraham's servant, sent back to Mesopotamia to find a wife for Isaac, prayed that the right young woman would offer to water his camels. Rebekah came to the well, drew water, and offered without being asked. She agreed to leave home that same day for a man she had never met.",
+      "She bore twins after a long barrenness, but the pregnancy was so hard she asked the Lord directly. The answer was strange: two nations were in her womb, and the older would serve the younger. She favored Jacob, the younger; her husband favored Esau, the elder. The fracture ran through the household for the rest of their lives.",
+      "When Isaac, blind and dying, prepared to bless Esau, Rebekah engineered the substitution that gave the blessing to Jacob — and then sent her favored son into exile to escape Esau's wrath. She does not appear again before her death; she was buried beside Isaac in the cave of Machpelah."
+    ],
+    "references": [
+      { "ref": "Genesis 24", "note": "The servant at the well" },
+      { "ref": "Genesis 25:21–28", "note": "The struggle in the womb" },
+      { "ref": "Genesis 27", "note": "Engineering the stolen blessing" }
+    ],
+    "relationships": [
+      { "characterId": "isaac", "type": "Husband", "description": "The husband she met after a single journey from Paddan Aram." },
+      { "characterId": "jacob", "type": "Son", "description": "Favored younger twin she helped to the blessing." },
+      { "characterId": "abraham", "type": "Father-in-law", "description": "Patriarch whose servant brought her to Canaan." }
     ]
   },
   {
@@ -123,6 +267,80 @@
     ]
   },
   {
+    "id": "leah",
+    "name": "Leah",
+    "fullName": "Leah, first wife of Jacob",
+    "description": "Older daughter of Laban, given to Jacob by deception; ancestress of Judah and the line of David.",
+    "period": "c. 1870 – 1780 BC",
+    "birthplace": "Paddan Aram",
+    "locations": ["Paddan Aram", "Canaan", "Hebron"],
+    "birthYear": -1870,
+    "biography": [
+      "Laban's older daughter, less beautiful than her sister Rachel, was substituted into the wedding tent under cover of dark after Jacob had worked seven years for Rachel. When morning came, Jacob found himself married to Leah and had to serve seven more for the wife he had wanted.",
+      "Scripture pulls back the veil on her inner life through the names of her sons. Reuben — see, a son: now my husband will love me. Simeon — heard: the Lord has heard that I am hated. Levi — joined: now my husband will be joined to me. By Judah — praise — she had stopped naming her children after her unmet longing and turned to God.",
+      "She bore six of Jacob's twelve sons, the daughter Dinah, and the line through Judah that would carry the messianic promise. She was buried beside Jacob in the cave of Machpelah — the only one of Jacob's wives to lie there. Quiet vindication for the wife no one had asked for."
+    ],
+    "references": [
+      { "ref": "Genesis 29:16–35", "note": "The wedding substitution; the naming of her sons" },
+      { "ref": "Genesis 30:14–21", "note": "More sons and a daughter" },
+      { "ref": "Genesis 49:31", "note": "Buried at Machpelah" }
+    ],
+    "relationships": [
+      { "characterId": "jacob", "type": "Husband", "description": "Married to him by Laban's substitution at the wedding feast." },
+      { "characterId": "rachel", "type": "Sister", "description": "Younger sister and rival wife." },
+      { "characterId": "joseph", "type": "Son", "description": "Stepmother to Rachel's beloved son." }
+    ]
+  },
+  {
+    "id": "rachel",
+    "name": "Rachel",
+    "fullName": "Rachel, beloved wife of Jacob",
+    "description": "Beautiful younger daughter of Laban; mother of Joseph and Benjamin; died on the road to Bethlehem.",
+    "period": "c. 1860 – 1790 BC",
+    "birthplace": "Paddan Aram",
+    "locations": ["Paddan Aram", "Canaan", "Bethel", "the road to Bethlehem"],
+    "birthYear": -1860,
+    "biography": [
+      "Jacob met her at the well, watered her father's sheep, kissed her, and wept. He worked seven years for her and reckoned them a few days because of his love. Then Laban gave him Leah instead and made him work seven more.",
+      "She was barren while her sister bore son after son, gave her maid Bilhah to Jacob, and cried out, 'Give me children, or I shall die.' At last she bore Joseph, and the long ache turned to wonder. When she conceived again, the labor was hard. With her last breath she named the child Ben-Oni — son of my sorrow. Jacob renamed him Benjamin — son of the right hand.",
+      "She was buried by the road outside Bethlehem, not at Machpelah. Centuries later Jeremiah would hear Rachel still weeping for her children — and Matthew would hear the echo in the lament of Bethlehem's mothers under Herod."
+    ],
+    "references": [
+      { "ref": "Genesis 29:1–30", "note": "Meeting at the well; the long courtship" },
+      { "ref": "Genesis 35:16–20", "note": "Death on the road to Bethlehem" },
+      { "ref": "Jeremiah 31:15; Matthew 2:18", "note": "Rachel weeping for her children" }
+    ],
+    "relationships": [
+      { "characterId": "jacob", "type": "Husband", "description": "Beloved wife for whom he served fourteen years." },
+      { "characterId": "joseph", "type": "Son", "description": "Long-awaited firstborn who became prince of Egypt." },
+      { "characterId": "leah", "type": "Sister", "description": "Older sister and rival wife." }
+    ]
+  },
+  {
+    "id": "dinah",
+    "name": "Dinah",
+    "fullName": "Dinah, daughter of Jacob and Leah",
+    "description": "Defiled at Shechem; her brothers' revenge stained the family.",
+    "period": "c. 1820 – 1750 BC",
+    "birthplace": "Paddan Aram",
+    "locations": ["Shechem", "Canaan"],
+    "birthYear": -1820,
+    "biography": [
+      "Dinah was the daughter Jacob had with Leah after his six sons. When the family had settled near Shechem, she went out to visit the women of the land. Shechem son of Hamor, the prince of the city, saw her, took her, and humbled her — then asked his father for her in marriage.",
+      "Her brothers Simeon and Levi answered the marriage proposal with deceit. They agreed on the condition that every male of the city be circumcised. On the third day, while the men of Shechem were still in pain, the two brothers entered the city with swords and killed every male.",
+      "Jacob was horrified — and afraid the surrounding nations would now turn on him. The story closes with the brothers' defiant question: 'shall our sister be treated like a prostitute?' Dinah herself does not speak in any of it. Her name is preserved as the daughter no one in the household protected in time."
+    ],
+    "references": [
+      { "ref": "Genesis 34:1–4", "note": "The encounter at Shechem" },
+      { "ref": "Genesis 34:25–31", "note": "The revenge of Simeon and Levi" },
+      { "ref": "Genesis 49:5–7", "note": "Jacob's deathbed rebuke of their violence" }
+    ],
+    "relationships": [
+      { "characterId": "jacob", "type": "Father", "description": "Patriarch whose silence after her defilement she paid for." },
+      { "characterId": "leah", "type": "Mother", "description": "Mother of her six brothers and her." }
+    ]
+  },
+  {
     "id": "joseph",
     "name": "Joseph",
     "fullName": "Joseph, son of Jacob",
@@ -145,6 +363,54 @@
       { "characterId": "jacob", "type": "Father", "description": "Aging father who mourned him as dead for years." },
       { "characterId": "isaac", "type": "Grandfather", "description": "Patriarch through whose line the promise ran." },
       { "characterId": "abraham", "type": "Ancestor", "description": "Great-grandfather in the covenant line." }
+    ]
+  },
+  {
+    "id": "tamar",
+    "name": "Tamar",
+    "fullName": "Tamar, daughter-in-law of Judah",
+    "description": "Twice-widowed Canaanite who secured her place in Judah's line — and in the genealogy of Jesus.",
+    "period": "c. 1730 – 1640 BC",
+    "birthplace": "Canaan",
+    "locations": ["Adullam", "Timnah", "Enaim"],
+    "birthYear": -1730,
+    "biography": [
+      "Tamar was given to Judah's eldest son Er, who was wicked and died. By the levirate law, Judah's second son Onan was to give her a child for his brother's line; he refused and was struck down. Judah promised her his third son Shelah when he came of age but never followed through, leaving her in widowhood in her father's house.",
+      "When Tamar realized Shelah would not be given, she set a trap. She veiled her face and sat where Judah, recently widowed himself, would pass on his way to sheep-shearing. He took her for a prostitute, lay with her, and pledged his signet, cord, and staff as security for a goat he would send later. The pledge was kept.",
+      "Three months later, when she was found to be pregnant, Judah ordered her burned. She sent the signet and cord to him with a quiet message: 'by the man to whom these belong I am with child.' Judah confessed, 'she is more righteous than I.' She bore twins: Perez and Zerah. Matthew's genealogy of Jesus names her, by name, in the line of David."
+    ],
+    "references": [
+      { "ref": "Genesis 38", "note": "The full account of Tamar and Judah" },
+      { "ref": "Ruth 4:12", "note": "Bethlehem blesses Boaz: 'like the house of Perez whom Tamar bore'" },
+      { "ref": "Matthew 1:3", "note": "Named in the genealogy of Jesus" }
+    ],
+    "relationships": [
+      { "characterId": "jacob", "type": "Father-in-law", "description": "Father of Judah, into whose household she married." },
+      { "characterId": "jesus", "type": "Ancestor", "description": "Mother of Perez in the line of David and the Messiah." }
+    ]
+  },
+  {
+    "id": "caleb",
+    "name": "Caleb",
+    "fullName": "Caleb, son of Jephunneh",
+    "description": "Faithful spy alongside Joshua; given Hebron as his inheritance at eighty-five.",
+    "period": "c. 1484 – 1400 BC",
+    "birthplace": "Egypt",
+    "locations": ["Egypt", "Kadesh Barnea", "the wilderness", "Hebron"],
+    "birthYear": -1484,
+    "biography": [
+      "Caleb was one of the twelve spies Moses sent from Kadesh to scout the land of Canaan. Ten came back terrified by the fortified cities and giants; Caleb and Joshua came back believing. 'We are well able to overcome it,' Caleb said in the assembly. The crowd nearly stoned him.",
+      "He was forty years old then. Of his generation, only he and Joshua entered the land — the rest died in the wilderness over the forty years that followed. At eighty-five he came to Joshua and asked for the hill country he had walked four decades earlier: 'give me this mountain.'",
+      "He took Hebron from the Anakim, the giants the spies had feared, and offered his daughter Achsah in marriage to whoever captured nearby Kiriath-sepher. Othniel did, married her, and became a judge. Caleb stands in scripture as the man whose courage at one assembly outlasted his whole generation."
+    ],
+    "references": [
+      { "ref": "Numbers 13–14", "note": "The report of the spies" },
+      { "ref": "Joshua 14:6–15", "note": "Give me this mountain" },
+      { "ref": "Judges 1:12–15", "note": "Caleb's daughter Achsah and Othniel" }
+    ],
+    "relationships": [
+      { "characterId": "moses", "type": "Mentor", "description": "Sent him as one of the twelve spies into Canaan." },
+      { "characterId": "joshua", "type": "Ally", "description": "The other faithful spy; together they outlasted their generation." }
     ]
   },
   {
@@ -173,6 +439,54 @@
     ]
   },
   {
+    "id": "miriam",
+    "name": "Miriam",
+    "fullName": "Miriam, prophetess and sister of Moses",
+    "description": "Watched her brother on the Nile; led Israel's women in song at the sea.",
+    "period": "c. 1410 – 1273 BC",
+    "birthplace": "Egypt",
+    "locations": ["Egypt", "the Red Sea", "the wilderness", "Hazeroth", "Kadesh"],
+    "birthYear": -1410,
+    "biography": [
+      "Miriam was the older sister of Moses and Aaron, born in slavery in Egypt. As a girl she stood at a distance among the reeds of the Nile, watching the basket that held her infant brother, and at the right moment offered Pharaoh's daughter a Hebrew nurse — her own mother. The escape of Moses was her first quiet act of courage.",
+      "Decades later she stood on the far side of the Red Sea with a tambourine, leading the women of Israel in answer to Moses's song: 'sing to the Lord, for he has triumphed gloriously.' Exodus calls her a prophetess; her song is one of the oldest fragments of Hebrew poetry preserved in scripture.",
+      "She and Aaron later spoke against Moses over his Cushite wife and over their own equal claim to prophetic authority. She was struck with leprosy for it and Moses interceded; she was healed after seven days outside the camp. She died at Kadesh and was buried there — the wilderness generation's first leader to be lost before the land."
+    ],
+    "references": [
+      { "ref": "Exodus 2:1–10", "note": "Watching the basket in the reeds" },
+      { "ref": "Exodus 15:20–21", "note": "The Song of Miriam at the sea" },
+      { "ref": "Numbers 12", "note": "Speaking against Moses; leprosy and healing" }
+    ],
+    "relationships": [
+      { "characterId": "moses", "type": "Brother", "description": "Younger brother whose infancy she safeguarded by the Nile." },
+      { "characterId": "aaron", "type": "Brother", "description": "Co-leader of Israel through the wilderness." }
+    ]
+  },
+  {
+    "id": "aaron",
+    "name": "Aaron",
+    "fullName": "Aaron, brother of Moses and first high priest",
+    "description": "Spokesman before Pharaoh; first high priest of Israel; maker of the golden calf.",
+    "period": "c. 1394 – 1271 BC",
+    "birthplace": "Egypt",
+    "locations": ["Egypt", "Mount Sinai", "the wilderness", "Mount Hor"],
+    "birthYear": -1394,
+    "biography": [
+      "Three years older than Moses, Aaron was sent to meet his brother at the mountain of God after the burning bush. He became Moses's spokesman before Pharaoh, throwing down the staff that became a serpent and stretching out his hand for the plagues. At Rephidim he held up Moses's arms with Hur as Israel fought the Amalekites below.",
+      "While Moses received the Law on Sinai, Aaron yielded to the people's demand for a god they could see. He took their gold and fashioned the calf — and tried to recover when Moses came down, calling it a feast to the Lord. The breach cost three thousand lives and his lasting reputation, though Moses interceded for him.",
+      "He was nevertheless consecrated as the first high priest, his sons after him, and the priesthood given to his line. His staff budded as a sign that God had chosen him. He died on Mount Hor at a hundred and twenty-three; Eleazar his son was vested with his garments before the people. He had borne the names of the twelve tribes over his heart in the breastplate of judgment."
+    ],
+    "references": [
+      { "ref": "Exodus 7", "note": "Spokesman and worker of signs before Pharaoh" },
+      { "ref": "Exodus 32", "note": "The golden calf" },
+      { "ref": "Numbers 20:22–29", "note": "Death on Mount Hor" }
+    ],
+    "relationships": [
+      { "characterId": "moses", "type": "Brother", "description": "Younger brother whose voice he became before Pharaoh." },
+      { "characterId": "miriam", "type": "Sister", "description": "Older sister who led the women of Israel in song." }
+    ]
+  },
+  {
     "id": "moses",
     "name": "Moses",
     "fullName": "Moses",
@@ -195,6 +509,30 @@
       { "characterId": "joshua", "type": "Disciple", "description": "Trained as successor through forty years of wilderness." },
       { "characterId": "abraham", "type": "Ancestor", "description": "Sent to lead the children of Abraham out of Egypt." },
       { "characterId": "jesus", "type": "Successor", "description": "The new Moses who fulfills the Law and frees a greater Israel." }
+    ]
+  },
+  {
+    "id": "zipporah",
+    "name": "Zipporah",
+    "fullName": "Zipporah, daughter of Jethro and wife of Moses",
+    "description": "Midianite shepherdess who circumcised her son to save Moses on the road back to Egypt.",
+    "period": "c. 1380 – 1290 BC",
+    "birthplace": "Midian",
+    "locations": ["Midian", "the wilderness", "Rephidim"],
+    "birthYear": -1380,
+    "biography": [
+      "She was one of seven daughters of the Midianite priest Jethro (Reuel). When shepherds drove her and her sisters away from the well, Moses defended them. Their father invited him in; soon Zipporah was given to him, and she bore Gershom and Eliezer in the long Midianite years before the burning bush.",
+      "On the road back to Egypt the Lord met Moses and sought to kill him, and Zipporah understood why. She took a flint, circumcised her son, and touched Moses's feet with the foreskin, saying 'a bridegroom of blood you are to me.' The cryptic episode preserves her as the one who acted when Moses had failed to.",
+      "Jethro brought her and the boys back to Moses at Rephidim after the Exodus. She appears only briefly after that — and Numbers records that Moses had also married a Cushite woman, the occasion of Miriam's later complaint. Zipporah's small place in scripture holds a startling sentence and a startling act, and not much else."
+    ],
+    "references": [
+      { "ref": "Exodus 2:16–22", "note": "At the well in Midian" },
+      { "ref": "Exodus 4:24–26", "note": "The bridegroom of blood" },
+      { "ref": "Exodus 18:1–6", "note": "Returned to Moses at Rephidim by Jethro" }
+    ],
+    "relationships": [
+      { "characterId": "moses", "type": "Husband", "description": "Met him at the well in Midian; bore Gershom and Eliezer." },
+      { "characterId": "miriam", "type": "Sister-in-law", "description": "Sister of Moses who later spoke against his foreign wife." }
     ]
   },
   {
@@ -223,6 +561,27 @@
     ]
   },
   {
+    "id": "gideon",
+    "name": "Gideon",
+    "fullName": "Gideon (Jerubbaal), son of Joash",
+    "description": "Reluctant judge who defeated Midian with three hundred men and torches.",
+    "period": "c. 1190 – 1130 BC",
+    "birthplace": "Ophrah, in the tribe of Manasseh",
+    "locations": ["Ophrah", "the Valley of Jezreel", "the spring of Harod"],
+    "birthYear": -1190,
+    "biography": [
+      "The angel of the Lord found Gideon threshing wheat in a winepress, hiding from the Midianite raiders who had stripped Israel for seven years. He was the least man in the least clan of the smallest tribe. The angel called him a mighty man of valor and told him to deliver Israel.",
+      "He asked twice for a sign with a fleece — wet then dry, dry then wet — and got both. He gathered an army of thirty-two thousand. God whittled it to ten thousand, then to three hundred. The three hundred surrounded the Midianite camp at midnight with trumpets, torches, and jars and broke them at once. Midian fled in panic and devoured itself.",
+      "He refused the people's offer of kingship — 'the Lord shall rule over you' — but accepted gold from the spoils and made an ephod that became a snare in Ophrah. Israel had peace forty years under him. After his death they turned again to Baal. His fifth son Abimelech later seized power and killed his brothers, a brief and bloody postscript."
+    ],
+    "references": [
+      { "ref": "Judges 6", "note": "The call by the winepress and the fleece" },
+      { "ref": "Judges 7", "note": "Three hundred against Midian" },
+      { "ref": "Hebrews 11:32", "note": "Listed among the faithful" }
+    ],
+    "relationships": []
+  },
+  {
     "id": "deborah",
     "name": "Deborah",
     "fullName": "Deborah, prophetess and judge",
@@ -243,6 +602,30 @@
     ],
     "relationships": [
       { "characterId": "samuel", "type": "Successor", "description": "Last great judge before the era that gave way to Samuel." }
+    ]
+  },
+  {
+    "id": "eli",
+    "name": "Eli",
+    "fullName": "Eli the priest of Shiloh",
+    "description": "High priest at Shiloh; raised Samuel; died on the day the ark was lost.",
+    "period": "c. 1140 – 1050 BC",
+    "birthplace": "Israel",
+    "locations": ["Shiloh", "the road to Aphek"],
+    "birthYear": -1140,
+    "biography": [
+      "Eli judged Israel from the sanctuary at Shiloh for forty years. When Hannah came year after year praying for a son, he mistook her silent intercession for drunkenness — then blessed her vow and saw her son Samuel grow up in his own household.",
+      "His sons Hophni and Phinehas were corrupt priests who scorned the offerings and slept with the women who served at the tent. Eli rebuked them weakly but did not restrain them. A man of God came and announced that judgment was set against his house — confirmed by the boy Samuel, who reluctantly told his old mentor what the Lord had said in the night.",
+      "When the Philistines defeated Israel and captured the ark, a runner came to Eli at the gate. Hophni and Phinehas were dead; the ark was taken; Israel was scattered. Eli — old, ninety-eight, blind, heavy — fell backward from his seat and broke his neck. Phinehas's wife went into labor at the news and named her son Ichabod: the glory is departed."
+    ],
+    "references": [
+      { "ref": "1 Samuel 1", "note": "Eli, Hannah, and the boy Samuel" },
+      { "ref": "1 Samuel 2:12–36", "note": "His corrupt sons and the prophecy against his house" },
+      { "ref": "1 Samuel 4:12–18", "note": "Death at the gate of Shiloh" }
+    ],
+    "relationships": [
+      { "characterId": "samuel", "type": "Disciple", "description": "The boy who grew up in his household and heard the Lord by night." },
+      { "characterId": "hannah", "type": "Companion", "description": "Blessed her vow and oversaw the boy she gave to the Lord." }
     ]
   },
   {
@@ -294,6 +677,27 @@
       { "characterId": "david", "type": "Descendant", "description": "Great-grandmother of King David through Boaz." },
       { "characterId": "jesus", "type": "Descendant", "description": "In the messianic line through David." }
     ]
+  },
+  {
+    "id": "jephthah",
+    "name": "Jephthah",
+    "fullName": "Jephthah the Gileadite",
+    "description": "Outcast judge whose victory over Ammon cost him his only daughter.",
+    "period": "c. 1110 – 1050 BC",
+    "birthplace": "Gilead",
+    "locations": ["Gilead", "the land of Tob", "Mizpah of Gilead", "the Jordan fords"],
+    "birthYear": -1110,
+    "biography": [
+      "Jephthah was the son of Gilead by a harlot. His half-brothers drove him out of the family inheritance and he gathered worthless men around him in the land of Tob, becoming a brigand chief. When the Ammonites pressed Israel hard, the elders of Gilead came humbly back and asked him to lead.",
+      "He bargained for leadership, sent diplomats to argue Israel's case from history, and went to war. On the way he made a rash vow: whatever came out of his house first to meet him on his return would be the Lord's. His only daughter — an only child — came out with timbrels and dances. She accepted the vow, asked two months in the hills to bewail her virginity, and returned. The text leaves what happened next unspecified and grim.",
+      "He fought a civil war against Ephraim immediately after, when they came complaining they had not been invited to the battle. He distinguished friend from foe at the Jordan fords by their inability to say 'Shibboleth' — and forty-two thousand Ephraimites died. He judged Israel six years and died. The New Testament names him among the heroes of faith."
+    ],
+    "references": [
+      { "ref": "Judges 11", "note": "The vow and the daughter" },
+      { "ref": "Judges 12:1–7", "note": "Shibboleth at the Jordan fords" },
+      { "ref": "Hebrews 11:32", "note": "Listed among the faithful" }
+    ],
+    "relationships": []
   },
   {
     "id": "samson",
@@ -393,6 +797,30 @@
     ]
   },
   {
+    "id": "jonathan",
+    "name": "Jonathan",
+    "fullName": "Jonathan, son of Saul",
+    "description": "Crown prince of Israel whose love for David outweighed his own claim to the throne.",
+    "period": "c. 1060 – 1010 BC",
+    "birthplace": "Gibeah of Benjamin",
+    "locations": ["Gibeah", "Michmash", "Mount Gilboa"],
+    "birthYear": -1060,
+    "biography": [
+      "Jonathan was Saul's eldest son and heir apparent. He climbed up to the Philistine garrison at Michmash with only his armor-bearer and routed them, saying, 'nothing can hinder the Lord from saving by many or by few.' His father nearly executed him for tasting honey under a foolish oath; the army rescued him.",
+      "When David came to court after killing Goliath, Jonathan's soul was knit to his and he loved him as his own life. He gave David his robe, his armor, his bow, his belt — and entered into a covenant of friendship the rest of the narrative would test to its limits. Three times he intervened with his father to save David's life.",
+      "He never lifted a hand against David, even knowing that David would have his throne. Their last meeting was a tearful one in a field; they kissed and parted. He died alongside his father and two brothers on Mount Gilboa, fighting the Philistines. David's lament — 'how the mighty have fallen' — is the keenest grief preserved in the books of Samuel: 'your love to me was wonderful, surpassing the love of women.'"
+    ],
+    "references": [
+      { "ref": "1 Samuel 14", "note": "The climb at Michmash" },
+      { "ref": "1 Samuel 18:1–4", "note": "The covenant of friendship with David" },
+      { "ref": "2 Samuel 1:17–27", "note": "David's lament" }
+    ],
+    "relationships": [
+      { "characterId": "saul", "type": "Father", "description": "King of Israel whose oath he survived once and whose throne he never took." },
+      { "characterId": "david", "type": "Friend", "description": "Loved him as his own life and yielded his royal claim to him." }
+    ]
+  },
+  {
     "id": "david",
     "name": "David",
     "fullName": "David, son of Jesse",
@@ -448,6 +876,30 @@
     ]
   },
   {
+    "id": "absalom",
+    "name": "Absalom",
+    "fullName": "Absalom, son of David",
+    "description": "Beautiful prince whose long-nursed grievance grew into civil war.",
+    "period": "c. 1000 – 975 BC",
+    "birthplace": "Hebron",
+    "locations": ["Hebron", "Jerusalem", "Geshur", "the forest of Ephraim"],
+    "birthYear": -1000,
+    "biography": [
+      "Absalom was David's third son, his mother Maacah the daughter of the king of Geshur. When his half-brother Amnon raped his full sister Tamar, David did nothing. Absalom kept silence two years, then invited Amnon to a sheep-shearing feast and had him killed. He fled to Geshur and was in exile three years.",
+      "Joab engineered his return; he stood at the gate of Jerusalem stealing the hearts of Israel, day after day, with promises of justice no one had given him. After four years he raised the banner of revolt at Hebron. David fled the city barefoot up the Mount of Olives. Hushai gave Absalom the slow counsel that ruined him; Ahithophel, whose fast counsel had been ignored, went home and hanged himself.",
+      "The battle was joined in the forest of Ephraim. Absalom's long hair caught in an oak tree as his mule ran out from under him. Joab found him hanging and killed him against David's orders. The king's cry — 'O my son Absalom, my son, my son Absalom! Would I had died instead of you' — is preserved as the deepest grief in the books of Samuel."
+    ],
+    "references": [
+      { "ref": "2 Samuel 13", "note": "Tamar and the killing of Amnon" },
+      { "ref": "2 Samuel 15", "note": "The revolt at Hebron" },
+      { "ref": "2 Samuel 18:9–33", "note": "Death in the oak; David's lament" }
+    ],
+    "relationships": [
+      { "characterId": "david", "type": "Father", "description": "The king he tried to overthrow and whom he died estranged from." },
+      { "characterId": "bathsheba", "type": "Stepmother", "description": "Wife of his father; mother of his rival Solomon." }
+    ]
+  },
+  {
     "id": "solomon",
     "name": "Solomon",
     "fullName": "Solomon, son of David",
@@ -470,6 +922,54 @@
       { "characterId": "david", "type": "Father", "description": "The king whose throne he inherited." },
       { "characterId": "bathsheba", "type": "Mother", "description": "Queen mother who secured his accession." },
       { "characterId": "jesus", "type": "Descendant", "description": "In the Davidic line through which the Messiah came." }
+    ]
+  },
+  {
+    "id": "ahab",
+    "name": "Ahab",
+    "fullName": "Ahab, king of Israel",
+    "description": "Northern king who married Jezebel and led Israel into the worship of Baal.",
+    "period": "c. 900 – 853 BC",
+    "birthplace": "Samaria",
+    "locations": ["Samaria", "Jezreel", "Mount Carmel", "Ramoth-gilead"],
+    "birthYear": -900,
+    "biography": [
+      "Ahab inherited the northern throne from his father Omri and married Jezebel, daughter of Ethbaal king of Sidon. With her came the prophets of Baal and Asherah, an ivory palace at Samaria, and an aggressive program of replacing the worship of the Lord with a state-sponsored Tyrian cult. The text says no king before him provoked the Lord more.",
+      "He was Elijah's adversary across the drought, the contest on Carmel, and the murder of Naboth. He coveted Naboth's vineyard; Jezebel arranged false witnesses; Naboth was stoned and the vineyard taken. Elijah found him there: in the place of the blood of Naboth shall dogs lick your own blood. Ahab tore his clothes; the judgment was deferred to his son.",
+      "He died at Ramoth-gilead, hit by a stray arrow between the scales of his armor while disguised in battle. His chariot was washed in the pool of Samaria and the dogs licked his blood. The dynasty he had stabilized for his father lasted barely two more reigns before Jehu's revolt wiped it out."
+    ],
+    "references": [
+      { "ref": "1 Kings 16:29–34", "note": "His marriage to Jezebel and turn to Baal" },
+      { "ref": "1 Kings 21", "note": "Naboth's vineyard" },
+      { "ref": "1 Kings 22:29–40", "note": "Death at Ramoth-gilead" }
+    ],
+    "relationships": [
+      { "characterId": "jezebel", "type": "Wife", "description": "The Phoenician queen who shaped his reign." },
+      { "characterId": "elijah", "type": "Rival", "description": "The prophet who dogged him from drought to deathbed." }
+    ]
+  },
+  {
+    "id": "jezebel",
+    "name": "Jezebel",
+    "fullName": "Jezebel, daughter of Ethbaal",
+    "description": "Phoenician queen who killed the prophets of the Lord and was thrown from a window.",
+    "period": "c. 895 – 841 BC",
+    "birthplace": "Sidon",
+    "locations": ["Sidon", "Samaria", "Jezreel"],
+    "birthYear": -895,
+    "biography": [
+      "Jezebel was the daughter of Ethbaal, king of the Sidonians, and brought her father's gods with her into Israel's court. She supported four hundred and fifty prophets of Baal and four hundred prophets of Asherah at the royal table, and she killed the prophets of the Lord wherever she could find them. Obadiah hid a hundred of them in two caves.",
+      "When Naboth refused to sell Ahab the family vineyard, it was Jezebel who took the matter in hand. She wrote letters in the king's name, set up false witnesses, and had Naboth executed. Elijah pronounced her doom: dogs would eat her by the wall of Jezreel.",
+      "Years later Jehu came up to Jezreel in his chariot. Jezebel painted her eyes, dressed her hair, and looked down from a window. 'Is it peace, you Zimri, murderer of your master?' she asked. Jehu shouted up to her eunuchs and they threw her down. The horses trampled her; the dogs ate her body. Only her skull, feet, and the palms of her hands were left for burial."
+    ],
+    "references": [
+      { "ref": "1 Kings 18:13", "note": "Killing the prophets of the Lord" },
+      { "ref": "1 Kings 21", "note": "Naboth's vineyard" },
+      { "ref": "2 Kings 9:30–37", "note": "Death at Jezreel" }
+    ],
+    "relationships": [
+      { "characterId": "ahab", "type": "Husband", "description": "King of Israel whose reign she shaped." },
+      { "characterId": "elijah", "type": "Rival", "description": "Prophet she could not kill and could not silence." }
     ]
   },
   {
@@ -520,6 +1020,29 @@
     ]
   },
   {
+    "id": "joel",
+    "name": "Joel",
+    "fullName": "Joel, son of Pethuel",
+    "description": "Prophet of locust plague and the outpouring of the Spirit on all flesh.",
+    "period": "uncertain (likely 9th or 5th century BC)",
+    "birthplace": "Judah",
+    "locations": ["Jerusalem"],
+    "birthYear": -835,
+    "biography": [
+      "A locust plague had stripped the land bare, swarm after swarm devouring what the previous had spared. Joel took it as a sign — and as a parable. The day of the Lord, he said, was near, a day of darkness and gloom, like that ruined harvest writ across the whole world.",
+      "He called Judah to a great fast, a sacred assembly between the porch and the altar, priests and people weeping together. Rend your hearts and not your garments; return to the Lord your God, for he is gracious and merciful, slow to anger.",
+      "Out of that summons came the line that Peter would quote on the day of Pentecost: 'I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy.' What Joel announced to a small province after a season of locusts the church would hear as the founding text of a new community."
+    ],
+    "references": [
+      { "ref": "Joel 2:12–13", "note": "Rend your hearts" },
+      { "ref": "Joel 2:28–32", "note": "I will pour out my Spirit" },
+      { "ref": "Acts 2:14–21", "note": "Quoted at Pentecost" }
+    ],
+    "relationships": [
+      { "characterId": "peter", "type": "Successor", "description": "Quoted his prophecy at Pentecost as fulfilled." }
+    ]
+  },
+  {
     "id": "jonah",
     "name": "Jonah",
     "fullName": "Jonah, son of Amittai",
@@ -540,6 +1063,52 @@
     ],
     "relationships": [
       { "characterId": "jesus", "type": "Successor", "description": "His three days in the great fish was a sign of the resurrection." }
+    ]
+  },
+  {
+    "id": "amos",
+    "name": "Amos",
+    "fullName": "Amos of Tekoa",
+    "description": "Shepherd-prophet of the southern hill country sent north to denounce the wealthy.",
+    "period": "8th century BC (active c. 760–750 BC)",
+    "birthplace": "Tekoa, in Judah",
+    "locations": ["Tekoa", "Bethel", "Samaria"],
+    "birthYear": -790,
+    "biography": [
+      "Amos was a shepherd and dresser of sycamore figs from Tekoa, ten miles south of Jerusalem. The Lord sent him north into the prosperous kingdom of Israel during the reign of Jeroboam II, when the rich slept on ivory beds and trampled the poor for a pair of sandals.",
+      "He opened with judgments on the surrounding nations — Damascus, Gaza, Tyre, Edom, Ammon, Moab — and then, when his hearers were nodding along, turned and announced judgment on Israel itself. Five visions of judgment followed: locusts, fire, a plumb line, a basket of summer fruit, the Lord by the altar.",
+      "Amaziah, priest of Bethel, ordered him back to Judah to prophesy there for his bread. Amos answered that he was no professional prophet, no prophet's son, just a herdsman summoned by the Lord. Then he delivered the most famous line of his book: 'let justice roll down like waters and righteousness like an ever-flowing stream.'"
+    ],
+    "references": [
+      { "ref": "Amos 5:24", "note": "Let justice roll down like waters" },
+      { "ref": "Amos 7:10–17", "note": "Amaziah at Bethel" },
+      { "ref": "Amos 9:11–15", "note": "I will raise up the booth of David" }
+    ],
+    "relationships": [
+      { "characterId": "hosea", "type": "Companion", "description": "Contemporary prophet to the northern kingdom." }
+    ]
+  },
+  {
+    "id": "hosea",
+    "name": "Hosea",
+    "fullName": "Hosea, son of Beeri",
+    "description": "Prophet commanded to marry an unfaithful wife as a sign of God's love for Israel.",
+    "period": "8th century BC (active c. 755–725 BC)",
+    "birthplace": "the northern kingdom of Israel",
+    "locations": ["Samaria", "Jezreel"],
+    "birthYear": -785,
+    "biography": [
+      "Take to yourself a wife of whoredom and have children of whoredom, the Lord said — 'for the land commits great whoredom by forsaking the Lord.' Hosea married Gomer. She bore three children whose names were prophetic acts: Jezreel ('God scatters'), Lo-ruhamah ('not pitied'), Lo-ammi ('not my people').",
+      "Gomer left him. Hosea bought her back from a slave block for fifteen shekels and a homer of barley — about half the price of a slave. The personal anguish became the prophet's most piercing image. 'How can I give you up, O Ephraim?' the Lord cries. 'My heart recoils within me; my compassion grows warm and tender.'",
+      "He prophesied through the long decline of the northern kingdom, before its fall to Assyria in 722 BC. His oracles thread judgment with the most tender lines in the prophetic books: 'I will heal their apostasy; I will love them freely.' Matthew would later read Hosea's line about a son called out of Egypt as a prophecy of Christ."
+    ],
+    "references": [
+      { "ref": "Hosea 1", "note": "Marriage to Gomer and the naming of the children" },
+      { "ref": "Hosea 3:1–3", "note": "Buying her back" },
+      { "ref": "Hosea 11:1; Matthew 2:15", "note": "Out of Egypt I called my son" }
+    ],
+    "relationships": [
+      { "characterId": "amos", "type": "Companion", "description": "Contemporary prophet to the northern kingdom." }
     ]
   },
   {
@@ -566,6 +1135,75 @@
     ]
   },
   {
+    "id": "micah",
+    "name": "Micah",
+    "fullName": "Micah of Moresheth",
+    "description": "Country prophet whose three short lines still summarize the prophets: justice, mercy, humility.",
+    "period": "8th century BC (active c. 735–700 BC)",
+    "birthplace": "Moresheth-gath, in Judah",
+    "locations": ["Moresheth-gath", "Jerusalem"],
+    "birthYear": -750,
+    "biography": [
+      "Micah came from a small town in the Judean foothills, a few miles southwest of Jerusalem. He prophesied in the days of Jotham, Ahaz, and Hezekiah — through the Assyrian destruction of the northern kingdom — and his oracles cut against the urban elite of both capitals, Samaria and Jerusalem.",
+      "He saw the rulers and prophets selling their work for money, taking bribes, and announcing peace where there was none. He answered with judgment, and with a quiet vision of a coming ruler from Bethlehem Ephrathah, 'whose coming forth is from of old, from ancient days.' Matthew would name the line as Herod's chief priests cited it: this is where the Messiah is to be born.",
+      "The most quoted line from Micah is also one of the simplest in the Hebrew Bible: 'he has shown you, O man, what is good; and what does the Lord require of you but to do justice, and to love mercy, and to walk humbly with your God.' Three verbs that have stood as a summary of prophetic religion ever since."
+    ],
+    "references": [
+      { "ref": "Micah 5:2", "note": "Bethlehem Ephrathah" },
+      { "ref": "Micah 6:8", "note": "Do justice, love mercy, walk humbly" },
+      { "ref": "Matthew 2:6", "note": "Quoted to Herod by the chief priests" }
+    ],
+    "relationships": [
+      { "characterId": "isaiah", "type": "Companion", "description": "Older contemporary in Jerusalem during the Assyrian crisis." }
+    ]
+  },
+  {
+    "id": "nahum",
+    "name": "Nahum",
+    "fullName": "Nahum of Elkosh",
+    "description": "Prophet of Nineveh's coming downfall a century after Jonah.",
+    "period": "7th century BC (active c. 650–620 BC)",
+    "birthplace": "Elkosh",
+    "locations": ["Judah"],
+    "birthYear": -665,
+    "biography": [
+      "A century after Jonah preached repentance to Nineveh and saw it spared, Nahum prophesied to the same city: it was time. Assyria had returned to its old cruelty, deporting and impaling its neighbors and stamping its boot on the small kingdoms of the Levant.",
+      "Nahum's book is a sustained, pitiless poem about Nineveh's fall, full of the noise of cracking whips and rumbling chariot wheels. He calls the city a bloody city, full of lies and plunder. 'The Lord is a jealous and avenging God,' he opens — 'slow to anger and great in power, but the Lord will by no means clear the guilty.'",
+      "Nineveh fell in 612 BC to a coalition of Medes and Babylonians. The city was so thoroughly destroyed that the Greek historians a few centuries later thought the story of its existence was a fable. Nahum's poem became scripture's answer to the question of how long the patience of God lasts toward a particular kind of cruelty."
+    ],
+    "references": [
+      { "ref": "Nahum 1:2–8", "note": "The Lord is slow to anger and great in power" },
+      { "ref": "Nahum 1:15", "note": "Behold, on the mountains, the feet of him who brings good tidings" },
+      { "ref": "Nahum 3", "note": "Woe to the bloody city" }
+    ],
+    "relationships": [
+      { "characterId": "jonah", "type": "Predecessor", "description": "The earlier prophet to Nineveh whose call to repent the city had since forgotten." }
+    ]
+  },
+  {
+    "id": "zephaniah",
+    "name": "Zephaniah",
+    "fullName": "Zephaniah, son of Cushi",
+    "description": "Royal-descent prophet who announced a day of the Lord against Judah and its neighbors.",
+    "period": "7th century BC (active c. 640–620 BC)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem"],
+    "birthYear": -640,
+    "biography": [
+      "Zephaniah's opening line names four generations of ancestors back to Hezekiah, suggesting royal blood. He prophesied in the early days of King Josiah, before the reforms of 622 BC, when the high places were still standing and the people swore by both the Lord and Milcom.",
+      "His book is short and dark: a sweeping announcement of the day of the Lord against Judah and the surrounding nations. 'The great day of the Lord is near,' he begins. The Dies Irae of medieval Latin poetry took its opening line from his.",
+      "He closes, however, with the most surprising line in any minor prophet: 'the Lord your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing.' A small ember left in the ashes — a God who sings."
+    ],
+    "references": [
+      { "ref": "Zephaniah 1:14–18", "note": "The great day of the Lord" },
+      { "ref": "Zephaniah 2:3", "note": "Seek the Lord, all you humble of the land" },
+      { "ref": "Zephaniah 3:17", "note": "He will exult over you with loud singing" }
+    ],
+    "relationships": [
+      { "characterId": "jeremiah", "type": "Companion", "description": "Contemporary prophet in Jerusalem under King Josiah." }
+    ]
+  },
+  {
     "id": "jeremiah",
     "name": "Jeremiah",
     "fullName": "Jeremiah, son of Hilkiah",
@@ -589,6 +1227,53 @@
     ]
   },
   {
+    "id": "habakkuk",
+    "name": "Habakkuk",
+    "fullName": "Habakkuk the prophet",
+    "description": "Prophet whose questions to God produced the line Paul made central to the gospel.",
+    "period": "c. 7th century BC (active c. 605 BC)",
+    "birthplace": "Judah",
+    "locations": ["Jerusalem"],
+    "birthYear": -630,
+    "biography": [
+      "Habakkuk's book is unique among the prophets: it consists almost entirely of his dialogue with God. He opens with a complaint: how long, O Lord, shall I cry for help and you will not hear? Violence is everywhere; the law is paralyzed; justice never goes forth.",
+      "God answers: I am raising up the Chaldeans, a bitter and hasty nation. Habakkuk's second question is sharper than his first: how can a holy God use a nation more wicked than the one being judged? God replies that the proud will not survive — 'but the righteous shall live by his faith.' Paul would build the doctrine of justification on that line; Luther would call it the door of paradise.",
+      "Habakkuk closes with a hymn: 'though the fig tree should not blossom, nor fruit be on the vines, the produce of the olive fail and the fields yield no food... yet I will rejoice in the Lord; I will take joy in the God of my salvation.' One of the most defiant statements of faith in scripture."
+    ],
+    "references": [
+      { "ref": "Habakkuk 1", "note": "The complaint" },
+      { "ref": "Habakkuk 2:4", "note": "The righteous shall live by his faith" },
+      { "ref": "Habakkuk 3:17–19", "note": "Though the fig tree should not blossom" }
+    ],
+    "relationships": [
+      { "characterId": "jeremiah", "type": "Companion", "description": "Contemporary prophet through the Babylonian crisis." }
+    ]
+  },
+  {
+    "id": "ezekiel",
+    "name": "Ezekiel",
+    "fullName": "Ezekiel, son of Buzi",
+    "description": "Priest deported to Babylon; saw the throne of God on a chariot and the valley of dry bones.",
+    "period": "c. 622 – 570 BC",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "Tel Abib", "the Chebar canal in Babylonia"],
+    "birthYear": -622,
+    "biography": [
+      "Ezekiel was a priest taken to Babylon in the second deportation of 597 BC, along with King Jehoiachin and the upper class of Jerusalem. By the Chebar canal in Babylonia, in his thirtieth year, the heavens opened and he saw the most astonishing vision in scripture: four living creatures, wheels within wheels, and above them a sapphire throne with the likeness of a man on it.",
+      "He spoke and acted his prophecies in vivid sign — lying on his side for three hundred and ninety days, baking bread over dung, shaving his head with a sword. When his wife died on the day Jerusalem fell, he was forbidden to mourn her, his silent grief itself a prophetic sign to the exiles.",
+      "His later visions turn from judgment to restoration: a valley of dry bones standing up at the word of the Lord; a great new temple sketched in detail; a river flowing east from its threshold healing the Dead Sea. The book closes with a name for the renewed city: 'the Lord is there.' He prophesied for twenty-two years in exile and ended his ministry around 570 BC."
+    ],
+    "references": [
+      { "ref": "Ezekiel 1", "note": "The vision of the throne-chariot" },
+      { "ref": "Ezekiel 37", "note": "The valley of dry bones" },
+      { "ref": "Ezekiel 47:1–12", "note": "The river from the temple" }
+    ],
+    "relationships": [
+      { "characterId": "jeremiah", "type": "Companion", "description": "Older prophet still in Jerusalem when Ezekiel was deported." },
+      { "characterId": "daniel", "type": "Companion", "description": "Fellow exile of the same generation; Ezekiel names him three times." }
+    ]
+  },
+  {
     "id": "daniel",
     "name": "Daniel",
     "fullName": "Daniel of Judah",
@@ -609,6 +1294,147 @@
     ],
     "relationships": [
       { "characterId": "jesus", "type": "Successor", "description": "Saw 'one like a Son of Man' coming on the clouds of heaven." }
+    ]
+  },
+  {
+    "id": "cyrus",
+    "name": "Cyrus",
+    "fullName": "Cyrus II the Great, king of Persia",
+    "description": "Persian king who conquered Babylon and decreed the return of the Jewish exiles.",
+    "period": "c. 590 – 530 BC",
+    "birthplace": "Anshan, Persia",
+    "locations": ["Anshan", "Pasargadae", "Babylon", "Ecbatana"],
+    "birthYear": -590,
+    "biography": [
+      "Cyrus founded the Achaemenid Empire by uniting the Medes and Persians, then sweeping westward to absorb Lydia and Babylonia. He took Babylon in 539 BC almost without battle, the priests of Marduk opening the gates as he came in by night through the dry channel of the Euphrates.",
+      "His policy toward conquered peoples was distinctive in the ancient world: he allowed exiled populations to return home and rebuild their temples. The decree of 538 BC, preserved in Ezra and in a parallel Akkadian text on the Cyrus Cylinder, authorized the Jews to return to Jerusalem and rebuild the temple, with imperial funding.",
+      "Isaiah, prophesying a hundred and fifty years earlier, had named him: 'Cyrus, my anointed, whose right hand I have grasped, to subdue nations before him.' The Hebrew Bible accordingly calls him 'God's anointed' — the only Gentile king to receive that title — and ends the books of Chronicles with the words of his decree."
+    ],
+    "references": [
+      { "ref": "Isaiah 44:28–45:1", "note": "Cyrus, my anointed" },
+      { "ref": "Ezra 1:1–4", "note": "The decree of return" },
+      { "ref": "2 Chronicles 36:22–23", "note": "Closing words of the Hebrew Bible" }
+    ],
+    "relationships": [
+      { "characterId": "isaiah", "type": "Successor", "description": "Named by name in the prophet's oracle a century and a half before his birth." },
+      { "characterId": "daniel", "type": "Companion", "description": "Daniel prospered in his reign in Babylon." },
+      { "characterId": "ezra", "type": "Predecessor", "description": "His decree began the return that Ezra completed." }
+    ]
+  },
+  {
+    "id": "obadiah",
+    "name": "Obadiah",
+    "fullName": "Obadiah the prophet",
+    "description": "Author of the shortest book in the Hebrew Bible — a vision against Edom.",
+    "period": "uncertain (likely c. 585 BC, after the fall of Jerusalem)",
+    "birthplace": "Judah",
+    "locations": ["Judah"],
+    "birthYear": -585,
+    "biography": [
+      "Obadiah's book is one chapter — twenty-one verses — the shortest in the Hebrew Bible. It is addressed to Edom, the descendants of Esau, who had stood by as Babylon sacked Jerusalem and helped cut off the survivors. The vision is white-hot.",
+      "Though you soar aloft like the eagle, though your nest is set among the stars, from there I will bring you down. Edom had felt invulnerable in its high rock fortresses of Petra and Bozrah; Obadiah announced their fall. By the time the Nabataeans rolled over Edom in the centuries after, the prophecy had become history.",
+      "He closes with one of the prophets' shortest visions of the day of the Lord: deliverance to Mount Zion, the kingdom shall be the Lord's. One chapter, one nation in the cross-hairs, one final note of hope — a model of the prophetic form in miniature."
+    ],
+    "references": [
+      { "ref": "Obadiah 1–4", "note": "The pride of Edom" },
+      { "ref": "Obadiah 10–14", "note": "Standing by while Jerusalem fell" },
+      { "ref": "Obadiah 21", "note": "The kingdom shall be the Lord's" }
+    ],
+    "relationships": []
+  },
+  {
+    "id": "haggai",
+    "name": "Haggai",
+    "fullName": "Haggai the prophet",
+    "description": "Post-exilic prophet whose two-month ministry got the temple rebuilt.",
+    "period": "6th century BC (active 520 BC)",
+    "birthplace": "likely born in Babylon",
+    "locations": ["Jerusalem"],
+    "birthYear": -540,
+    "biography": [
+      "Eighteen years after the first returnees had come back to Jerusalem, the foundation of the temple was still in place and the people were busy paneling their own houses. Haggai was sent in the second year of Darius — 520 BC — with the most economical of prophetic ministries: four short oracles delivered over four months.",
+      "His message was practical and stinging. Consider your ways: you have sown much and harvested little; you eat but never have enough. You hurry to your own house while the house of the Lord lies in ruins. Within twenty-three days the work began again.",
+      "Zerubbabel the governor and Joshua the high priest took up tools alongside the people. By 516 BC — six years later — the second temple stood. Haggai's two-month ministry was, by sheer measurable result, one of the most effective in scripture. Zechariah ministered alongside him; together they form the spine of the post-exilic community's return to its calling."
+    ],
+    "references": [
+      { "ref": "Haggai 1:2–11", "note": "Consider your ways" },
+      { "ref": "Haggai 2:6–9", "note": "The latter glory of this house" },
+      { "ref": "Ezra 5:1–2", "note": "Haggai and Zechariah moved the people to build" }
+    ],
+    "relationships": [
+      { "characterId": "zechariah-prophet", "type": "Companion", "description": "Co-prophet to the returnees rebuilding the temple." },
+      { "characterId": "ezra", "type": "Predecessor", "description": "Generation before Ezra's mission of renewal." }
+    ]
+  },
+  {
+    "id": "zechariah-prophet",
+    "name": "Zechariah",
+    "fullName": "Zechariah, son of Berechiah the prophet",
+    "description": "Post-exilic prophet of eight visions; foresaw the king on a donkey and the pierced one.",
+    "period": "6th century BC (active 520–518 BC)",
+    "birthplace": "likely born in Babylon",
+    "locations": ["Jerusalem"],
+    "birthYear": -540,
+    "biography": [
+      "Zechariah began to prophesy alongside Haggai two months after Haggai's first oracle, in 520 BC. His book opens with eight night visions — four horsemen, four horns, a man with a measuring line, a high priest in filthy garments, a golden lampstand fed by two olive trees, a flying scroll, a woman in a basket, four chariots.",
+      "He also delivers some of the most arresting messianic oracles in the Hebrew Bible. Behold, your king is coming to you, righteous and having salvation, humble and mounted on a donkey — the line the Gospel writers point to at Palm Sunday. They will look on me, on him whom they have pierced, and they will mourn for him.",
+      "His ministry stretched at least to 518 BC and his book closes the prophetic anticipation of the New Testament: 'his feet shall stand on the Mount of Olives,' a great battle, living waters flowing out of Jerusalem, the Lord becoming king over all the earth. The last great prophet of the rebuilt temple."
+    ],
+    "references": [
+      { "ref": "Zechariah 9:9", "note": "Your king comes on a donkey" },
+      { "ref": "Zechariah 12:10", "note": "They will look on him whom they have pierced" },
+      { "ref": "Zechariah 14:1–9", "note": "The day when the Lord will be king over all the earth" }
+    ],
+    "relationships": [
+      { "characterId": "haggai", "type": "Companion", "description": "Co-prophet of the post-exilic temple project." }
+    ]
+  },
+  {
+    "id": "mordecai",
+    "name": "Mordecai",
+    "fullName": "Mordecai the Benjamite",
+    "description": "Esther's cousin and guardian; refused to bow to Haman and saved the Jews of Persia.",
+    "period": "c. 515 – 460 BC",
+    "birthplace": "Susa, Persia (descended from exiled Benjamites)",
+    "locations": ["Susa (Shushan)", "the king's gate", "the citadel"],
+    "birthYear": -515,
+    "biography": [
+      "Mordecai was a Jew of the tribe of Benjamin in the Persian capital of Susa. He raised his orphaned younger cousin Hadassah — Esther — as his own daughter. When she was taken into the king's harem, he walked daily in the court of the women to learn how she fared.",
+      "He uncovered an assassination plot against King Xerxes — Bigthana and Teresh, eunuchs of the threshold — and the deed was recorded in the chronicles and forgotten. He refused to bow to Haman the Agagite when the king elevated him; for that refusal Haman engineered a decree to destroy every Jew in the empire on a single day.",
+      "Mordecai pressed Esther to act: 'who knows whether you have not come to the kingdom for such a time as this.' She did. Haman was hanged on the gallows he had built for Mordecai; the Jews were granted the right to defend themselves; and Mordecai became second only to the king. He instituted the festival of Purim and was remembered as a man who sought the good of his people and spoke peace to all his kindred."
+    ],
+    "references": [
+      { "ref": "Esther 2:5–7", "note": "Mordecai and the orphan Esther" },
+      { "ref": "Esther 4:13–14", "note": "For such a time as this" },
+      { "ref": "Esther 10", "note": "His exaltation in the court of Xerxes" }
+    ],
+    "relationships": [
+      { "characterId": "esther", "type": "Relative", "description": "Orphan cousin he raised as his own daughter." },
+      { "characterId": "haman", "type": "Rival", "description": "The vizier whose decree he overturned and who hanged on his own gallows." }
+    ]
+  },
+  {
+    "id": "haman",
+    "name": "Haman",
+    "fullName": "Haman, son of Hammedatha the Agagite",
+    "description": "Persian vizier whose plot to destroy the Jews ended on the gallows he built for Mordecai.",
+    "period": "5th century BC (active c. 474 BC)",
+    "birthplace": "the Persian Empire",
+    "locations": ["Susa (Shushan)"],
+    "birthYear": -510,
+    "biography": [
+      "Haman was elevated by King Xerxes to second-in-command and demanded the customary bow at the king's gate. Mordecai the Jew would not bow. Haman, told that Mordecai was a Jew, was not satisfied with one man's death — he sought the destruction of the entire Jewish people scattered throughout the empire.",
+      "He cast lots — the pur from which Purim takes its name — to choose the day, paid ten thousand talents of silver into the king's treasury, and obtained an irrevocable decree sealed with the royal signet. The date was set: the thirteenth of the month of Adar.",
+      "His undoing came in three quick scenes: a sleepless king reading the chronicles found the unrewarded service of Mordecai; Haman, summoned at dawn, was made to lead Mordecai through the city in royal robes; that night at Esther's banquet she named him the enemy of her people; the king found him fallen on Esther's couch and ordered him hanged on the gallows he had built. Haman's name became the byword for the enemy whose schemes recoil on his own head."
+    ],
+    "references": [
+      { "ref": "Esther 3", "note": "The decree against the Jews" },
+      { "ref": "Esther 6", "note": "Honoring Mordecai" },
+      { "ref": "Esther 7:9–10", "note": "Hanged on his own gallows" }
+    ],
+    "relationships": [
+      { "characterId": "mordecai", "type": "Rival", "description": "The Jew who would not bow and who watched his fall." },
+      { "characterId": "esther", "type": "Rival", "description": "The queen whose people he tried to destroy." }
     ]
   },
   {
@@ -682,6 +1508,147 @@
     ]
   },
   {
+    "id": "malachi",
+    "name": "Malachi",
+    "fullName": "Malachi the prophet",
+    "description": "Last prophet of the Old Testament; promised a messenger before the day of the Lord.",
+    "period": "5th century BC (active c. 450–430 BC)",
+    "birthplace": "post-exilic Judah",
+    "locations": ["Jerusalem"],
+    "birthYear": -470,
+    "biography": [
+      "By Malachi's time, the second temple had stood for over half a century. The first thrill of return had cooled into a slow drift: priests offering blemished animals, husbands divorcing the wives of their youth, the rich oppressing the poor, the people withholding tithes and asking what was the point of serving God.",
+      "His prophecy is structured as a series of disputes. God speaks; the people answer with a dismissive 'how have we...?'; God answers them in detail. The form preserves the texture of late-prophetic Judaism better than any other book in the canon.",
+      "He closes the Hebrew Bible (in the Christian arrangement) with a promise: 'behold, I will send my messenger, and he will prepare the way before me.' And, further on, 'behold, I will send you Elijah the prophet before the great and awesome day of the Lord comes.' Four hundred years of silence followed. The next voice to be heard would be John the Baptist, in the wilderness, dressed in camel hair."
+    ],
+    "references": [
+      { "ref": "Malachi 3:1", "note": "Behold, I will send my messenger" },
+      { "ref": "Malachi 3:6–12", "note": "Bring the full tithe into the storehouse" },
+      { "ref": "Malachi 4:5–6", "note": "I will send Elijah the prophet" }
+    ],
+    "relationships": [
+      { "characterId": "john-the-baptist", "type": "Successor", "description": "The messenger whose coming he foretold." }
+    ]
+  },
+  {
+    "id": "judas-maccabeus",
+    "name": "Judas Maccabeus",
+    "fullName": "Judas Maccabeus (Yehuda HaMakabi)",
+    "description": "Second-century BC hero of the Maccabean revolt who cleansed the temple and lit the first Hanukkah.",
+    "period": "c. 190 – 160 BC",
+    "birthplace": "Modi'in, Judea",
+    "locations": ["Modi'in", "Mizpah", "Emmaus", "Beth-zur", "Jerusalem", "the wilderness of Judea"],
+    "birthYear": -190,
+    "biography": [
+      "Judas was the third son of Mattathias the priest, who had refused the imperial Seleucid demand to sacrifice to a pagan idol in his village of Modi'in and killed the king's officer at the altar. When Mattathias died, his nickname for his most martial son — Maccabaeus, 'the hammer' — passed to the leadership of the revolt.",
+      "Across three years of guerrilla warfare he defeated four Seleucid generals in succession in the hill country of Judea. In 164 BC his forces took back the temple in Jerusalem. They tore down the desecrated altar and built a new one, restored the lampstand, and rededicated the temple in an eight-day feast. Hanukkah, 'dedication,' has been kept ever since.",
+      "He continued to lead the Jews of Judea against successive Seleucid campaigns until his death in battle at Elasa in 160 BC. The story is preserved in 1 and 2 Maccabees, deuterocanonical in Catholic and Orthodox Bibles and read in the Protestant tradition as Jewish history of the intertestamental period. Without his victory there would have been no temple for Jesus to enter."
+    ],
+    "references": [
+      { "ref": "1 Maccabees 2:66", "note": "The hammer of Israel" },
+      { "ref": "1 Maccabees 4:36–59", "note": "The cleansing of the temple" },
+      { "ref": "John 10:22", "note": "The Feast of Dedication, in winter" }
+    ],
+    "relationships": []
+  },
+  {
+    "id": "herod-the-great",
+    "name": "Herod the Great",
+    "fullName": "Herod I, king of Judea",
+    "description": "Idumean king made by Rome who rebuilt the temple — and slaughtered the infants of Bethlehem.",
+    "period": "c. 73 – 4 BC",
+    "birthplace": "Idumea",
+    "locations": ["Jerusalem", "Caesarea Maritima", "Masada", "Herodium", "Jericho"],
+    "birthYear": -73,
+    "biography": [
+      "Herod was an Idumean — descended from the Edomites forcibly converted under the Hasmoneans — appointed king of Judea by the Roman senate in 40 BC and confirmed by force three years later. He proved a brilliant builder and a brutal ruler. He executed his Hasmonean wife Mariamne, three of his own sons, and most of his closest relatives.",
+      "He rebuilt Jerusalem's temple on a scale that astonished the ancient world, leveling the mountaintop and doubling the temple platform. He built the harbor at Caesarea, the fortress at Masada, the desert palace of Herodium, and a string of cities around the eastern Mediterranean. His architectural legacy was unmatched in the Levant.",
+      "Matthew records his last act in the gospel: hearing of a child born king of the Jews from magi from the east, he ordered the killing of every boy in Bethlehem under two years old. He died, agonized and despised, soon afterward. His kingdom was divided among three surviving sons."
+    ],
+    "references": [
+      { "ref": "Matthew 2:1–18", "note": "The magi and the massacre at Bethlehem" },
+      { "ref": "Luke 1:5", "note": "In the days of Herod, king of Judea" },
+      { "ref": "John 2:20", "note": "Forty-six years building this temple" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Rival", "description": "Sought to kill the child whose magi he had received." },
+      { "characterId": "herod-antipas", "type": "Son", "description": "Son who inherited Galilee and Perea." }
+    ]
+  },
+  {
+    "id": "annas",
+    "name": "Annas",
+    "fullName": "Annas, former high priest",
+    "description": "Five sons all became high priests; he was the man behind Caiaphas at Jesus's trial.",
+    "period": "c. 30 BC – 40 AD",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem"],
+    "birthYear": -30,
+    "biography": [
+      "Annas held the high priesthood from 6 to 15 AD when the Roman prefect Valerius Gratus deposed him. Five of his sons became high priest in succession, as did his son-in-law Caiaphas; he retained de facto authority over the priestly aristocracy long after his official deposition.",
+      "Luke and John both name him alongside Caiaphas as 'the high priest' during the trial of Jesus and the early apostolic preaching — a Hebrew form of authority that did not match the Roman calendar of office. The arresting party brought Jesus to him first, in the small hours of the night.",
+      "He questioned Jesus about his disciples and his teaching; Jesus answered, 'why do you ask me? Ask those who have heard me.' A guard struck him for the answer. Annas sent him bound to Caiaphas. He was still alive a generation later, presiding over the court that condemned James, the brother of Jesus, in 62 AD."
+    ],
+    "references": [
+      { "ref": "Luke 3:2", "note": "In the high priesthood of Annas and Caiaphas" },
+      { "ref": "John 18:12–24", "note": "Jesus questioned before Annas" },
+      { "ref": "Acts 4:6", "note": "Annas the high priest at the trial of Peter and John" }
+    ],
+    "relationships": [
+      { "characterId": "caiaphas", "type": "Son-in-law", "description": "Son-in-law and the public face of his continuing authority." },
+      { "characterId": "jesus", "type": "Rival", "description": "Interrogator before whom Jesus was brought first by night." }
+    ]
+  },
+  {
+    "id": "herod-antipas",
+    "name": "Herod Antipas",
+    "fullName": "Herod Antipas, tetrarch of Galilee and Perea",
+    "description": "The Herod of Jesus's adult life; the man who beheaded John the Baptist.",
+    "period": "c. 20 BC – 39 AD",
+    "birthplace": "Jerusalem",
+    "locations": ["Galilee", "Tiberias", "Perea", "Machaerus", "Jerusalem"],
+    "birthYear": -20,
+    "biography": [
+      "Antipas was the second son of Herod the Great by his Samaritan wife Malthace. On his father's death in 4 BC he received Galilee and Perea as tetrarch. He built the city of Tiberias on the western shore of the Sea of Galilee and named it for the emperor.",
+      "He married his brother Philip's wife Herodias and was rebuked for it by John the Baptist. Herodias kept her grudge. At a birthday feast her daughter Salome danced; the king swore a public oath to give her up to half his kingdom; she asked, at her mother's bidding, for John's head on a platter. He was beheaded at Machaerus.",
+      "Years later, when Pilate learned Jesus was a Galilean, he sent him to Antipas, who was in Jerusalem for Passover. Antipas had long wanted to see Jesus do a sign; Jesus answered him nothing. Antipas mocked him in elegant robes and sent him back. Jesus had once called him 'that fox.' He was eventually banished to Gaul by Caligula and died in exile."
+    ],
+    "references": [
+      { "ref": "Mark 6:14–29", "note": "The beheading of John the Baptist" },
+      { "ref": "Luke 13:31–32", "note": "Go and tell that fox" },
+      { "ref": "Luke 23:6–12", "note": "Jesus before Antipas" }
+    ],
+    "relationships": [
+      { "characterId": "herod-the-great", "type": "Father", "description": "Father whose kingdom he inherited in part." },
+      { "characterId": "john-the-baptist", "type": "Rival", "description": "The prophet whose rebuke he silenced with a sword." },
+      { "characterId": "jesus", "type": "Rival", "description": "'That fox' to whom Pilate sent Jesus at the trial." }
+    ]
+  },
+  {
+    "id": "caiaphas",
+    "name": "Caiaphas",
+    "fullName": "Joseph Caiaphas, high priest",
+    "description": "High priest who said it was expedient that one man die for the people.",
+    "period": "c. 18 BC – 46 AD",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem"],
+    "birthYear": -18,
+    "biography": [
+      "Caiaphas was appointed high priest by Valerius Gratus around 18 AD and held the office until 36 AD — an unusually long tenure that suggests careful management of his Roman overseers. He was married to Annas's daughter and worked in concert with his father-in-law.",
+      "When the Sanhedrin debated what to do about Jesus after Lazarus's raising, Caiaphas said it was expedient that one man die for the people, lest the whole nation perish. John reads the line as an unwitting prophecy: he prophesied that Jesus would die for the nation, and not for the nation only.",
+      "He presided over Jesus's nighttime trial, tore his garments at the answer 'I am, and you will see the Son of Man seated at the right hand of Power,' and pronounced the charge of blasphemy. He sent Jesus bound to Pilate for sentencing. His ossuary, inscribed 'Joseph son of Caiaphas,' was discovered in Jerusalem in 1990."
+    ],
+    "references": [
+      { "ref": "John 11:49–52", "note": "Expedient that one man should die" },
+      { "ref": "Matthew 26:57–66", "note": "The nighttime trial of Jesus" },
+      { "ref": "Acts 4:6", "note": "Among the rulers at the trial of Peter and John" }
+    ],
+    "relationships": [
+      { "characterId": "annas", "type": "Father-in-law", "description": "Father-in-law and senior partner in the priestly establishment." },
+      { "characterId": "jesus", "type": "Rival", "description": "The high priest who condemned him for blasphemy." }
+    ]
+  },
+  {
     "id": "mary",
     "name": "Mary",
     "fullName": "Mary of Nazareth",
@@ -707,6 +1674,80 @@
       { "characterId": "mary-magdalene", "type": "Companion", "description": "Stood with her at the foot of the cross." },
       { "characterId": "david", "type": "Ancestor", "description": "Through her line, the Davidic blood runs to Jesus." },
       { "characterId": "abraham", "type": "Ancestor", "description": "In the line of the seed promised to Abraham." }
+    ]
+  },
+  {
+    "id": "pontius-pilate",
+    "name": "Pontius Pilate",
+    "fullName": "Pontius Pilate, prefect of Judea",
+    "description": "Roman prefect who washed his hands and crucified the innocent man before him.",
+    "period": "c. 10 BC – c. 37 AD",
+    "birthplace": "Italy (likely Samnium or Latium)",
+    "locations": ["Caesarea Maritima", "Jerusalem"],
+    "birthYear": -10,
+    "biography": [
+      "Pilate was appointed prefect of Judea in 26 AD under the emperor Tiberius. His ten-year tenure was marked by harsh confrontations with the Jewish population — bringing imperial standards into Jerusalem, seizing temple funds for an aqueduct, and the slaughter of Galileans whose blood Jesus is asked to comment on in Luke 13.",
+      "He presided over Jesus's Roman trial. Three times he declared he found no guilt in him; three times the crowd shouted for crucifixion. He sent Jesus to Antipas; he offered Barabbas as an alternative; he had Jesus scourged; finally he gave the order and washed his hands in front of the people, declaring himself innocent of this blood.",
+      "The Roman historian Tacitus would record, a generation later, that 'the founder of the Christian sect, Christ, had been executed in the reign of Tiberius by the procurator Pontius Pilatus.' That sentence is among the earliest non-Christian references to Jesus. Pilate was recalled to Rome in 36 AD after a massacre of Samaritans on Mount Gerizim. He disappears from the record there."
+    ],
+    "references": [
+      { "ref": "John 18:28–19:22", "note": "The Roman trial of Jesus" },
+      { "ref": "Matthew 27:24–26", "note": "I am innocent of this blood" },
+      { "ref": "Luke 13:1", "note": "The Galileans whose blood he mingled with their sacrifices" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Rival", "description": "Roman judge who pronounced the sentence of crucifixion." },
+      { "characterId": "caiaphas", "type": "Companion", "description": "Worked alongside him in the trial; sent Jesus from court to court." },
+      { "characterId": "herod-antipas", "type": "Companion", "description": "To whom Pilate sent Jesus mid-trial, and with whom he reconciled." }
+    ]
+  },
+  {
+    "id": "nicodemus",
+    "name": "Nicodemus",
+    "fullName": "Nicodemus, ruler of the Jews",
+    "description": "Pharisee who came to Jesus by night and helped bury him in the open of day.",
+    "period": "c. 10 BC – c. 50 AD",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem"],
+    "birthYear": -10,
+    "biography": [
+      "Nicodemus appears three times in John's Gospel. He came to Jesus at night — a Pharisee and member of the Sanhedrin who had been struck by the signs. 'How can a man be born when he is old?' he asked. The conversation that followed contains John 3:16. Nicodemus does not say a further word in the scene.",
+      "He appears again at a meeting of the council in chapter 7, where the temple police have failed to arrest Jesus. The Pharisees mock the crowd as ignorant of the law; Nicodemus quietly intervenes: does our law judge a man without first giving him a hearing? They turn on him: are you from Galilee too?",
+      "His third appearance is at the cross. He comes with Joseph of Arimathea and brings a hundred Roman pounds of myrrh and aloes — a king's burial, for a crucified man — and wraps Jesus in linen with the spices. The night-visitor of chapter 3 stands beside the tomb in the open of day."
+    ],
+    "references": [
+      { "ref": "John 3:1–21", "note": "You must be born again" },
+      { "ref": "John 7:50–52", "note": "Does our law judge a man without a hearing?" },
+      { "ref": "John 19:38–42", "note": "A hundred pounds of myrrh and aloes" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Disciple", "description": "Came to him by night; buried him in the day." },
+      { "characterId": "joseph-arimathea", "type": "Companion", "description": "Fellow secret disciple who took down the body with him." }
+    ]
+  },
+  {
+    "id": "joseph-arimathea",
+    "name": "Joseph of Arimathea",
+    "fullName": "Joseph of Arimathea",
+    "description": "Wealthy council member who asked Pilate for the body of Jesus and gave him his own new tomb.",
+    "period": "c. 10 BC – c. 50 AD",
+    "birthplace": "Arimathea, Judea",
+    "locations": ["Arimathea", "Jerusalem", "the garden tomb"],
+    "birthYear": -10,
+    "biography": [
+      "Joseph was from Arimathea, a town in the Judean hill country. He was a member of the Sanhedrin — Luke notes he was a good and righteous man who had not consented to their decision. John says he was a disciple of Jesus, but secretly, for fear of the Jews.",
+      "When the body of Jesus hung dead on the cross late on the day of preparation, Joseph went boldly to Pilate and asked for it — a public association with a man condemned for sedition. Pilate, surprised that Jesus was already dead, confirmed it with the centurion and gave the body to Joseph.",
+      "He took it down, wrapped it in fine linen with the spices Nicodemus had brought, and laid it in his own new tomb — hewn in the rock in the garden, where no one had yet been laid. He rolled a great stone to the entrance and went away. Mary Magdalene watched, and noted the place."
+    ],
+    "references": [
+      { "ref": "Matthew 27:57–60", "note": "A rich man who was also a disciple" },
+      { "ref": "Mark 15:42–46", "note": "Boldly went to Pilate and asked for the body" },
+      { "ref": "Luke 23:50–53", "note": "A good and righteous man who had not consented" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Disciple", "description": "Wealthy secret disciple who buried him in his own tomb." },
+      { "characterId": "nicodemus", "type": "Companion", "description": "Fellow secret disciple who helped him bury the body." },
+      { "characterId": "pontius-pilate", "type": "Rival", "description": "The prefect from whom he requested the body." }
     ]
   },
   {
@@ -769,6 +1810,31 @@
     ]
   },
   {
+    "id": "andrew",
+    "name": "Andrew",
+    "fullName": "Andrew, son of Jonah",
+    "description": "First-called of the apostles; the brother who brought Peter to Jesus.",
+    "period": "c. 1 BC – c. 70 AD",
+    "birthplace": "Bethsaida, Galilee",
+    "locations": ["Bethsaida", "Capernaum", "Jerusalem", "(tradition: Greece and Scythia)"],
+    "birthYear": -1,
+    "biography": [
+      "Andrew was a fisherman of Bethsaida, the elder brother of Peter. He had first been a disciple of John the Baptist; when John pointed to Jesus and said 'behold, the Lamb of God,' Andrew followed and spent the day with him. The first thing he did was find his brother: 'we have found the Messiah.' He brought Peter to Jesus.",
+      "He appears in three other small moments in the Gospels. At the feeding of the five thousand he is the disciple who notices the boy with the five loaves and two fish. When Greeks came to Jerusalem at Passover wanting to see Jesus, they approached Philip; Philip and Andrew together brought their request to him. On the Mount of Olives he is one of the four who asks Jesus when the end will be.",
+      "Beyond the Gospels he disappears from the canonical record. Early tradition has him preaching the gospel in Scythia (modern Ukraine and Russia), Asia Minor, and Greece. He is said to have been crucified at Patras on an X-shaped cross, where the saltire on the flag of Scotland still bears his name."
+    ],
+    "references": [
+      { "ref": "John 1:35–42", "note": "We have found the Messiah" },
+      { "ref": "John 6:8–9", "note": "Andrew and the boy with five loaves" },
+      { "ref": "John 12:20–22", "note": "The Greeks who wished to see Jesus" }
+    ],
+    "relationships": [
+      { "characterId": "peter", "type": "Brother", "description": "Older brother whom he brought to Jesus." },
+      { "characterId": "jesus", "type": "Mentor", "description": "Followed him from his first day; brought his brother along." },
+      { "characterId": "john-the-baptist", "type": "Mentor", "description": "His first teacher, who pointed him to the Lamb of God." }
+    ]
+  },
+  {
     "id": "peter",
     "name": "Peter",
     "fullName": "Simon Peter (Cephas)",
@@ -819,6 +1885,217 @@
       { "characterId": "peter", "type": "Companion", "description": "Fellow apostle on the road." },
       { "characterId": "john-apostle", "type": "Companion", "description": "Fellow apostle." },
       { "characterId": "thomas", "type": "Companion", "description": "Fellow apostle." }
+    ]
+  },
+  {
+    "id": "zacchaeus",
+    "name": "Zacchaeus",
+    "fullName": "Zacchaeus, chief tax collector of Jericho",
+    "description": "Short man who climbed a sycamore to see Jesus and came down a different man.",
+    "period": "c. 5 AD – c. 60 AD",
+    "birthplace": "Jericho",
+    "locations": ["Jericho"],
+    "birthYear": 5,
+    "biography": [
+      "Zacchaeus was chief tax collector at Jericho — a wealthy and despised man. When the crowd brought Jesus through, he could not see over the heads, so he ran ahead and climbed a sycamore-fig. Jesus stopped under it. 'Zacchaeus, hurry and come down, for I must stay at your house today.'",
+      "He came down at once and welcomed Jesus joyfully. The crowd grumbled — gone in to be the guest of a sinner. Zacchaeus stood and announced his repentance in money: half my goods I give to the poor; if I have defrauded anyone, I restore it fourfold. The Mosaic law required fourfold restoration only for sheep-rustlers; he applied it to himself.",
+      "Jesus answered with a verdict the crowd had not been ready to hear: 'today salvation has come to this house, since he also is a son of Abraham. For the Son of Man came to seek and to save the lost.' Eight verses, one tree, one supper, one man's whole life rearranged."
+    ],
+    "references": [
+      { "ref": "Luke 19:1–10", "note": "The whole episode" },
+      { "ref": "Luke 19:8", "note": "Half my goods I give to the poor" },
+      { "ref": "Luke 19:10", "note": "The Son of Man came to seek and to save the lost" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Called him down from the tree by name; ate at his house." }
+    ]
+  },
+  {
+    "id": "bartimaeus",
+    "name": "Bartimaeus",
+    "fullName": "Bartimaeus, son of Timaeus",
+    "description": "Blind beggar of Jericho who threw off his cloak and was healed.",
+    "period": "c. 5 AD – ?",
+    "birthplace": "Jericho",
+    "locations": ["Jericho"],
+    "birthYear": 5,
+    "biography": [
+      "Bartimaeus sat beside the Jericho road begging. Jesus was coming out of the city with a large crowd. The blind man heard it was Jesus of Nazareth and began to shout, 'Jesus, Son of David, have mercy on me!' The crowd told him to be quiet; he shouted all the louder.",
+      "Jesus stopped and said, 'call him.' Bartimaeus threw off his cloak — his only possession, the bowl he begged into — and sprang to his feet. 'What do you want me to do for you?' Jesus asked. 'Rabbouni,' he said, using the most intimate term, 'let me see again.'",
+      "Mark preserves his name where the parallel accounts in Matthew and Luke leave the beggar anonymous — perhaps because he became known in the early church. 'Go,' Jesus said, 'your faith has made you well.' And immediately he received his sight and followed him on the way."
+    ],
+    "references": [
+      { "ref": "Mark 10:46–52", "note": "Mark's full account, naming him" },
+      { "ref": "Matthew 20:29–34", "note": "Two blind men outside Jericho" },
+      { "ref": "Luke 18:35–43", "note": "A blind beggar near Jericho" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Healed his blindness and was followed by him on the way." }
+    ]
+  },
+  {
+    "id": "rich-young-ruler",
+    "name": "The Rich Young Ruler",
+    "fullName": "The Rich Young Ruler",
+    "description": "Wealthy man who came to Jesus asking what he must do — and went away sorrowful.",
+    "period": "1st century AD",
+    "birthplace": "unknown (Judea or Galilee)",
+    "locations": ["Judea"],
+    "birthYear": 5,
+    "biography": [
+      "Three Gospels preserve the encounter. Matthew calls him young; Luke calls him a ruler; Mark says he ran up, knelt before Jesus, and asked, 'Good Teacher, what must I do to inherit eternal life?' Jesus first deflected the title — why do you call me good? — and listed the commandments.",
+      "The young man answered that he had kept them all from his youth. Jesus, looking at him, loved him. 'One thing you lack: go, sell what you have, and give to the poor, and you will have treasure in heaven; and come, follow me.' His countenance fell. He went away sorrowful, for he had great possessions.",
+      "The disciples were astonished — surely the wealthy were the visibly blessed. 'How hard it is,' Jesus said, 'for those who have wealth to enter the kingdom of God.' He never names him. The man stands in scripture as a quiet anonymous failure — the only person recorded as walking sadly away from a direct invitation of Jesus."
+    ],
+    "references": [
+      { "ref": "Matthew 19:16–22", "note": "Matthew's account" },
+      { "ref": "Mark 10:17–22", "note": "Jesus, looking at him, loved him" },
+      { "ref": "Luke 18:18–23", "note": "He was very rich" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Invited him to follow; he walked away sorrowful." }
+    ]
+  },
+  {
+    "id": "cornelius",
+    "name": "Cornelius",
+    "fullName": "Cornelius, centurion of the Italian Cohort",
+    "description": "Roman centurion of Caesarea; first Gentile baptized into the church.",
+    "period": "c. 5 AD – c. 60 AD",
+    "birthplace": "Italy (likely)",
+    "locations": ["Caesarea Maritima"],
+    "birthYear": 5,
+    "biography": [
+      "Cornelius was a centurion of the Italian Cohort stationed at Caesarea — a Roman officer, a God-fearer who prayed continually and gave alms generously to the Jewish poor. About the ninth hour of the day an angel of God came to him in a vision and told him to send for a man called Peter at Joppa.",
+      "Peter meanwhile was on a rooftop in Joppa where a sheet came down from heaven full of unclean animals, with a voice telling him to kill and eat. While he was still puzzling, the messengers from Cornelius arrived. Peter went with them and entered the house of a Gentile — a thing no devout Jew did.",
+      "He preached the gospel; the Holy Spirit fell on Cornelius and his household while he was still speaking; the believers from the circumcision were amazed. Peter ordered them baptized in the name of Jesus Christ. The door to the Gentile world had been pushed open with him on the inside."
+    ],
+    "references": [
+      { "ref": "Acts 10:1–8", "note": "The vision in his house" },
+      { "ref": "Acts 10:34–48", "note": "Peter's sermon and the Spirit falling on Gentiles" },
+      { "ref": "Acts 11:1–18", "note": "Peter defends the conversion to the Jerusalem church" }
+    ],
+    "relationships": [
+      { "characterId": "peter", "type": "Mentor", "description": "Apostle who came to his house and opened the gospel to the Gentiles." }
+    ]
+  },
+  {
+    "id": "lydia",
+    "name": "Lydia",
+    "fullName": "Lydia of Thyatira, seller of purple",
+    "description": "First convert on European soil; hosted Paul's mission at Philippi.",
+    "period": "c. 5 AD – c. 70 AD",
+    "birthplace": "Thyatira, Asia Minor",
+    "locations": ["Thyatira", "Philippi"],
+    "birthYear": 5,
+    "biography": [
+      "Lydia was a dealer in purple cloth from Thyatira in Asia Minor — Thyatira was famed for its dyers' guild — now resident in the Roman colony of Philippi. She was a worshiper of God who gathered with other women at a place of prayer by the river outside the city on the Sabbath.",
+      "Paul and his companions had come to Philippi from Troas after Paul's vision of the man of Macedonia. They sat down by the river and spoke to the women there. 'The Lord opened her heart to pay attention to what was said by Paul.' She and her household were baptized — the first recorded conversion on European soil.",
+      "She insisted that Paul and his company stay at her house. She does not appear again in Acts, but Paul's letter to the Philippians remembers the church 'from the first day until now' as his partners in the gospel, with money sent more than once. Lydia's open door at Philippi is the foundation of that partnership."
+    ],
+    "references": [
+      { "ref": "Acts 16:11–15", "note": "Conversion by the river" },
+      { "ref": "Acts 16:40", "note": "Paul and Silas back at her house after prison" },
+      { "ref": "Philippians 4:15–16", "note": "Paul's partnership with the Philippians" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Mentor", "description": "Apostle whose preaching by the river opened her heart." },
+      { "characterId": "silas", "type": "Companion", "description": "Sat at her river meeting and stayed in her house." }
+    ]
+  },
+  {
+    "id": "aquila",
+    "name": "Aquila",
+    "fullName": "Aquila of Pontus",
+    "description": "Jewish tentmaker exiled from Rome; companion of Paul and teacher of Apollos.",
+    "period": "c. 5 AD – c. 70 AD",
+    "birthplace": "Pontus, Asia Minor",
+    "locations": ["Pontus", "Rome", "Corinth", "Ephesus"],
+    "birthYear": 5,
+    "biography": [
+      "Aquila was a Jew from Pontus living in Rome when the emperor Claudius issued his edict in 49 AD expelling the Jews from the city. He and his wife Priscilla moved to Corinth and set up their tentmaking business there. Paul, recently arrived from Athens, was a tentmaker too. He stayed and worked with them.",
+      "When Paul left Corinth he took them along to Ephesus and left them there. While he was away they heard a brilliant but partial Alexandrian preacher named Apollos in the synagogue; they took him aside and explained the way of God to him more accurately.",
+      "Paul mentions them in three letters as 'fellow workers in Christ Jesus who risked their necks for my life.' By the time he writes Romans they are back in Rome, with a church meeting in their house. By the second letter to Timothy they are in Ephesus again. They had no fixed address but a long, faithful partnership in the spreading mission."
+    ],
+    "references": [
+      { "ref": "Acts 18:1–3", "note": "Met Paul in Corinth" },
+      { "ref": "Acts 18:24–26", "note": "Together with Priscilla they taught Apollos" },
+      { "ref": "Romans 16:3–5", "note": "Greetings to them and the church in their house" }
+    ],
+    "relationships": [
+      { "characterId": "priscilla", "type": "Wife", "description": "Partner in tentmaking and ministry across three cities." },
+      { "characterId": "paul", "type": "Companion", "description": "Apostle who lived and worked with them in Corinth." }
+    ]
+  },
+  {
+    "id": "stephen",
+    "name": "Stephen",
+    "fullName": "Stephen the deacon and martyr",
+    "description": "First of seven deacons; first Christian martyr; stoned outside Jerusalem.",
+    "period": "c. 5 AD – c. 34 AD",
+    "birthplace": "Jerusalem (likely Hellenistic Jewish)",
+    "locations": ["Jerusalem"],
+    "birthYear": 5,
+    "biography": [
+      "Stephen was the first of seven Hellenistic Jewish believers chosen to oversee the daily distribution to widows when complaints arose that the Greek-speaking widows were being overlooked. Acts calls him 'a man full of faith and of the Holy Spirit,' 'full of grace and power,' who did great wonders and signs among the people.",
+      "His enemies in the synagogue of the Freedmen could not stand against his wisdom. They suborned false witnesses and brought him before the Sanhedrin. His defense — Acts 7 — is the longest single speech in the book, a sweeping retelling of Israel's history that ends with the accusation that they had killed the prophets and now the Righteous One.",
+      "Outraged, the council ground their teeth at him. He looked up and saw the heavens opened and the Son of Man standing at the right hand of God. They cast him out of the city and stoned him. A young man named Saul stood watching, holding the coats. As Stephen died he prayed, 'Lord, do not hold this sin against them.'"
+    ],
+    "references": [
+      { "ref": "Acts 6:1–8", "note": "Chosen as one of the seven" },
+      { "ref": "Acts 7", "note": "His defense before the Sanhedrin" },
+      { "ref": "Acts 7:54–60", "note": "The first Christian martyr" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Rival", "description": "Saul of Tarsus held the cloaks at his stoning — and was later haunted by it." },
+      { "characterId": "jesus", "type": "Mentor", "description": "Saw him standing at the right hand of God as he died." }
+    ]
+  },
+  {
+    "id": "philip-evangelist",
+    "name": "Philip the Evangelist",
+    "fullName": "Philip the deacon and evangelist",
+    "description": "One of the seven; evangelist to Samaria and to the Ethiopian eunuch on the Gaza road.",
+    "period": "c. 5 AD – c. 80 AD",
+    "birthplace": "Caesarea (later residence)",
+    "locations": ["Jerusalem", "Samaria", "the Gaza road", "Azotus", "Caesarea Maritima"],
+    "birthYear": 5,
+    "biography": [
+      "Philip was the second of the seven deacons appointed in Acts 6 — not to be confused with Philip the apostle. After Stephen's stoning and the scattering of the Jerusalem church, he went down to Samaria and preached the Christ there. Crowds heard him; many believed; demons came out; the city had great joy.",
+      "An angel of the Lord sent him next to the south road from Jerusalem to Gaza. He found an Ethiopian official, the treasurer of Candace queen of Ethiopia, riding home in a chariot reading Isaiah 53. Philip ran up; the eunuch invited him into the chariot; Philip began at that very scripture and told him the good news of Jesus. The eunuch saw water and asked to be baptized.",
+      "The Spirit carried Philip away; he was found at Azotus and continued preaching through the coastal towns up to Caesarea, where he settled. Twenty years later he hosted Paul on the way to Jerusalem. He had four unmarried daughters who prophesied. The first Christian missionary to step decisively outside Judean borders."
+    ],
+    "references": [
+      { "ref": "Acts 8:4–8", "note": "Evangelist of Samaria" },
+      { "ref": "Acts 8:26–40", "note": "The Ethiopian eunuch" },
+      { "ref": "Acts 21:8–9", "note": "Host to Paul at Caesarea; four daughters who prophesied" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Companion", "description": "Hosted him in Caesarea on the way to Jerusalem." },
+      { "characterId": "stephen", "type": "Companion", "description": "Fellow deacon of the seven." }
+    ]
+  },
+  {
+    "id": "felix",
+    "name": "Felix",
+    "fullName": "Marcus Antonius Felix, Roman procurator of Judea",
+    "description": "Procurator before whom Paul defended himself; left him in prison for two years.",
+    "period": "c. 5 AD – c. 65 AD",
+    "birthplace": "the Roman Empire",
+    "locations": ["Caesarea Maritima"],
+    "birthYear": 5,
+    "biography": [
+      "Felix was a freedman who rose unusually high under emperors Claudius and Nero, becoming procurator of Judea around 52 AD. Tacitus says he 'practiced every kind of cruelty and lust, wielding the power of a king with the mind of a slave.' He married a series of royal women, ending with Drusilla, sister of Agrippa II.",
+      "When Paul was sent to him under armed escort from Jerusalem after the riot in the temple, Felix heard the charges and adjourned to await the testimony of the tribune Lysias — which never came. Paul lingered in custody at Caesarea. Felix sent for him repeatedly and 'reasoned with him about righteousness and self-control and the coming judgment.' Felix was alarmed and dismissed him each time, saying, 'when I have an opportunity I will send for you.'",
+      "He kept Paul two years, hoping for a bribe. When he was recalled to Rome in 60 AD, he left Paul in prison as a final favor to the Jews. His successor Festus took up the case. Felix had used a Roman court like a slow extortion racket; the prisoner he had hoped to monetize wrote letters in his chains that the empire never managed to silence."
+    ],
+    "references": [
+      { "ref": "Acts 24:1–9", "note": "Tertullus prosecutes Paul before Felix" },
+      { "ref": "Acts 24:24–26", "note": "Felix reasoned with him; hoped for a bribe" },
+      { "ref": "Acts 24:27", "note": "Left Paul in prison two years" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Rival", "description": "Roman judge who kept him in chains at Caesarea for two years." }
     ]
   },
   {
@@ -973,6 +2250,176 @@
       { "characterId": "thomas", "type": "Companion", "description": "Fellow apostle." },
       { "characterId": "mary-magdalene", "type": "Companion", "description": "With her at the cross; ran to the tomb at her word." },
       { "characterId": "paul", "type": "Companion", "description": "Pillar of the Jerusalem church alongside Paul (Galatians 2)." }
+    ]
+  },
+  {
+    "id": "priscilla",
+    "name": "Priscilla",
+    "fullName": "Priscilla (Prisca), wife of Aquila",
+    "description": "Tentmaker and teacher whose name is often listed before her husband's.",
+    "period": "c. 10 AD – c. 70 AD",
+    "birthplace": "likely Rome",
+    "locations": ["Rome", "Corinth", "Ephesus"],
+    "birthYear": 10,
+    "biography": [
+      "Priscilla (also called Prisca) was the wife of Aquila and his partner in a tentmaking and teaching ministry that spanned three of the most important cities of the early empire. Four of the six New Testament references to the couple list her first — unusual in the ancient world and suggesting she was the more prominent of the two in the Christian community.",
+      "She and Aquila met Paul in Corinth, traveled with him to Ephesus, and stayed there as the residual core of the church. When the brilliant but partially-instructed Alexandrian preacher Apollos came through, it was Priscilla and Aquila together who took him aside and explained the way of God to him more accurately. They were teachers of teachers.",
+      "Paul greets them in Romans as 'fellow workers in Christ Jesus, who risked their necks for my life.' Wherever they moved a church met in their house. They are the only married couple named together with this kind of partnership in the New Testament — a model of shared ministry that the church has never quite known what to do with."
+    ],
+    "references": [
+      { "ref": "Acts 18:18, 26", "note": "Teaching Apollos with Aquila" },
+      { "ref": "Romans 16:3–5", "note": "Risked their necks for my life" },
+      { "ref": "1 Corinthians 16:19", "note": "The church in their house" }
+    ],
+    "relationships": [
+      { "characterId": "aquila", "type": "Husband", "description": "Partner in tentmaking and ministry across Rome, Corinth, and Ephesus." },
+      { "characterId": "paul", "type": "Companion", "description": "Co-worker who hosted him and traveled with him." }
+    ]
+  },
+  {
+    "id": "barnabas",
+    "name": "Barnabas",
+    "fullName": "Joseph Barnabas of Cyprus",
+    "description": "Son of Encouragement; the man who brought Saul to the apostles and Paul into the Gentile mission.",
+    "period": "c. 10 AD – c. 60 AD",
+    "birthplace": "Cyprus",
+    "locations": ["Cyprus", "Jerusalem", "Antioch", "Pisidian Antioch", "Iconium", "Lystra", "Derbe"],
+    "birthYear": 10,
+    "biography": [
+      "Joseph the Levite of Cyprus was nicknamed by the apostles Barnabas — Son of Encouragement. His first appearance in Acts is the sale of a field and the laying of the money at the apostles' feet. He next appears bringing the freshly converted Saul to the apostles when they were afraid of him, vouching for him as a true disciple.",
+      "When the gospel reached the Gentiles in Antioch and the Jerusalem church needed someone to investigate, they sent Barnabas. He saw the grace of God and was glad. He went to Tarsus to find Saul and brought him back to Antioch; for a year they taught the church there. The first missionary journey was theirs together — to Cyprus, Pisidian Antioch, Iconium, Lystra, Derbe.",
+      "Their partnership broke at the start of the second journey over John Mark, Barnabas's cousin, whom Paul refused to bring back after he had abandoned the first journey. Barnabas took Mark and sailed for Cyprus; Paul took Silas and went through Syria and Cilicia. The two great encouragers of the early mission parted ways. Years later Paul refers warmly to both Barnabas and Mark in his letters."
+    ],
+    "references": [
+      { "ref": "Acts 4:36–37", "note": "Son of Encouragement" },
+      { "ref": "Acts 11:22–26", "note": "Brought Saul to Antioch" },
+      { "ref": "Acts 15:36–41", "note": "The break with Paul over John Mark" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Companion", "description": "Co-worker who first vouched for him and partnered the first mission." },
+      { "characterId": "peter", "type": "Companion", "description": "Stood with him in the Jerusalem Council." }
+    ]
+  },
+  {
+    "id": "silas",
+    "name": "Silas",
+    "fullName": "Silas (Silvanus), leader of the Jerusalem church",
+    "description": "Paul's companion on the second journey; sang hymns at midnight in a Philippian jail.",
+    "period": "c. 15 AD – c. 70 AD",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "Antioch", "Philippi", "Thessalonica", "Berea", "Corinth", "Rome"],
+    "birthYear": 15,
+    "biography": [
+      "Silas (called Silvanus in the letters) was a leading man among the brethren of Jerusalem and a prophet. He was sent with Paul and Barnabas to Antioch with the council's letter on Gentile inclusion. When Paul and Barnabas split, Paul chose Silas as his partner for the second journey.",
+      "At Philippi they cast a demon out of a fortune-telling slave girl, were stripped, flogged, and thrown in the inner cell with their feet in stocks. At midnight they prayed and sang hymns to God; the prisoners listened; an earthquake shook the doors open. The jailer drew his sword to kill himself; Paul called out, 'do yourself no harm, we are all here'; he washed their wounds and was baptized that night with his household.",
+      "Silas continued with Paul through Thessalonica, Berea, Athens, and Corinth. He is co-author of both letters to the Thessalonians and probably amanuensis for 1 Peter ('by Silvanus, a faithful brother'). His ministry stretches across two of the great apostolic correspondences."
+    ],
+    "references": [
+      { "ref": "Acts 15:22, 27", "note": "Chosen leading man of the church" },
+      { "ref": "Acts 16:25", "note": "Singing hymns at midnight in Philippi" },
+      { "ref": "1 Peter 5:12", "note": "By Silvanus, a faithful brother" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Companion", "description": "Co-author of two letters and partner on the second journey." },
+      { "characterId": "timothy", "type": "Companion", "description": "Joined them at Lystra and traveled together." },
+      { "characterId": "lydia", "type": "Companion", "description": "Stayed at her house in Philippi after release from prison." }
+    ]
+  },
+  {
+    "id": "festus",
+    "name": "Festus",
+    "fullName": "Porcius Festus, Roman procurator of Judea",
+    "description": "Succeeded Felix; heard Paul's appeal to Caesar and sent him to Rome.",
+    "period": "c. 15 AD – 62 AD",
+    "birthplace": "the Roman Empire",
+    "locations": ["Caesarea Maritima", "Jerusalem"],
+    "birthYear": 15,
+    "biography": [
+      "Festus took over from Felix in 60 AD and inherited Paul still in custody at Caesarea. Within three days of his arrival he was in Jerusalem, where the chief priests demanded he transfer Paul there for a hearing — they were planning an ambush on the road. Festus refused and called for the accusers to come to Caesarea.",
+      "At the hearing he asked Paul whether he was willing to go to Jerusalem to be tried before him. Paul answered, 'I appeal to Caesar.' By Roman law Festus had to refer the case to the emperor. He was relieved — the charges were religious matters incomprehensible to him — but he had no clear crime to put in the letter of transmittal.",
+      "He brought Paul before Agrippa II and Bernice during their state visit to Caesarea, asking for help framing the indictment. During Paul's defense Festus shouted out, 'Paul, you are out of your mind; your great learning is driving you insane!' Paul answered calmly. Festus shipped him to Rome in the autumn of 60 or 61 AD. He died in office in Judea two years later."
+    ],
+    "references": [
+      { "ref": "Acts 25:1–12", "note": "I appeal to Caesar" },
+      { "ref": "Acts 25:13–27", "note": "Festus presents the case to Agrippa" },
+      { "ref": "Acts 26:24", "note": "Your great learning is driving you insane" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Rival", "description": "Roman judge who shipped him to Rome on his appeal to Caesar." },
+      { "characterId": "agrippa", "type": "Companion", "description": "King to whom he handed Paul for a second hearing." }
+    ]
+  },
+  {
+    "id": "agrippa",
+    "name": "Agrippa",
+    "fullName": "Herod Agrippa II, king of Chalcis and tetrarch",
+    "description": "Last of the Herodian dynasty in power; heard Paul's defense and said he was almost persuaded.",
+    "period": "27 AD – c. 100 AD",
+    "birthplace": "Rome",
+    "locations": ["Caesarea Maritima", "Jerusalem", "Chalcis", "Tiberias"],
+    "birthYear": 27,
+    "biography": [
+      "Agrippa II was the great-grandson of Herod the Great, raised in the imperial court in Rome. He was given the small kingdom of Chalcis on his uncle's death and later granted northern territories of his great-uncle Philip's old tetrarchy. The Romans gave him oversight of the Jerusalem temple and the right to appoint the high priest.",
+      "He was the brother of Drusilla (Felix's wife) and of Bernice, with whom Roman gossip alleged an unsavory closeness. He came to Caesarea on a state visit to greet the new procurator Festus and was invited to hear Paul.",
+      "Paul's defense before him traces Paul's life from his Pharisee youth to the road to Damascus and the open invitation of the gospel. He spoke directly to the king: 'King Agrippa, do you believe the prophets? I know that you believe.' Agrippa famously replied, 'in a short time you will persuade me to be a Christian.' He died around the end of the first century — the last Herodian ruler, witnessing the fall of his people's capital in 70 AD."
+    ],
+    "references": [
+      { "ref": "Acts 25:13–27", "note": "Agrippa hears the case" },
+      { "ref": "Acts 26", "note": "Paul's defense" },
+      { "ref": "Acts 26:28", "note": "In a short time you will persuade me to be a Christian" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Rival", "description": "King before whom he gave his most personal defense." },
+      { "characterId": "festus", "type": "Companion", "description": "Procurator who invited him to hear Paul." },
+      { "characterId": "herod-the-great", "type": "Ancestor", "description": "Great-grandfather and founder of the dynasty he closed." }
+    ]
+  },
+  {
+    "id": "timothy",
+    "name": "Timothy",
+    "fullName": "Timothy of Lystra",
+    "description": "Paul's true child in the faith; pastor of Ephesus; recipient of two pastoral letters.",
+    "period": "c. 30 AD – c. 80 AD",
+    "birthplace": "Lystra, Asia Minor",
+    "locations": ["Lystra", "Philippi", "Thessalonica", "Berea", "Corinth", "Ephesus", "Rome"],
+    "birthYear": 30,
+    "biography": [
+      "Timothy was the son of a Jewish believer named Eunice and a Greek father, raised by his mother and grandmother Lois on the scriptures from childhood. He grew up in Lystra and was already well spoken of by the brothers there when Paul came through on the second journey.",
+      "Paul circumcised him to ease his acceptance in the synagogues they were entering — a controversial decision given Titus had not been circumcised. Timothy joined Paul and Silas and became Paul's closest associate for the rest of Paul's life. Six of Paul's letters are co-authored or co-signed by Timothy. Paul sent him on hard missions to Macedonia and Corinth where his own presence was not feasible.",
+      "Paul's two letters to him — 1 and 2 Timothy — are the most personal Pauline letters preserved. By the time of 2 Timothy, Paul is in prison facing death and asking Timothy to come quickly. He calls him 'my true child in the faith,' 'my beloved child,' and the heir of his ministry. Tradition has Timothy serving as the first bishop of Ephesus and martyred there in old age."
+    ],
+    "references": [
+      { "ref": "Acts 16:1–3", "note": "Joining Paul at Lystra" },
+      { "ref": "2 Timothy 1:5", "note": "Your grandmother Lois and your mother Eunice" },
+      { "ref": "Philippians 2:19–22", "note": "I have no one like him" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Mentor", "description": "Apostle who called him his true child in the faith." },
+      { "characterId": "silas", "type": "Companion", "description": "Joined the second journey together at Lystra." }
+    ]
+  },
+  {
+    "id": "titus",
+    "name": "Titus",
+    "fullName": "Titus, Greek companion of Paul",
+    "description": "Greek convert; Paul's troubleshooter in Corinth and organizer of the church in Crete.",
+    "period": "c. 30 AD – c. 95 AD",
+    "birthplace": "the Greek world",
+    "locations": ["Antioch", "Jerusalem", "Ephesus", "Corinth", "Crete", "Nicopolis", "Dalmatia"],
+    "birthYear": 30,
+    "biography": [
+      "Titus was a Greek and was not circumcised — and Paul refused to circumcise him when they went up to the Jerusalem Council, making him the test case for the inclusion of Gentile believers without the law. The decision in Acts 15 was largely shaped by his uncircumcised presence in the room.",
+      "He served Paul as troubleshooter to a series of difficult situations. He carried the painful letter to Corinth and brought back the news of their repentance. He oversaw the collection for the poor saints in Jerusalem from the Greek churches. Paul calls him 'my partner and fellow worker for your benefit.'",
+      "Paul left him in Crete to set the churches in order and appoint elders in every town. The Letter to Titus is Paul's manual for that work — sober, sound, and lit with one of the great compact summaries of grace in the New Testament: 'the grace of God has appeared, bringing salvation for all people, training us to renounce ungodliness and worldly passions.' By 2 Timothy he is in Dalmatia."
+    ],
+    "references": [
+      { "ref": "Galatians 2:1–3", "note": "Even Titus was not compelled to be circumcised" },
+      { "ref": "2 Corinthians 7:6–7", "note": "The coming of Titus" },
+      { "ref": "Titus 1:5", "note": "I left you in Crete that you might put what remained into order" }
+    ],
+    "relationships": [
+      { "characterId": "paul", "type": "Mentor", "description": "Apostle who sent him as troubleshooter to the hardest churches." },
+      { "characterId": "timothy", "type": "Companion", "description": "Fellow protege of Paul, often paired in the letters." }
     ]
   }
 ]

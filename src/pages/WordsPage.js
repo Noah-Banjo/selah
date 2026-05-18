@@ -7,7 +7,19 @@ function WordsPage() {
   const openId = searchParams.get('open');
   const [search, setSearch] = useState('');
   const [expandedId, setExpandedId] = useState(openId || null);
+  const [toast, setToast] = useState(null);
   const cardRefs = useRef({});
+
+  const handleShare = async (wordId) => {
+    const url = `${window.location.origin}${window.location.pathname}?open=${wordId}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      setToast('Link copied!');
+    } catch (e) {
+      setToast('Could not copy');
+    }
+    setTimeout(() => setToast(null), 2200);
+  };
 
   useEffect(() => {
     if (!openId) return;
@@ -128,11 +140,28 @@ function WordsPage() {
                         </h3>
                         <p>{w.significance}</p>
                       </div>
+                      <div className="word-card__share-row">
+                        <button
+                          type="button"
+                          className="share-button"
+                          onClick={() => handleShare(w.id)}
+                          aria-label={`Copy link to ${w.transliteration}`}
+                        >
+                          <span className="share-button__icon" aria-hidden="true">⤴</span>
+                          Share
+                        </button>
+                      </div>
                     </div>
                   )}
                 </article>
               );
             })}
+          </div>
+        )}
+
+        {toast && (
+          <div className="toast" role="status" aria-live="polite">
+            {toast}
           </div>
         )}
       </div>

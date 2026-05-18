@@ -280,6 +280,10 @@ function TimelinePage() {
 
         <Legend />
 
+        <p className="timeline-scroll-hint" aria-hidden="true">
+          {isMobile ? '↕ Scroll vertically to explore' : '↔ Scroll horizontally to explore'}
+        </p>
+
         {isMobile ? (
           <VerticalTimeline data={characters} />
         ) : (

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import {
   MapContainer,
@@ -38,6 +38,12 @@ const MARKER_DIM_STYLE = {
   weight: 1,
 };
 
+const stopLatLng = (s) => {
+  if (Array.isArray(s.coords)) return s.coords;
+  if (typeof s.lat === 'number' && typeof s.lng === 'number') return [s.lat, s.lng];
+  return null;
+};
+
 function numberedIcon(n, color) {
   return L.divIcon({
     className: 'journey-icon',
@@ -71,6 +77,8 @@ function MapPage() {
   const journeyId = searchParams.get('journey');
   const journey = journeyId ? journeys[journeyId] : null;
 
+  const [journeySearch, setJourneySearch] = useState('');
+
   const markerRefs = useRef({});
 
   const focusedLocation = useMemo(
@@ -87,21 +95,36 @@ function MapPage() {
     }
   }, [focusedLocationId]);
 
+  const journeyEntries = useMemo(
+    () =>
+      Object.entries(journeys)
+        .map(([id, j]) => ({ id, ...j }))
+        .filter((j) => Array.isArray(j.stops) && j.stops.length > 0)
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    []
+  );
+
+  const filteredEntries = useMemo(() => {
+    const q = journeySearch.trim().toLowerCase();
+    if (!q) return journeyEntries;
+    return journeyEntries.filter((j) => j.name.toLowerCase().includes(q));
+  }, [journeyEntries, journeySearch]);
+
   const journeyBounds = useMemo(
-    () => (journey ? journey.stops.map((s) => s.coords) : null),
+    () =>
+      journey
+        ? journey.stops.map(stopLatLng).filter((c) => c !== null)
+        : null,
     [journey]
   );
 
-  const handleJourneyChange = (e) => {
+  const selectJourney = (id) => {
     const next = new URLSearchParams(searchParams);
-    const value = e.target.value;
-    if (value) {
-      next.set('journey', value);
-    } else {
-      next.delete('journey');
-    }
+    if (id) next.set('journey', id);
+    else next.delete('journey');
     next.delete('location');
     setSearchParams(next, { replace: true });
+    setJourneySearch('');
   };
 
   const clearJourney = () => {
@@ -113,24 +136,56 @@ function MapPage() {
   return (
     <div className="map-page">
       <div className="map-controls">
-        <label className="journey-select" htmlFor="journey-select">
-          <span className="journey-select__label">Trace a Journey</span>
-          <div className="journey-select__field">
-            <select
-              id="journey-select"
-              value={journeyId ?? ''}
-              onChange={handleJourneyChange}
-            >
-              <option value="">Select a character…</option>
-              {Object.entries(journeys).map(([id, j]) => (
-                <option key={id} value={id}>
-                  {j.name}
-                </option>
-              ))}
-            </select>
-            <span className="journey-select__chevron" aria-hidden="true">▾</span>
+        <div className="journey-picker">
+          <span className="journey-picker__label">Trace a Journey</span>
+          <div className="journey-picker__search">
+            <span className="journey-picker__icon" aria-hidden="true">⌕</span>
+            <input
+              type="search"
+              className="journey-picker__input"
+              placeholder={`Search ${journeyEntries.length} characters…`}
+              value={journeySearch}
+              onChange={(e) => setJourneySearch(e.target.value)}
+              aria-label="Search character journeys"
+            />
+            {journeySearch && (
+              <button
+                type="button"
+                className="journey-picker__clear"
+                onClick={() => setJourneySearch('')}
+                aria-label="Clear search"
+              >
+                ×
+              </button>
+            )}
           </div>
-        </label>
+          <ul className="journey-picker__list" role="listbox">
+            {filteredEntries.length === 0 ? (
+              <li className="journey-picker__empty">No matches</li>
+            ) : (
+              filteredEntries.map((j) => {
+                const active = j.id === journeyId;
+                return (
+                  <li key={j.id}>
+                    <button
+                      type="button"
+                      className={`journey-picker__option${active ? ' journey-picker__option--active' : ''}`}
+                      onClick={() => selectJourney(active ? null : j.id)}
+                    >
+                      <span
+                        className="journey-picker__swatch"
+                        style={{ backgroundColor: j.color }}
+                        aria-hidden="true"
+                      />
+                      <span className="journey-picker__name">{j.name}</span>
+                      <span className="journey-picker__count">{j.stops.length}</span>
+                    </button>
+                  </li>
+                );
+              })
+            )}
+          </ul>
+        </div>
 
         {journey && (
           <div className="journey-legend">
@@ -163,8 +218,8 @@ function MapPage() {
         worldCopyJump
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
         />
 
         <MapEffects
@@ -197,14 +252,39 @@ function MapPage() {
             >
               <Popup className="map-popup">
                 <h3 className="map-popup__name">{loc.name}</h3>
-                <span className="map-popup__country">{loc.modernCountry}</span>
-                <p className="map-popup__significance">{loc.significance}</p>
-                <div className="map-popup__figures">
-                  <span className="map-popup__label">Figures</span>
-                  <span className="map-popup__list">
-                    {loc.characters.join(' · ')}
+                {loc.hebrewOrGreekName && (
+                  <span
+                    className="map-popup__script"
+                    lang={loc.scriptLang || (loc.testament === 'NT' ? 'grc' : 'he')}
+                  >
+                    {loc.hebrewOrGreekName}
                   </span>
-                </div>
+                )}
+                {loc.ancientName && (
+                  <span className="map-popup__ancient">{loc.ancientName}</span>
+                )}
+                {(loc.modernName || loc.modernCountry) && (
+                  <span className="map-popup__modern">
+                    <span className="map-popup__modern-label">Modern:</span>{' '}
+                    {loc.modernName ? `${loc.modernName}` : ''}
+                    {loc.modernName && loc.modernCountry ? ', ' : ''}
+                    {loc.modernCountry || ''}
+                  </span>
+                )}
+                {loc.nameChange && (
+                  <p className="map-popup__name-change">{loc.nameChange}</p>
+                )}
+                <p className="map-popup__significance">{loc.significance}</p>
+                {loc.characters && loc.characters.length > 0 && (
+                  <div className="map-popup__figures">
+                    <span className="map-popup__label">Figures</span>
+                    <ul className="map-popup__chip-list">
+                      {loc.characters.map((c) => (
+                        <li key={c} className="map-popup__chip">{c}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </Popup>
             </CircleMarker>
           );
@@ -213,7 +293,7 @@ function MapPage() {
         {journey && (
           <>
             <Polyline
-              positions={journey.stops.map((s) => s.coords)}
+              positions={journey.stops.map(stopLatLng).filter((c) => c !== null)}
               pathOptions={{
                 color: journey.color,
                 weight: 3,
@@ -221,22 +301,28 @@ function MapPage() {
                 dashArray: '6 8',
               }}
             />
-            {journey.stops.map((stop, i) => (
-              <Marker
-                key={`${journeyId}-${i}`}
-                position={stop.coords}
-                icon={numberedIcon(i + 1, journey.color)}
-                zIndexOffset={1000}
-              >
-                <Tooltip direction="top" offset={[0, -14]} opacity={1}>
-                  <strong>
-                    {i + 1}. {stop.name}
-                  </strong>
-                  <br />
-                  <span style={{ color: '#cfcfc4' }}>{stop.note}</span>
-                </Tooltip>
-              </Marker>
-            ))}
+            {journey.stops.map((stop, i) => {
+              const pos = stopLatLng(stop);
+              if (!pos) return null;
+              return (
+                <Marker
+                  key={`${journeyId}-${i}`}
+                  position={pos}
+                  icon={numberedIcon(i + 1, journey.color)}
+                  zIndexOffset={1000}
+                >
+                  <Tooltip direction="top" offset={[0, -14]} opacity={1}>
+                    <strong>
+                      {i + 1}. {stop.name}
+                    </strong>
+                    <br />
+                    <span style={{ color: '#cfcfc4' }}>
+                      {stop.description || stop.note}
+                    </span>
+                  </Tooltip>
+                </Marker>
+              );
+            })}
           </>
         )}
       </MapContainer>

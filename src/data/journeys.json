@@ -2,144 +2,1266 @@
   "jesus": {
     "name": "Jesus",
     "color": "#C9A84C",
-    "description": "From the manger in Bethlehem to the empty tomb in Jerusalem.",
+    "description": "From the manger in Bethlehem to the empty tomb in Jerusalem and the ascension from the Mount of Olives.",
     "stops": [
-      {
-        "name": "Bethlehem",
-        "coords": [31.7054, 35.2024],
-        "note": "Birth"
-      },
-      {
-        "name": "Egypt",
-        "coords": [30.0444, 31.2357],
-        "note": "Flight from Herod"
-      },
-      {
-        "name": "Nazareth",
-        "coords": [32.7021, 35.2978],
-        "note": "Childhood and youth"
-      },
-      {
-        "name": "The Jordan River",
-        "coords": [32.3119, 35.5697],
-        "note": "Baptism by John"
-      },
-      {
-        "name": "Sea of Galilee",
-        "coords": [32.8058, 35.5897],
-        "note": "Public ministry"
-      },
-      {
-        "name": "Jerusalem",
-        "coords": [31.7683, 35.2137],
-        "note": "Crucifixion and resurrection"
-      }
+      { "name": "Bethlehem", "lat": 31.7054, "lng": 35.2024, "description": "Born in a manger during Caesar Augustus's census; visited by shepherds and later by magi from the east." },
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Presented at the temple on the eighth day; recognized by Simeon and Anna as the consolation of Israel." },
+      { "name": "Egypt", "lat": 30.0444, "lng": 31.2357, "description": "The Holy Family fled here under Joseph's dream to escape Herod's massacre of the children of Bethlehem." },
+      { "name": "Nazareth", "lat": 32.7021, "lng": 35.2978, "description": "Childhood and youth in the Galilean town; learned the carpenter's trade in Joseph's shop and grew in wisdom and stature." },
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "At twelve, lingered behind in the temple courts questioning the teachers — 'did you not know I must be about my Father's business?'" },
+      { "name": "The Jordan River (Bethany beyond the Jordan)", "lat": 31.8378, "lng": 35.5453, "description": "Baptized by John; the heavens opened and the voice declared him the beloved Son." },
+      { "name": "The Judean Wilderness", "lat": 31.6800, "lng": 35.4500, "description": "Forty days of fasting and temptation by Satan among the wild beasts of the desert." },
+      { "name": "Cana", "lat": 32.7470, "lng": 35.3392, "description": "Turned water into wine at a wedding feast — the first of his signs revealing his glory." },
+      { "name": "Capernaum", "lat": 32.8807, "lng": 35.5752, "description": "Made this lakeside town his ministry headquarters; healed Peter's mother-in-law, the centurion's servant, the paralytic let down through the roof." },
+      { "name": "Sea of Galilee", "lat": 32.8058, "lng": 35.5897, "description": "Called the first disciples from their nets; calmed the storm; walked on the water; preached the parables from a boat." },
+      { "name": "The Mount of Beatitudes", "lat": 32.8810, "lng": 35.5566, "description": "Preached the Sermon on the Mount above the Sea of Galilee — the Beatitudes, the Lord's Prayer, the lilies of the field." },
+      { "name": "Nain", "lat": 32.6324, "lng": 35.3489, "description": "Raised the widow's only son from his bier as the funeral procession was carried out of the city gate." },
+      { "name": "Caesarea Philippi", "lat": 33.2483, "lng": 35.6944, "description": "At the rock of Pan, Peter confessed him as the Christ; Jesus first spoke openly of his coming death and resurrection." },
+      { "name": "Mount Tabor", "lat": 32.6868, "lng": 35.3905, "description": "Traditional site of the Transfiguration; appeared in shining glory with Moses and Elijah before Peter, James, and John." },
+      { "name": "Samaria (Sychar)", "lat": 32.2086, "lng": 35.2825, "description": "At Jacob's well, conversed with the Samaritan woman; the city believed because of her testimony." },
+      { "name": "Bethany", "lat": 31.7717, "lng": 35.2603, "description": "Often guest of Martha, Mary, and Lazarus; raised Lazarus from the tomb after four days." },
+      { "name": "Jericho", "lat": 31.8667, "lng": 35.4500, "description": "Healed blind Bartimaeus by the road and called Zacchaeus down from the sycamore-fig to share his table." },
+      { "name": "The Mount of Olives", "lat": 31.7784, "lng": 35.2455, "description": "Wept over Jerusalem; rode down its slope on Palm Sunday; gave the Olivet discourse to his disciples." },
+      { "name": "Jerusalem (Triumphal Entry)", "lat": 31.7780, "lng": 35.2354, "description": "Entered the city on a colt to the cries of Hosanna and palm branches; cleansed the temple of moneychangers." },
+      { "name": "The Upper Room", "lat": 31.7717, "lng": 35.2294, "description": "Washed the disciples' feet and inaugurated the Lord's Supper on the night he was betrayed." },
+      { "name": "The Garden of Gethsemane", "lat": 31.7793, "lng": 35.2400, "description": "Prayed in agony — 'not my will but yours be done' — and was betrayed with a kiss." },
+      { "name": "House of Annas and Caiaphas", "lat": 31.7716, "lng": 35.2289, "description": "Tried before the high priests by night; condemned for blasphemy; struck and mocked by the guards." },
+      { "name": "Pilate's Praetorium", "lat": 31.7800, "lng": 35.2353, "description": "Brought before Pontius Pilate, sent to Herod Antipas and back; scourged and sentenced to crucifixion." },
+      { "name": "Golgotha", "lat": 31.7784, "lng": 35.2298, "description": "Crucified between two criminals; cried out 'it is finished' and gave up his spirit at the ninth hour." },
+      { "name": "The Garden Tomb", "lat": 31.7787, "lng": 35.2300, "description": "Buried in Joseph of Arimathea's new tomb; on the third day Mary Magdalene found it open and empty." },
+      { "name": "The Road to Emmaus", "lat": 31.8417, "lng": 35.0028, "description": "Walked with two disciples after the resurrection and was made known to them in the breaking of bread." },
+      { "name": "Sea of Galilee (post-resurrection)", "lat": 32.8350, "lng": 35.6300, "description": "Appeared on the shore at dawn; the miraculous catch of fish; restored Peter with three questions of love." },
+      { "name": "The Mount of Olives (Ascension)", "lat": 31.7784, "lng": 35.2455, "description": "After forty days he was taken up into heaven from this mountain; two men in white promised his return." }
     ]
   },
   "moses": {
     "name": "Moses",
     "color": "#4A90E2",
-    "description": "From Pharaoh's house to the edge of the promised land.",
+    "description": "From Pharaoh's house in Egypt to the edge of the promised land overlooking Jericho from Mount Nebo.",
     "stops": [
-      {
-        "name": "Egypt",
-        "coords": [30.0444, 31.2357],
-        "note": "Born in Goshen, raised in Pharaoh's house"
-      },
-      {
-        "name": "Midian",
-        "coords": [28.4833, 34.7833],
-        "note": "Forty years tending flocks for Jethro"
-      },
-      {
-        "name": "Mount Sinai",
-        "coords": [28.5392, 33.9756],
-        "note": "Receives the Law"
-      },
-      {
-        "name": "The Wilderness of Paran",
-        "coords": [30.5, 34.7],
-        "note": "Forty years of wilderness wandering"
-      },
-      {
-        "name": "Mount Nebo",
-        "coords": [31.7683, 35.7256],
-        "note": "Sees the promised land and dies"
-      }
+      { "name": "Goshen", "lat": 30.7000, "lng": 31.7000, "description": "Born to Hebrew slaves in the eastern Egyptian delta during Pharaoh's edict to kill the Hebrew boys." },
+      { "name": "The Nile", "lat": 30.0700, "lng": 31.2200, "description": "Placed in a pitch-sealed basket among the reeds where Pharaoh's daughter came down to bathe and rescued him." },
+      { "name": "Memphis (Pharaoh's House)", "lat": 29.8442, "lng": 31.2548, "description": "Raised in the royal court of Egypt as the son of Pharaoh's daughter; learned all the wisdom of the Egyptians." },
+      { "name": "Midian", "lat": 28.3000, "lng": 35.0000, "description": "Fled here after killing an Egyptian overseer; tended Jethro's flocks for forty years and married Zipporah." },
+      { "name": "Mount Horeb (the burning bush)", "lat": 28.5392, "lng": 33.9756, "description": "Met God in the flame of the bush that was not consumed; received the divine name and the commission to return to Egypt." },
+      { "name": "Egypt (the plagues)", "lat": 30.0444, "lng": 31.2357, "description": "Confronted Pharaoh through ten plagues — blood, frogs, gnats, flies, livestock, boils, hail, locusts, darkness, death of the firstborn." },
+      { "name": "Rameses (Exodus departure)", "lat": 30.7948, "lng": 31.8367, "description": "Led six hundred thousand Israelite men plus women and children out of slavery on the night of Passover." },
+      { "name": "Succoth", "lat": 30.5300, "lng": 32.0800, "description": "First wilderness encampment after leaving Rameses; pillar of cloud by day and fire by night went before them." },
+      { "name": "The Red Sea crossing", "lat": 30.0000, "lng": 32.5500, "description": "God parted the sea with a strong east wind; Israel crossed on dry ground while Pharaoh's army was drowned behind them." },
+      { "name": "Marah", "lat": 29.6033, "lng": 32.7222, "description": "Found bitter water; the Lord showed Moses a piece of wood to cast in and the water became sweet." },
+      { "name": "Elim", "lat": 28.9000, "lng": 33.0958, "description": "Twelve springs and seventy palm trees; the Israelites camped there beside the water." },
+      { "name": "The Wilderness of Sin", "lat": 28.9000, "lng": 33.5000, "description": "Grumbled for food; God sent manna in the morning and quail in the evening for the forty wilderness years." },
+      { "name": "Rephidim", "lat": 28.7333, "lng": 33.7500, "description": "Water from the struck rock; battle with Amalek won while Aaron and Hur held up Moses's arms." },
+      { "name": "Mount Sinai", "lat": 28.5392, "lng": 33.9756, "description": "Received the Ten Commandments and the Law in fire and smoke; the people made the golden calf at the foot of the mountain." },
+      { "name": "Kadesh Barnea", "lat": 30.6936, "lng": 34.4356, "description": "Sent twelve spies into Canaan from this oasis; the people refused to enter and were sentenced to forty wilderness years." },
+      { "name": "The Wilderness of Paran", "lat": 30.3000, "lng": 34.7000, "description": "Forty years of wandering in this desert south of Canaan; the whole generation that left Egypt died here except Caleb and Joshua." },
+      { "name": "The Plains of Moab", "lat": 31.8500, "lng": 35.6000, "description": "Israel encamped opposite Jericho on the east side of the Jordan; Moses delivered the speeches recorded in Deuteronomy." },
+      { "name": "Mount Nebo", "lat": 31.7683, "lng": 35.7256, "description": "Climbed Pisgah to see the land he could not enter; died there at a hundred and twenty and was buried by the Lord in an unknown grave." }
     ]
   },
   "paul": {
     "name": "Paul",
     "color": "#5DA271",
-    "description": "Three missionary journeys, ending in Rome.",
+    "description": "Three missionary journeys from Antioch to the heart of the Roman world, ending under house arrest in Rome.",
     "stops": [
-      {
-        "name": "Tarsus",
-        "coords": [36.9173, 34.8923],
-        "note": "Birthplace"
-      },
-      {
-        "name": "Jerusalem",
-        "coords": [31.7683, 35.2137],
-        "note": "Studies under Gamaliel; persecutes the church"
-      },
-      {
-        "name": "Damascus",
-        "coords": [33.5138, 36.2765],
-        "note": "Encounters the risen Christ"
-      },
-      {
-        "name": "Antioch",
-        "coords": [36.2021, 36.1604],
-        "note": "Sent out by the church"
-      },
-      {
-        "name": "Ephesus",
-        "coords": [37.9494, 27.3639],
-        "note": "Two years of ministry in Asia"
-      },
-      {
-        "name": "Corinth",
-        "coords": [37.9061, 22.8786],
-        "note": "Founds a church; writes letters home"
-      },
-      {
-        "name": "Rome",
-        "coords": [41.9028, 12.4964],
-        "note": "Tried before Caesar; tradition says martyred under Nero"
-      }
+      { "name": "Tarsus", "lat": 36.9173, "lng": 34.8923, "description": "Birthplace; Roman citizen of a Cilician trading city, trained in Greek learning and Pharisaic Judaism." },
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Studied under Gamaliel; consented to Stephen's stoning; persecuted the early church house by house." },
+      { "name": "The Damascus Road", "lat": 33.5138, "lng": 36.2765, "description": "Struck by a light from heaven and blinded; the risen Christ asked, 'why do you persecute me?'" },
+      { "name": "Damascus", "lat": 33.5138, "lng": 36.2765, "description": "Ananias restored his sight and baptized him; he preached Christ in the synagogues and was let down the wall in a basket to escape." },
+      { "name": "Arabia", "lat": 31.0000, "lng": 36.5000, "description": "Withdrew into the Nabatean kingdom for a time of seclusion and reflection before returning to Damascus." },
+      { "name": "Jerusalem (first visit)", "lat": 31.7780, "lng": 35.2354, "description": "Three years after his conversion; Barnabas brought him to the apostles when they were still afraid of him." },
+      { "name": "Tarsus (years of obscurity)", "lat": 36.9173, "lng": 34.8923, "description": "Sent home for safety; spent perhaps a decade in his native city before Barnabas came to find him." },
+      { "name": "Antioch of Syria", "lat": 36.2021, "lng": 36.1604, "description": "Taught with Barnabas for a year in the city where the disciples were first called Christians." },
+      { "name": "Seleucia", "lat": 36.1167, "lng": 35.9333, "description": "Antioch's port; embarkation point for the first missionary journey with Barnabas and John Mark." },
+      { "name": "Salamis, Cyprus", "lat": 35.1856, "lng": 33.9011, "description": "Landed in Cyprus and preached in the synagogues of Salamis on the eastern shore." },
+      { "name": "Paphos, Cyprus", "lat": 34.7574, "lng": 32.4067, "description": "Confronted the magician Bar-Jesus and converted the Roman proconsul Sergius Paulus." },
+      { "name": "Perga", "lat": 36.9614, "lng": 30.8542, "description": "Landed on the mainland of Asia Minor; John Mark left them here and returned to Jerusalem." },
+      { "name": "Pisidian Antioch", "lat": 38.2956, "lng": 31.1844, "description": "Preached a long synagogue sermon tracing the gospel from David; the Gentiles begged to hear it again the next Sabbath." },
+      { "name": "Iconium", "lat": 37.8746, "lng": 32.4932, "description": "Spoke boldly; the city split; Paul and Barnabas fled when a plot to stone them was uncovered." },
+      { "name": "Lystra", "lat": 37.5811, "lng": 32.4517, "description": "Healed a man lame from birth; the crowds tried to offer sacrifices to them as Hermes and Zeus, then stoned Paul and left him for dead." },
+      { "name": "Derbe", "lat": 37.3400, "lng": 33.3000, "description": "Easternmost point of the first journey; many disciples made before turning back to strengthen the new churches." },
+      { "name": "Jerusalem Council", "lat": 31.7780, "lng": 35.2354, "description": "Defended Gentile freedom from circumcision at the council that established the gospel's reach beyond Judaism." },
+      { "name": "Antioch of Syria (second journey)", "lat": 36.2021, "lng": 36.1604, "description": "Parted from Barnabas over John Mark; took Silas and went through Syria and Cilicia strengthening the churches." },
+      { "name": "Lystra (joined by Timothy)", "lat": 37.5811, "lng": 32.4517, "description": "Met Timothy, son of Eunice; circumcised him for the sake of the synagogues and took him on the journey." },
+      { "name": "Troas", "lat": 39.7536, "lng": 26.1592, "description": "Saw the vision of the man of Macedonia by night — 'come over and help us.' Boarded ship for Europe." },
+      { "name": "Neapolis", "lat": 40.9356, "lng": 24.4067, "description": "First landing on European soil; port city for nearby Philippi." },
+      { "name": "Philippi", "lat": 41.0136, "lng": 24.2870, "description": "Lydia of Thyatira was baptized at the river outside the gate; Paul and Silas were jailed, sang at midnight, and an earthquake broke the stocks." },
+      { "name": "Thessalonica", "lat": 40.6401, "lng": 22.9444, "description": "Three Sabbaths in the synagogue; many believed but a mob attacked the house of Jason and ran them out of the city." },
+      { "name": "Berea", "lat": 40.5247, "lng": 22.2024, "description": "More noble than Thessalonica — examined the scriptures daily to test what they heard; many believed before the Thessalonians arrived to stir up the crowds." },
+      { "name": "Athens", "lat": 37.9755, "lng": 23.7348, "description": "Provoked by the city's idols; debated in the synagogue and the agora; preached on Mars Hill from the altar to an unknown god." },
+      { "name": "Corinth", "lat": 37.9061, "lng": 22.8786, "description": "Stayed eighteen months with Aquila and Priscilla, fellow tentmakers; founded a church; wrote 1 and 2 Thessalonians from here." },
+      { "name": "Cenchreae", "lat": 37.8842, "lng": 22.9886, "description": "Corinth's eastern port; Paul cut his hair here under a vow before sailing for Ephesus." },
+      { "name": "Ephesus (brief first visit)", "lat": 37.9494, "lng": 27.3639, "description": "Left Priscilla and Aquila there; promised to return; sailed for Caesarea and Jerusalem." },
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Landed and went up to greet the church in Jerusalem before returning to Antioch — end of the second journey." },
+      { "name": "Ephesus (third journey)", "lat": 37.9494, "lng": 27.3639, "description": "Two years of daily lectures in the hall of Tyrannus; the riot of the silversmiths in the theater; the burning of magic books." },
+      { "name": "Troas (raising Eutychus)", "lat": 39.7536, "lng": 26.1592, "description": "Preached till midnight; a young man named Eutychus fell asleep, fell from a third-story window, and was raised up." },
+      { "name": "Miletus", "lat": 37.5294, "lng": 27.2772, "description": "Met the Ephesian elders on the shore; warned them of wolves to come; knelt with them on the beach and wept at parting." },
+      { "name": "Tyre", "lat": 33.2704, "lng": 35.2038, "description": "Stayed seven days; disciples warned him through the Spirit not to go to Jerusalem; knelt with them on the beach." },
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Stayed with Philip the Evangelist; Agabus bound himself with Paul's belt and prophesied his arrest." },
+      { "name": "Jerusalem (arrest)", "lat": 31.7780, "lng": 35.2354, "description": "Took Nazarite vows in the temple; a mob attacked him as a defiler; the Roman tribune arrested him." },
+      { "name": "Caesarea Maritima (imprisonment)", "lat": 32.4980, "lng": 34.8917, "description": "Held two years under Felix; defended himself before Festus and Agrippa; appealed to Caesar." },
+      { "name": "Fair Havens, Crete", "lat": 34.9281, "lng": 24.7886, "description": "Paul warned against sailing on; the centurion overruled him and the ship was driven by a Euroclydon storm." },
+      { "name": "Malta", "lat": 35.9375, "lng": 14.3754, "description": "Shipwrecked on Malta; bitten by a viper but unharmed; healed the father of Publius and many sick on the island." },
+      { "name": "Syracuse", "lat": 37.0625, "lng": 15.2891, "description": "Three days in this Sicilian port on the voyage's final leg." },
+      { "name": "Rhegium", "lat": 38.1083, "lng": 15.6450, "description": "Stopped at the toe of Italy; favorable south wind carried them on the next day." },
+      { "name": "Puteoli", "lat": 40.8225, "lng": 14.1239, "description": "Landed in this Italian port and found brothers who welcomed him; stayed with them seven days." },
+      { "name": "The Forum of Appius and Three Taverns", "lat": 41.5103, "lng": 13.0289, "description": "Brothers came out from Rome to meet him on the Appian Way; seeing them he thanked God and took courage." },
+      { "name": "Rome", "lat": 41.9028, "lng": 12.4964, "description": "Two years of house arrest in his own rented quarters; preached the kingdom of God boldly to all who came; wrote Ephesians, Philippians, Colossians, Philemon." }
     ]
   },
   "abraham": {
     "name": "Abraham",
     "color": "#E59548",
-    "description": "From Ur of the Chaldees to a grave in the promised land.",
+    "description": "From Ur of the Chaldees to a grave in the promised land; the journey that became the founding pilgrimage of three faiths.",
     "stops": [
-      {
-        "name": "Ur of the Chaldees",
-        "coords": [30.9626, 46.1052],
-        "note": "Birthplace"
-      },
-      {
-        "name": "Haran",
-        "coords": [36.864, 39.029],
-        "note": "Settles with his father Terah"
-      },
-      {
-        "name": "Shechem",
-        "coords": [32.2137, 35.2818],
-        "note": "First arrival in Canaan; God renews the promise"
-      },
-      {
-        "name": "Egypt",
-        "coords": [30.0444, 31.2357],
-        "note": "Sojourn during famine"
-      },
-      {
-        "name": "Hebron",
-        "coords": [31.5326, 35.0998],
-        "note": "Settles, buries Sarah, and dies"
-      }
+      { "name": "Ur of the Chaldees", "lat": 30.9626, "lng": 46.1052, "description": "Born in this Sumerian city of moon-worship; left it with Terah at God's call." },
+      { "name": "Haran", "lat": 36.864, "lng": 39.029, "description": "Sojourned with Terah on the upper Euphrates until his father died, then resumed the journey to Canaan." },
+      { "name": "Shechem (the oak of Moreh)", "lat": 32.2137, "lng": 35.2818, "description": "First arrival in Canaan; the Lord appeared and said, 'to your offspring I will give this land.' Built his first altar." },
+      { "name": "Bethel", "lat": 31.9300, "lng": 35.2100, "description": "Pitched his tent between Bethel and Ai; built an altar and called on the name of the Lord." },
+      { "name": "The Negev", "lat": 31.0000, "lng": 34.8000, "description": "Moved south through the dry country during a famine in the land of Canaan." },
+      { "name": "Egypt", "lat": 30.0444, "lng": 31.2357, "description": "Took refuge during famine; passed Sarah off as his sister; Pharaoh took her into his house but the Lord struck the household with plagues." },
+      { "name": "Bethel (return)", "lat": 31.9300, "lng": 35.2100, "description": "Returned to the place of his first altar; called again on the name of the Lord." },
+      { "name": "Hebron (the oaks of Mamre)", "lat": 31.5326, "lng": 35.0998, "description": "Settled by the great trees of Mamre after parting from Lot; built an altar to the Lord." },
+      { "name": "Dan", "lat": 33.2469, "lng": 35.6526, "description": "Led three hundred and eighteen trained men of his household this far north to rescue Lot from the four eastern kings." },
+      { "name": "Salem (meeting Melchizedek)", "lat": 31.7683, "lng": 35.2137, "description": "On the return from rescuing Lot, met Melchizedek priest of God Most High in the King's Valley; gave him a tenth of the spoils." },
+      { "name": "Hebron (the covenant)", "lat": 31.5326, "lng": 35.0998, "description": "The Lord cut covenant with him between halved animals; the smoking firepot passed through; the promise of land and seed sealed." },
+      { "name": "Mamre (three visitors)", "lat": 31.5500, "lng": 35.1000, "description": "Three men appeared at the door of the tent in the heat of the day; the promise of Isaac was given and Sodom's coming destruction foretold." },
+      { "name": "Gerar", "lat": 31.3933, "lng": 34.5728, "description": "Sojourned among the Philistines; Abimelech took Sarah into his house before God warned him in a dream." },
+      { "name": "Beersheba", "lat": 31.2522, "lng": 34.7889, "description": "Made covenant with Abimelech and planted a tamarisk tree; called on the everlasting God; Isaac was born and weaned here." },
+      { "name": "Mount Moriah", "lat": 31.7780, "lng": 35.2354, "description": "Bound Isaac on the altar and raised the knife; God provided a ram caught in the thicket and renewed the covenant under oath." },
+      { "name": "Hebron (death and burial)", "lat": 31.5326, "lng": 35.0998, "description": "Bought the cave of Machpelah from Ephron the Hittite for four hundred shekels; buried Sarah, and was himself buried there at a hundred and seventy-five." }
+    ]
+  },
+  "noah": {
+    "name": "Noah",
+    "color": "#6F8DAB",
+    "description": "From the antediluvian world to the mountains of Ararat where the ark came to rest.",
+    "stops": [
+      { "name": "The antediluvian world", "lat": 33.0000, "lng": 44.0000, "description": "Built the ark for over a century while preaching righteousness to a generation that did not listen." },
+      { "name": "The ark", "lat": 37.0000, "lng": 42.0000, "description": "Took refuge with his family and pairs of every creature; the fountains of the deep broke open and the windows of heaven were opened." },
+      { "name": "Mount Ararat", "lat": 39.7022, "lng": 44.2982, "description": "The ark came to rest on this mountain in eastern Anatolia; Noah built an altar and offered burnt sacrifices on the dry earth." }
+    ]
+  },
+  "enoch": {
+    "name": "Enoch",
+    "color": "#BCB07D",
+    "description": "Walked with God for three hundred and sixty-five years and was not, for God took him.",
+    "stops": [
+      { "name": "The antediluvian world", "lat": 33.0000, "lng": 44.0000, "description": "Walked with God in the days before the flood; fathered Methuselah and was taken without seeing death." }
+    ]
+  },
+  "melchizedek": {
+    "name": "Melchizedek",
+    "color": "#C7B470",
+    "description": "Priest-king of Salem who blessed Abraham with bread and wine.",
+    "stops": [
+      { "name": "Salem", "lat": 31.7683, "lng": 35.2137, "description": "King of Salem and priest of God Most High; brought out bread and wine to bless Abraham in the King's Valley." }
+    ]
+  },
+  "lot": {
+    "name": "Lot",
+    "color": "#A87D5A",
+    "description": "From Ur to a cave in the hills of Moab — a long descent that ended at the edge of Sodom's ash.",
+    "stops": [
+      { "name": "Ur of the Chaldees", "lat": 30.9626, "lng": 46.1052, "description": "Left with his uncle Abraham on the long journey north and west to Canaan." },
+      { "name": "Haran", "lat": 36.864, "lng": 39.029, "description": "Lingered with Terah until Abraham resumed the journey south to Canaan." },
+      { "name": "Bethel", "lat": 31.9300, "lng": 35.2100, "description": "Settled with Abraham between Bethel and Ai until the flocks grew too large for shared pasture." },
+      { "name": "The Jordan Valley", "lat": 31.7500, "lng": 35.5000, "description": "Chose the well-watered plain like the garden of the Lord and pitched his tent toward Sodom." },
+      { "name": "Sodom", "lat": 31.0000, "lng": 35.4000, "description": "Moved into the city; was captured in the war of the four kings against the five and rescued by Abraham." },
+      { "name": "Zoar", "lat": 30.9522, "lng": 35.5117, "description": "Fled with his daughters to this small city as Sodom and Gomorrah burned; his wife looked back and became a pillar of salt." },
+      { "name": "The hills of Moab", "lat": 31.1000, "lng": 35.6500, "description": "Hid with his two daughters in a cave; the daughters bore Moab and Ben-Ammi, ancestors of the Moabite and Ammonite nations." }
+    ]
+  },
+  "sarah": {
+    "name": "Sarah",
+    "color": "#D9C36A",
+    "description": "Followed Abraham out of Ur and through forty years of wandering; bore Isaac at ninety.",
+    "stops": [
+      { "name": "Ur of the Chaldees", "lat": 30.9626, "lng": 46.1052, "description": "Born and married to Abraham in this Sumerian city; left it at his call." },
+      { "name": "Haran", "lat": 36.864, "lng": 39.029, "description": "Sojourned on the upper Euphrates with the household of Terah." },
+      { "name": "Shechem", "lat": 32.2137, "lng": 35.2818, "description": "Arrived in Canaan with Abraham; passed by the oak of Moreh." },
+      { "name": "Egypt", "lat": 30.0444, "lng": 31.2357, "description": "Taken into Pharaoh's house when Abraham called her his sister; restored by Pharaoh after plagues." },
+      { "name": "Hebron (the oaks of Mamre)", "lat": 31.5326, "lng": 35.0998, "description": "Settled here; gave Hagar to Abraham; laughed in the tent when told she would bear a son." },
+      { "name": "Gerar", "lat": 31.3933, "lng": 34.5728, "description": "Taken into Abimelech's house when Abraham again called her his sister." },
+      { "name": "Beersheba", "lat": 31.2522, "lng": 34.7889, "description": "Bore Isaac at ninety; sent Hagar and Ishmael away after the weaning feast." },
+      { "name": "Hebron (burial)", "lat": 31.5326, "lng": 35.0998, "description": "Died at a hundred and twenty-seven; buried in the cave of Machpelah, the first piece of the promised land owned by Abraham." }
+    ]
+  },
+  "hagar": {
+    "name": "Hagar",
+    "color": "#C99B7A",
+    "description": "Egyptian handmaid found twice in the wilderness by the God who sees.",
+    "stops": [
+      { "name": "Egypt", "lat": 30.0444, "lng": 31.2357, "description": "Born here and taken by Sarah from Pharaoh's household as a maidservant." },
+      { "name": "Hebron", "lat": 31.5326, "lng": 35.0998, "description": "Given to Abraham as a surrogate; conceived Ishmael." },
+      { "name": "The Wilderness of Shur", "lat": 30.6000, "lng": 33.5000, "description": "Fled south toward Egypt; the angel of the Lord found her by a spring on the road and sent her back." },
+      { "name": "Beer-lahai-roi", "lat": 30.7800, "lng": 34.7500, "description": "Named the well 'the God who sees me' after her encounter with the angel; bore Ishmael." },
+      { "name": "The Wilderness of Beersheba", "lat": 31.2522, "lng": 34.7889, "description": "Cast out a second time with bread and water; sat down at a distance from her dying son; God opened her eyes to a well." },
+      { "name": "The Wilderness of Paran", "lat": 30.5000, "lng": 34.7000, "description": "Settled here with Ishmael; found him an Egyptian wife from her own people." }
+    ]
+  },
+  "isaac": {
+    "name": "Isaac",
+    "color": "#E2D29A",
+    "description": "Walked the southern lands his father had walked — between Beersheba, Gerar, and the wells of his father.",
+    "stops": [
+      { "name": "Beersheba", "lat": 31.2522, "lng": 34.7889, "description": "Born and weaned here; Abraham held a great feast on the day of his weaning." },
+      { "name": "Mount Moriah", "lat": 31.7780, "lng": 35.2354, "description": "Carried the wood up the mountain on his back; was bound on the altar; saved by the ram in the thicket." },
+      { "name": "Beer-lahai-roi", "lat": 30.7800, "lng": 34.7500, "description": "Lived here after Sarah's death; went out to meditate in the fields at evening when his servant brought Rebekah." },
+      { "name": "Gerar", "lat": 31.3933, "lng": 34.5728, "description": "Sojourned with Abimelech king of the Philistines during a famine; sowed and reaped a hundredfold." },
+      { "name": "The Valley of Gerar", "lat": 31.3000, "lng": 34.5000, "description": "Re-dug the wells his father had dug — Esek, Sitnah, Rehoboth — that the Philistines had stopped up." },
+      { "name": "Beersheba (covenant)", "lat": 31.2522, "lng": 34.7889, "description": "The Lord appeared and renewed the covenant; built an altar; made peace with Abimelech." },
+      { "name": "Hebron", "lat": 31.5326, "lng": 35.0998, "description": "Died at a hundred and eighty; buried by his sons Esau and Jacob in the cave of Machpelah." }
+    ]
+  },
+  "rebekah": {
+    "name": "Rebekah",
+    "color": "#B47F95",
+    "description": "From the well in Paddan Aram to a tent in the Negev — and into the centerpiece of the patriarchal narrative.",
+    "stops": [
+      { "name": "Paddan Aram", "lat": 36.864, "lng": 39.029, "description": "Born and raised in the household of her brother Laban; came to the well that day at the right hour." },
+      { "name": "The road to Canaan", "lat": 33.5000, "lng": 37.0000, "description": "Left her family on a single day's notice; traveled with Abraham's servant by camel caravan." },
+      { "name": "Beer-lahai-roi", "lat": 30.7800, "lng": 34.7500, "description": "Met Isaac walking in the fields at evening; he loved her and was comforted after his mother's death." },
+      { "name": "Gerar", "lat": 31.3933, "lng": 34.5728, "description": "Like Sarah before her, taken to be called Isaac's sister; saw through by Abimelech." },
+      { "name": "Hebron", "lat": 31.5326, "lng": 35.0998, "description": "Engineered Jacob's stolen blessing and sent him into exile; buried in the cave of Machpelah." }
+    ]
+  },
+  "jacob": {
+    "name": "Jacob",
+    "color": "#B97AC9",
+    "description": "From Beersheba to Haran to Bethel and at last to Egypt — the long restless circuit of Israel.",
+    "stops": [
+      { "name": "Beersheba", "lat": 31.2522, "lng": 34.7889, "description": "Born clutching Esau's heel; bought the birthright for a bowl of red stew; stole the blessing by deceit." },
+      { "name": "Bethel (Jacob's ladder)", "lat": 31.9300, "lng": 35.2100, "description": "Slept with a stone for a pillow on his flight north; saw the ladder reaching to heaven and the Lord standing above it." },
+      { "name": "Haran", "lat": 36.864, "lng": 39.029, "description": "Served Laban twenty years; was tricked into marrying Leah first; worked another seven for Rachel; fathered eleven sons and a daughter." },
+      { "name": "Mizpah (covenant heap)", "lat": 32.2728, "lng": 35.7344, "description": "Parted from Laban under a covenant heap of stones; the Lord watch between us when we are absent one from another." },
+      { "name": "Mahanaim", "lat": 32.2300, "lng": 35.7000, "description": "Met by two camps of angels — God's host — as he came back into Canaan; named the place 'two camps.'" },
+      { "name": "Peniel (wrestling)", "lat": 32.1894, "lng": 35.6911, "description": "Wrestled the man through the night by the Jabbok; his hip was put out of joint; received the new name Israel." },
+      { "name": "Reunion with Esau", "lat": 32.1700, "lng": 35.7200, "description": "Met his brother with seven bowings; Esau ran to meet him, embraced him, and they wept together." },
+      { "name": "Shechem", "lat": 32.2137, "lng": 35.2818, "description": "Bought a piece of land and pitched his tent; Dinah was defiled here and his sons took bloody revenge." },
+      { "name": "Bethel (return)", "lat": 31.9300, "lng": 35.2100, "description": "Buried the household gods under the oak and returned to build the altar at the place of his vision." },
+      { "name": "Bethlehem (Rachel's death)", "lat": 31.7054, "lng": 35.2024, "description": "Rachel died in childbirth on the road; he set a pillar over her grave that is the grave of Rachel to this day." },
+      { "name": "Hebron", "lat": 31.5326, "lng": 35.0998, "description": "Settled with Isaac in his old age; received the news of Joseph's death and tore his garments." },
+      { "name": "Beersheba (sacrifices on the way to Egypt)", "lat": 31.2522, "lng": 34.7889, "description": "Offered sacrifices to the God of his father Isaac before going down to Egypt; God spoke to him in visions of the night." },
+      { "name": "Goshen, Egypt", "lat": 30.7000, "lng": 31.7000, "description": "Settled with his family in the best of the land; presented to Pharaoh; blessed the king of Egypt." },
+      { "name": "Hebron (burial)", "lat": 31.5326, "lng": 35.0998, "description": "Died at a hundred and forty-seven; embalmed in Egypt and carried back to the cave of Machpelah for burial." }
+    ]
+  },
+  "joseph": {
+    "name": "Joseph",
+    "color": "#E6A8A8",
+    "description": "From a pit in Dothan to Pharaoh's chariot — the brother sold became the savior of his family.",
+    "stops": [
+      { "name": "Hebron", "lat": 31.5326, "lng": 35.0998, "description": "Born to Rachel in Paddan Aram, raised in his father's household in the Hebron hills; favored son in the coat of many colors." },
+      { "name": "Shechem", "lat": 32.2137, "lng": 35.2818, "description": "Sent by Jacob to check on his brothers at pasture; could not find them in the fields." },
+      { "name": "Dothan", "lat": 32.4144, "lng": 35.1850, "description": "Found his brothers here; was stripped, thrown into a pit, and sold to Ishmaelite traders bound for Egypt." },
+      { "name": "Egypt (Potiphar's house)", "lat": 29.8442, "lng": 31.2548, "description": "Sold to Potiphar, captain of the guard; rose to overseer of the house; falsely accused by Potiphar's wife." },
+      { "name": "Egypt (Pharaoh's prison)", "lat": 29.8442, "lng": 31.2548, "description": "Imprisoned for a crime he had not committed; interpreted the dreams of the cupbearer and the baker." },
+      { "name": "Egypt (Pharaoh's court)", "lat": 29.8442, "lng": 31.2548, "description": "Brought from the dungeon to interpret Pharaoh's dreams of cows and grain; made second only to Pharaoh in a single day." },
+      { "name": "On (Heliopolis)", "lat": 30.1306, "lng": 31.3072, "description": "Given Asenath daughter of Potiphera priest of On as wife; bore Manasseh and Ephraim." },
+      { "name": "Goshen", "lat": 30.7000, "lng": 31.7000, "description": "Brought his father and brothers to live in this fertile delta region during the famine years." },
+      { "name": "Shechem (burial)", "lat": 32.2137, "lng": 35.2818, "description": "His bones were carried back from Egypt in the Exodus and buried in the field Jacob had bought at Shechem." }
+    ]
+  },
+  "joshua": {
+    "name": "Joshua",
+    "color": "#6CB4A4",
+    "description": "Moses's apprentice through the wilderness; the general who took Canaan stronghold by stronghold.",
+    "stops": [
+      { "name": "Egypt", "lat": 30.0444, "lng": 31.2357, "description": "Born in slavery; left Egypt with the rest of Israel under Moses." },
+      { "name": "Rephidim (battle of Amalek)", "lat": 28.7333, "lng": 33.7500, "description": "First mention in scripture — led Israel in battle against Amalek while Moses raised his hands on the hilltop." },
+      { "name": "Mount Sinai", "lat": 28.5392, "lng": 33.9756, "description": "Went up partway with Moses to receive the Law; remained as Moses's attendant for the forty days." },
+      { "name": "Kadesh Barnea (the spies)", "lat": 30.6936, "lng": 34.4356, "description": "One of the twelve spies; brought back a faithful report with Caleb; sentenced to wait forty years for the others to die." },
+      { "name": "Plains of Moab", "lat": 31.8500, "lng": 35.6000, "description": "Commissioned by Moses as his successor before the people; received the mantle 'be strong and courageous.'" },
+      { "name": "Shittim", "lat": 31.8700, "lng": 35.6300, "description": "Israel's last encampment east of the Jordan; sent two spies into Jericho who were sheltered by Rahab." },
+      { "name": "The Jordan crossing", "lat": 31.8378, "lng": 35.5453, "description": "The waters rose up in a heap when the priests bearing the ark stepped in; Israel crossed on dry ground." },
+      { "name": "Gilgal", "lat": 31.8667, "lng": 35.4811, "description": "First camp inside Canaan; circumcised the wilderness generation and kept the Passover; twelve stones from the Jordan set up here." },
+      { "name": "Jericho", "lat": 31.8667, "lng": 35.4500, "description": "Encircled the city for seven days; the walls fell at the trumpet blast on the seventh day; Rahab's household was spared." },
+      { "name": "Ai", "lat": 31.9170, "lng": 35.2570, "description": "Defeated at first because of Achan's sin; took the city by ambush after the cherem was executed; built an altar on Mount Ebal." },
+      { "name": "Gibeon", "lat": 31.8514, "lng": 35.1828, "description": "The Gibeonites tricked him into a covenant of peace with stale bread; he kept the oath when they were discovered." },
+      { "name": "The Valley of Aijalon", "lat": 31.8500, "lng": 35.0833, "description": "Defeated the five Amorite kings; sun stood still over Gibeon and moon over Aijalon for almost a whole day." },
+      { "name": "Hazor", "lat": 33.0167, "lng": 35.5667, "description": "Defeated Jabin king of Hazor and the northern coalition by the waters of Merom; burned the city with fire." },
+      { "name": "Shiloh", "lat": 32.0556, "lng": 35.2894, "description": "Set up the tabernacle here and divided the land by lot among the seven remaining tribes." },
+      { "name": "Shechem (covenant renewal)", "lat": 32.2137, "lng": 35.2818, "description": "Gathered all Israel to renew the covenant; set up a great stone under the oak by the sanctuary of the Lord." },
+      { "name": "Timnath-serah", "lat": 32.0467, "lng": 35.1633, "description": "Settled and died here in the hill country of Ephraim, his tribal inheritance, at a hundred and ten." }
+    ]
+  },
+  "caleb": {
+    "name": "Caleb",
+    "color": "#88B07F",
+    "description": "From the assembly at Kadesh to the hills of Hebron — courage outlasting an entire generation.",
+    "stops": [
+      { "name": "Egypt", "lat": 30.0444, "lng": 31.2357, "description": "Of the tribe of Judah; left Egypt with Israel as a young man." },
+      { "name": "Kadesh Barnea", "lat": 30.6936, "lng": 34.4356, "description": "One of the twelve spies sent into Canaan; brought back a faithful report and was nearly stoned by the assembly." },
+      { "name": "The Wilderness of Paran", "lat": 30.5000, "lng": 34.7000, "description": "Wandered with the rest of Israel forty years; outlived his whole generation but Joshua." },
+      { "name": "Gilgal", "lat": 31.8667, "lng": 35.4811, "description": "At eighty-five came to Joshua and asked for the hill country promised him: 'give me this mountain.'" },
+      { "name": "Hebron", "lat": 31.5326, "lng": 35.0998, "description": "Drove out the three sons of Anak — Sheshai, Ahiman, and Talmai — and took the city as his inheritance." },
+      { "name": "Debir (Kiriath-sepher)", "lat": 31.4214, "lng": 34.9778, "description": "Offered his daughter Achsah to whoever captured this city; Othniel his nephew took it and became Israel's first judge." }
+    ]
+  },
+  "aaron": {
+    "name": "Aaron",
+    "color": "#C97D7D",
+    "description": "Spokesman before Pharaoh; first high priest; died on Mount Hor.",
+    "stops": [
+      { "name": "Egypt", "lat": 30.0444, "lng": 31.2357, "description": "Born in Egypt three years before Moses; spoke for him before Pharaoh through the plagues." },
+      { "name": "Mount Sinai", "lat": 28.5392, "lng": 33.9756, "description": "Yielded to the people and made the golden calf while Moses was on the mountain; consecrated as high priest in his own right." },
+      { "name": "Rephidim", "lat": 28.7333, "lng": 33.7500, "description": "Held up Moses's hands with Hur as Joshua fought Amalek in the valley below." },
+      { "name": "The Wilderness", "lat": 30.3000, "lng": 34.7000, "description": "Mediator between Moses and the people; his sons Nadab and Abihu offered strange fire and were consumed." },
+      { "name": "Meribah at Kadesh", "lat": 30.6936, "lng": 34.4356, "description": "Stood with Moses when he struck the rock; for that act both were forbidden to enter the land." },
+      { "name": "Mount Hor", "lat": 30.3140, "lng": 35.4344, "description": "Climbed the mountain with Moses and Eleazar; his garments were placed on Eleazar; he died there at a hundred and twenty-three." }
+    ]
+  },
+  "miriam": {
+    "name": "Miriam",
+    "color": "#B89BB8",
+    "description": "From the reeds of the Nile to the wilderness of Kadesh.",
+    "stops": [
+      { "name": "Goshen", "lat": 30.7000, "lng": 31.7000, "description": "Born in Hebrew slavery in eastern Egypt; older sister of Moses and Aaron." },
+      { "name": "The Nile", "lat": 30.0700, "lng": 31.2200, "description": "Watched Moses's basket among the reeds and offered Pharaoh's daughter a Hebrew nurse — her own mother." },
+      { "name": "The Red Sea", "lat": 30.0000, "lng": 32.5500, "description": "Took the tambourine and led the women of Israel in the Song of Miriam after the deliverance." },
+      { "name": "Hazeroth", "lat": 28.9500, "lng": 34.7000, "description": "Spoke with Aaron against Moses over his Cushite wife; struck with leprosy and quarantined seven days outside the camp." },
+      { "name": "Kadesh Barnea", "lat": 30.6936, "lng": 34.4356, "description": "Died here and was buried; Israel had no water in the days that followed." }
+    ]
+  },
+  "zipporah": {
+    "name": "Zipporah",
+    "color": "#A88BBE",
+    "description": "From the well in Midian to the camp at Rephidim.",
+    "stops": [
+      { "name": "Midian", "lat": 28.3000, "lng": 35.0000, "description": "Daughter of Jethro the Midianite priest; one of seven sisters at the well where Moses defended them." },
+      { "name": "The road to Egypt", "lat": 29.5000, "lng": 33.5000, "description": "On the road back to Egypt, circumcised her son with a flint to save Moses's life — the bridegroom of blood." },
+      { "name": "Rephidim", "lat": 28.7333, "lng": 33.7500, "description": "Brought back to Moses by her father Jethro after the Exodus; reunited with him in the wilderness camp." }
+    ]
+  },
+  "rahab": {
+    "name": "Rahab",
+    "color": "#D8A5B5",
+    "description": "Hid the spies on a rooftop in Jericho and was spared when the walls came down.",
+    "stops": [
+      { "name": "Jericho (in the wall)", "lat": 31.8667, "lng": 35.4500, "description": "Hid the Israelite spies under stalks of flax on her roof; let them down by a scarlet cord through the window." },
+      { "name": "Jericho (after the fall)", "lat": 31.8667, "lng": 35.4500, "description": "Spared with her household when the walls collapsed; brought out and settled among Israel." },
+      { "name": "Bethlehem (line of David)", "lat": 31.7054, "lng": 35.2024, "description": "Married Salmon; bore Boaz; entered the line of David and of Jesus." }
+    ]
+  },
+  "deborah": {
+    "name": "Deborah",
+    "color": "#9E7DAB",
+    "description": "Judged Israel from a palm in Ephraim; rode to victory with Barak in the Kishon valley.",
+    "stops": [
+      { "name": "The palm of Deborah", "lat": 31.9500, "lng": 35.2400, "description": "Sat under this palm between Ramah and Bethel in the hill country of Ephraim and judged the people." },
+      { "name": "Kedesh-Naphtali", "lat": 33.1100, "lng": 35.5306, "description": "Summoned Barak from here to muster the tribes of Israel against the Canaanite chariots of Sisera." },
+      { "name": "Mount Tabor", "lat": 32.6868, "lng": 35.3905, "description": "Gathered ten thousand men of Naphtali and Zebulun on the mountain before descending into the valley." },
+      { "name": "The Kishon Valley", "lat": 32.6500, "lng": 35.2300, "description": "The Lord routed Sisera and his chariots before Israel; the river Kishon swept them away — that ancient river." }
+    ]
+  },
+  "gideon": {
+    "name": "Gideon",
+    "color": "#C29350",
+    "description": "From the winepress in Ophrah to the chase across the Jordan with three hundred torches.",
+    "stops": [
+      { "name": "Ophrah", "lat": 32.5500, "lng": 35.2667, "description": "Threshing wheat in a winepress when the angel of the Lord called him a mighty man of valor; tore down his father's altar to Baal." },
+      { "name": "The spring of Harod", "lat": 32.5500, "lng": 35.3500, "description": "Mustered thirty-two thousand men; the Lord reduced them to three hundred by who lapped water like a dog." },
+      { "name": "The Valley of Jezreel", "lat": 32.5552, "lng": 35.3303, "description": "Surrounded the Midianite camp by night with trumpets, torches, and jars; Midian fled in panic and slew each other." },
+      { "name": "The Jordan fords", "lat": 32.3300, "lng": 35.5500, "description": "Pursued the fleeing kings Zebah and Zalmunna across the river; men of Succoth and Penuel refused him bread." },
+      { "name": "Karkor", "lat": 31.0000, "lng": 36.4000, "description": "Surprised the remnant of Midian east of the Jordan and captured the two kings; punished Succoth and Penuel on his return." },
+      { "name": "Ophrah (death)", "lat": 32.5500, "lng": 35.2667, "description": "Returned home; made an ephod from the spoils that became a snare; judged Israel forty years; buried in his father's tomb." }
+    ]
+  },
+  "jephthah": {
+    "name": "Jephthah",
+    "color": "#9C7B8C",
+    "description": "From outlaw of Tob to judge of Israel — and a vow he could not take back.",
+    "stops": [
+      { "name": "Gilead", "lat": 32.2700, "lng": 35.7000, "description": "Son of a harlot, driven out by his half-brothers; refused his father's inheritance." },
+      { "name": "The land of Tob", "lat": 32.7500, "lng": 36.0000, "description": "Gathered worthless men around him in this remote land east of Gilead; became a brigand chief." },
+      { "name": "Mizpah of Gilead", "lat": 32.2614, "lng": 35.7000, "description": "Invited back by the elders to lead against the Ammonites; made his rash vow before going out to battle." },
+      { "name": "Ammon", "lat": 31.9522, "lng": 35.9333, "description": "Defeated the Ammonites with great slaughter from Aroer to Minnith; smote twenty cities." },
+      { "name": "Mizpah (the vow)", "lat": 32.2614, "lng": 35.7000, "description": "Returned home; his only daughter came out to meet him with timbrels and dances; bewailed her virginity two months in the hills." },
+      { "name": "The Jordan fords", "lat": 32.3300, "lng": 35.5500, "description": "Civil war with Ephraim; killed forty-two thousand by the shibboleth test at the river crossings." }
+    ]
+  },
+  "samson": {
+    "name": "Samson",
+    "color": "#B88C5D",
+    "description": "From Zorah to a Gazan temple — a Nazirite's strength spent in a single act of broken faith and restored.",
+    "stops": [
+      { "name": "Zorah", "lat": 31.7667, "lng": 34.9667, "description": "Born to barren parents under a Nazirite vow from birth; the Spirit of the Lord began to stir him in the camp of Dan." },
+      { "name": "Timnah", "lat": 31.7833, "lng": 34.9000, "description": "Saw a Philistine woman he wanted as wife; tore a lion apart with his hands and later found honey in the carcass." },
+      { "name": "Ashkelon", "lat": 31.6699, "lng": 34.5743, "description": "Killed thirty Philistine men to pay off the bet on his riddle after his wife betrayed it to his groomsmen." },
+      { "name": "Ramath-lehi", "lat": 31.7000, "lng": 34.8500, "description": "Killed a thousand Philistines with the jawbone of a fresh donkey; named the place 'jawbone hill' and 'fountain of him who called.'" },
+      { "name": "Gaza (the gates)", "lat": 31.5018, "lng": 34.4669, "description": "Went in to a harlot; rose at midnight, tore the city gates from their posts, and carried them up to the hill before Hebron." },
+      { "name": "The Valley of Sorek", "lat": 31.7500, "lng": 34.9000, "description": "Loved Delilah here; revealed the secret of his uncut hair; the Philistines came upon him and bound him." },
+      { "name": "Gaza (prison)", "lat": 31.5018, "lng": 34.4669, "description": "Eyes gouged out, set to grind grain in a Philistine prison; his hair began to grow back." },
+      { "name": "Gaza (temple of Dagon)", "lat": 31.5018, "lng": 34.4669, "description": "Pushed apart the central pillars of Dagon's temple at the great festival and brought the building down on the lords of the Philistines." }
+    ]
+  },
+  "ruth": {
+    "name": "Ruth",
+    "color": "#D8A5B5",
+    "description": "From Moab to the threshing floor of Boaz — the foreigner who entered the line of David.",
+    "stops": [
+      { "name": "Moab", "lat": 31.4000, "lng": 35.7000, "description": "Born and married into the Israelite family that had fled the famine; widowed without children." },
+      { "name": "The road to Bethlehem", "lat": 31.6000, "lng": 35.4500, "description": "Refused to be sent back to her family — 'where you go I will go' — and walked with Naomi to Judah." },
+      { "name": "The fields of Boaz", "lat": 31.7054, "lng": 35.2100, "description": "Gleaned barley behind the harvesters; Boaz noticed her, fed her, and ordered the reapers to leave handfuls for her." },
+      { "name": "The threshing floor", "lat": 31.7054, "lng": 35.2024, "description": "Lay down at Boaz's feet by Naomi's counsel; he covered her with the corner of his garment as kinsman-redeemer." },
+      { "name": "Bethlehem", "lat": 31.7054, "lng": 35.2024, "description": "Married Boaz; bore Obed, the grandfather of David; the women of Bethlehem laid the child on Naomi's lap." }
+    ]
+  },
+  "naomi": {
+    "name": "Naomi",
+    "color": "#B0A07D",
+    "description": "From Bethlehem to Moab and back — bitter Mara who returned full.",
+    "stops": [
+      { "name": "Bethlehem", "lat": 31.7054, "lng": 35.2024, "description": "Driven out with her family by famine; left for the fields of Moab." },
+      { "name": "Moab", "lat": 31.4000, "lng": 35.7000, "description": "Lost her husband Elimelech and her two sons in ten years; left a widow with two foreign daughters-in-law." },
+      { "name": "The road to Bethlehem", "lat": 31.6000, "lng": 35.4500, "description": "Resolved to return home when she heard the famine was past; tried to send her daughters-in-law back to their families." },
+      { "name": "Bethlehem (return)", "lat": 31.7054, "lng": 35.2024, "description": "Returned so changed by grief the women barely recognized her; called herself Mara — bitter." },
+      { "name": "Bethlehem (a son born)", "lat": 31.7054, "lng": 35.2024, "description": "The women of the town laid Ruth's child Obed on her lap and said, 'a son has been born to Naomi.'" }
+    ]
+  },
+  "samuel": {
+    "name": "Samuel",
+    "color": "#7C9CA8",
+    "description": "From Shiloh's sanctuary to Bethlehem's anointing — Israel's last judge and kingmaker.",
+    "stops": [
+      { "name": "Ramathaim-zophim", "lat": 31.8956, "lng": 35.2189, "description": "Born to Hannah of Elkanah's house in the hill country of Ephraim." },
+      { "name": "Shiloh", "lat": 32.0556, "lng": 35.2894, "description": "Weaned and given to Eli at the sanctuary; heard the Lord call his name in the night." },
+      { "name": "Mizpah", "lat": 31.8528, "lng": 35.2178, "description": "Gathered Israel for repentance after the ark's return; set up the Ebenezer stone — thus far the Lord has helped us." },
+      { "name": "Gilgal", "lat": 31.8667, "lng": 35.4811, "description": "Anointed Saul as king and confirmed him before all Israel; later rebuked him there for offering sacrifice unlawfully." },
+      { "name": "Ramah (circuit)", "lat": 31.8956, "lng": 35.2189, "description": "His home and the seat of his ministry; rode an annual circuit through Bethel, Gilgal, and Mizpah judging Israel." },
+      { "name": "Bethlehem", "lat": 31.7054, "lng": 35.2024, "description": "Came under guise of sacrifice; anointed David, the eighth son of Jesse, while still a boy with the sheep." },
+      { "name": "Naioth in Ramah", "lat": 31.8956, "lng": 35.2189, "description": "Sheltered the fleeing David among the prophets; the Spirit overcame Saul's messengers and Saul himself." },
+      { "name": "Ramah (death)", "lat": 31.8956, "lng": 35.2189, "description": "Died and was buried at his house; all Israel mourned him." }
+    ]
+  },
+  "saul": {
+    "name": "Saul",
+    "color": "#8E8E8E",
+    "description": "From the lost donkeys to the slopes of Mount Gilboa — Israel's first king, last hours.",
+    "stops": [
+      { "name": "Gibeah of Benjamin", "lat": 31.8260, "lng": 35.2317, "description": "Born here; his home throughout his reign; the citadel of his kingdom." },
+      { "name": "Ramah", "lat": 31.8956, "lng": 35.2189, "description": "Met Samuel while searching for his father's donkeys; anointed king in private the next morning." },
+      { "name": "Mizpah", "lat": 31.8528, "lng": 35.2178, "description": "Chosen by lot before all Israel and presented as king; some despised him but he held his peace." },
+      { "name": "Jabesh-gilead", "lat": 32.4222, "lng": 35.7000, "description": "Rescued the city from Nahash the Ammonite by gathering all Israel; renewed his kingship at Gilgal afterward." },
+      { "name": "Michmash", "lat": 31.8717, "lng": 35.2789, "description": "Jonathan's daring assault on the Philistine garrison turned the battle; Saul's rash oath nearly cost his son's life." },
+      { "name": "Amalek", "lat": 30.7000, "lng": 34.8000, "description": "Defeated Amalek but spared Agag and the best of the spoil; Samuel announced the kingdom would be taken from him." },
+      { "name": "The wilderness of Ziph", "lat": 31.5000, "lng": 35.1000, "description": "Pursued David through the wilderness; spared by David in the cave at En Gedi and the camp at Hachilah." },
+      { "name": "Endor", "lat": 32.6075, "lng": 35.4150, "description": "Sought out a medium on the eve of his last battle; called up the spirit of Samuel who pronounced his fall." },
+      { "name": "Mount Gilboa", "lat": 32.4775, "lng": 35.4156, "description": "Fought his last battle against the Philistines; saw his three sons die; fell on his own sword rather than be taken alive." }
+    ]
+  },
+  "jonathan": {
+    "name": "Jonathan",
+    "color": "#94A8C9",
+    "description": "From the heights of Michmash to the slopes of Gilboa — the prince who loved David more than the throne.",
+    "stops": [
+      { "name": "Gibeah of Benjamin", "lat": 31.8260, "lng": 35.2317, "description": "Born here as crown prince of Saul's small court." },
+      { "name": "Michmash", "lat": 31.8717, "lng": 35.2789, "description": "Climbed the rocks of Bozez and Seneh with his armor-bearer and routed the Philistine garrison; the Lord saved by few." },
+      { "name": "Aijalon", "lat": 31.8500, "lng": 35.0833, "description": "Pursued the fleeing Philistines down the pass; ate honey in the wood under his father's foolish oath." },
+      { "name": "The wilderness of Ziph", "lat": 31.5000, "lng": 35.1000, "description": "Sought out David in the forest and strengthened his hand in God — 'you shall be king, and I shall be next to you.'" },
+      { "name": "Mount Gilboa", "lat": 32.4775, "lng": 35.4156, "description": "Died in the rout of Saul's army; David's lament — 'your love to me was wonderful, passing the love of women.'" }
+    ]
+  },
+  "david": {
+    "name": "David",
+    "color": "#D87878",
+    "description": "From the sheep of Bethlehem to the throne of Jerusalem — through caves, wildernesses, and a long restless reign.",
+    "stops": [
+      { "name": "Bethlehem", "lat": 31.7054, "lng": 35.2024, "description": "Born the eighth son of Jesse; anointed in secret by Samuel while still tending the sheep." },
+      { "name": "Saul's court at Gibeah", "lat": 31.8260, "lng": 35.2317, "description": "Played the harp to soothe Saul's evil spirit; rose to high command in his army." },
+      { "name": "The Valley of Elah", "lat": 31.6997, "lng": 34.9583, "description": "Faced Goliath the Philistine champion with five smooth stones from the brook; struck him with one." },
+      { "name": "Ramah (Naioth)", "lat": 31.8956, "lng": 35.2189, "description": "Fled here to Samuel when Saul tried to kill him; sheltered among the prophets." },
+      { "name": "Nob", "lat": 31.8000, "lng": 35.2400, "description": "Took the showbread from Ahimelech and the sword of Goliath; eighty-five priests were slain by Doeg for it." },
+      { "name": "Gath", "lat": 31.7000, "lng": 34.8400, "description": "Fled to the Philistine king Achish; feigned madness to escape when recognized as the Israelite champion." },
+      { "name": "The cave of Adullam", "lat": 31.6500, "lng": 35.0114, "description": "Gathered four hundred outlaws around himself; his three mighty men broke through the Philistine ranks to bring him water from Bethlehem's well." },
+      { "name": "En Gedi", "lat": 31.4625, "lng": 35.3914, "description": "Hid in the caves by the Dead Sea oasis; cut off the corner of Saul's robe in the cave and refused to lift a hand against the Lord's anointed." },
+      { "name": "The wilderness of Maon", "lat": 31.4200, "lng": 35.1200, "description": "Nearly trapped by Saul on Sela-hammahlekoth; Saul was called away by a Philistine raid at the last moment." },
+      { "name": "Ziklag", "lat": 31.2100, "lng": 34.5500, "description": "Given by Achish king of Gath; raided south of Judah for sixteen months; found burned by Amalekites and rescued the captives." },
+      { "name": "Hebron", "lat": 31.5326, "lng": 35.0998, "description": "Anointed king of Judah after Saul's death; ruled seven and a half years from this southern city." },
+      { "name": "Jerusalem (Zion)", "lat": 31.7780, "lng": 35.2354, "description": "Took the Jebusite stronghold and made it his capital — the city of David; brought up the ark with dancing." },
+      { "name": "The Valley of Rephaim", "lat": 31.7600, "lng": 35.2000, "description": "Defeated the Philistines twice — once head-on, once by circling behind on the Lord's instruction." },
+      { "name": "The rooftop palace", "lat": 31.7780, "lng": 35.2354, "description": "Saw Bathsheba bathing; sent for her; arranged Uriah's death; was confronted by the prophet Nathan." },
+      { "name": "Mahanaim", "lat": 32.2300, "lng": 35.7000, "description": "Fled across the Jordan when Absalom revolted; received Barzillai's provisions; waited out the battle." },
+      { "name": "Jerusalem (return)", "lat": 31.7780, "lng": 35.2354, "description": "Returned to the throne after Absalom's death; reigned forty years in all and was buried in the city of David." }
+    ]
+  },
+  "solomon": {
+    "name": "Solomon",
+    "color": "#C9B57A",
+    "description": "Reigned forty years from Jerusalem; built the first temple; sent ships from Ezion-geber to Ophir.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Born to David and Bathsheba; anointed at Gihon Spring; reigned forty years from his father's capital." },
+      { "name": "Gibeon", "lat": 31.8514, "lng": 35.1828, "description": "Offered a thousand burnt offerings at the great high place; God appeared in a dream and gave him wisdom." },
+      { "name": "The temple mount", "lat": 31.7780, "lng": 35.2354, "description": "Built the first temple in seven years on Mount Moriah; dedicated it with prayer and the cloud of glory." },
+      { "name": "Megiddo", "lat": 32.5847, "lng": 35.1842, "description": "Fortified as one of his chariot cities controlling the Jezreel valley and the Via Maris." },
+      { "name": "Hazor", "lat": 33.0167, "lng": 35.5667, "description": "Fortified the northern crossroads city against Aram." },
+      { "name": "Gezer", "lat": 31.8597, "lng": 34.9203, "description": "Received as dowry when Pharaoh's daughter became his wife; rebuilt as a chariot city." },
+      { "name": "Ezion-geber", "lat": 29.5567, "lng": 34.9533, "description": "Built a fleet on the Red Sea coast; ships sailed to Ophir for gold with the help of Hiram of Tyre." }
+    ]
+  },
+  "elijah": {
+    "name": "Elijah",
+    "color": "#B8884E",
+    "description": "From a desert brook to the chariot of fire; the wilderness prophet who would not stay still.",
+    "stops": [
+      { "name": "Tishbe", "lat": 32.3489, "lng": 35.6822, "description": "His hometown in Gilead east of the Jordan; the first verse of his book gives no other genealogy." },
+      { "name": "Samaria (Ahab's court)", "lat": 32.2761, "lng": 35.1842, "description": "Announced to Ahab that there would be no rain in Israel except by his word." },
+      { "name": "The brook Cherith", "lat": 32.0500, "lng": 35.6500, "description": "Hid here east of the Jordan; ravens brought him bread and meat morning and evening until the brook dried up." },
+      { "name": "Zarephath", "lat": 33.4869, "lng": 35.2944, "description": "Lived in the widow's upper room in Phoenicia; her jar of flour and jar of oil never failed; raised her son from death." },
+      { "name": "Mount Carmel", "lat": 32.7322, "lng": 35.0489, "description": "Confronted four hundred and fifty prophets of Baal; fire fell from heaven on the drenched altar; ended the drought." },
+      { "name": "Jezreel", "lat": 32.5552, "lng": 35.3303, "description": "Outran Ahab's chariot to the city gate as the rain came; fled into the wilderness when Jezebel sent word." },
+      { "name": "Beersheba", "lat": 31.2522, "lng": 34.7889, "description": "Sat down under a juniper tree and asked to die; an angel fed him cake and water for the journey ahead." },
+      { "name": "Mount Horeb", "lat": 28.5392, "lng": 33.9756, "description": "Forty days' journey to the mountain of God; God passed by not in wind, earthquake, or fire but in the still small voice." },
+      { "name": "Abel-meholah", "lat": 32.4000, "lng": 35.5000, "description": "Found Elisha plowing with twelve yoke of oxen and threw his mantle over him." },
+      { "name": "Naboth's vineyard, Jezreel", "lat": 32.5552, "lng": 35.3303, "description": "Met Ahab in the stolen vineyard with the word of judgment: in the place where dogs licked Naboth's blood, dogs shall lick yours." },
+      { "name": "The Jordan crossing", "lat": 31.8378, "lng": 35.5453, "description": "Struck the river with his rolled mantle; the waters parted and he and Elisha crossed on dry ground." },
+      { "name": "Taken up to heaven", "lat": 31.8500, "lng": 35.6000, "description": "A chariot of fire and horses of fire separated them; Elijah went up by a whirlwind into heaven." }
+    ]
+  },
+  "elisha": {
+    "name": "Elisha",
+    "color": "#93B85E",
+    "description": "Successor of Elijah; ranged through Israel from the Jordan to the gates of Damascus.",
+    "stops": [
+      { "name": "Abel-meholah", "lat": 32.4000, "lng": 35.5000, "description": "Called from the plow by Elijah's mantle; slaughtered his oxen, used the plows for firewood, and followed." },
+      { "name": "The Jordan (taking up the mantle)", "lat": 31.8378, "lng": 35.5453, "description": "Picked up the fallen mantle after Elijah was taken; struck the water and crossed back over." },
+      { "name": "Jericho", "lat": 31.8667, "lng": 35.4500, "description": "Healed the city's bad water by throwing salt into the spring; the waters were healed to this day." },
+      { "name": "Bethel", "lat": 31.9300, "lng": 35.2100, "description": "Cursed the jeering youths on the road; two she-bears came out of the woods and tore forty-two of them." },
+      { "name": "Shunem", "lat": 32.6063, "lng": 35.3375, "description": "Lodged repeatedly with the wealthy Shunammite woman; promised her a son and later raised the boy from death." },
+      { "name": "Gilgal", "lat": 31.8667, "lng": 35.4811, "description": "Made the poisoned stew safe with flour during a famine; multiplied twenty loaves of barley to feed a hundred." },
+      { "name": "The Jordan (Naaman's healing)", "lat": 31.8378, "lng": 35.5453, "description": "Sent the Syrian commander Naaman to wash seven times in the river; he came up clean of his leprosy." },
+      { "name": "Dothan", "lat": 32.4144, "lng": 35.1850, "description": "Surrounded by Syrian chariots; his servant's eyes were opened to see the hills full of fire; the army was struck with blindness." },
+      { "name": "Samaria", "lat": 32.2761, "lng": 35.1842, "description": "Predicted relief from the great siege famine within twenty-four hours; the Syrians fled in panic that night." },
+      { "name": "Damascus", "lat": 33.5138, "lng": 36.2765, "description": "Went up to anoint Hazael; wept seeing the evil he would do to Israel; Hazael returned to murder his master Ben-Hadad." }
+    ]
+  },
+  "ahab": {
+    "name": "Ahab",
+    "color": "#8A4C4C",
+    "description": "From his ivory palace at Samaria to a chariot washed in his own blood.",
+    "stops": [
+      { "name": "Samaria", "lat": 32.2761, "lng": 35.1842, "description": "His capital and ivory palace; the seat of his reign with Jezebel; the chariot pool where dogs licked his blood." },
+      { "name": "Jezreel", "lat": 32.5552, "lng": 35.3303, "description": "His winter palace and the site of Naboth's vineyard; here Jezebel sent her false witnesses." },
+      { "name": "Mount Carmel", "lat": 32.7322, "lng": 35.0489, "description": "Summoned to the contest with the prophets of Baal; saw the fire fall and the drought break." },
+      { "name": "Aphek", "lat": 32.1056, "lng": 34.9322, "description": "Defeated Ben-Hadad of Syria here; spared his life and was rebuked by a prophet for it." },
+      { "name": "Ramoth-gilead", "lat": 32.4783, "lng": 35.8500, "description": "Went out disguised in battle to retake this city from Aram; was struck by a stray arrow between the joints of his armor and died." }
+    ]
+  },
+  "jezebel": {
+    "name": "Jezebel",
+    "color": "#B5527A",
+    "description": "From Sidon to a window in Jezreel; the queen who killed the prophets and was thrown to the dogs.",
+    "stops": [
+      { "name": "Sidon", "lat": 33.5634, "lng": 35.3711, "description": "Daughter of Ethbaal king of the Sidonians; brought her father's gods with her into Israel's court." },
+      { "name": "Samaria", "lat": 32.2761, "lng": 35.1842, "description": "Set up the temple of Baal and the Asherah; supported eight hundred and fifty prophets at the royal table." },
+      { "name": "Jezreel (Naboth's vineyard)", "lat": 32.5552, "lng": 35.3303, "description": "Wrote letters in Ahab's name; engineered the murder of Naboth so Ahab could take the field." },
+      { "name": "Jezreel (the window)", "lat": 32.5552, "lng": 35.3303, "description": "Painted her eyes and adorned her hair when Jehu came up; was thrown down by her own eunuchs; the dogs ate her body." }
+    ]
+  },
+  "jonah": {
+    "name": "Jonah",
+    "color": "#5BB8C2",
+    "description": "From Joppa to Nineveh by way of the belly of a great fish.",
+    "stops": [
+      { "name": "Gath-hepher", "lat": 32.7400, "lng": 35.3400, "description": "His hometown in Galilee, three miles north of Nazareth." },
+      { "name": "Joppa", "lat": 32.0540, "lng": 34.7553, "description": "Went down to the seaport, paid his fare, and boarded a ship bound for Tarshish — the farthest known port west." },
+      { "name": "Tarshish (intended)", "lat": 36.7000, "lng": -6.4000, "description": "His intended destination at the western edge of the Mediterranean — likely Tartessus in southern Spain." },
+      { "name": "Lost overboard", "lat": 33.5000, "lng": 30.0000, "description": "The Lord hurled a great wind; the sailors cast lots; at his own word they threw him into the raging sea." },
+      { "name": "The belly of the great fish", "lat": 33.0000, "lng": 31.0000, "description": "Three days and three nights in the sea creature's belly; prayed from the depths and was vomited onto dry land." },
+      { "name": "Nineveh", "lat": 36.3593, "lng": 43.1525, "description": "Walked three days into the great city; preached a five-word sermon; the king came down from his throne in repentance." },
+      { "name": "Outside Nineveh", "lat": 36.3700, "lng": 43.1700, "description": "Made a booth east of the city and sat sulking; the Lord prepared a plant and then a worm and asked him about pity." }
+    ]
+  },
+  "isaiah": {
+    "name": "Isaiah",
+    "color": "#7D9DC7",
+    "description": "Court prophet of Jerusalem through four kings — from the year King Uzziah died to the siege of Sennacherib.",
+    "stops": [
+      { "name": "Jerusalem (the temple)", "lat": 31.7780, "lng": 35.2354, "description": "Received his vision in the year King Uzziah died — the Lord enthroned, the seraphim, the smoke." },
+      { "name": "The Upper Pool", "lat": 31.7750, "lng": 35.2300, "description": "Met King Ahaz at the conduit of the upper pool with his son Shear-jashub; offered the sign of Immanuel." },
+      { "name": "The wall of Jerusalem", "lat": 31.7800, "lng": 35.2400, "description": "Stood with Hezekiah during Sennacherib's siege; brought the king's letter into the temple and prayed; the angel struck the Assyrian camp." }
+    ]
+  },
+  "jeremiah": {
+    "name": "Jeremiah",
+    "color": "#A87FB8",
+    "description": "From Anathoth to a forced exile in Egypt — the weeping prophet who saw Jerusalem fall.",
+    "stops": [
+      { "name": "Anathoth", "lat": 31.8246, "lng": 35.2659, "description": "Born in this priestly village just north of Jerusalem; called as a young man and protested he was only a boy." },
+      { "name": "Jerusalem (the temple gate)", "lat": 31.7780, "lng": 35.2354, "description": "Preached the temple sermon in the gate; the priests and prophets sought to kill him; the elders saved him." },
+      { "name": "The valley of Hinnom", "lat": 31.7670, "lng": 35.2300, "description": "Broke the potter's flask before the elders; announced this place would be called the valley of slaughter." },
+      { "name": "The stocks at the Upper Benjamin Gate", "lat": 31.7800, "lng": 35.2400, "description": "Beaten and put in the stocks by Pashhur the priest; gave him the new name 'Terror on every side.'" },
+      { "name": "The court of the guard", "lat": 31.7780, "lng": 35.2380, "description": "Confined during the siege; bought the field at Anathoth from his cousin Hanamel as a sign of return." },
+      { "name": "The muddy cistern", "lat": 31.7790, "lng": 35.2370, "description": "Lowered with ropes into a cistern to die in the mud; rescued by the Ethiopian Ebed-melech with rags and old clothes." },
+      { "name": "Mizpah", "lat": 31.8528, "lng": 35.2178, "description": "Released after Jerusalem's fall; lived with Gedaliah the appointed governor until Ishmael's assassination plot." },
+      { "name": "Tahpanhes, Egypt", "lat": 30.8500, "lng": 32.1500, "description": "Carried against his will down into Egypt by the fleeing remnant; hid stones in the brick pavement at Pharaoh's palace." }
+    ]
+  },
+  "ezekiel": {
+    "name": "Ezekiel",
+    "color": "#8A7CB0",
+    "description": "Priest deported to Babylon; saw the throne of God on a chariot and the dry bones rise.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Born here in a priestly family; deported with Jehoiachin in the second deportation of 597 BC." },
+      { "name": "Tel-abib", "lat": 32.5000, "lng": 44.5000, "description": "Settled with the exiles by the Chebar canal; sat overwhelmed among them seven days before prophesying." },
+      { "name": "The Chebar canal", "lat": 32.5300, "lng": 44.4500, "description": "Received the throne vision — four living creatures, wheels within wheels, the likeness of a man on the sapphire throne." },
+      { "name": "The valley of dry bones", "lat": 32.5000, "lng": 44.5000, "description": "Set down in a valley full of dry bones in vision; prophesied and the bones came together with a great rattling." }
+    ]
+  },
+  "daniel": {
+    "name": "Daniel",
+    "color": "#7C9CC0",
+    "description": "From Jerusalem to the courts of Babylon and Persia — through three kings and a lions' den.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Taken as a young nobleman in the first deportation of 605 BC under Nebuchadnezzar." },
+      { "name": "Babylon (royal academy)", "lat": 32.5364, "lng": 44.4208, "description": "Trained in the language and literature of the Chaldeans; refused the king's food and rose in the court." },
+      { "name": "The plain of Dura", "lat": 32.5000, "lng": 44.5000, "description": "Where Nebuchadnezzar set up his golden image; his three companions were thrown into the furnace and walked unburnt." },
+      { "name": "Babylon (Belshazzar's feast)", "lat": 32.5364, "lng": 44.4208, "description": "Read the handwriting on the wall: mene, mene, tekel, parsin; that very night Belshazzar was killed." },
+      { "name": "Babylon (lions' den)", "lat": 32.5364, "lng": 44.4208, "description": "Cast in for praying with his window open toward Jerusalem; the lions' mouths were shut and he emerged unharmed at dawn." },
+      { "name": "Susa (visions)", "lat": 32.1908, "lng": 48.2575, "description": "Saw the visions of the ram and the goat by the river Ulai; received Gabriel's answer about the seventy weeks." },
+      { "name": "The Tigris", "lat": 33.5000, "lng": 44.0000, "description": "Stood on the bank of the great river and saw a man clothed in linen; received the final apocalyptic visions of his book." }
+    ]
+  },
+  "esther": {
+    "name": "Esther",
+    "color": "#DA9BB8",
+    "description": "From the women's quarter of Susa to the king's banquet — for such a time as this.",
+    "stops": [
+      { "name": "Susa (the citadel)", "lat": 32.1908, "lng": 48.2575, "description": "Orphan raised by Mordecai in the Persian capital; her parents had been carried away from Jerusalem with Jeconiah." },
+      { "name": "Susa (the harem)", "lat": 32.1908, "lng": 48.2575, "description": "Taken into Hegai's care for twelve months of beautification before being presented to King Xerxes." },
+      { "name": "Susa (the throne room)", "lat": 32.1908, "lng": 48.2575, "description": "Crowned queen in place of Vashti in the seventh year of the king's reign." },
+      { "name": "Susa (the inner court)", "lat": 32.1908, "lng": 48.2575, "description": "Approached the king uninvited at the risk of her life; he held out the gold scepter; she invited him and Haman to a banquet." },
+      { "name": "Susa (the banquet)", "lat": 32.1908, "lng": 48.2575, "description": "At the second banquet exposed Haman as the enemy of her people; he was hanged on the gallows he had built." }
+    ]
+  },
+  "mordecai": {
+    "name": "Mordecai",
+    "color": "#A580A0",
+    "description": "From the king's gate at Susa to royal robes and a horse led through the city.",
+    "stops": [
+      { "name": "Susa (the king's gate)", "lat": 32.1908, "lng": 48.2575, "description": "Sat daily at the king's gate; uncovered Bigthana and Teresh's plot to assassinate Xerxes." },
+      { "name": "Susa (in sackcloth)", "lat": 32.1908, "lng": 48.2575, "description": "Tore his garments and went out into the city wailing when he heard Haman's decree." },
+      { "name": "Susa (the procession)", "lat": 32.1908, "lng": 48.2575, "description": "Led through the streets by Haman in royal robes on the king's horse; returned afterward to the king's gate in sackcloth." },
+      { "name": "Susa (second-in-command)", "lat": 32.1908, "lng": 48.2575, "description": "Made second to the king after Haman's fall; wrote with Esther the letter establishing the festival of Purim." }
+    ]
+  },
+  "haman": {
+    "name": "Haman",
+    "color": "#6A5070",
+    "description": "From second-in-command of Persia to his own gallows in a single day.",
+    "stops": [
+      { "name": "Susa (elevation)", "lat": 32.1908, "lng": 48.2575, "description": "Elevated above all princes by Xerxes; the king commanded all servants to bow." },
+      { "name": "Susa (the gallows)", "lat": 32.1908, "lng": 48.2575, "description": "Built a gallows seventy-five feet high to hang Mordecai; was hanged on it himself the next day." }
+    ]
+  },
+  "cyrus": {
+    "name": "Cyrus",
+    "color": "#7BA070",
+    "description": "From Anshan to Babylon — the king Isaiah named a century and a half before he was born.",
+    "stops": [
+      { "name": "Anshan", "lat": 30.0000, "lng": 52.4000, "description": "Born to royal blood in the small Persian kingdom of Anshan; founded the Achaemenid empire by unifying Persia." },
+      { "name": "Ecbatana", "lat": 34.7956, "lng": 48.5189, "description": "Conquered the Median capital; absorbed the Median kingdom by marriage and force." },
+      { "name": "Babylon", "lat": 32.5364, "lng": 44.4208, "description": "Entered Babylon in 539 BC as the gates were opened by the city's priests; honored by Marduk's clergy." },
+      { "name": "Jerusalem (by decree)", "lat": 31.7780, "lng": 35.2354, "description": "Issued the decree of 538 BC authorizing Jewish exiles to return and rebuild the temple — Isaiah's anointed king." }
+    ]
+  },
+  "ezra": {
+    "name": "Ezra",
+    "color": "#8FA9A5",
+    "description": "From Babylon up to Jerusalem with the law in his hand.",
+    "stops": [
+      { "name": "Babylon", "lat": 32.5364, "lng": 44.4208, "description": "Born and trained in the Aaronic line in exile; a scribe skilled in the Law of Moses." },
+      { "name": "The river Ahava", "lat": 33.5000, "lng": 44.0000, "description": "Gathered the second wave of returnees and fasted for protection; refused a Persian escort to honor his confession of God's hand." },
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Arrived in the seventh year of Artaxerxes with treasure for the temple; sat appalled at the people's intermarriage." },
+      { "name": "The Water Gate", "lat": 31.7780, "lng": 35.2360, "description": "Read the Law from the wooden platform from morning until midday while the Levites translated; the people wept as they understood." }
+    ]
+  },
+  "nehemiah": {
+    "name": "Nehemiah",
+    "color": "#B98D5A",
+    "description": "From the cup at Artaxerxes's table to the rebuilt walls of Jerusalem.",
+    "stops": [
+      { "name": "Susa (the citadel)", "lat": 32.1908, "lng": 48.2575, "description": "Cupbearer to Artaxerxes; heard of Jerusalem's broken walls and wept, fasted, and prayed for days." },
+      { "name": "The king's table", "lat": 32.1908, "lng": 48.2575, "description": "Asked the king for leave to rebuild; given letters, timber from the royal forest, and a military escort." },
+      { "name": "Jerusalem (the night inspection)", "lat": 31.7780, "lng": 35.2354, "description": "Rode out by night past the Valley Gate, the Jackal Well, and the Dung Gate to see what the wall needed." },
+      { "name": "Jerusalem (the walls)", "lat": 31.7780, "lng": 35.2354, "description": "Mobilized the people; half worked while half stood guard; finished the walls in fifty-two days." },
+      { "name": "The plain of Ono", "lat": 32.0500, "lng": 34.8600, "description": "Refused Sanballat's repeated invitations to meet here — 'I am doing a great work and I cannot come down.'" },
+      { "name": "Susa (return to king)", "lat": 32.1908, "lng": 48.2575, "description": "Returned to Persia after twelve years and reported back to Artaxerxes." },
+      { "name": "Jerusalem (reforms)", "lat": 31.7780, "lng": 35.2354, "description": "Came back to confront foreign marriages, Sabbath-breaking, and a chamber prepared for Tobiah in the temple." }
+    ]
+  },
+  "judas-maccabeus": {
+    "name": "Judas Maccabeus",
+    "color": "#C9695E",
+    "description": "From the village altar of Modi'in to the rededicated temple — the hammer of the revolt.",
+    "stops": [
+      { "name": "Modi'in", "lat": 31.8967, "lng": 35.0095, "description": "Hometown of the Hasmonean family; his father Mattathias killed the king's officer at the altar and lit the revolt." },
+      { "name": "Mizpah", "lat": 31.8528, "lng": 35.2178, "description": "Gathered Israel here to fast and pray before the first major confrontation with the Seleucids." },
+      { "name": "Emmaus", "lat": 31.8417, "lng": 35.0028, "description": "Surprised the Seleucid general Gorgias at dawn and routed his army." },
+      { "name": "Beth-zur", "lat": 31.5944, "lng": 35.0908, "description": "Defeated Lysias at this fortress controlling the road from the south to Jerusalem." },
+      { "name": "Jerusalem (the temple)", "lat": 31.7780, "lng": 35.2354, "description": "Cleansed the desecrated temple in 164 BC; lit the lampstand for the first eight-day feast of Dedication — Hanukkah." },
+      { "name": "Elasa", "lat": 31.9700, "lng": 35.1800, "description": "Fell in battle here in 160 BC against Bacchides; his brothers Jonathan and Simon continued the work." }
+    ]
+  },
+  "john-the-baptist": {
+    "name": "John the Baptist",
+    "color": "#7C9C73",
+    "description": "From the hill country of Judea to the rocks of Machaerus.",
+    "stops": [
+      { "name": "Ein Karem", "lat": 31.7670, "lng": 35.1620, "description": "Traditional site of his birth to Zechariah and Elizabeth in the hill country of Judea." },
+      { "name": "The Judean wilderness", "lat": 31.5500, "lng": 35.3500, "description": "Lived in the desert until the day of his appearance; came eating locusts and wild honey in camel hair." },
+      { "name": "The Jordan (Bethany beyond)", "lat": 31.8378, "lng": 35.5453, "description": "Baptized those who came from Jerusalem and all Judea; baptized Jesus and saw the dove descend." },
+      { "name": "Aenon near Salim", "lat": 32.0500, "lng": 35.5800, "description": "Baptized at this location where there was plenty of water; the disciples discussed his diminishing crowds." },
+      { "name": "Machaerus", "lat": 31.5644, "lng": 35.6228, "description": "Imprisoned in Herod Antipas's desert fortress east of the Dead Sea; beheaded at Herodias's request after Salome's dance." }
+    ]
+  },
+  "peter": {
+    "name": "Peter",
+    "color": "#6DA9C9",
+    "description": "From the nets of the Sea of Galilee to the streets of Rome.",
+    "stops": [
+      { "name": "Bethsaida", "lat": 32.9131, "lng": 35.6307, "description": "Born here on the north shore of the Sea of Galilee; brother of Andrew, fisherman by trade." },
+      { "name": "Capernaum", "lat": 32.8807, "lng": 35.5752, "description": "Lived here with his wife and mother-in-law; Jesus made his home in the town and healed his mother-in-law of fever." },
+      { "name": "The Jordan (calling)", "lat": 31.8378, "lng": 35.5453, "description": "Brought to Jesus by his brother Andrew the day after Jesus's baptism; renamed Cephas, the rock." },
+      { "name": "Sea of Galilee (catching of fish)", "lat": 32.8058, "lng": 35.5897, "description": "Left his nets after the miraculous catch and the word 'from now on you will catch men.'" },
+      { "name": "Caesarea Philippi", "lat": 33.2483, "lng": 35.6944, "description": "Confessed Jesus as the Christ, the Son of the living God; received the keys of the kingdom." },
+      { "name": "Mount Tabor", "lat": 32.6868, "lng": 35.3905, "description": "Saw Jesus transfigured; offered to build three booths for Jesus, Moses, and Elijah." },
+      { "name": "Jerusalem (Last Supper)", "lat": 31.7717, "lng": 35.2294, "description": "Said he would die with Jesus; was warned of the threefold denial before the cock crowed." },
+      { "name": "Gethsemane", "lat": 31.7793, "lng": 35.2400, "description": "Drew his sword and cut off the ear of Malchus the high priest's servant." },
+      { "name": "The high priest's courtyard", "lat": 31.7716, "lng": 35.2289, "description": "Denied Jesus three times around the charcoal fire; went out and wept bitterly when the cock crowed." },
+      { "name": "The empty tomb", "lat": 31.7787, "lng": 35.2300, "description": "Ran with John to the tomb when Mary brought word; stooped in and saw the linen lying there." },
+      { "name": "Sea of Galilee (restoration)", "lat": 32.8350, "lng": 35.6300, "description": "Restored by a charcoal fire on the shore; three times asked 'do you love me?'; commissioned to feed the sheep." },
+      { "name": "Jerusalem (Pentecost)", "lat": 31.7780, "lng": 35.2354, "description": "Preached the great sermon at Pentecost; three thousand baptized; the gospel was launched." },
+      { "name": "Joppa", "lat": 32.0540, "lng": 34.7553, "description": "Stayed with Simon the tanner; raised Tabitha from death; had the rooftop vision of the unclean animals." },
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Went to the house of Cornelius the centurion; preached and saw the Holy Spirit fall on the Gentiles." },
+      { "name": "Jerusalem (prison)", "lat": 31.7780, "lng": 35.2354, "description": "Arrested by Herod Agrippa I; freed by an angel from prison; came to the house of Mary mother of John Mark." },
+      { "name": "Antioch", "lat": 36.2021, "lng": 36.1604, "description": "Ate with Gentile believers until the men from James arrived; rebuked by Paul to his face for hypocrisy." },
+      { "name": "Rome (tradition)", "lat": 41.9028, "lng": 12.4964, "description": "Tradition has him ministering and martyred in Rome under Nero, crucified upside down on the Vatican hill." }
+    ]
+  },
+  "andrew": {
+    "name": "Andrew",
+    "color": "#6CA585",
+    "description": "From the bank of the Jordan to the cross of Patras — the first-called who first brought others.",
+    "stops": [
+      { "name": "Bethsaida", "lat": 32.9131, "lng": 35.6307, "description": "Born and grew up as a fisherman, brother of Simon Peter." },
+      { "name": "The Jordan (with the Baptist)", "lat": 31.8378, "lng": 35.5453, "description": "Disciple of John the Baptist; heard him point out the Lamb of God and followed Jesus." },
+      { "name": "Capernaum", "lat": 32.8807, "lng": 35.5752, "description": "Lived with Peter in his Capernaum house; called from his nets with the rest." },
+      { "name": "Bethsaida (the five loaves)", "lat": 32.9131, "lng": 35.6307, "description": "Brought the boy with five loaves and two fish to Jesus before the feeding of the five thousand." },
+      { "name": "Patras (tradition)", "lat": 38.2466, "lng": 21.7345, "description": "Tradition places his martyrdom on a saltire cross at this Greek port; his name remains on the flag of Scotland." }
+    ]
+  },
+  "john-apostle": {
+    "name": "John the Apostle",
+    "color": "#A8C97A",
+    "description": "From the boat of Zebedee to the visions of Patmos.",
+    "stops": [
+      { "name": "Bethsaida", "lat": 32.9131, "lng": 35.6307, "description": "Born to Zebedee; a fisherman with his brother James on the Sea of Galilee." },
+      { "name": "Capernaum", "lat": 32.8807, "lng": 35.5752, "description": "Called with James from the boat as they mended nets with their father; left him and the hired servants." },
+      { "name": "Mount Tabor (Transfiguration)", "lat": 32.6868, "lng": 35.3905, "description": "One of the inner three; saw Jesus transfigured in glory." },
+      { "name": "Jerusalem (Last Supper)", "lat": 31.7717, "lng": 35.2294, "description": "Reclined on Jesus's bosom and asked who would betray him." },
+      { "name": "Gethsemane", "lat": 31.7793, "lng": 35.2400, "description": "One of the three taken farther into the garden during Jesus's agony." },
+      { "name": "Golgotha", "lat": 31.7784, "lng": 35.2298, "description": "Stood at the foot of the cross; entrusted with Mary, the mother of Jesus." },
+      { "name": "The empty tomb", "lat": 31.7787, "lng": 35.2300, "description": "Ran with Peter on the resurrection morning; outran him, looked in first, then went in and believed." },
+      { "name": "Jerusalem (the early church)", "lat": 31.7780, "lng": 35.2354, "description": "Pillar of the Jerusalem church with Peter; healed the lame man at the Beautiful Gate together." },
+      { "name": "Samaria", "lat": 32.2761, "lng": 35.1842, "description": "Sent with Peter to the new Samaritan converts; they prayed and the Holy Spirit fell on them." },
+      { "name": "Ephesus (tradition)", "lat": 37.9494, "lng": 27.3639, "description": "Tradition has him settling here in his later years with Mary in his care, leader of the churches of Asia." },
+      { "name": "Patmos", "lat": 37.3083, "lng": 26.5453, "description": "Exiled to this rocky island under Domitian; received the visions of the book of Revelation on the Lord's day." }
+    ]
+  },
+  "mary-magdalene": {
+    "name": "Mary Magdalene",
+    "color": "#C99FB0",
+    "description": "From the lakeshore of Magdala to the empty tomb in Jerusalem.",
+    "stops": [
+      { "name": "Magdala", "lat": 32.8244, "lng": 35.5089, "description": "Born here on the western shore of the Sea of Galilee; from her seven demons were cast out." },
+      { "name": "Galilean towns", "lat": 32.8807, "lng": 35.5752, "description": "Traveled with Jesus and supported his ministry from her own resources along with other women." },
+      { "name": "Golgotha", "lat": 31.7784, "lng": 35.2298, "description": "Stood at the cross when most of the apostles had fled; saw the body taken down." },
+      { "name": "The garden tomb", "lat": 31.7787, "lng": 35.2300, "description": "Came at dawn with spices; saw the stone rolled away; turned and recognized the risen Lord at the sound of her name." }
+    ]
+  },
+  "martha": {
+    "name": "Martha",
+    "color": "#D5B5A0",
+    "description": "Anchored in Bethany; one of the steadiest confessions of the Gospels.",
+    "stops": [
+      { "name": "Bethany", "lat": 31.7717, "lng": 35.2603, "description": "Sister of Lazarus and Mary; hosted Jesus repeatedly in her house just over the Mount of Olives from Jerusalem." }
+    ]
+  },
+  "lazarus": {
+    "name": "Lazarus",
+    "color": "#A0BDC9",
+    "description": "Called out of the tomb in Bethany.",
+    "stops": [
+      { "name": "Bethany (the tomb)", "lat": 31.7717, "lng": 35.2603, "description": "Buried four days; called by name out of the grave by Jesus's loud cry." }
+    ]
+  },
+  "nicodemus": {
+    "name": "Nicodemus",
+    "color": "#ADBED1",
+    "description": "Came to Jesus by night; helped bury him in the day.",
+    "stops": [
+      { "name": "Jerusalem (by night)", "lat": 31.7780, "lng": 35.2354, "description": "Came to Jesus at night with the question of being born again." },
+      { "name": "The Sanhedrin", "lat": 31.7780, "lng": 35.2354, "description": "Quietly defended Jesus before the council: does our law judge a man without first hearing him?" },
+      { "name": "The garden tomb", "lat": 31.7787, "lng": 35.2300, "description": "Brought a hundred pounds of myrrh and aloes to help Joseph of Arimathea bury the body." }
+    ]
+  },
+  "joseph-arimathea": {
+    "name": "Joseph of Arimathea",
+    "color": "#B5A580",
+    "description": "From Arimathea to a new tomb in the garden — the wealthy secret disciple who buried his Lord.",
+    "stops": [
+      { "name": "Arimathea", "lat": 32.0078, "lng": 35.0383, "description": "His hometown in the hill country of Judea." },
+      { "name": "Pilate's praetorium", "lat": 31.7800, "lng": 35.2353, "description": "Went boldly to ask Pilate for the body of Jesus." },
+      { "name": "The garden tomb", "lat": 31.7787, "lng": 35.2300, "description": "Wrapped the body in fine linen; laid it in his own new tomb hewn in the rock; rolled the great stone to the entrance." }
+    ]
+  },
+  "zacchaeus": {
+    "name": "Zacchaeus",
+    "color": "#D2A55C",
+    "description": "Up a sycamore-fig in Jericho; down to a different life.",
+    "stops": [
+      { "name": "Jericho (the sycamore)", "lat": 31.8667, "lng": 35.4500, "description": "Chief tax collector who ran ahead and climbed the tree to see Jesus pass; came down at Jesus's call." },
+      { "name": "Jericho (his house)", "lat": 31.8667, "lng": 35.4500, "description": "Welcomed Jesus joyfully; gave half his goods to the poor and restored fourfold what he had defrauded." }
+    ]
+  },
+  "bartimaeus": {
+    "name": "Bartimaeus",
+    "color": "#9C8FA8",
+    "description": "Threw off his cloak and saw the road for the first time.",
+    "stops": [
+      { "name": "Jericho (the road)", "lat": 31.8667, "lng": 35.4500, "description": "Sat begging by the road out of Jericho; cried out to the Son of David and was given sight; followed Jesus on the way." }
+    ]
+  },
+  "rich-young-ruler": {
+    "name": "The Rich Young Ruler",
+    "color": "#8C8580",
+    "description": "Came running; went away sorrowful.",
+    "stops": [
+      { "name": "Judea (the road)", "lat": 31.6800, "lng": 35.4500, "description": "Ran up, knelt, and asked what he must do to inherit eternal life; walked sadly away because he had many possessions." }
+    ]
+  },
+  "cornelius": {
+    "name": "Cornelius",
+    "color": "#A5B0BD",
+    "description": "Centurion of the Italian Cohort whose house opened the door of the gospel to the Gentiles.",
+    "stops": [
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Saw the angel in vision at the ninth hour; sent for Peter at Joppa; the Spirit fell on his household as Peter spoke." }
+    ]
+  },
+  "stephen": {
+    "name": "Stephen",
+    "color": "#D2A55C",
+    "description": "First Christian martyr; stoned outside the gates of Jerusalem.",
+    "stops": [
+      { "name": "Jerusalem (the Hellenist synagogue)", "lat": 31.7780, "lng": 35.2354, "description": "Argued with the Synagogue of the Freedmen; none could stand against the wisdom and Spirit by which he spoke." },
+      { "name": "The Sanhedrin", "lat": 31.7780, "lng": 35.2354, "description": "Delivered the long defense of Acts 7; saw the heavens opened and the Son of Man standing." },
+      { "name": "Outside the gate", "lat": 31.7833, "lng": 35.2300, "description": "Stoned outside the city; prayed for his murderers; Saul of Tarsus held the cloaks." }
+    ]
+  },
+  "philip-evangelist": {
+    "name": "Philip the Evangelist",
+    "color": "#7CC0A5",
+    "description": "From Jerusalem to Samaria to the Gaza road — and on up the coast to Caesarea.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Chosen as one of the seven Hellenist deacons to oversee the daily distribution to the widows." },
+      { "name": "Samaria", "lat": 32.2761, "lng": 35.1842, "description": "Preached after the scattering of the Jerusalem church; great joy in the city; Simon the magician believed and was baptized." },
+      { "name": "The Gaza road", "lat": 31.6000, "lng": 34.7000, "description": "Met the Ethiopian eunuch in his chariot reading Isaiah 53; preached Jesus to him from that very scripture." },
+      { "name": "Azotus", "lat": 31.8000, "lng": 34.6500, "description": "Caught up by the Spirit from the eunuch's company and found here; preached through the coastal towns going north." },
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Settled here with his four prophesying daughters; hosted Paul on his way to Jerusalem twenty years later." }
+    ]
+  },
+  "barnabas": {
+    "name": "Barnabas",
+    "color": "#C09B5D",
+    "description": "From Cyprus to Antioch to a missionary partnership and back to Cyprus.",
+    "stops": [
+      { "name": "Cyprus", "lat": 35.1264, "lng": 33.4299, "description": "Born here as Joseph the Levite; sold a field and laid the money at the apostles' feet." },
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Vouched for the converted Saul of Tarsus when the apostles were afraid of him." },
+      { "name": "Antioch of Syria", "lat": 36.2021, "lng": 36.1604, "description": "Sent to investigate the new Gentile mission; was glad and saw the grace of God; went to Tarsus to fetch Saul." },
+      { "name": "Cyprus (first journey)", "lat": 34.7574, "lng": 32.4067, "description": "First leg of the first missionary journey with Paul; saw the proconsul Sergius Paulus believe at Paphos." },
+      { "name": "Pisidian Antioch", "lat": 38.2956, "lng": 31.1844, "description": "Preached with Paul in the synagogue; turned to the Gentiles when the Jews rejected the word." },
+      { "name": "Lystra", "lat": 37.5811, "lng": 32.4517, "description": "Called Zeus by the crowd to Paul's Hermes; barely restrained them from offering sacrifices." },
+      { "name": "Jerusalem (council)", "lat": 31.7780, "lng": 35.2354, "description": "Stood with Paul at the council that decided Gentile believers were not bound by circumcision." },
+      { "name": "Cyprus (with John Mark)", "lat": 34.7574, "lng": 32.4067, "description": "Split from Paul over John Mark; took his cousin back home to Cyprus to begin again." }
+    ]
+  },
+  "silas": {
+    "name": "Silas",
+    "color": "#859BA8",
+    "description": "From the Jerusalem council to the inner cell of the Philippian prison.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "A leading man among the brethren; sent with the council's letter to the Gentile churches." },
+      { "name": "Antioch of Syria", "lat": 36.2021, "lng": 36.1604, "description": "Delivered the letter to the church; chosen by Paul as second-journey companion after the split with Barnabas." },
+      { "name": "Philippi (the inner cell)", "lat": 41.0136, "lng": 24.2870, "description": "Stripped and beaten with rods; thrown into the inner cell with feet in stocks; sang hymns at midnight." },
+      { "name": "Thessalonica", "lat": 40.6401, "lng": 22.9444, "description": "Reasoned in the synagogue with Paul for three Sabbaths before the mob attacked Jason's house." },
+      { "name": "Berea", "lat": 40.5247, "lng": 22.2024, "description": "Reasoned with the noble-minded Bereans; remained when Paul was sent on ahead to Athens." },
+      { "name": "Corinth", "lat": 37.9061, "lng": 22.8786, "description": "Rejoined Paul; co-author with him of the Thessalonian letters." }
+    ]
+  },
+  "timothy": {
+    "name": "Timothy",
+    "color": "#A0BD83",
+    "description": "From his mother's house in Lystra to the pastorate at Ephesus.",
+    "stops": [
+      { "name": "Lystra", "lat": 37.5811, "lng": 32.4517, "description": "Born to Eunice and a Greek father; raised in the scriptures by his grandmother Lois and his mother." },
+      { "name": "Iconium", "lat": 37.8746, "lng": 32.4932, "description": "Well spoken of by the brothers here and in Lystra when Paul came through and recruited him." },
+      { "name": "Troas", "lat": 39.7536, "lng": 26.1592, "description": "With Paul when the vision of the man of Macedonia came." },
+      { "name": "Philippi", "lat": 41.0136, "lng": 24.2870, "description": "Part of the first European mission; later sent back to encourage the Philippian church." },
+      { "name": "Thessalonica", "lat": 40.6401, "lng": 22.9444, "description": "Sent back from Athens to strengthen and encourage the new church under persecution." },
+      { "name": "Corinth", "lat": 37.9061, "lng": 22.8786, "description": "Sent to address troubles in this church; co-sender of several Pauline letters." },
+      { "name": "Ephesus", "lat": 37.9494, "lng": 27.3639, "description": "Left here to set the church in order; received the two letters bearing his name." },
+      { "name": "Rome", "lat": 41.9028, "lng": 12.4964, "description": "Came to Paul in his final imprisonment at his urgent summons in 2 Timothy." }
+    ]
+  },
+  "titus": {
+    "name": "Titus",
+    "color": "#C57F5C",
+    "description": "From Antioch to Crete by way of the hardest churches of Paul's mission.",
+    "stops": [
+      { "name": "Antioch of Syria", "lat": 36.2021, "lng": 36.1604, "description": "Greek convert from this church; the uncircumcised test case Paul took to the Jerusalem council." },
+      { "name": "Jerusalem (council)", "lat": 31.7780, "lng": 35.2354, "description": "Stood as the living question at the council; not compelled to be circumcised." },
+      { "name": "Ephesus", "lat": 37.9494, "lng": 27.3639, "description": "Sent ahead with the painful letter to Corinth from here." },
+      { "name": "Corinth", "lat": 37.9061, "lng": 22.8786, "description": "Carried the painful letter and brought back the news of repentance; oversaw the collection for Jerusalem here." },
+      { "name": "Crete", "lat": 35.2401, "lng": 24.8093, "description": "Left to set the churches in order and appoint elders in every town; recipient of the letter to Titus." },
+      { "name": "Nicopolis", "lat": 39.0167, "lng": 20.7333, "description": "Asked to meet Paul here in Epirus for the winter." },
+      { "name": "Dalmatia", "lat": 43.5167, "lng": 16.4333, "description": "Mentioned in 2 Timothy as having gone here; last named destination of his ministry." }
+    ]
+  },
+  "lydia": {
+    "name": "Lydia",
+    "color": "#B488B0",
+    "description": "From Thyatira to the river outside Philippi.",
+    "stops": [
+      { "name": "Thyatira", "lat": 38.9197, "lng": 27.8419, "description": "Her hometown in Asia Minor, famed for its dyers' guild and purple cloth." },
+      { "name": "Philippi (the riverside)", "lat": 41.0136, "lng": 24.2870, "description": "Met Paul at the Sabbath prayer place outside the gate by the river; the Lord opened her heart and she was baptized." }
+    ]
+  },
+  "aquila": {
+    "name": "Aquila",
+    "color": "#9B8770",
+    "description": "Tentmaker exiled from Rome who became Paul's longest-running partner in the gospel.",
+    "stops": [
+      { "name": "Pontus", "lat": 41.3000, "lng": 36.3000, "description": "Born to a Jewish family in the Black Sea region of northern Asia Minor." },
+      { "name": "Rome", "lat": 41.9028, "lng": 12.4964, "description": "Lived and worked here until expelled with the Jews under Claudius's edict in 49 AD." },
+      { "name": "Corinth", "lat": 37.9061, "lng": 22.8786, "description": "Settled here with Priscilla; met Paul the tentmaker and worked with him." },
+      { "name": "Ephesus", "lat": 37.9494, "lng": 27.3639, "description": "Moved here with Paul; took Apollos aside with Priscilla to explain the way of God more accurately." },
+      { "name": "Rome (return)", "lat": 41.9028, "lng": 12.4964, "description": "Returned to Rome by the time of Romans 16; the church met in their house." }
+    ]
+  },
+  "priscilla": {
+    "name": "Priscilla",
+    "color": "#8BB098",
+    "description": "Often listed before her husband; teacher of Apollos and partner of Paul.",
+    "stops": [
+      { "name": "Rome", "lat": 41.9028, "lng": 12.4964, "description": "Lived and worked here with Aquila until expelled with the Jews." },
+      { "name": "Corinth", "lat": 37.9061, "lng": 22.8786, "description": "Hosted Paul for eighteen months as fellow tentmaker." },
+      { "name": "Ephesus", "lat": 37.9494, "lng": 27.3639, "description": "Took Apollos aside in the synagogue and instructed him; led a house church here." },
+      { "name": "Rome (return)", "lat": 41.9028, "lng": 12.4964, "description": "Returned to Rome by the time of Romans 16; a church met in her house." }
+    ]
+  },
+  "herod-the-great": {
+    "name": "Herod the Great",
+    "color": "#6E4E3A",
+    "description": "Built the second temple; massacred the children of Bethlehem.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Capital of his kingdom; site of his rebuilt temple and his desperate paranoia." },
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Built this Roman harbor city from nothing; named it after Caesar Augustus." },
+      { "name": "Masada", "lat": 31.3158, "lng": 35.3536, "description": "Built the desert fortress on the cliff above the Dead Sea as a refuge from Jewish revolt." },
+      { "name": "Herodium", "lat": 31.6661, "lng": 35.2414, "description": "Built this fortress-palace as his burial site; the artificial mountain near Bethlehem." },
+      { "name": "Bethlehem", "lat": 31.7054, "lng": 35.2024, "description": "Ordered the massacre of every boy under two in and around the town." },
+      { "name": "Jericho (winter palace)", "lat": 31.8667, "lng": 35.4500, "description": "Built lavish winter palaces in this warm river-oasis; died here in agony in 4 BC." }
+    ]
+  },
+  "herod-antipas": {
+    "name": "Herod Antipas",
+    "color": "#8C6E54",
+    "description": "Tetrarch of Galilee and Perea; beheaded John the Baptist; questioned Jesus.",
+    "stops": [
+      { "name": "Tiberias", "lat": 32.7942, "lng": 35.5311, "description": "Built this lakeside capital on the Sea of Galilee and named it for the emperor Tiberius." },
+      { "name": "Sepphoris", "lat": 32.7517, "lng": 35.2784, "description": "His other Galilean capital; rebuilt in the years of Jesus's youth a few miles from Nazareth." },
+      { "name": "Machaerus", "lat": 31.5644, "lng": 35.6228, "description": "Held the birthday banquet here at which Salome danced and John the Baptist was beheaded." },
+      { "name": "Jerusalem (trial of Jesus)", "lat": 31.7780, "lng": 35.2354, "description": "In the city for Passover when Pilate sent Jesus to him; mocked him in a fine robe and sent him back." },
+      { "name": "Gaul (exile)", "lat": 45.7640, "lng": 4.8357, "description": "Banished by Caligula to Lugdunum in Gaul at the urging of his ambitious wife Herodias." }
+    ]
+  },
+  "pontius-pilate": {
+    "name": "Pontius Pilate",
+    "color": "#707070",
+    "description": "From Caesarea to Jerusalem and back — the prefect who washed his hands.",
+    "stops": [
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Capital of his administration; the city where he normally resided as Roman prefect." },
+      { "name": "Jerusalem (festivals)", "lat": 31.7780, "lng": 35.2354, "description": "Came up for major feasts to maintain order; the Antonia fortress overlooked the temple courts." },
+      { "name": "Pilate's praetorium", "lat": 31.7800, "lng": 35.2353, "description": "Tried Jesus; washed his hands; ordered the crucifixion at the crowd's insistence." },
+      { "name": "Mount Gerizim", "lat": 32.2014, "lng": 35.2728, "description": "Sent troops against Samaritans gathered on this mountain in 36 AD; led to his recall to Rome." }
+    ]
+  },
+  "annas": {
+    "name": "Annas",
+    "color": "#6A5C5C",
+    "description": "Former high priest who pulled strings in the Jerusalem priesthood for a generation.",
+    "stops": [
+      { "name": "Jerusalem (high priesthood)", "lat": 31.7780, "lng": 35.2354, "description": "High priest 6–15 AD; deposed by the Romans but kept de facto authority through his sons and son-in-law." },
+      { "name": "House of Annas", "lat": 31.7716, "lng": 35.2289, "description": "Jesus brought to him first after his arrest; questioned about his disciples and teaching; sent bound to Caiaphas." }
+    ]
+  },
+  "caiaphas": {
+    "name": "Caiaphas",
+    "color": "#7A5C5C",
+    "description": "High priest who pronounced it expedient that one man die for the nation.",
+    "stops": [
+      { "name": "Jerusalem (high priesthood)", "lat": 31.7780, "lng": 35.2354, "description": "High priest 18–36 AD; presided over the Sanhedrin during Jesus's ministry and trial." },
+      { "name": "House of Caiaphas", "lat": 31.7710, "lng": 35.2286, "description": "Site of the nighttime trial; tore his garments at Jesus's answer and pronounced him a blasphemer." },
+      { "name": "Pilate's praetorium", "lat": 31.7800, "lng": 35.2353, "description": "Delivered Jesus to Pilate in the early morning for the Roman sentence." }
+    ]
+  },
+  "job": {
+    "name": "Job",
+    "color": "#A89570",
+    "description": "From a great household in Uz to an ash heap and back.",
+    "stops": [
+      { "name": "The land of Uz", "lat": 31.0000, "lng": 36.5000, "description": "His home east of Canaan, perhaps in northern Arabia or Edom; the place of his prosperity and his ruin." },
+      { "name": "The ash heap", "lat": 31.0000, "lng": 36.5000, "description": "Sat in ashes scraping his sores with a potsherd while his three friends debated his suffering." }
+    ]
+  },
+  "leah": {
+    "name": "Leah",
+    "color": "#A5B27D",
+    "description": "From Paddan Aram to a grave at Machpelah.",
+    "stops": [
+      { "name": "Paddan Aram", "lat": 36.864, "lng": 39.029, "description": "Born in her father Laban's household; given to Jacob in the wedding-night substitution." },
+      { "name": "Shechem", "lat": 32.2137, "lng": 35.2818, "description": "Settled with Jacob near the city after his return to Canaan." },
+      { "name": "Hebron (Machpelah)", "lat": 31.5326, "lng": 35.0998, "description": "Buried in the cave of Machpelah — the only one of Jacob's wives laid there." }
+    ]
+  },
+  "rachel": {
+    "name": "Rachel",
+    "color": "#C9A8C9",
+    "description": "From the well in Paddan Aram to a grave on the road to Bethlehem.",
+    "stops": [
+      { "name": "Paddan Aram", "lat": 36.864, "lng": 39.029, "description": "Met Jacob at the well watering her father's sheep." },
+      { "name": "Penuel", "lat": 32.1894, "lng": 35.6911, "description": "Crossed back into Canaan with Jacob's caravan after his wrestling at the Jabbok." },
+      { "name": "Bethel", "lat": 31.9300, "lng": 35.2100, "description": "Hid the household gods of her father under her saddle and sat on them." },
+      { "name": "On the road to Bethlehem", "lat": 31.7300, "lng": 35.2100, "description": "Died in hard labor bearing Benjamin; Jacob set a pillar over her grave." }
+    ]
+  },
+  "dinah": {
+    "name": "Dinah",
+    "color": "#C9A0B5",
+    "description": "The daughter of Jacob defiled at Shechem.",
+    "stops": [
+      { "name": "Shechem", "lat": 32.2137, "lng": 35.2818, "description": "Went out to visit the women of the land; was taken and violated by Shechem son of Hamor." }
+    ]
+  },
+  "tamar": {
+    "name": "Tamar",
+    "color": "#C2839E",
+    "description": "From the road to Timnah to a place in the line of the Messiah.",
+    "stops": [
+      { "name": "Adullam", "lat": 31.6500, "lng": 35.0114, "description": "Lived in Judah's household as the widow of Er and then of Onan." },
+      { "name": "Enaim (the gate)", "lat": 31.6800, "lng": 34.9300, "description": "Veiled herself and sat at the gate on the road Judah took to his sheep-shearing." },
+      { "name": "Bethlehem (the messianic line)", "lat": 31.7054, "lng": 35.2024, "description": "Bore Perez and Zerah to Judah; entered the line of David through Perez." }
+    ]
+  },
+  "eli": {
+    "name": "Eli",
+    "color": "#8E7E66",
+    "description": "Forty years at the sanctuary of Shiloh.",
+    "stops": [
+      { "name": "Shiloh", "lat": 32.0556, "lng": 35.2894, "description": "Served as priest and judge at the tabernacle; raised Samuel; fell from his seat at the news of the ark's capture." }
+    ]
+  },
+  "hannah": {
+    "name": "Hannah",
+    "color": "#B5A0C9",
+    "description": "From the hill country of Ephraim to Shiloh and back, year after year.",
+    "stops": [
+      { "name": "Ramathaim-zophim", "lat": 31.8956, "lng": 35.2189, "description": "Her home in the hill country of Ephraim with her husband Elkanah." },
+      { "name": "Shiloh", "lat": 32.0556, "lng": 35.2894, "description": "Made the annual pilgrimage to the sanctuary; vowed her son to the Lord and gave him into Eli's care after weaning." }
+    ]
+  },
+  "bathsheba": {
+    "name": "Bathsheba",
+    "color": "#C58F9C",
+    "description": "From a rooftop in Jerusalem to the queen mother's throne.",
+    "stops": [
+      { "name": "Jerusalem (rooftop)", "lat": 31.7780, "lng": 35.2354, "description": "Seen by David from his rooftop while her husband Uriah was at war." },
+      { "name": "Jerusalem (palace)", "lat": 31.7780, "lng": 35.2354, "description": "Bore Solomon to David; with Nathan secured his accession to the throne; took her seat at her son's right hand." }
+    ]
+  },
+  "absalom": {
+    "name": "Absalom",
+    "color": "#C9846E",
+    "description": "From Hebron's rebellion to a stranded mule in the forest of Ephraim.",
+    "stops": [
+      { "name": "Hebron", "lat": 31.5326, "lng": 35.0998, "description": "Born here during David's reign at Hebron; raised the banner of revolt here." },
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Avenged Tamar by killing Amnon at his sheep-shearing feast; later stood at the city gate stealing the hearts of Israel." },
+      { "name": "Geshur", "lat": 32.8500, "lng": 35.7500, "description": "Fled into exile at his grandfather Talmai's court for three years after Amnon's murder." },
+      { "name": "The forest of Ephraim", "lat": 32.1500, "lng": 35.6500, "description": "Battle joined here; his hair caught in an oak; Joab killed him against David's orders." }
+    ]
+  },
+  "joel": {
+    "name": "Joel",
+    "color": "#B89554",
+    "description": "Prophet in Judah of locusts and the day of the Lord.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Prophesied to the priests and people after a locust plague; promised the outpouring of the Spirit." }
+    ]
+  },
+  "amos": {
+    "name": "Amos",
+    "color": "#9CAD66",
+    "description": "From Tekoa in Judah to the royal sanctuary at Bethel.",
+    "stops": [
+      { "name": "Tekoa", "lat": 31.6358, "lng": 35.2230, "description": "Shepherd and dresser of sycamores from this Judean village ten miles south of Jerusalem." },
+      { "name": "Bethel", "lat": 31.9300, "lng": 35.2100, "description": "Sent north to the royal sanctuary; confronted by Amaziah the priest and ordered back to Judah." },
+      { "name": "Samaria", "lat": 32.2761, "lng": 35.1842, "description": "Pronounced judgment on the wealthy of the northern capital who slept on ivory beds." }
+    ]
+  },
+  "hosea": {
+    "name": "Hosea",
+    "color": "#A88FC1",
+    "description": "Prophet to the northern kingdom who married Gomer.",
+    "stops": [
+      { "name": "Samaria", "lat": 32.2761, "lng": 35.1842, "description": "Prophesied in the northern capital through the last decades before the Assyrian fall." },
+      { "name": "Jezreel", "lat": 32.5552, "lng": 35.3303, "description": "Named his first son for this valley; the place of judgment to come on the house of Jehu." }
+    ]
+  },
+  "micah": {
+    "name": "Micah",
+    "color": "#9BB89A",
+    "description": "Country prophet from the Judean foothills.",
+    "stops": [
+      { "name": "Moresheth-gath", "lat": 31.6011, "lng": 34.8956, "description": "His hometown in the Shephelah; spoke from the perspective of the small towns under threat." },
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Prophesied against the urban elite who built Zion with blood; foretold a ruler from Bethlehem." }
+    ]
+  },
+  "nahum": {
+    "name": "Nahum",
+    "color": "#7FA5A0",
+    "description": "Prophet of Nineveh's fall.",
+    "stops": [
+      { "name": "Elkosh", "lat": 31.6500, "lng": 34.9000, "description": "His traditional hometown in Judah." },
+      { "name": "Nineveh", "lat": 36.3593, "lng": 43.1525, "description": "The Assyrian capital whose fall he announced in his bitter poem; destroyed in 612 BC." }
+    ]
+  },
+  "habakkuk": {
+    "name": "Habakkuk",
+    "color": "#7C8BB5",
+    "description": "Prophet whose questions to God produced the line of faith.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Wrestled with God over the rise of the Babylonians; received the answer that the righteous shall live by faith." }
+    ]
+  },
+  "zephaniah": {
+    "name": "Zephaniah",
+    "color": "#A07099",
+    "description": "Royal-descent prophet of the early reign of Josiah.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Prophesied before Josiah's reforms; foretold the great day of the Lord against Judah and the nations." }
+    ]
+  },
+  "obadiah": {
+    "name": "Obadiah",
+    "color": "#9D6E4C",
+    "description": "Shortest book in the Hebrew Bible; vision against Edom.",
+    "stops": [
+      { "name": "Judah", "lat": 31.5000, "lng": 35.2000, "description": "Pronounced doom on Edom for standing by during Jerusalem's fall." },
+      { "name": "Edom", "lat": 30.3140, "lng": 35.4344, "description": "Target of his vision — the mountain strongholds of Esau's descendants in the southern desert." }
+    ]
+  },
+  "haggai": {
+    "name": "Haggai",
+    "color": "#B59750",
+    "description": "Post-exilic prophet whose two-month ministry rebuilt the temple.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Urged Zerubbabel, Joshua, and the people to take up the work on the temple again in 520 BC." }
+    ]
+  },
+  "zechariah-prophet": {
+    "name": "Zechariah the prophet",
+    "color": "#8A95B0",
+    "description": "Co-prophet with Haggai of the post-exilic temple project.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Received the eight night visions; encouraged the returnees to finish the temple; saw the king on a donkey from afar." }
+    ]
+  },
+  "malachi": {
+    "name": "Malachi",
+    "color": "#866E50",
+    "description": "Last voice of the Old Testament; promised a coming messenger.",
+    "stops": [
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Confronted a community drifting after the rebuilt temple; foretold the messenger to prepare the way." }
+    ]
+  },
+  "judas-iscariot": {
+    "name": "Judas Iscariot",
+    "color": "#6A6A5C",
+    "description": "From the band of twelve to a hanged man in the field of blood.",
+    "stops": [
+      { "name": "Galilee (calling)", "lat": 32.8058, "lng": 35.5897, "description": "Chosen as one of the twelve apostles; kept the common purse and stole from it." },
+      { "name": "Jerusalem (the bargain)", "lat": 31.7780, "lng": 35.2354, "description": "Went to the chief priests; bargained for thirty pieces of silver." },
+      { "name": "Gethsemane", "lat": 31.7793, "lng": 35.2400, "description": "Led the arresting party by torchlight; identified Jesus with a kiss." },
+      { "name": "The temple (return of silver)", "lat": 31.7780, "lng": 35.2354, "description": "Flung the thirty pieces of silver into the temple in remorse." },
+      { "name": "The Field of Blood (Akeldama)", "lat": 31.7700, "lng": 35.2300, "description": "Hanged himself; the priests bought the potter's field with the blood money he had thrown back." }
+    ]
+  },
+  "thomas": {
+    "name": "Thomas",
+    "color": "#7C9BAA",
+    "description": "From Galilean fisherman to (by tradition) the apostle to India.",
+    "stops": [
+      { "name": "Galilee", "lat": 32.8058, "lng": 35.5897, "description": "Fisherman called as one of the twelve, nicknamed Didymus — twin." },
+      { "name": "Bethany (Lazarus)", "lat": 31.7717, "lng": 35.2603, "description": "Said boldly, 'let us go too, that we may die with him' when Jesus turned toward Lazarus." },
+      { "name": "The upper room", "lat": 31.7717, "lng": 35.2294, "description": "Missing on the first resurrection appearance; eight days later confessed, 'my Lord and my God.'" },
+      { "name": "Kerala, India (tradition)", "lat": 9.9312, "lng": 76.2673, "description": "Tradition has him reaching the Malabar coast of India; the Mar Thoma church still claims him as founder." }
+    ]
+  },
+  "felix": {
+    "name": "Felix",
+    "color": "#7E6E66",
+    "description": "Roman procurator at Caesarea who heard Paul.",
+    "stops": [
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Heard Paul's case and reasoned with him about righteousness; left him in prison two years hoping for a bribe." }
+    ]
+  },
+  "festus": {
+    "name": "Festus",
+    "color": "#827060",
+    "description": "Succeeded Felix; shipped Paul to Rome on his appeal to Caesar.",
+    "stops": [
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Heard Paul's case; presented him to Agrippa; arranged transport to Rome." },
+      { "name": "Jerusalem", "lat": 31.7780, "lng": 35.2354, "description": "Went up within three days of arriving in his province; refused to transfer the case there." }
+    ]
+  },
+  "agrippa": {
+    "name": "Agrippa",
+    "color": "#7A6D8E",
+    "description": "Last Herodian ruler; heard Paul's most personal defense.",
+    "stops": [
+      { "name": "Rome", "lat": 41.9028, "lng": 12.4964, "description": "Raised in the imperial court at Rome." },
+      { "name": "Caesarea Philippi", "lat": 33.2483, "lng": 35.6944, "description": "Capital of his northern territories of Iturea and Trachonitis." },
+      { "name": "Caesarea Maritima", "lat": 32.4980, "lng": 34.8917, "description": "Came on a state visit with Bernice; heard Paul's defense and said he was almost persuaded to be a Christian." }
+    ]
+  },
+  "mary": {
+    "name": "Mary",
+    "color": "#DDB97C",
+    "description": "From the Annunciation in Nazareth to the upper room at Pentecost.",
+    "stops": [
+      { "name": "Nazareth (Annunciation)", "lat": 32.7021, "lng": 35.2978, "description": "Received Gabriel's announcement: you will conceive and bear a son and shall call his name Jesus." },
+      { "name": "Ein Karem", "lat": 31.7670, "lng": 35.1620, "description": "Visited her cousin Elizabeth in the hill country; sang the Magnificat — 'my soul magnifies the Lord.'" },
+      { "name": "Bethlehem", "lat": 31.7054, "lng": 35.2024, "description": "Bore Jesus in a manger; the shepherds came to see and the angels sang on the hillside." },
+      { "name": "Jerusalem (the temple)", "lat": 31.7780, "lng": 35.2354, "description": "Presented Jesus on the eighth day; Simeon foretold a sword that would pierce her own soul." },
+      { "name": "Egypt", "lat": 30.0444, "lng": 31.2357, "description": "Fled with Joseph and the child by night to escape Herod's massacre." },
+      { "name": "Nazareth (Jesus's youth)", "lat": 32.7021, "lng": 35.2978, "description": "Raised Jesus here; kept these things and pondered them in her heart." },
+      { "name": "Jerusalem (the lost boy)", "lat": 31.7780, "lng": 35.2354, "description": "Found the twelve-year-old Jesus among the teachers in the temple after three anxious days." },
+      { "name": "Cana", "lat": 32.7470, "lng": 35.3392, "description": "At the wedding feast told Jesus the wine had run out — 'do whatever he tells you.'" },
+      { "name": "Capernaum", "lat": 32.8807, "lng": 35.5752, "description": "Came down with his brothers seeking him; sent in word but did not interrupt his teaching." },
+      { "name": "Golgotha", "lat": 31.7784, "lng": 35.2298, "description": "Stood at the foot of the cross with the beloved disciple; was given into his care by Jesus's last words." },
+      { "name": "Jerusalem (the upper room)", "lat": 31.7717, "lng": 35.2294, "description": "Gathered with the disciples in the upper room after the ascension, devoted to prayer." },
+      { "name": "Ephesus (tradition)", "lat": 37.9494, "lng": 27.3639, "description": "Tradition places her later years under John's care in Ephesus." }
     ]
   }
 }
