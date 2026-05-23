@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Selah
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive atlas of the biblical world. Selah lets you explore scripture as a world — not just a text.
 
-## Available Scripts
+> *Selah* (סֶלָה) — a pause marker in the Hebrew Psalms. A moment to stop and reflect.
 
-In the project directory, you can run:
+## What it does
 
-### `npm start`
+Most Bible apps are reading tools. Selah is an exploring tool. You can wander from a person to the places they touched, from a word to the verses where it appears, from a moment on the timeline to the web of people around it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Map** — Trace journeys, kingdoms, and cities across the ancient Near East, from Eden to Patmos, on an interactive Leaflet map.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Characters** — Browse 100 biblical figures with biographies, scripture references, key locations, and relationship data — from major patriarchs to unnamed witnesses.
 
-### `npm test`
+**Words** — Explore 40 original Hebrew and Greek words with transliterations, definitions, and the verses they appear in.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Timeline** — Plot two thousand years of biblical history on a single horizon, from Abraham to the apostles.
 
-### `npm run build`
+**Network** — A D3 force graph of relationships between biblical characters — see who was connected to whom and how.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Bible** — Browse scripture passages linked to the people, places, and words in the rest of the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All content is stored as static JSON in `src/data/`:
 
-### `npm run eject`
+| File | Entries |
+|---|---|
+| `characters.json` | 100 characters |
+| `locations.json` | 35 locations |
+| `words.json` | 40 Hebrew / Greek words |
+| `journeys.json` | 100 journeys |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React 19, React Router 7
+- Leaflet + react-leaflet (map)
+- D3 (force graph)
+- Static JSON data (no backend)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Running locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+npm start
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app is a standard Create React App build. The `public/_redirects` file is configured for Netlify's SPA routing.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run build
+```
