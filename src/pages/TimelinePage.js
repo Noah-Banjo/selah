@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import characters from '../data/characters.json';
 
 const START = -2000;
@@ -266,6 +267,15 @@ function TimelinePage() {
 
   return (
     <section className="page timeline-page">
+      <Helmet>
+        <title>Timeline — Selah</title>
+        <meta name="description" content="Two thousand years of biblical history on one horizon — from Abraham to the apostles, plotted in gold." />
+        <meta property="og:title" content="Timeline — Selah" />
+        <meta property="og:description" content="Two thousand years of biblical history on one horizon — from Abraham to the apostles, plotted in gold." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Timeline — Selah" />
+        <meta name="twitter:description" content="Two thousand years of biblical history on one horizon — from Abraham to the apostles, plotted in gold." />
+      </Helmet>
       <div className="page__inner">
         <header className="page__header">
           <span className="page__eyebrow">Chronology</span>

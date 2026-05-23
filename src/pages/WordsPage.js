@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import words from '../data/words.json';
 
 function WordsPage() {
@@ -45,6 +46,15 @@ function WordsPage() {
 
   return (
     <section className="page">
+      <Helmet>
+        <title>Words — Selah</title>
+        <meta name="description" content="Explore the original Hebrew and Greek words behind scripture — transliterations, definitions, and the verses where they appear." />
+        <meta property="og:title" content="Words — Selah" />
+        <meta property="og:description" content="Explore the original Hebrew and Greek words behind scripture — transliterations, definitions, and the verses where they appear." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Words — Selah" />
+        <meta name="twitter:description" content="Explore the original Hebrew and Greek words behind scripture — transliterations, definitions, and the verses where they appear." />
+      </Helmet>
       <div className="page__inner">
         <header className="page__header">
           <span className="page__eyebrow">Language</span>

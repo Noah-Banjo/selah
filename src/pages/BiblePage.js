@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const DAILY_REF = 'John 3:16';
 
@@ -128,6 +129,15 @@ function BiblePage() {
 
   return (
     <section className="page bible-page">
+      <Helmet>
+        <title>Bible — Selah</title>
+        <meta name="description" content="Read scripture passages linked to the people, places, and words across the biblical world." />
+        <meta property="og:title" content="Bible — Selah" />
+        <meta property="og:description" content="Read scripture passages linked to the people, places, and words across the biblical world." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Bible — Selah" />
+        <meta name="twitter:description" content="Read scripture passages linked to the people, places, and words across the biblical world." />
+      </Helmet>
       <div className="page__inner">
         <header className="page__header">
           <span className="page__eyebrow">Scripture</span>

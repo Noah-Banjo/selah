@@ -1,5 +1,6 @@
 import { Fragment, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import characters from '../data/characters.json';
 import { findLocationByLabel } from '../data/locationLookup';
 import { categorize } from '../data/relationshipCategories';
@@ -59,8 +60,21 @@ function CharacterProfilePage() {
     );
   }
 
+  const metaTitle = `${character.name} — Selah`;
+  const metaDesc = character.description;
+
   return (
     <section className="page">
+      <Helmet>
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDesc} />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDesc} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={metaTitle} />
+        <meta name="twitter:description" content={metaDesc} />
+      </Helmet>
       <div className="page__inner profile">
         <Link to="/characters" className="back-link">
           ← All Characters

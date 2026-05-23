@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import {
   forceSimulation,
   forceLink,
@@ -256,6 +257,15 @@ function RelationshipsPage() {
 
   return (
     <section className="page relationships-page">
+      <Helmet>
+        <title>Network — Selah</title>
+        <meta name="description" content="A force graph of biblical relationships — family, friendship, discipleship, and rivalry across 100 characters." />
+        <meta property="og:title" content="Network — Selah" />
+        <meta property="og:description" content="A force graph of biblical relationships — family, friendship, discipleship, and rivalry across 100 characters." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Network — Selah" />
+        <meta name="twitter:description" content="A force graph of biblical relationships — family, friendship, discipleship, and rivalry across 100 characters." />
+      </Helmet>
       <div className="page__inner relationships-page__inner">
         <header className="page__header">
           <span className="page__eyebrow">Network</span>

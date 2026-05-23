@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import {
   MapContainer,
   TileLayer,
@@ -135,6 +136,15 @@ function MapPage() {
 
   return (
     <div className="map-page">
+      <Helmet>
+        <title>Map — Selah</title>
+        <meta name="description" content="Trace biblical journeys, kingdoms, and cities across the ancient Near East — from Eden to Patmos." />
+        <meta property="og:title" content="Map — Selah" />
+        <meta property="og:description" content="Trace biblical journeys, kingdoms, and cities across the ancient Near East — from Eden to Patmos." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Map — Selah" />
+        <meta name="twitter:description" content="Trace biblical journeys, kingdoms, and cities across the ancient Near East — from Eden to Patmos." />
+      </Helmet>
       <div className="map-controls">
         <div className="journey-picker">
           <span className="journey-picker__label">Trace a Journey</span>
