@@ -1,0 +1,648 @@
+[
+  {
+    "id": "adam",
+    "name": "Adam",
+    "fullName": "Adam, the first man",
+    "description": "The first human being, formed from the dust and placed in Eden to tend the garden of God.",
+    "period": "antediluvian (traditional c. 4000 BC)",
+    "birthplace": "the Garden of Eden",
+    "locations": ["the Garden of Eden", "east of Eden"],
+    "birthYear": -4000,
+    "biography": [
+      "The opening chapters of Genesis describe Adam as a singular act of divine artistry: formed from the dust of the ground, animated by the breath of God, and set in a garden planted with every tree that is pleasant to the sight. He was charged to tend and keep it, and given dominion over the creatures he was asked to name — a task that scripture records without a single name being listed, as if the point is the authority rather than the inventory.",
+      "He was the only creature in the created order who had no suitable companion, and so the woman was made from his side while he slept. 'This at last,' he said when he woke, 'is bone of my bones and flesh of my flesh.' The command they shared was simple and bounded: eat freely of every tree except one. Their disobedience in eating from the forbidden tree cost them the garden and changed the terms of human existence — toil, pain, and mortality entering where harmony had been.",
+      "Adam lived nine hundred and thirty years, fathering many sons and daughters, and is the anchor of the long genealogy in Genesis 5. Paul reads him in counterpoint to Christ: as death came through one man, so life comes through another. Where Adam's disobedience unraveled, Christ's obedience repairs."
+    ],
+    "references": [
+      { "ref": "Genesis 1:26–2:25", "note": "Creation of Adam and placement in Eden" },
+      { "ref": "Genesis 3", "note": "The fall and expulsion from the garden" },
+      { "ref": "Romans 5:12–21", "note": "Adam as type of the one to come" }
+    ],
+    "relationships": [
+      { "characterId": "eve", "type": "Wife", "description": "Made from his side and his companion in both the garden and the exile." },
+      { "characterId": "cain", "type": "Son", "description": "Firstborn who became the first murderer." },
+      { "characterId": "abel", "type": "Son", "description": "Second son whose offering was accepted and whose life was taken." },
+      { "characterId": "seth", "type": "Son", "description": "Third son given in place of Abel, through whom the covenant line continued." }
+    ]
+  },
+  {
+    "id": "eve",
+    "name": "Eve",
+    "fullName": "Eve, mother of all living",
+    "description": "The first woman, formed from Adam's side and named the mother of all the living.",
+    "period": "antediluvian (traditional c. 4000 BC)",
+    "birthplace": "the Garden of Eden",
+    "locations": ["the Garden of Eden", "east of Eden"],
+    "birthYear": -4000,
+    "biography": [
+      "Eve was formed from Adam's side while he slept — not from his feet to be beneath him, the old interpreters noted, nor from his head to be above him, but from his side to be alongside him. She came into a world already named and tended and was placed as co-steward within it. The serpent approached her first, and the dialogue that followed is one of the most consequential in literature: a question about what God had said, a subtle distortion, and a desire for wisdom overriding a command.",
+      "She took the fruit, ate, and gave some to her husband. The consequences were immediate: eyes opened to shame, a hiddenness from God that had never been felt before, and a God walking in the garden calling out, 'Where are you?' Her judgment was pronounced alongside Adam's: multiplied pain in childbearing, and a relationship with her husband bent by the fall. Her name, given by Adam after the judgment, means living: she is the mother of all living.",
+      "She bore Cain, Abel, Seth, and many other children through the long years that followed. A whisper of future hope attended the moment of her judgment: the seed of the woman would one day bruise the serpent's head. In Christian reading that promise became the first announcement of redemption."
+    ],
+    "references": [
+      { "ref": "Genesis 2:21–25", "note": "Formation and first encounter with Adam" },
+      { "ref": "Genesis 3", "note": "The temptation, the fall, and the promise" },
+      { "ref": "2 Corinthians 11:3; 1 Timothy 2:13", "note": "Eve in New Testament reflection" }
+    ],
+    "relationships": [
+      { "characterId": "adam", "type": "Husband", "description": "The man from whose side she was formed and with whom she shared both garden and exile." },
+      { "characterId": "cain", "type": "Son", "description": "Firstborn, whom she bore saying, 'I have gotten a man with the help of the Lord.'" },
+      { "characterId": "abel", "type": "Son", "description": "Second son, shepherd, whose brief life ended at his brother's hand." },
+      { "characterId": "seth", "type": "Son", "description": "Born in place of Abel; through him the covenant line ran to Noah and beyond." }
+    ]
+  },
+  {
+    "id": "cain",
+    "name": "Cain",
+    "fullName": "Cain, son of Adam",
+    "description": "Adam's firstborn, the first murderer, who killed his brother Abel out of jealousy.",
+    "period": "antediluvian (traditional c. 3900 BC)",
+    "birthplace": "east of Eden",
+    "locations": ["east of Eden", "the land of Nod"],
+    "birthYear": -3900,
+    "biography": [
+      "Cain was the firstborn of Adam and Eve, a tiller of the ground in a world of new work. When the time came to bring an offering to the Lord, Cain brought of the fruit of the ground and Abel brought the firstborn of his flock. The Lord regarded Abel's offering and did not regard Cain's. The text does not explain why, but the difference is visible in the quality of what each brought — Abel's, the firstborn and best; Cain's, simply 'some.' Cain's anger was fierce. God warned him that sin was crouching at the door, desiring him — and that he must master it. He did not.",
+      "He spoke to his brother Abel in the field and rose up and killed him. God asked, 'Where is Abel your brother?' Cain's answer — 'I do not know; am I my brother's keeper?' — became scripture's sharpest display of a conscience that will not confess. The ground that had received Abel's blood was cursed against him; he was to be a fugitive and wanderer. He protested that the punishment was more than he could bear and that anyone who found him would kill him. God set a mark on him — not as a sign of shame but of protection.",
+      "He settled in the land of Nod, east of Eden, and built a city — the first city named in scripture — which he named after his son Enoch. His line produced craftsmen in metal and music, and Lamech, the first polygamist, who boasted of killing a young man who had struck him. Cain's story is the first human narrative of violence and its spreading weight. The Letter to Jude names him as a warning; Hebrews reads Abel's blood as superior to his."
+    ],
+    "references": [
+      { "ref": "Genesis 4:1–17", "note": "The offering, the murder, and the mark" },
+      { "ref": "Genesis 4:17–24", "note": "The line of Cain and the city" },
+      { "ref": "Hebrews 11:4; Jude 11", "note": "Abel's blood and the way of Cain" }
+    ],
+    "relationships": [
+      { "characterId": "adam", "type": "Father", "description": "First father, who was given this son in the years after the expulsion from Eden." },
+      { "characterId": "eve", "type": "Mother", "description": "Who bore him saying she had gotten a man with the help of the Lord." },
+      { "characterId": "abel", "type": "Brother", "description": "Younger brother whose offering was accepted and whose life he took." },
+      { "characterId": "seth", "type": "Brother", "description": "Younger brother, born in Abel's place, through whom the righteous line continued." }
+    ]
+  },
+  {
+    "id": "abel",
+    "name": "Abel",
+    "fullName": "Abel, son of Adam",
+    "description": "Adam's second son, a shepherd whose offering pleased God and who became history's first murder victim.",
+    "period": "antediluvian (traditional c. 3900 BC)",
+    "birthplace": "east of Eden",
+    "locations": ["east of Eden"],
+    "birthYear": -3890,
+    "biography": [
+      "Abel was the second son of Adam and Eve, a keeper of sheep in a world where his brother worked the soil. He brought the firstborn of his flock and of their fat portions as an offering to the Lord. The Lord looked with favor on Abel and his offering. Why the text does not say with absolute clarity — but later scripture reads it as the quality of faith behind the gift, not merely the gift itself.",
+      "His life is short in the telling. He brought his offering, it was accepted, and then his brother killed him in the field. He never speaks in the narrative. He is simply there, accepted, and then gone — the first death recorded in scripture, and a death by violence at the hands of his own kin. The only sound he makes in scripture is after his death: God tells Cain that his brother's blood is crying to him from the ground.",
+      "In Hebrews he is the first name on the list of the faithful: 'By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous.' His blood, scripture says, still speaks — and speaks something better than the blood of sprinkling, meaning Christ's. For all that his life contains only a few verses, Abel has never stopped mattering to the biblical imagination."
+    ],
+    "references": [
+      { "ref": "Genesis 4:2–8", "note": "The offering and the murder" },
+      { "ref": "Hebrews 11:4", "note": "Abel's faith commended" },
+      { "ref": "Hebrews 12:24", "note": "His blood speaks a better word than Abel's" }
+    ],
+    "relationships": [
+      { "characterId": "adam", "type": "Father", "description": "Father who lived to bury the son whom Cain killed." },
+      { "characterId": "eve", "type": "Mother", "description": "Mother who bore him after Cain." },
+      { "characterId": "cain", "type": "Brother", "description": "Elder brother whose jealousy ended Abel's life in the field." },
+      { "characterId": "seth", "type": "Brother", "description": "Born to Adam and Eve in his place after his death." }
+    ]
+  },
+  {
+    "id": "seth",
+    "name": "Seth",
+    "fullName": "Seth, son of Adam",
+    "description": "Third son of Adam and Eve, given in Abel's place; ancestor of Noah and the covenant line.",
+    "period": "antediluvian (traditional c. 3800 BC)",
+    "birthplace": "east of Eden",
+    "locations": ["the world before the flood"],
+    "birthYear": -3800,
+    "biography": [
+      "Seth was born after the death of Abel, and Eve named him Seth — appointed or granted — saying, 'God has appointed for me another offspring instead of Abel, for Cain killed him.' The name carries both grief and hope: grief for a son lost to the first murder, and hope in a replacement. He is the pivot between the line of Cain's city-building violence and the line through which the covenant promise would travel.",
+      "To Seth was born a son named Enosh, and at that time, the text notes, people began to call upon the name of the Lord. It is the first mention of worship in scripture after the fall. Seth himself is described in Genesis 5 in the standard pattern of the genealogy: he lived, he fathered, he died — eight hundred and twelve years. His line is the one that runs through Enoch, Methuselah, and Lamech to Noah.",
+      "He receives little individual attention in the narrative — he is primarily a link in the chain — but the chain runs through him and nowhere else. Without Seth there is no Noah, no Abraham, no covenant line at all. In Luke's genealogy, the line of Jesus is traced all the way back through Seth to Adam."
+    ],
+    "references": [
+      { "ref": "Genesis 4:25–26", "note": "Birth of Seth; calling on the name of the Lord" },
+      { "ref": "Genesis 5:3–8", "note": "Seth in the genealogy" },
+      { "ref": "Luke 3:38", "note": "Seth in the genealogy of Jesus" }
+    ],
+    "relationships": [
+      { "characterId": "adam", "type": "Father", "description": "First father, who fathered him at a hundred and thirty years old." },
+      { "characterId": "eve", "type": "Mother", "description": "Named him, seeing him as God's appointed gift in Abel's place." },
+      { "characterId": "abel", "type": "Brother", "description": "The brother in whose place he was born." },
+      { "characterId": "cain", "type": "Brother", "description": "Elder brother whose act of violence preceded his birth." },
+      { "characterId": "enoch", "type": "Descendant", "description": "Great-great-great-grandson through whom the line of faith ran." },
+      { "characterId": "noah", "type": "Descendant", "description": "Distant grandson through whom humanity was preserved from the flood." }
+    ]
+  },
+  {
+    "id": "methuselah",
+    "name": "Methuselah",
+    "fullName": "Methuselah, son of Enoch",
+    "description": "The longest-lived human in scripture, who died at nine hundred and sixty-nine years.",
+    "period": "antediluvian (traditional c. 3300 BC)",
+    "birthplace": "the world before the flood",
+    "locations": ["the world before the flood"],
+    "birthYear": -3300,
+    "biography": [
+      "Methuselah was the son of Enoch, who walked with God and was taken without dying. His birth appears in the genealogy of Genesis 5 in the standard format, but his age at death — nine hundred and sixty-nine years — has made him a synonym in every subsequent culture for extreme old age. Traditional chronology places his death in the very year of the flood, as if his long life were itself a kind of delay of judgment.",
+      "He fathered Lamech at one hundred and eighty-seven and had other sons and daughters through the centuries that followed. The text gives us nothing more of his inner life, his character, or his choices — he is the genealogical thread between the man who walked with God and the man who survived the waters. His father was taken to God; his grandson was the one survivor of the world's worst catastrophe.",
+      "That genealogical position is itself remarkable. He is the longest-lived man in the Bible, the son of the most mysterious, and the grandfather of the most pivotal. In Jewish tradition the name Methuselah was sometimes read as 'his death shall bring it' — the flood arriving in the year of his death — though this reading is uncertain. What is certain is that no one in scripture outlived him."
+    ],
+    "references": [
+      { "ref": "Genesis 5:21–27", "note": "Methuselah in the genealogy; 969 years" },
+      { "ref": "Luke 3:37", "note": "Listed in the genealogy of Jesus" },
+      { "ref": "Genesis 5:18–20", "note": "His father Enoch, who walked with God" }
+    ],
+    "relationships": [
+      { "characterId": "enoch", "type": "Father", "description": "The father who walked with God and was taken without seeing death." },
+      { "characterId": "noah", "type": "Grandson", "description": "Through Lamech; the man who survived the flood that came in the year of his death." }
+    ]
+  },
+  {
+    "id": "shem",
+    "name": "Shem",
+    "fullName": "Shem, son of Noah",
+    "description": "Eldest son of Noah; patriarch of the Semitic peoples and ancestor of Abraham.",
+    "period": "antediluvian and postdiluvian (traditional c. 2500 BC)",
+    "birthplace": "the world before the flood",
+    "locations": ["the antediluvian world", "the ark", "Mount Ararat", "Mesopotamia"],
+    "birthYear": -2500,
+    "biography": [
+      "Shem was the eldest of Noah's three sons, born about a hundred years before the flood. He entered the ark with his father, his brothers Ham and Japheth, and their respective wives, and emerged into the washed world on the other side. When his brother Ham dishonored their father by looking on Noah's nakedness and reporting it to his brothers, Shem and Japheth walked backward into the tent to cover him. Noah's blessing went to Shem: 'Blessed be the Lord, the God of Shem.'",
+      "After the flood Shem lived five hundred years and fathered many sons and daughters. His genealogy in Genesis 10 is the Table of Nations for the Semitic peoples — Elam, Asshur, Arpachshad, Lud, and Aram among them. Through Arpachshad runs the line that leads to Eber, whose name gives the word Hebrew, and from Eber through Peleg and on down to Terah and his son Abram.",
+      "Shem thus stands at the head of the covenant line. Abraham came from Shem's descendants; through Abraham came Isaac, Jacob, and the twelve tribes of Israel. The genealogy of Jesus in Luke traces the line through Shem. He is the patriarch from whom the world's Semitic peoples and the covenant community both descend."
+    ],
+    "references": [
+      { "ref": "Genesis 9:18–27", "note": "The blessing of Shem after Noah's nakedness" },
+      { "ref": "Genesis 10:21–31", "note": "The Table of Nations: descendants of Shem" },
+      { "ref": "Genesis 11:10–26", "note": "The genealogy from Shem to Abram" }
+    ],
+    "relationships": [
+      { "characterId": "noah", "type": "Father", "description": "The father who entered the ark with him and blessed him after the flood." },
+      { "characterId": "ham", "type": "Brother", "description": "Younger brother whose dishonor of their father Shem chose not to share." },
+      { "characterId": "japheth", "type": "Brother", "description": "Brother who joined him in walking backward to cover Noah." },
+      { "characterId": "abraham", "type": "Descendant", "description": "The patriarch of Israel born six generations after Shem through the line of Arpachshad." }
+    ]
+  },
+  {
+    "id": "ham",
+    "name": "Ham",
+    "fullName": "Ham, son of Noah",
+    "description": "Second son of Noah whose dishonor of his father brought a curse on his son Canaan.",
+    "period": "antediluvian and postdiluvian (traditional c. 2500 BC)",
+    "birthplace": "the world before the flood",
+    "locations": ["the antediluvian world", "the ark", "Mount Ararat"],
+    "birthYear": -2480,
+    "biography": [
+      "Ham was the second of Noah's three sons. He survived the flood in the ark with his father, his brothers Shem and Japheth, and their wives, and was part of the new beginning that followed. After the waters receded and Noah planted a vineyard, he discovered his father drunk and naked in his tent — and instead of covering him, went out and told his brothers.",
+      "Shem and Japheth took a garment, walked backward into the tent without looking, and covered their father. When Noah woke and learned what his youngest son had done, his curse fell not on Ham directly but on Ham's son Canaan: 'cursed be Canaan; a servant of servants shall he be to his brothers.' The episode has troubled readers for centuries and been grievously misused in history; the text itself gives no moral elaboration beyond the act and its consequence.",
+      "Ham's genealogy in Genesis 10 is the Table of Nations for the African and Canaanite peoples — Cush, Mizraim (Egypt), Put, and Canaan among his sons. His line produced Nimrod, 'the first mighty man on earth,' founder of Babylon and Nineveh. Through Ham's descendants came the civilizations of Egypt and the Canaanite peoples whom Israel later encountered in the land."
+    ],
+    "references": [
+      { "ref": "Genesis 9:20–27", "note": "The nakedness of Noah and Ham's act" },
+      { "ref": "Genesis 10:6–20", "note": "The Table of Nations: descendants of Ham" },
+      { "ref": "Genesis 9:18", "note": "Ham as father of Canaan" }
+    ],
+    "relationships": [
+      { "characterId": "noah", "type": "Father", "description": "Father whom he dishonored in the tent, drawing Noah's curse on Canaan." },
+      { "characterId": "shem", "type": "Brother", "description": "Elder brother who covered their father rather than exposing him." },
+      { "characterId": "japheth", "type": "Brother", "description": "Brother who joined Shem in the act of covering." }
+    ]
+  },
+  {
+    "id": "japheth",
+    "name": "Japheth",
+    "fullName": "Japheth, son of Noah",
+    "description": "Third son of Noah; patriarch of the Indo-European peoples and recipient of Noah's blessing.",
+    "period": "antediluvian and postdiluvian (traditional c. 2500 BC)",
+    "birthplace": "the world before the flood",
+    "locations": ["the antediluvian world", "the ark", "Mount Ararat", "the coastlands"],
+    "birthYear": -2470,
+    "biography": [
+      "Japheth was the youngest of Noah's three sons, born into the age when the earth's population was large and its wickedness was worse. He entered the ark with Noah, his brothers, and their wives and came through the flood. When Ham saw their father's nakedness and told his brothers, Japheth joined Shem in taking a garment and walking backward into the tent to cover Noah, keeping their eyes turned away.",
+      "Noah's blessing for him was brief and resonant: 'May God enlarge Japheth, and let him dwell in the tents of Shem.' His genealogy in Genesis 10 traces the peoples of the Indo-European world — Gomer, Magog, Javan (Greece), Tubal, Meshech, and others. His descendants are described as spreading out into the coastlands — the Mediterranean and Aegean worlds.",
+      "Japheth stands at the head of the genealogical line for the peoples of Europe and western Asia. He receives less individual narrative than his brothers, but his blessing anticipates an enlarging of his line and a dwelling-together with Shem's descendants — a hint the New Testament would read as the Gentile nations grafted into Israel's inheritance."
+    ],
+    "references": [
+      { "ref": "Genesis 9:23–27", "note": "Japheth covers Noah; receives the blessing" },
+      { "ref": "Genesis 10:1–5", "note": "The Table of Nations: descendants of Japheth" },
+      { "ref": "Genesis 5:32", "note": "Japheth named as Noah's son" }
+    ],
+    "relationships": [
+      { "characterId": "noah", "type": "Father", "description": "Father whom he honored and who blessed him with enlargement." },
+      { "characterId": "shem", "type": "Brother", "description": "Elder brother with whom he covered their father." },
+      { "characterId": "ham", "type": "Brother", "description": "Middle brother whose dishonor of Noah they together chose not to share." }
+    ]
+  },
+  {
+    "id": "ishmael",
+    "name": "Ishmael",
+    "fullName": "Ishmael, son of Abraham",
+    "description": "Abraham's firstborn by Hagar; patriarch of twelve princes and father of the Arab peoples.",
+    "period": "patriarchal era (traditional c. 1950 BC)",
+    "birthplace": "Canaan",
+    "locations": ["Canaan", "the wilderness of Paran", "Egypt"],
+    "birthYear": -1950,
+    "biography": [
+      "Ishmael was the firstborn of Abraham, born to Hagar the Egyptian servant after Sarah remained childless for ten years. The angel of the Lord had foretold his coming before his birth, telling Hagar that she would bear a son named Ishmael — God hears — and that he would be a wild donkey of a man, with his hand against everyone and everyone's hand against him. He was circumcised at thirteen when Abraham received the covenant of circumcision, and he stood at the door of the tent when God came with the promise of Isaac.",
+      "After Isaac was born and weaned, Sarah saw Ishmael mocking and demanded that Abraham send him away with his mother. Abraham was deeply grieved — this was his son — but God told him to listen to Sarah, promising that Ishmael too would become a great nation, for he was Abraham's offspring. Cast out into the wilderness of Beersheba with bread and water, he nearly died before God opened Hagar's eyes to a well. He grew up in the wilderness of Paran, became an archer, and married an Egyptian woman his mother chose for him.",
+      "He fathered twelve sons who became twelve princes according to their tribes — the parallel and contrast to Israel's twelve tribes is unmistakable. He and Isaac were reunited at least once, to bury their father Abraham at Machpelah. He lived to one hundred and thirty-seven. Paul's allegory in Galatians reads his story as the child of the flesh versus the child of the promise — but that theological use does not erase the human reality: a loved son blessed by God and sent away."
+    ],
+    "references": [
+      { "ref": "Genesis 16:11–12", "note": "The prophecy before his birth" },
+      { "ref": "Genesis 21:9–21", "note": "The expulsion and God's provision in the wilderness" },
+      { "ref": "Genesis 25:12–18", "note": "The twelve princes of Ishmael" }
+    ],
+    "relationships": [
+      { "characterId": "abraham", "type": "Father", "description": "Father who loved him and grieved to send him away at Sarah's demand." },
+      { "characterId": "hagar", "type": "Mother", "description": "Egyptian mother who bore him and chose his wife in the wilderness of Paran." },
+      { "characterId": "sarah", "type": "Stepmother", "description": "The mistress who sent him and his mother away after Isaac's birth." },
+      { "characterId": "isaac", "type": "Half-brother", "description": "Younger half-brother with whom he buried their father at Machpelah." }
+    ]
+  },
+  {
+    "id": "esau",
+    "name": "Esau",
+    "fullName": "Esau (Edom), son of Isaac",
+    "description": "Isaac's firstborn son who sold his birthright for stew and lost the blessing to his twin Jacob.",
+    "period": "patriarchal era (traditional c. 1840 BC)",
+    "birthplace": "Canaan",
+    "locations": ["Canaan", "Seir", "Edom"],
+    "birthYear": -1840,
+    "biography": [
+      "Esau emerged from the womb first, red and hairy, his twin brother's hand grasping his heel. He became his father Isaac's favorite — a skillful hunter who brought venison from the field while Jacob stayed among the tents. One day he came in from the field famished and found Jacob cooking red stew. He sold his birthright for the meal and swore an oath. The text's comment is dry: 'Thus Esau despised his birthright.' He later married two Hittite women, which grieved Isaac and Rebekah deeply.",
+      "When Isaac was old and blind and asked Esau to hunt game for a final blessing, Rebekah overheard and quickly engineered Jacob's substitution. Esau arrived from the hunt, realized what had happened, and wept with a bitter cry: 'have you not reserved a blessing for me?' The blessing Isaac gave him instead was a residual one — by the sword he would live, and he would eventually break free of his brother's yoke. He determined to kill Jacob after their father died, and Jacob fled to Haran.",
+      "The reunion twenty years later is one of the most surprising moments in Genesis. Jacob came back with wives, children, and flocks, and sent gifts ahead in waves, terrified. Esau ran to meet him, embraced him, fell on his neck, and wept. He insisted Jacob keep the gifts. Jacob marveled at his brother's face as if seeing the face of God. Esau settled in Seir and became the father of the Edomites, whose descendants were perpetual neighbors and occasional enemies of Israel."
+    ],
+    "references": [
+      { "ref": "Genesis 25:29–34", "note": "Birthright sold for stew" },
+      { "ref": "Genesis 27", "note": "The stolen blessing and the bitter cry" },
+      { "ref": "Genesis 33:1–16", "note": "The reunion with Jacob" }
+    ],
+    "relationships": [
+      { "characterId": "isaac", "type": "Father", "description": "Favored him above Jacob and intended the firstborn's blessing for him." },
+      { "characterId": "rebekah", "type": "Mother", "description": "Favored Jacob and engineered the substitution that cost Esau the blessing." },
+      { "characterId": "jacob", "type": "Twin brother", "description": "The twin who bought his birthright for stew and stole his father's blessing." }
+    ]
+  },
+  {
+    "id": "laban",
+    "name": "Laban",
+    "fullName": "Laban, son of Bethuel",
+    "description": "Rebekah's brother and Jacob's uncle who deceived his nephew at every turn yet was outmaneuvered in the end.",
+    "period": "patriarchal era (traditional c. 1870 BC)",
+    "birthplace": "Paddan Aram",
+    "locations": ["Paddan Aram", "Haran", "Gilead"],
+    "birthYear": -1870,
+    "biography": [
+      "Laban appears in Genesis first as Rebekah's brother, the man who ran out to greet Abraham's servant when he saw the gold rings — an early sign of where his interests lay. He is the uncle Jacob fled to after stealing the blessing from Esau, and the man who met him at the well of Haran and declared him his own flesh and blood. Jacob loved Rachel; Laban put Leah in the wedding tent and gave Jacob nothing for seven years' work but the wrong wife.",
+      "He then extracted another seven years of labor for Rachel, changed Jacob's wages ten times over, and placed his own sons between Jacob and any inheritance. Yet Jacob prospered anyway, through selective breeding of the flocks and, the text strongly implies, through divine favor. When Jacob finally slipped away with his wives, children, and livestock, Laban pursued him, overtook him in the hills of Gilead, and searched the camp for the household gods Rachel had stolen — hidden under her camel's saddle where he would not find them.",
+      "Their confrontation ended in a covenant of stones: a witness heap between them, a boundary neither would cross against the other. Laban kissed his daughters and grandchildren goodbye and went back to Paddan Aram. He is the figure who matches Jacob trick for trick — and whom Jacob, for all his cunning, spent twenty years barely escaping. He vanishes from the narrative at Gilead, and the story moves on."
+    ],
+    "references": [
+      { "ref": "Genesis 29:1–30", "note": "Laban's deception of Jacob at the wedding" },
+      { "ref": "Genesis 30:25–43", "note": "Jacob's counter-strategy with the flocks" },
+      { "ref": "Genesis 31:22–55", "note": "The pursuit and the covenant at Gilead" }
+    ],
+    "relationships": [
+      { "characterId": "rebekah", "type": "Sister", "description": "Younger sister who left his household to marry Isaac in Canaan." },
+      { "characterId": "jacob", "type": "Nephew", "description": "The nephew he cheated at the wedding and who outmaneuvered him in the end." },
+      { "characterId": "leah", "type": "Daughter", "description": "Older daughter he substituted in the wedding tent." },
+      { "characterId": "rachel", "type": "Daughter", "description": "Younger daughter Jacob had loved and worked fourteen years to obtain." }
+    ]
+  },
+  {
+    "id": "reuben",
+    "name": "Reuben",
+    "fullName": "Reuben, firstborn son of Jacob",
+    "description": "Jacob's firstborn who tried to spare Joseph and later offered his own sons as surety for Benjamin.",
+    "period": "patriarchal era (traditional c. 1800 BC)",
+    "birthplace": "Paddan Aram",
+    "locations": ["Paddan Aram", "Canaan", "Dothan", "Egypt"],
+    "birthYear": -1800,
+    "biography": [
+      "Reuben was the firstborn of Jacob and Leah, whose name Leah gave with the cry: 'See, a son! Now my husband will love me.' He was the eldest and the most prominent among the brothers in moments of crisis — but his birthright was ultimately lost to him. His father's deathbed blessing turned curse: he had defiled his father's bed, lying with Bilhah, Jacob's concubine, an act of boundary-crossing that Genesis records with a single devastating sentence and Jacob never forgets.",
+      "When his brothers planned to kill Joseph, Reuben was the one who said, throw him into a pit instead — intending to come back and rescue him. He went away; the others sold Joseph; and when Reuben returned to the pit and found it empty, he tore his clothes. 'Where shall I go?' he said. He was the firstborn who could not protect the child their father loved. Years later in Egypt, when Simeon was held hostage and Benjamin needed to go down, Reuben offered his own two sons to Jacob as surety.",
+      "Jacob did not take him up on it — it was Judah's offer that finally moved him. Reuben received no inheritance of favor in Jacob's last blessing. His tribe settled in the Transjordan east of the Jordan River and gradually faded from Israel's central story. He is a figure of good intentions overridden by one moral catastrophe and a lifetime of not quite succeeding."
+    ],
+    "references": [
+      { "ref": "Genesis 29:32", "note": "Birth and naming" },
+      { "ref": "Genesis 37:21–30", "note": "Reuben's attempt to spare Joseph" },
+      { "ref": "Genesis 49:3–4", "note": "Jacob's deathbed judgment on Reuben" }
+    ],
+    "relationships": [
+      { "characterId": "jacob", "type": "Father", "description": "Father whose birthright blessing he lost through the sin with Bilhah." },
+      { "characterId": "leah", "type": "Mother", "description": "Mother who bore him and named him as her cry for her husband's love." },
+      { "characterId": "joseph", "type": "Brother", "description": "Half-brother he tried to rescue from the pit before the others sold him." },
+      { "characterId": "judah-son-of-jacob", "type": "Brother", "description": "Brother whose pledge to Jacob for Benjamin succeeded where Reuben's offer failed." }
+    ]
+  },
+  {
+    "id": "judah-son-of-jacob",
+    "name": "Judah",
+    "fullName": "Judah, son of Jacob and Leah",
+    "description": "Fourth son of Jacob and Leah; the brother whose pledge brought Benjamin to Egypt and whose tribe carried the royal and messianic line.",
+    "period": "patriarchal era (traditional c. 1793 BC)",
+    "birthplace": "Paddan Aram",
+    "locations": ["Paddan Aram", "Canaan", "Adullam", "Egypt"],
+    "birthYear": -1793,
+    "biography": [
+      "Judah was the fourth son of Jacob and Leah, and Leah named him praise — at his birth she stopped measuring her children by her husband's regard and simply praised God. He was the one who suggested selling Joseph rather than leaving him to die in the pit — not out of kindness but out of profit; 'what do we gain by killing our brother?' He then separated from his brothers, married a Canaanite woman, and fathered Er, Onan, and Shelah. After two sons died and he withheld his third from Tamar, she tricked him and bore Perez and Zerah. His own words condemned him: 'she is more righteous than I.'",
+      "The turning point in Judah's character comes in Egypt. When Benjamin must be left as Joseph's slave, Judah stepped forward and offered himself in Benjamin's place — 'let me remain instead of the boy' — a substitution so complete that Joseph could not hold back and wept and revealed himself. That speech of intercession is one of the longest uninterrupted speeches in Genesis and one of the most moving. The man who sold his brother offers his own freedom for a brother's sake.",
+      "Jacob's dying blessing gave Judah the pre-eminence his first son Reuben had forfeited: the lion's praise, the scepter that would not depart until the one to whom it belonged should come. Through his son Perez the line ran to Boaz, to David, and to Jesus. Matthew's genealogy opens with Abraham and leads first to Judah and Perez before any other name."
+    ],
+    "references": [
+      { "ref": "Genesis 37:26–27", "note": "Judah's suggestion to sell Joseph" },
+      { "ref": "Genesis 44:18–34", "note": "Judah's plea to remain in Benjamin's place" },
+      { "ref": "Genesis 49:8–12", "note": "The lion of Judah; the scepter that will not depart" }
+    ],
+    "relationships": [
+      { "characterId": "jacob", "type": "Father", "description": "Father whose pre-eminent blessing he received at the deathbed." },
+      { "characterId": "leah", "type": "Mother", "description": "Mother who named him Praise after a change of heart at his birth." },
+      { "characterId": "joseph", "type": "Brother", "description": "Half-brother he helped sell and before whom he later offered himself as a slave." },
+      { "characterId": "tamar", "type": "Daughter-in-law", "description": "The woman who exposed his hypocrisy and bore Perez through whom the line of David came." },
+      { "characterId": "benjamin", "type": "Brother", "description": "Younger brother for whom he offered himself as surety in Egypt." }
+    ]
+  },
+  {
+    "id": "benjamin",
+    "name": "Benjamin",
+    "fullName": "Benjamin, son of Jacob and Rachel",
+    "description": "Youngest son of Jacob and Rachel; the child whose birth cost his mother her life and whose safety Jacob guarded above all.",
+    "period": "patriarchal era (traditional c. 1785 BC)",
+    "birthplace": "near Bethlehem, Canaan",
+    "locations": ["Canaan", "Bethlehem", "Egypt"],
+    "birthYear": -1785,
+    "biography": [
+      "Benjamin was born on the road south of Bethlehem, and the birth killed his mother Rachel. With her last breath she named him Ben-Oni — son of my sorrow. His father Jacob renamed him Benjamin — son of the right hand — as if refusing to let the boy carry grief as his identity. He grew up as Jacob's last comfort: the only remaining son of his beloved Rachel, the only surviving link to the life that had been his greatest joy.",
+      "When famine drove Jacob's sons down to Egypt and the governor there (who was Joseph, unrecognized) demanded that Benjamin come as proof they were not spies, Jacob refused for months. He had already lost Joseph; he would not risk Benjamin. Only when Judah offered himself as surety did Jacob relent. In Egypt Joseph, overcome at the sight of his only full brother, had to leave the room to weep. He gave Benjamin five times more than his brothers and three hundred pieces of silver.",
+      "Jacob's dying blessing for Benjamin was a brief war-image: 'Benjamin is a ravenous wolf; in the morning devouring the prey, and at evening dividing the spoil.' His tribe settled in the territory around Jerusalem, producing Israel's first king — Saul — and the apostle Paul, who identified himself as 'of the tribe of Benjamin, a Hebrew of Hebrews.' The smallest of the tribes occupied the central hinge of the land."
+    ],
+    "references": [
+      { "ref": "Genesis 35:16–20", "note": "Birth and the death of Rachel" },
+      { "ref": "Genesis 42:36–44:34", "note": "Benjamin's role in the Egypt journeys" },
+      { "ref": "Genesis 49:27", "note": "Jacob's blessing: Benjamin the ravenous wolf" }
+    ],
+    "relationships": [
+      { "characterId": "jacob", "type": "Father", "description": "Father who renamed him son of the right hand and guarded his life above all." },
+      { "characterId": "rachel", "type": "Mother", "description": "Mother who died bearing him and named him son of her sorrow." },
+      { "characterId": "joseph", "type": "Brother", "description": "Full brother who wept at the sight of him in Egypt and lavished gifts on him." },
+      { "characterId": "judah-son-of-jacob", "type": "Brother", "description": "Half-brother who pledged himself to Jacob for his safety." }
+    ]
+  },
+  {
+    "id": "potiphar",
+    "name": "Potiphar",
+    "fullName": "Potiphar, captain of Pharaoh's guard",
+    "description": "Egyptian officer who bought Joseph as a slave and promoted him to head of his household.",
+    "period": "sojourn in Egypt (traditional c. 1730 BC)",
+    "birthplace": "Egypt",
+    "locations": ["Egypt"],
+    "birthYear": -1760,
+    "biography": [
+      "Potiphar was an Egyptian — a high official of Pharaoh described as the captain of the guard, the commander of the royal bodyguard. He bought Joseph from the Ishmaelite traders who had brought him down from Canaan. The Lord was with Joseph, and Potiphar saw it: everything he set the young Hebrew to do prospered. He made Joseph his personal attendant and eventually handed him oversight of everything in his house and everything in his fields.",
+      "Genesis notes that because of Joseph, the Lord blessed all that was in Potiphar's household. He handed the Hebrew slave authority so complete that he no longer concerned himself with anything in the house except the food he ate. The only exception was his wife. When she repeatedly propositioned Joseph and he refused on grounds of loyalty to his master and to God, she finally grabbed his garment as he fled, kept it, and told her husband that the Hebrew had tried to assault her.",
+      "Potiphar was furious. He threw Joseph into the royal prison. The text does not speculate on whether Potiphar believed his wife; some readers have noted that a master who truly believed his slave had assaulted his wife would have had the slave executed, not merely imprisoned. Whatever his private mind held, the prison was the door to the next stage of Joseph's story. Potiphar is a minor figure who plays a major structural role."
+    ],
+    "references": [
+      { "ref": "Genesis 39:1–6", "note": "Potiphar purchases Joseph; Joseph's rise in the household" },
+      { "ref": "Genesis 39:7–20", "note": "Potiphar's wife, the false accusation, and Joseph's imprisonment" },
+      { "ref": "Genesis 37:36", "note": "Potiphar named as the buyer of Joseph" }
+    ],
+    "relationships": [
+      { "characterId": "joseph", "type": "Master", "description": "Egyptian master who bought him from traders, elevated him in his household, then imprisoned him on his wife's false accusation." }
+    ]
+  },
+  {
+    "id": "jethro",
+    "name": "Jethro",
+    "fullName": "Jethro (Reuel), priest of Midian",
+    "description": "Midianite priest and father-in-law of Moses who advised him to delegate judgment among the people.",
+    "period": "Exodus era (traditional c. 1380 BC)",
+    "birthplace": "Midian",
+    "locations": ["Midian", "the wilderness of Sinai", "Rephidim"],
+    "birthYear": -1420,
+    "biography": [
+      "Jethro is introduced in Exodus 2 as Reuel, a priest of Midian, whose seven daughters Moses defended at a well from the shepherds who drove them away. Moses ate bread with him, stayed with him, and married his daughter Zipporah. He tended Jethro's flocks for forty years in Midian — the long hidden season before the burning bush. Jethro sent him back to Egypt with his blessing, and later Exodus names him Jethro, the name by which he is best remembered.",
+      "After the Exodus, when the news of what God had done reached Midian, Jethro came out to Moses in the wilderness at the mountain of God, bringing Zipporah and Moses's two sons. The meeting is warm and collegial: Jethro rejoiced over all the good the Lord had done, blessed the Lord, and offered a burnt offering and sacrifices. The priests of Israel ate bread with Moses's father-in-law before God — a Midianite priest hosting a covenant meal in the wilderness.",
+      "The next morning he watched Moses sit all day judging the people from morning to evening, the crowds standing around him the whole time. His advice was direct and structural: this is not good. You will wear out, and the people too. Appoint capable, faithful men to judge small cases and bring only the hard ones to you. Moses listened. Jethro went home to his own people. His counsel on delegation and shared leadership has been quoted in management literature ever since."
+    ],
+    "references": [
+      { "ref": "Exodus 2:16–22", "note": "Moses at the well; Jethro's household" },
+      { "ref": "Exodus 18:1–12", "note": "Jethro's visit and the burnt offering" },
+      { "ref": "Exodus 18:13–27", "note": "The counsel on delegating judgment" }
+    ],
+    "relationships": [
+      { "characterId": "moses", "type": "Son-in-law", "description": "Sheltered him during the Midianite years and sent him back to Egypt with his blessing." },
+      { "characterId": "zipporah", "type": "Daughter", "description": "Daughter he gave to Moses in marriage after the meeting at the well." }
+    ]
+  },
+  {
+    "id": "bezalel",
+    "name": "Bezalel",
+    "fullName": "Bezalel, son of Uri, son of Hur, of the tribe of Judah",
+    "description": "Craftsman filled by God's Spirit to build the tabernacle and all its furnishings.",
+    "period": "Exodus era (traditional c. 1446 BC)",
+    "birthplace": "Egypt",
+    "locations": ["Egypt", "the wilderness of Sinai"],
+    "birthYear": -1490,
+    "biography": [
+      "Bezalel is introduced with a striking claim: God said to Moses, 'I have called him by name, and I have filled him with the Spirit of God, with ability and intelligence, with knowledge and all craftsmanship.' This is the first time in scripture that someone is described as filled with the Spirit of God, and the purpose is not prophecy or warfare but artistry — the fashioning of the tabernacle and all that belonged to it.",
+      "He was given charge of everything: the ark of the covenant and its mercy seat, the lampstand, the table, the altars, the priestly garments. His co-worker was Oholiab, of the tribe of Dan, and they were given ability to teach as well as to make. The two of them received freewill offerings from all of Israel — so much that Moses eventually had to tell the people to stop bringing. What they built became the dwelling place of the divine Presence through forty years of wilderness wandering.",
+      "Bezalel is named in the genealogy as grandson of Hur, who held up Moses's arms at Rephidim while Israel fought the Amalekites. His name in Hebrew means 'in the shadow of God.' Scripture does not name any further work of his after the tabernacle is complete — the work itself is the legacy. He is the only person the Bible describes as filled with the Spirit for the work of making beautiful things."
+    ],
+    "references": [
+      { "ref": "Exodus 31:1–11", "note": "God's commissioning of Bezalel" },
+      { "ref": "Exodus 35:30–36:7", "note": "Bezalel and Oholiab at work; the overflowing offerings" },
+      { "ref": "Exodus 37–38", "note": "The furnishings of the tabernacle crafted by Bezalel" }
+    ],
+    "relationships": [
+      { "characterId": "moses", "type": "Supervisor", "description": "The one through whom God's commission was delivered and who directed the tabernacle project." }
+    ]
+  },
+  {
+    "id": "achan",
+    "name": "Achan",
+    "fullName": "Achan, son of Carmi, of the tribe of Judah",
+    "description": "Israelite soldier whose secret plunder of Jericho's devoted things brought defeat at Ai and his own execution.",
+    "period": "conquest era (traditional c. 1406 BC)",
+    "birthplace": "the wilderness",
+    "locations": ["Jericho", "Ai", "the Valley of Achor"],
+    "birthYear": -1440,
+    "biography": [
+      "When Jericho fell, Joshua had declared everything in the city devoted to destruction — the silver, gold, bronze, and iron set apart for the Lord's treasury, everything else under the ban. Achan, son of Carmi of Judah, saw a beautiful Babylonian robe, two hundred shekels of silver, and a wedge of gold and wanted them. He took them. He buried them under his tent. He told no one. The text records his transgression in a few lines that are among the most quietly devastating in Joshua: Israel broke faith. Achan son of Carmi took some of the devoted things.",
+      "The result was immediate. When the army went up against the small town of Ai, a few thousand men were routed and thirty-six died. Joshua tore his clothes and fell before the ark and cried out, and God answered: Israel has sinned. The thing I commanded has been broken. Stand up. There is a devoted thing in your midst. The next morning the lot was cast — tribe by tribe, clan by clan, household by household — until Achan was identified.",
+      "He confessed clearly: 'I coveted them and took them.' They were found exactly where he said. He and his family and his livestock were taken to the Valley of Achor and stoned, then burned. Israel raised a great heap of stones over him. Joshua named the valley Achor — trouble — because of the trouble Achan had caused. The story became the defining Old Testament warning against secret sin in a community where the whole body is affected by one member's faithlessness."
+    ],
+    "references": [
+      { "ref": "Joshua 7:1–5", "note": "The defeat at Ai after Achan's sin" },
+      { "ref": "Joshua 7:16–26", "note": "The casting of lots and Achan's confession and stoning" },
+      { "ref": "Joshua 6:18–19", "note": "The ban on Jericho's devoted things" }
+    ],
+    "relationships": [
+      { "characterId": "joshua", "type": "Commander", "description": "The leader whose army was defeated and who presided over Achan's judgment." }
+    ]
+  },
+  {
+    "id": "phinehas",
+    "name": "Phinehas",
+    "fullName": "Phinehas, son of Eleazar, son of Aaron",
+    "description": "Priest whose decisive act of zeal during the Baal Peor apostasy halted a plague and secured his line the eternal priesthood.",
+    "period": "wilderness era (traditional c. 1406 BC)",
+    "birthplace": "the wilderness of Sinai",
+    "locations": ["the wilderness", "Shittim", "Peor", "the Jordan River"],
+    "birthYear": -1445,
+    "biography": [
+      "Phinehas was the son of Eleazar and grandson of Aaron, the high priestly line. While Israel was camped at Shittim, the people began to play the harlot with the daughters of Moab, yoked themselves to Baal of Peor, and God's anger burned against them. A plague began. Moses commanded the chiefs of the people to be executed. The whole congregation was weeping at the entrance of the tent of meeting when an Israelite man brazenly brought a Midianite woman into his tent in plain sight.",
+      "Phinehas rose from the congregation, took a spear, followed them into the tent, and drove the spear through both of them. The plague stopped. The dead in the plague numbered twenty-four thousand. God's word to Moses after was unequivocal: Phinehas has turned back my wrath from the people of Israel, because he was jealous with my jealousy among them. I give him my covenant of peace. The eternal priesthood was confirmed to his line.",
+      "He appears again in the settlement of a crisis over an altar built by the Transjordanian tribes, sent as an ambassador to investigate and accepted the explanation with wisdom. He is the man who acted when others wept. Psalm 106 remembers it as righteousness credited to him for all generations. His is one of the most morally unsettling of the biblical commendations — a killing rewarded with a covenant of peace — but the text is unambiguous about its meaning."
+    ],
+    "references": [
+      { "ref": "Numbers 25:1–13", "note": "The act at Shittim and the covenant of peace" },
+      { "ref": "Joshua 22:13–34", "note": "Phinehas as ambassador in the altar dispute" },
+      { "ref": "Psalm 106:28–31", "note": "Phinehas's zeal reckoned as righteousness" }
+    ],
+    "relationships": [
+      { "characterId": "aaron", "type": "Grandfather", "description": "First high priest, whose priestly line Phinehas served and continued." },
+      { "characterId": "moses", "type": "Leader", "description": "The leader who received God's word of commendation after Phinehas's act." }
+    ]
+  },
+  {
+    "id": "balaam",
+    "name": "Balaam",
+    "fullName": "Balaam, son of Beor",
+    "description": "A Gentile seer hired to curse Israel who could only speak the blessings God put in his mouth.",
+    "period": "wilderness era (traditional c. 1407 BC)",
+    "birthplace": "Pethor, near the Euphrates",
+    "locations": ["Pethor", "Moab", "the plains of Moab", "Midian"],
+    "birthYear": -1450,
+    "biography": [
+      "Balaam son of Beor was a diviner of considerable reputation in the ancient Near East — not an Israelite, but a man who spoke to the God of Israel. When the Israelites spread across the plains of Moab in numbers that terrified King Balak, Balak sent messengers with fees for divination to summon Balaam and pay him to curse Israel. God spoke to Balaam in the night and told him not to go; he went when the delegation returned with more impressive honors and higher fees.",
+      "On the road his donkey stopped three times before the angel of the Lord blocking the path. Each time Balaam struck her; the third time she spoke. The angel rebuked him. He confessed he had sinned. He went on to Moab and tried three times from three different vantage points to curse Israel — and each time what came from his mouth was blessing. His oracles grew more magnificent with each attempt: 'How beautiful are your tents, O Jacob, your encampments, O Israel.' He could not override what God was speaking.",
+      "His final oracle looked forward to a star rising out of Jacob, a scepter out of Israel, smiting the foreheads of Moab — a passage later read messianically. Yet Balaam ends badly. He advised Balak that Israel could be tripped up by enticing them with Moabite women and Baal worship at Peor. Numbers, Revelation, and Jude all remember him as a cautionary figure: a man who spoke truth for profit and counseled wickedness when the profit ran out."
+    ],
+    "references": [
+      { "ref": "Numbers 22–24", "note": "Balaam's journey, the talking donkey, and the oracles of blessing" },
+      { "ref": "Numbers 24:17", "note": "The star rising out of Jacob" },
+      { "ref": "2 Peter 2:15; Jude 11", "note": "Balaam as a warning against greed and false teaching" }
+    ],
+    "relationships": [
+      { "characterId": "moses", "type": "Opponent", "description": "Leader of the Israel that Balak hired Balaam to curse and that Balaam ended up blessing." },
+      { "characterId": "phinehas", "type": "Enemy", "description": "The priest whose act at Peor reversed the damage Balaam's counsel had caused." }
+    ]
+  },
+  {
+    "id": "othniel",
+    "name": "Othniel",
+    "fullName": "Othniel, son of Kenaz",
+    "description": "Israel's first judge, who rescued the nation from Mesopotamian oppression and gave it forty years of peace.",
+    "period": "judges era (traditional c. 1374 BC)",
+    "birthplace": "Judah",
+    "locations": ["Debir", "Kiriath-sepher", "Judah"],
+    "birthYear": -1420,
+    "biography": [
+      "Othniel appears briefly before the judges period proper in the account of the conquest: he was the nephew of Caleb who captured Kiriath-sepher (Debir) and received Caleb's daughter Achsah as his wife, along with the springs she boldly asked her father for as a wedding gift. He thus enters the story as a man of proven courage, a family member of one of Israel's most faithful leaders.",
+      "When the Israelites did evil in the eyes of the Lord and he handed them over to Cushan-rishathaim king of Mesopotamia for eight years, they cried out and the Lord raised up Othniel as deliverer. The Spirit of the Lord came upon him; he judged Israel and went to war; the Lord gave Cushan-rishathaim into his hand. The account of his deliverance is the paradigm case in Judges — the simplest and most complete version of the cycle that every subsequent judge story will complicate.",
+      "He judged Israel forty years and then he died. The account of his judgeship is the shortest of all the major judges — barely four verses — and yet it establishes the pattern against which all the others are measured. He is the template judge: a military deliverer, a Spirit-filled leader, and a source of rest for the land. His brief life in the text is outsized in its structural importance."
+    ],
+    "references": [
+      { "ref": "Judges 1:12–15", "note": "Capturing Debir and receiving Achsah" },
+      { "ref": "Judges 3:7–11", "note": "The deliverance from Cushan-rishathaim; forty years of peace" },
+      { "ref": "Joshua 15:16–19", "note": "The same story in the Joshua account" }
+    ],
+    "relationships": [
+      { "characterId": "caleb", "type": "Uncle", "description": "The uncle whose daughter he won by capturing Kiriath-sepher." }
+    ]
+  },
+  {
+    "id": "ehud",
+    "name": "Ehud",
+    "fullName": "Ehud, son of Gera, of Benjamin",
+    "description": "Left-handed judge who assassinated Eglon king of Moab and led Israel to eighty years of peace.",
+    "period": "judges era (traditional c. 1320 BC)",
+    "birthplace": "the territory of Benjamin",
+    "locations": ["the Jordan fords", "Gilgal", "Moab", "Seirah", "the hill country of Ephraim"],
+    "birthYear": -1360,
+    "biography": [
+      "After Othniel's generation died, Israel fell back into evil and was handed over to Eglon king of Moab, who allied with Ammon and Amalek and occupied Jericho for eighteen years. When Israel cried out, the Lord raised up Ehud son of Gera, a Benjaminite, and the text notes with deliberate detail: he was left-handed. The Benjaminites were famous for left-handedness and for ambidextrous warriors; what mattered here was that a sword strapped to the right thigh — the wrong side — would escape the search of any guard expecting a right-handed man.",
+      "Ehud made himself a double-edged sword a cubit long and strapped it to his right thigh under his clothing. He was sent to bring tribute to Eglon, who was a very fat man, and after delivering it dismissed the porters and came back alone, claiming to have a secret message. He killed Eglon in the private roof chamber — the sword so buried in the fat that he could not draw it back out — locked the doors from the outside, and walked away.",
+      "While the servants waited outside assuming their master was using the toilet, Ehud escaped to Seirah, blew a trumpet in the hill country of Ephraim, and led Israel in seizing the Jordan fords. No Moabite escaped. Ten thousand perished and Israel had eighty years of peace — the longest rest in the entire book of Judges. Ehud's story is told with unmistakable dark comedy and relentless detail, as if the narrator could not quite suppress the satisfaction of the telling."
+    ],
+    "references": [
+      { "ref": "Judges 3:12–30", "note": "The full account of Ehud, Eglon, and the deliverance" },
+      { "ref": "Judges 3:15", "note": "Ehud described as left-handed" },
+      { "ref": "Judges 3:30", "note": "Eighty years of rest" }
+    ],
+    "relationships": [
+      { "characterId": "othniel", "type": "Predecessor", "description": "The first judge whose pattern of deliverance Ehud followed a generation later." }
+    ]
+  },
+  {
+    "id": "barak",
+    "name": "Barak",
+    "fullName": "Barak, son of Abinoam, of Naphtali",
+    "description": "The military general who defeated Sisera at Deborah's command, though the final glory went to a woman.",
+    "period": "judges era (traditional c. 1200 BC)",
+    "birthplace": "Kedesh-Naphtali",
+    "locations": ["Kedesh-Naphtali", "Mount Tabor", "the Kishon River"],
+    "birthYear": -1240,
+    "biography": [
+      "Barak was the military commander summoned by the prophetess Deborah to lead Israel against Jabin king of Canaan and his general Sisera, who had oppressed Israel for twenty years with nine hundred iron chariots. Deborah gave him a direct divine command: go, muster ten thousand men from Naphtali and Zebulun, take the high ground of Mount Tabor, and I will draw Sisera out to you. Barak's answer was honest about his limits: 'If you will go with me, I will go, but if you will not go with me, I will not go.'",
+      "Deborah went. On the day of battle she gave the signal: 'Up! For this is the day in which the Lord has given Sisera into your hand. Does not the Lord go out before you?' Barak went down from Mount Tabor with ten thousand men. The Lord threw Sisera and all his chariots and all his army into a panic before Barak. The Kishon flooded. The chariot army was destroyed. Sisera himself fled on foot to the tent of Jael, who killed him while he slept.",
+      "Barak pursued the chariots and the army all the way to Harod and left not a man alive. The victory was complete — but as Deborah had warned, the honor of killing Sisera did not come to him. He stands in the tradition as a capable general who needed a prophetess's presence to move, and who won the battle but not the story. Hebrews 11 nonetheless names him among the heroes of faith."
+    ],
+    "references": [
+      { "ref": "Judges 4:6–16", "note": "The summons, the condition, and the battle" },
+      { "ref": "Judges 5", "note": "The Song of Deborah, which names Barak" },
+      { "ref": "Hebrews 11:32", "note": "Barak among the heroes of faith" }
+    ],
+    "relationships": [
+      { "characterId": "deborah", "type": "Leader", "description": "The prophetess who summoned him, accompanied him to battle, and whose presence he required." },
+      { "characterId": "jael", "type": "Ally", "description": "The woman whose tent-peg killing of Sisera fulfilled Deborah's prophecy about the battle's final honor." }
+    ]
+  },
+  {
+    "id": "jael",
+    "name": "Jael",
+    "fullName": "Jael, wife of Heber the Kenite",
+    "description": "A Kenite woman who killed the fleeing Canaanite general Sisera with a tent peg and fulfilled Deborah's prophecy.",
+    "period": "judges era (traditional c. 1200 BC)",
+    "birthplace": "unknown",
+    "locations": ["the plains of Zaanaim", "Kedesh"],
+    "birthYear": -1240,
+    "biography": [
+      "Jael was the wife of Heber the Kenite, who had separated from the other Kenites and pitched his tent near Kedesh. There was peace between Heber's clan and the Canaanite king Jabin — an ambiguous proximity that made her an unlikely deliverer. When Sisera, the defeated general of Canaan, fled the destruction of his army on foot and arrived at her tent, she went out to meet him: 'Turn aside, my lord; turn aside to me; do not be afraid.'",
+      "She covered him with a blanket, gave him milk when he asked for water, set a watch at the door, and waited. He fell into an exhausted sleep. Then she took a tent peg and a hammer — tools she knew from daily work — went to him quietly, and drove the peg through his temple into the ground. He died. When Barak arrived in pursuit, she came out to meet him: 'Come, and I will show you the man you are seeking.' Sisera lay dead with the peg through his head.",
+      "The Song of Deborah praises her with extravagant language: 'Most blessed of women be Jael, the wife of Heber the Kenite, of tent-dwelling women most blessed.' The song's poetic account of the killing is drawn out in slow, almost cinematic detail. She was not an Israelite; she was not a soldier; she had no commission from Deborah. She acted in her own tent with what was in her hand, and the prophecy that the honor of Sisera's death would go to a woman was fulfilled through her."
+    ],
+    "references": [
+      { "ref": "Judges 4:17–22", "note": "Sisera's flight and Jael's action" },
+      { "ref": "Judges 5:24–27", "note": "The Song of Deborah's praise of Jael" },
+      { "ref": "Judges 4:9", "note": "Deborah's prophecy that a woman would receive the honor" }
+    ],
+    "relationships": [
+      { "characterId": "deborah", "type": "Ally", "description": "The prophetess whose prophecy she fulfilled, though not by design." },
+      { "characterId": "barak", "type": "Ally", "description": "The general who arrived in pursuit of Sisera and found him already dead in her tent." }
+    ]
+  },
+  {
+    "id": "abimelech-son-of-gideon",
+    "name": "Abimelech",
+    "fullName": "Abimelech, son of Gideon by a concubine",
+    "description": "Gideon's son who killed seventy of his brothers, made himself king, and died when a woman dropped a millstone on his head.",
+    "period": "judges era (traditional c. 1130 BC)",
+    "birthplace": "Shechem",
+    "locations": ["Shechem", "Ophrah", "Thebez"],
+    "birthYear": -1155,
+    "biography": [
+      "Abimelech was the son of Gideon by a concubine in Shechem — and his name means 'my father is king,' an irony given that his father had specifically refused the kingship, saying the Lord would rule over Israel. After Gideon died, Abimelech went to his mother's brothers at Shechem, persuaded them that one ruler from their own kin was better than seventy sons of Gideon, and received seventy pieces of silver from the house of Baal-Berith. He hired worthless and reckless men with the silver and went to Ophrah and killed seventy of his brothers, the sons of Gideon, on one stone. Only the youngest, Jotham, escaped by hiding.",
+      "The men of Shechem and Beth-millo made Abimelech king. Jotham stood on Mount Gerizim and shouted down a fable about the trees seeking a king — if you act in good faith with Gideon and his house, well; if not, let fire come out from Abimelech and devour Shechem, and fire from Shechem devour Abimelech. Then he fled. Three years passed before the curse began to take shape. God sent an evil spirit between Abimelech and the men of Shechem; they dealt treacherously with him; and war came.",
+      "Abimelech destroyed Shechem and sowed it with salt. He went on to Thebez and besieged it. As he drew near the tower to set fire to it, a woman dropped an upper millstone on his head and cracked his skull. He called quickly to his armor-bearer: 'draw your sword and kill me, lest they say about me, a woman killed him.' The armor-bearer ran him through. And they say about him, a woman killed him. Judges uses him as the darkest proof of what the refusal of God's kingship and the seizure of human power produces."
+    ],
+    "references": [
+      { "ref": "Judges 9:1–6", "note": "The silver from Baal-Berith and the killing of the seventy brothers" },
+      { "ref": "Judges 9:7–21", "note": "Jotham's fable on Mount Gerizim" },
+      { "ref": "Judges 9:50–57", "note": "Death by millstone at Thebez" }
+    ],
+    "relationships": [
+      { "characterId": "gideon", "type": "Father", "description": "The judge who refused the kingship, whose illegitimate son seized it by violence." }
+    ]
+  }
+]
