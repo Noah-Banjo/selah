@@ -79,6 +79,7 @@ function MapPage() {
   const journey = journeyId ? journeys[journeyId] : null;
 
   const [journeySearch, setJourneySearch] = useState('');
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const markerRefs = useRef({});
 
@@ -126,6 +127,7 @@ function MapPage() {
     next.delete('location');
     setSearchParams(next, { replace: true });
     setJourneySearch('');
+    setMobileOpen(false);
   };
 
   const clearJourney = () => {
@@ -145,7 +147,24 @@ function MapPage() {
         <meta name="twitter:title" content="Map — Selah" />
         <meta name="twitter:description" content="Trace biblical journeys, kingdoms, and cities across the ancient Near East — from Eden to Patmos." />
       </Helmet>
-      <div className="map-controls">
+
+      {mobileOpen && (
+        <div
+          className="map-drawer-backdrop"
+          onClick={() => setMobileOpen(false)}
+          aria-hidden="true"
+        />
+      )}
+
+      <div className={`map-controls${mobileOpen ? ' map-controls--open' : ''}`}>
+        <button
+          type="button"
+          className="map-controls__close"
+          onClick={() => setMobileOpen(false)}
+          aria-label="Close journey picker"
+        >
+          ×
+        </button>
         <div className="journey-picker">
           <span className="journey-picker__label">Trace a Journey</span>
           <div className="journey-picker__search">
@@ -219,6 +238,28 @@ function MapPage() {
           </div>
         )}
       </div>
+
+      <button
+        type="button"
+        className="map-routes-btn"
+        onClick={() => setMobileOpen((v) => !v)}
+        aria-expanded={mobileOpen}
+        aria-label="Open journey picker"
+      >
+        {journey ? (
+          <>
+            <span
+              className="map-routes-btn__swatch"
+              style={{ backgroundColor: journey.color }}
+              aria-hidden="true"
+            />
+            {journey.name}
+          </>
+        ) : (
+          'Trace a Journey'
+        )}
+        <span aria-hidden="true">{mobileOpen ? '↓' : '↑'}</span>
+      </button>
 
       <MapContainer
         center={CENTER}
