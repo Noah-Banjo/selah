@@ -1,8 +1,11 @@
 import { useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import characters from '../data/characters.json';
 import locations from '../data/locations.json';
 import words from '../data/words.json';
+
+const SEARCH_EXAMPLES = ['Moses', 'Bethlehem', 'Paul', 'שָׁלוֹם', 'Mary', 'Babylon'];
 
 const SECTIONS = [
   {
@@ -120,6 +123,16 @@ function HomePage() {
 
   return (
     <>
+      <Helmet>
+        <title>Selah — Explore the Biblical World</title>
+        <meta name="description" content="An interactive atlas of the biblical world. Explore maps, characters, timelines, and original Hebrew and Greek words." />
+        <meta property="og:title" content="Selah — Explore the Biblical World" />
+        <meta property="og:description" content="An interactive atlas of the biblical world. Explore maps, characters, timelines, and original Hebrew and Greek words." />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Selah — Explore the Biblical World" />
+        <meta name="twitter:description" content="An interactive atlas of the biblical world. Explore maps, characters, timelines, and original Hebrew and Greek words." />
+      </Helmet>
       <section className="hero">
         <div className="hero__inner">
           <span className="hero__eyebrow">An interactive biblical world explorer</span>
@@ -153,6 +166,22 @@ function HomePage() {
                 </button>
               )}
             </div>
+
+            {!query && (
+              <div className="search-examples" aria-label="Search suggestions">
+                <span className="search-examples__label">Try:</span>
+                {SEARCH_EXAMPLES.map((ex) => (
+                  <button
+                    key={ex}
+                    type="button"
+                    className="search-examples__chip"
+                    onClick={() => setQuery(ex)}
+                  >
+                    {ex}
+                  </button>
+                ))}
+              </div>
+            )}
 
             <button
               type="button"

@@ -1,9 +1,19 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import characters from '../data/characters.json';
 
 function CharactersPage() {
   return (
     <section className="page">
+      <Helmet>
+        <title>Characters — Selah</title>
+        <meta name="description" content="Browse 100 biblical figures — prophets, kings, and unnamed witnesses — with biographies, scripture references, and relationship maps." />
+        <meta property="og:title" content="Characters — Selah" />
+        <meta property="og:description" content="Browse 100 biblical figures — prophets, kings, and unnamed witnesses — with biographies, scripture references, and relationship maps." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Characters — Selah" />
+        <meta name="twitter:description" content="Browse 100 biblical figures — prophets, kings, and unnamed witnesses — with biographies, scripture references, and relationship maps." />
+      </Helmet>
       <div className="page__inner">
         <header className="page__header">
           <span className="page__eyebrow">Lives</span>
