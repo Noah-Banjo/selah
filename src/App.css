@@ -3297,6 +3297,58 @@
   margin-top: 0.5rem;
 }
 
+/* ---------- Profile notes ---------- */
+
+.profile__notes-section {
+  margin-top: 0.5rem;
+}
+
+.profile__notes {
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  padding: 0.875rem 1rem;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.18s, background 0.18s;
+  box-sizing: border-box;
+}
+
+.profile__notes::placeholder {
+  color: var(--text-muted);
+  opacity: 0.55;
+}
+
+.profile__notes:focus {
+  border-color: rgba(212, 175, 55, 0.4);
+  background: rgba(212, 175, 55, 0.03);
+}
+
+.profile__notes-clear {
+  display: inline-block;
+  margin-top: 0.5rem;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+
+.profile__notes-clear:hover {
+  color: var(--text);
+}
+
 .toast {
   position: fixed;
   left: 50%;
