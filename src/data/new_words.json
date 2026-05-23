@@ -1,602 +1,5 @@
 [
   {
-    "id": "selah",
-    "word": "סֶלָה",
-    "transliteration": "Selah",
-    "language": "Hebrew",
-    "translation": "pause, lift up",
-    "context": "A liturgical interjection scattered through the Psalms — likely an instruction to pause and reflect.",
-    "definition": "A musical or liturgical term whose precise meaning is uncertain, but most likely a directive to pause, lift up, or reflect on what has just been spoken or sung. It appears 71 times in the Psalter and three times in Habakkuk.",
-    "verses": [
-      "Psalm 3:2, 4, 8",
-      "Psalm 46:7, 11",
-      "Habakkuk 3:3, 9, 13"
-    ],
-    "significance": "Selah is a pause built into scripture itself — a sanctioned silence. Worship is not only spoken but also rests; truth is meant to be sat with before the next line begins."
-  },
-  {
-    "id": "shalom",
-    "word": "שָׁלוֹם",
-    "transliteration": "Shalom",
-    "language": "Hebrew",
-    "translation": "peace, wholeness, completeness",
-    "context": "More than the absence of conflict — the deepest blessing one Hebrew could speak over another.",
-    "definition": "A rich Hebrew noun spanning peace, wholeness, completeness, prosperity, and the integration of all things as they should be. Used as both a greeting and a theological vision of human and cosmic flourishing.",
-    "verses": [
-      "Numbers 6:24–26",
-      "Isaiah 9:6",
-      "Psalm 122:6"
-    ],
-    "significance": "Where English peace is mostly the absence of war, shalom is the presence of flourishing. The biblical hope is not a quiet world but a whole one — relationships restored, justice settled, creation at rest."
-  },
-  {
-    "id": "logos",
-    "word": "λόγος",
-    "transliteration": "Logos",
-    "language": "Greek",
-    "translation": "word, reason, discourse",
-    "context": "John takes a Greek philosophical term and identifies it with Christ — the Word made flesh.",
-    "definition": "Word, speech, reason, or rational principle. In Greek philosophy, Logos was the ordering rationality behind the cosmos. John's prologue claims this Logos became a particular human being in first-century Judea.",
-    "verses": [
-      "John 1:1, 14",
-      "Hebrews 4:12",
-      "1 John 1:1"
-    ],
-    "significance": "John's audacious move bridges Athens and Jerusalem: the rational principle behind reality is not an abstraction but a person. Christ is what God has been saying about himself from the beginning."
-  },
-  {
-    "id": "agape",
-    "word": "ἀγάπη",
-    "transliteration": "Agape",
-    "language": "Greek",
-    "translation": "self-giving love",
-    "context": "Distinct from eros and philia — the willed, sacrificial love commanded toward God and neighbor.",
-    "definition": "The highest of the Greek words for love. Distinct from eros (romantic), philia (friendship), and storge (familial), agape names a love that is chosen rather than felt — a willed orientation toward another's good regardless of merit or response.",
-    "verses": [
-      "1 Corinthians 13",
-      "John 3:16",
-      "1 John 4:7–8"
-    ],
-    "significance": "Agape reframes love as action, not emotion. It can be commanded — even toward enemies — because it does not require the cooperation of feeling. It is the kind of love God is said to be."
-  },
-  {
-    "id": "ruach",
-    "word": "רוּחַ",
-    "transliteration": "Ruach",
-    "language": "Hebrew",
-    "translation": "spirit, breath, wind",
-    "context": "The unseen, animating force — present at creation and in the prophets.",
-    "definition": "A single Hebrew word spanning wind, breath, and spirit. Ruach is the invisible force that gives life — the breath in the lungs, the wind across the wilderness, and the Spirit of God that hovers over the deep.",
-    "verses": [
-      "Genesis 1:2",
-      "Ezekiel 37:9–10",
-      "Psalm 51:11"
-    ],
-    "significance": "The same word that names the wind names the Spirit of God — what is unseen and yet undeniably moving. From the breath that hovered over the chaos to the breath that filled dry bones, ruach is the texture of divine presence."
-  },
-  {
-    "id": "emet",
-    "word": "אֱמֶת",
-    "transliteration": "Emet",
-    "language": "Hebrew",
-    "translation": "truth, faithfulness, reliability",
-    "context": "Hebrew truth is less a correct proposition and more a steadfastness you can stake your life on.",
-    "definition": "From the root aman — the same root that gives us amen. Emet names what is firm, faithful, reliable, and trustworthy. It applies to people who keep their word, witnesses whose testimony holds, and a God who keeps covenant.",
-    "verses": [
-      "Psalm 31:5",
-      "Exodus 34:6",
-      "Zechariah 8:3"
-    ],
-    "significance": "Truth in Hebrew is closer to fidelity than to factuality. God is described as abundant in hesed and emet — overflowing love and the unshakable reliability that keeps the love from being mere sentiment."
-  },
-  {
-    "id": "hesed",
-    "word": "חֶסֶד",
-    "transliteration": "Hesed",
-    "language": "Hebrew",
-    "translation": "covenant loyalty, steadfast love",
-    "context": "The nearly untranslatable word for the love that does not let go.",
-    "definition": "A Hebrew word combining love, loyalty, and obligation — the steadfast covenant love a faithful partner shows even when the other has failed. Translators reach for compound phrases: lovingkindness, steadfast love, covenant faithfulness.",
-    "verses": [
-      "Psalm 136 (refrain)",
-      "Lamentations 3:22–23",
-      "Micah 6:8"
-    ],
-    "significance": "Hesed is the texture of God's relationship with his people — love that has signed something, that is bound, that keeps showing up. Where ordinary love would walk away, hesed remains."
-  },
-  {
-    "id": "kairos",
-    "word": "καιρός",
-    "transliteration": "Kairos",
-    "language": "Greek",
-    "translation": "appointed time, opportune moment",
-    "context": "Distinct from chronos — not the ticking clock but the charged, decisive moment.",
-    "definition": "Where chronos measures sequential, quantitative time — minutes, days, years — kairos names a qualitative moment: the right time, the appointed time, the opportunity that must not be missed.",
-    "verses": [
-      "Mark 1:15",
-      "Galatians 4:4",
-      "Ephesians 5:16"
-    ],
-    "significance": "Scripture insists that history is not only duration but timing. There are moments when the kingdom is at hand and the door swings open. Kairos names the now that the chronos was waiting for."
-  },
-  {
-    "id": "pneuma",
-    "word": "πνεῦμα",
-    "transliteration": "Pneuma",
-    "language": "Greek",
-    "translation": "spirit, breath, wind",
-    "context": "The Greek inheritor of ruach — the Spirit at Pentecost, blowing where it wishes.",
-    "definition": "The Greek counterpart to Hebrew ruach, carrying the same breadth of meaning across breath, wind, and spirit. In the New Testament it most often names the Holy Spirit and the human spirit's response.",
-    "verses": [
-      "John 3:8",
-      "Acts 2:1–4",
-      "Romans 8:26–27"
-    ],
-    "significance": "The same dynamic, life-giving breath that hovered over Genesis becomes the wind of Pentecost. Pneuma binds the testaments: the God who created by breathing now empowers the church by the same Spirit."
-  },
-  {
-    "id": "maranatha",
-    "word": "μαράνα θά",
-    "transliteration": "Maranatha",
-    "language": "Aramaic",
-    "translation": "Our Lord, come!",
-    "context": "An Aramaic prayer preserved untranslated in the Greek New Testament — the heart-cry of the early church.",
-    "definition": "An Aramaic phrase preserved in the Greek text without translation. Most likely marana tha — \"Our Lord, come!\" — though some read it as maran atha — \"Our Lord has come.\" Used as a closing prayer in early Christian gatherings.",
-    "verses": [
-      "1 Corinthians 16:22",
-      "Revelation 22:20 (parallel: 'Come, Lord Jesus')"
-    ],
-    "significance": "Paul did not bother to translate it for his Greek-speaking readers — they already knew the word. Maranatha is the early church's prayer in its native tongue, the longing for the return of Christ left raw and untranslated."
-  },
-  {
-    "id": "abba",
-    "word": "אַבָּא",
-    "transliteration": "Abba",
-    "language": "Aramaic",
-    "translation": "Father (intimate)",
-    "context": "Not a formal religious title but the warm, familial word a child would use for a parent.",
-    "definition": "The Aramaic word for father in its familiar form — closer to papa than to a formal patriarchal title. Used by Jesus in his prayer in Gethsemane and taken up by Paul as the cry the Spirit teaches in the heart of the believer.",
-    "verses": [
-      "Mark 14:36",
-      "Romans 8:15",
-      "Galatians 4:6"
-    ],
-    "significance": "Abba reframes prayer as the speech of children. Jesus addresses God in his most agonized hour with the warmest possible word — and Paul claims the same word now belongs in the mouths of those adopted into the family."
-  },
-  {
-    "id": "amen",
-    "word": "אָמֵן",
-    "transliteration": "Amen",
-    "language": "Hebrew",
-    "translation": "so be it, truly",
-    "context": "A word of agreement that stakes the speaker's reliability on what was just spoken.",
-    "definition": "From the root aman — to be firm, faithful, trustworthy. Used as a congregational response affirming what has been spoken, and uniquely by Jesus as a prefix to authoritative declarations: amen, I say to you.",
-    "verses": [
-      "Deuteronomy 27:15–26",
-      "Matthew 5:18",
-      "Revelation 22:20–21"
-    ],
-    "significance": "The final word of the Bible. Amen is the human answer to divine speech — agreement, ratification, the staking of one's life on what has been said. Jesus's strange habit of beginning sentences with it claims the authority to declare truth before it is even uttered."
-  },
-  {
-    "id": "hallelujah",
-    "word": "הַלְלוּ יָהּ",
-    "transliteration": "Hallelu-Yah",
-    "language": "Hebrew",
-    "translation": "Praise Yah(weh)",
-    "context": "A literal command — \"you all, praise Yahweh.\" The crescendo of the Psalter and the song of Revelation.",
-    "definition": "A compound: hallelu, the plural imperative of the verb \"praise,\" joined to Yah, a shortened form of the divine name YHWH. Untranslated in most languages because it carries the divine name within itself.",
-    "verses": [
-      "Psalms 146–150 (the final hallel)",
-      "Revelation 19:1–6"
-    ],
-    "significance": "The Psalter does not end with a prayer or a meditation but a command — five psalms shouting praise. Revelation hears the same word in heaven. Hallelujah binds the worship of Israel to the worship around the throne."
-  },
-  {
-    "id": "gehenna",
-    "word": "γέεννα",
-    "transliteration": "Gehenna",
-    "language": "Greek",
-    "translation": "the Valley of Hinnom; hell",
-    "context": "Jesus draws on a real, infamous valley outside Jerusalem to picture final judgment.",
-    "definition": "A Greek transliteration of the Hebrew Ge-Hinnom — the Valley of Hinnom outside Jerusalem, historically a site of child sacrifice under Israel's worst kings. Jesus uses the name as his most common image for eschatological judgment.",
-    "verses": [
-      "Matthew 5:22, 29–30",
-      "Mark 9:43–48",
-      "Matthew 23:33"
-    ],
-    "significance": "Jesus does not invent hell from abstractions. He points to a literal place outside the city walls — a real ravine with a grim history — and warns that its image is also a destiny. The geography anchors the warning."
-  },
-  {
-    "id": "shekinah",
-    "word": "שְׁכִינָה",
-    "transliteration": "Shekinah",
-    "language": "Hebrew",
-    "translation": "dwelling, divine presence",
-    "context": "The rabbinic name for the visible, manifest presence of God among his people.",
-    "definition": "A post-biblical Hebrew term — not in the Hebrew Bible itself but coined by the rabbis from the verb shakan, \"to dwell\" — naming the glorious, manifest presence of God: the cloud over the tabernacle, the fire on Sinai, the glory filling the temple.",
-    "verses": [
-      "Exodus 40:34–35",
-      "1 Kings 8:10–11",
-      "John 1:14 (parallel: 'tabernacled among us')"
-    ],
-    "significance": "John's prologue says the Word skenosen — pitched his tent — among us, deliberately echoing the language of God's presence in the tabernacle. Christ is the new Shekinah: the divine presence walking the earth in a body."
-  },
-  {
-    "id": "yhwh",
-    "word": "יהוה",
-    "transliteration": "YHWH (Yahweh)",
-    "language": "Hebrew",
-    "translation": "I am who I am; the Lord",
-    "context": "The personal name of the God of Israel — too holy to pronounce.",
-    "definition": "Four Hebrew consonants — yod, he, waw, he — known as the Tetragrammaton. Given to Moses at the burning bush as \"I am who I am.\" The vowels are not preserved; Jewish tradition reads Adonai or HaShem aloud rather than utter the Name itself.",
-    "verses": [
-      "Exodus 3:14–15",
-      "Exodus 6:2–3",
-      "Isaiah 42:8"
-    ],
-    "significance": "The name God gives himself is a kind of refusal of definition — being itself, the One who is. Christianity hears Jesus take this name on his own lips in the seven I AM sayings of John's Gospel, claiming an identity unmistakable to his Hebrew hearers."
-  },
-  {
-    "id": "elohim",
-    "word": "אֱלֹהִים",
-    "transliteration": "Elohim",
-    "language": "Hebrew",
-    "translation": "God, gods",
-    "context": "The most common Hebrew word for God — and grammatically plural.",
-    "definition": "A plural form of the Hebrew el — god, deity. Used in the Hebrew Bible both of pagan gods (in the literal plural) and of the God of Israel (with singular verbs). The plural form has been variously read as a plural of majesty, a relic of older Semitic religion, or a hint of inner divine plurality.",
-    "verses": [
-      "Genesis 1:1",
-      "Deuteronomy 6:4",
-      "Psalm 82:1"
-    ],
-    "significance": "The very first word of action in scripture — 'in the beginning, Elohim created' — pairs a plural noun with a singular verb. Hebrew faith insists on one God but speaks of him in a word that has always carried a quiet excess."
-  },
-  {
-    "id": "adonai",
-    "word": "אֲדֹנָי",
-    "transliteration": "Adonai",
-    "language": "Hebrew",
-    "translation": "my Lord",
-    "context": "The Hebrew title spoken aloud where the divine name YHWH was written.",
-    "definition": "A plural form of adon (lord, master) used exclusively of God. In Jewish practice, Adonai is read aloud whenever the unpronounced divine name YHWH appears in the text — a verbal substitute that protects the holiness of the Name.",
-    "verses": [
-      "Genesis 15:2",
-      "Psalm 8:1",
-      "Isaiah 6:1"
-    ],
-    "significance": "Most English Bibles render the divine name as 'LORD' in small capitals — a translation tradition that follows the Jewish practice of saying Adonai where YHWH is written. The Lord whom Christians confess is the same Lord whom Israel addressed as Adonai."
-  },
-  {
-    "id": "shema",
-    "word": "שְׁמַע",
-    "transliteration": "Shema",
-    "language": "Hebrew",
-    "translation": "hear, listen",
-    "context": "The opening word of Israel's central confession of faith.",
-    "definition": "Imperative form of the verb shama — to hear, listen, obey. From its first word the central Jewish prayer takes its name: Shema Yisrael, Adonai Eloheinu, Adonai Echad — Hear, O Israel, the Lord our God, the Lord is one.",
-    "verses": [
-      "Deuteronomy 6:4–9",
-      "Mark 12:29–30"
-    ],
-    "significance": "Hearing, in Hebrew, is never merely auditory. To hear is to attend, to respond, to act. The Shema is therefore not only a creed but a posture: a daily ordering of life toward the God whose first word to his people is listen."
-  },
-  {
-    "id": "torah",
-    "word": "תּוֹרָה",
-    "transliteration": "Torah",
-    "language": "Hebrew",
-    "translation": "instruction, teaching, law",
-    "context": "The first five books of the Hebrew Bible — and, more deeply, the divine instruction itself.",
-    "definition": "From the verb yarah — to throw, to point — and so to point the way, to instruct. Torah is the divine instruction given to Israel, narrower in name (the five books of Moses) and broader in scope (the whole shape of God's teaching).",
-    "verses": [
-      "Joshua 1:8",
-      "Psalm 1:2",
-      "Psalm 119:97"
-    ],
-    "significance": "English 'law' is a thin translation: torah is closer to guidance than to legislation, more parental than legislative. It is given not to constrain freedom but to teach the people of God how to be human."
-  },
-  {
-    "id": "shabbat",
-    "word": "שַׁבָּת",
-    "transliteration": "Shabbat",
-    "language": "Hebrew",
-    "translation": "rest, ceasing (Sabbath)",
-    "context": "The seventh day, set apart at creation and commanded into Israel's life.",
-    "definition": "From the verb shavat — to cease, desist, rest. The Sabbath is the weekly day on which Israel ceases from work in imitation of God's rest on the seventh day of creation.",
-    "verses": [
-      "Genesis 2:1–3",
-      "Exodus 20:8–11",
-      "Mark 2:27"
-    ],
-    "significance": "Sabbath is the first thing in scripture that God calls holy. It is a rhythm built into time itself — a refusal of the lie that human worth is measured in productivity. The Sabbath, Jesus said, was made for man."
-  },
-  {
-    "id": "mashiach",
-    "word": "מָשִׁיחַ",
-    "transliteration": "Mashiach",
-    "language": "Hebrew",
-    "translation": "anointed one (Messiah)",
-    "context": "The Hebrew title behind both Messiah and (in Greek) Christ.",
-    "definition": "From the verb mashach — to anoint with oil. Kings, priests, and occasionally prophets were anointed in Israel; the title came in time to point beyond them to a coming, definitive anointed one — the Messiah.",
-    "verses": [
-      "Daniel 9:25–26",
-      "Isaiah 61:1",
-      "John 1:41"
-    ],
-    "significance": "Christ, the title we now use as if it were a surname, is simply the Greek of Mashiach. Every time the word is said it carries the long ache of Israel waiting for the one God promised to anoint."
-  },
-  {
-    "id": "nephesh",
-    "word": "נֶפֶשׁ",
-    "transliteration": "Nephesh",
-    "language": "Hebrew",
-    "translation": "soul, life, person, breath",
-    "context": "The Hebrew word too often flattened into the abstract English 'soul.'",
-    "definition": "A living, breathing creature — the throat, the appetite, the life. Used of animals as well as humans, nephesh names a whole embodied life, not a disembodied component of one.",
-    "verses": [
-      "Genesis 2:7",
-      "Psalm 42:1–2",
-      "Leviticus 17:11"
-    ],
-    "significance": "Hebrew anthropology is not a soul housed in a body but a body that became, by the breath of God, a living nephesh. Salvation, in scripture, is therefore the redemption of the whole person — not the escape of a soul from one."
-  },
-  {
-    "id": "kavod",
-    "word": "כָּבוֹד",
-    "transliteration": "Kavod",
-    "language": "Hebrew",
-    "translation": "glory, weight, honor",
-    "context": "The visible weight of God's presence in the Hebrew Bible.",
-    "definition": "From the root meaning heavy. The kavod of someone is their weightiness, their reputation, the substantive presence they carry. God's kavod is the visible, weighty manifestation of his presence — fire on Sinai, cloud in the tabernacle, glory filling the temple.",
-    "verses": [
-      "Exodus 33:18–23",
-      "Isaiah 6:3",
-      "1 Kings 8:11"
-    ],
-    "significance": "Glory in scripture is not abstract radiance but a kind of weight — something heavy enough to press the priests out of the temple. Kavod is what makes a place where God has come unsafe to enter casually."
-  },
-  {
-    "id": "teshuvah",
-    "word": "תְּשׁוּבָה",
-    "transliteration": "Teshuvah",
-    "language": "Hebrew",
-    "translation": "turning, returning, repentance",
-    "context": "The Hebrew word translated 'repentance' — closer to coming home than to feeling sorry.",
-    "definition": "From the verb shuv — to turn, to return. Teshuvah is the act of turning back: turning away from the path you were on and turning back toward God.",
-    "verses": [
-      "Hosea 14:1–2",
-      "Joel 2:12–13",
-      "Ezekiel 18:30–32"
-    ],
-    "significance": "Repentance in Hebrew is not primarily an emotion but a direction. It is the prodigal's walk back up the road. Teshuvah names what the Father runs out to meet."
-  },
-  {
-    "id": "tzaddik",
-    "word": "צַדִּיק",
-    "transliteration": "Tzaddik",
-    "language": "Hebrew",
-    "translation": "righteous one",
-    "context": "The Hebrew word for a person whose life is rightly ordered toward God.",
-    "definition": "From the root tzedek — righteousness, justice. A tzaddik is one whose life conforms to the right order, who keeps faith with God and with neighbor.",
-    "verses": [
-      "Genesis 6:9",
-      "Habakkuk 2:4",
-      "Proverbs 4:18"
-    ],
-    "significance": "Noah is called tzaddik; so is Abraham; so, by extension, are all who walk faithfully with God. The prophet Habakkuk wrote the line — 'the righteous shall live by his faith' — that Paul made central to the gospel a thousand years later."
-  },
-  {
-    "id": "brit",
-    "word": "בְּרִית",
-    "transliteration": "Brit",
-    "language": "Hebrew",
-    "translation": "covenant",
-    "context": "The Hebrew word for covenant — the deepest category in biblical thought.",
-    "definition": "A binding agreement, oath, or pact. Brit is not a casual contract but a formal, ratified commitment between two parties — often sealed with blood. The Bible understands God's relationship with his people as a series of such covenants.",
-    "verses": [
-      "Genesis 9:9–17",
-      "Genesis 15",
-      "Jeremiah 31:31–34"
-    ],
-    "significance": "From the rainbow with Noah to the new covenant in Christ's blood, the Bible is structured as a story of brit. The English 'testament' (as in Old and New) is itself a translation of this word."
-  },
-  {
-    "id": "olam",
-    "word": "עוֹלָם",
-    "transliteration": "Olam",
-    "language": "Hebrew",
-    "translation": "age, world, forever, eternity",
-    "context": "The Hebrew word for the long horizon — both backward and forward.",
-    "definition": "Originally what is distant or hidden in time — the age beyond view. Olam can name the distant past, the unending future, or the whole of the world that lies within time. In later Hebrew it also comes to mean 'world.'",
-    "verses": [
-      "Psalm 90:2",
-      "Isaiah 40:28",
-      "Ecclesiastes 3:11"
-    ],
-    "significance": "Eternity, in Hebrew, is less a timeless absolute than an unending horizon. God is El Olam — the God of the age, of every age, from olam to olam. The new heavens and the new earth are an olam habba, the world to come."
-  },
-  {
-    "id": "sheol",
-    "word": "שְׁאוֹל",
-    "transliteration": "Sheol",
-    "language": "Hebrew",
-    "translation": "the grave, the realm of the dead",
-    "context": "The Hebrew Bible's quiet name for the place of the dead.",
-    "definition": "The shadowy underworld where all the dead, righteous and wicked, descend in the Hebrew Bible. Less a place of torment than a place of silence — gravity, weakness, distance from the praise of God.",
-    "verses": [
-      "Genesis 37:35",
-      "Psalm 16:10",
-      "Job 14:13"
-    ],
-    "significance": "Sheol is the Old Testament's reticence about the afterlife — the dead are there, somewhere, and that is mostly all that is said. The hope of resurrection emerges slowly in the prophets and the Psalter, and unfolds fully only in the New Testament."
-  },
-  {
-    "id": "hosanna",
-    "word": "הוֹשַׁע נָּא",
-    "transliteration": "Hosha-na",
-    "language": "Hebrew (via Aramaic)",
-    "translation": "save us, we pray",
-    "context": "The cry of the crowds at Jesus's entry into Jerusalem.",
-    "definition": "A compound: hoshia (save) and na (please, we pray). Originally a desperate cry for help — found in the Hallel psalm sung at Passover — by the first century it had become a shout of triumphant petition during festival processions.",
-    "verses": [
-      "Psalm 118:25–26",
-      "Matthew 21:9",
-      "John 12:13"
-    ],
-    "significance": "The crowd that lined the road into Jerusalem on Palm Sunday was praying as it shouted. Hosanna is both adoration and request — a recognition that the one entering on a donkey was, in fact, the one come to save."
-  },
-  {
-    "id": "yeshua",
-    "word": "יֵשׁוּעַ",
-    "transliteration": "Yeshua",
-    "language": "Hebrew",
-    "translation": "the Lord saves",
-    "context": "The actual name of Jesus, in his mother tongue.",
-    "definition": "A late form of the Hebrew name Yehoshua — Joshua — meaning 'the Lord saves.' Yeshua was a common Jewish name in the first century. The Greek transliteration is Iesous; the Latin, Iesus; the English, Jesus.",
-    "verses": [
-      "Matthew 1:21",
-      "Acts 4:12",
-      "Philippians 2:9–11"
-    ],
-    "significance": "The name Mary heard from the angel was not Jesus but Yeshua — a name already heavy with the story of an earlier man who had led Israel into the promised land. Now another would lead them, the Gospel of Matthew explains, by saving them from their sins."
-  },
-  {
-    "id": "christos",
-    "word": "Χριστός",
-    "transliteration": "Christos",
-    "language": "Greek",
-    "translation": "anointed one (Christ)",
-    "context": "The Greek title behind every use of the name 'Christ.'",
-    "definition": "The literal Greek of the Hebrew Mashiach — the anointed one. In the Septuagint and the New Testament, Christos translates Mashiach. What looks in English like a second name of Jesus is in fact his title: Jesus the Christ, Jesus the anointed one.",
-    "verses": [
-      "Matthew 16:16",
-      "John 1:41",
-      "Acts 2:36"
-    ],
-    "significance": "To say 'Jesus Christ' is to make a claim, not state a name. The whole hope of Israel for an anointed king, priest, and prophet — the long line of mashiachs across the Hebrew Bible — is gathered up in those two words: Jesus is the Christos."
-  },
-  {
-    "id": "parousia",
-    "word": "παρουσία",
-    "transliteration": "Parousia",
-    "language": "Greek",
-    "translation": "presence, arrival, coming",
-    "context": "The early church's word for the return of Christ.",
-    "definition": "Literally being-alongside or being-present. Used in the wider Greek world of the official arrival of a king or emperor in a city — the parousia. In the New Testament it most often names the coming of Christ in glory.",
-    "verses": [
-      "Matthew 24:3, 27, 37",
-      "1 Thessalonians 4:15",
-      "2 Peter 3:4"
-    ],
-    "significance": "Parousia is both arrival and presence. The early church did not wait for an event so much as a Person. The same word names what we are waiting for and the One who, in the Spirit, is already here."
-  },
-  {
-    "id": "ekklesia",
-    "word": "ἐκκλησία",
-    "transliteration": "Ekklesia",
-    "language": "Greek",
-    "translation": "assembly, gathering (church)",
-    "context": "The Greek word that becomes 'church' in English.",
-    "definition": "Literally those called out — from ek (out of) and kaleo (to call). In secular Greek it named a civic assembly; in the New Testament it names the assembly of those summoned by God.",
-    "verses": [
-      "Matthew 16:18",
-      "Acts 2:42–47",
-      "Ephesians 2:19–22"
-    ],
-    "significance": "The church, before it is an institution or a building, is a gathering. It is the assembly of people called out and called together by Christ. Ekklesia keeps that original meaning audible behind the much-used English word."
-  },
-  {
-    "id": "soteria",
-    "word": "σωτηρία",
-    "transliteration": "Soteria",
-    "language": "Greek",
-    "translation": "salvation, rescue, wholeness",
-    "context": "The richly physical Greek word translated 'salvation' in the New Testament.",
-    "definition": "From soter, savior. In wider Greek it could mean rescue from any peril — shipwreck, disease, military defeat. The New Testament uses it of God's deliverance: from sin, death, judgment — and toward wholeness, healing, life.",
-    "verses": [
-      "Luke 19:9",
-      "Romans 1:16",
-      "Hebrews 2:3"
-    ],
-    "significance": "English 'salvation' has narrowed to a transaction at the end of life; soteria is much wider. It includes healing of the body, restoration of relationships, deliverance from oppression — the whole life rescued by Christ."
-  },
-  {
-    "id": "pistis",
-    "word": "πίστις",
-    "transliteration": "Pistis",
-    "language": "Greek",
-    "translation": "faith, trust, faithfulness",
-    "context": "A single Greek word holding what English splits between faith and faithfulness.",
-    "definition": "Trust, confidence, reliability — both the trust placed in someone and the trustworthiness of the one trusted. Pistis can mean a person's faith and another person's faithfulness; the New Testament uses both.",
-    "verses": [
-      "Romans 1:17",
-      "Galatians 2:20",
-      "Hebrews 11:1"
-    ],
-    "significance": "Faith in scripture is not credulous belief but personal trust — placed in someone reliable enough to bear it. Pistis joins both sides of the relationship: my trust and God's trustworthiness."
-  },
-  {
-    "id": "elpis",
-    "word": "ἐλπίς",
-    "transliteration": "Elpis",
-    "language": "Greek",
-    "translation": "hope, expectation",
-    "context": "Christian hope as confident expectation, not wishful thinking.",
-    "definition": "The expectation of good to come — confident, not anxious. Distinct from the cautious modern 'hope so,' elpis is closer to settled assurance grounded in the character of the one who promised.",
-    "verses": [
-      "Romans 5:5",
-      "Hebrews 6:19",
-      "1 Peter 1:3"
-    ],
-    "significance": "Christian hope is not optimism in the face of evidence but trust in a future already secured by the resurrection. Elpis is an anchor — fastened, the letter to the Hebrews says, in the inner sanctuary behind the curtain."
-  },
-  {
-    "id": "charis",
-    "word": "χάρις",
-    "transliteration": "Charis",
-    "language": "Greek",
-    "translation": "grace, favor, gift",
-    "context": "The defining word of Pauline theology.",
-    "definition": "Favor, grace, gift — and the gratitude such a gift evokes. In secular Greek a charis was an act of patronage; in Paul it becomes the unearned favor of God toward sinners, freely given.",
-    "verses": [
-      "Romans 3:24",
-      "Ephesians 2:8–9",
-      "2 Corinthians 12:9"
-    ],
-    "significance": "Grace in Paul is not merely a softening of God's justice but the very ground of the gospel. Christianity is held up, the New Testament insists, not by what we manage but by what we have been given. From charis comes 'charity' — and 'eucharist,' the great thanksgiving."
-  },
-  {
-    "id": "dikaiosyne",
-    "word": "δικαιοσύνη",
-    "transliteration": "Dikaiosyne",
-    "language": "Greek",
-    "translation": "righteousness, justice",
-    "context": "The Greek word that holds both personal righteousness and social justice in one breath.",
-    "definition": "From dike, justice or judgment. Dikaiosyne names both the moral integrity of a person and the right ordering of a society. Greek did not divide these the way English does.",
-    "verses": [
-      "Matthew 5:6",
-      "Romans 1:17",
-      "Romans 3:21–22"
-    ],
-    "significance": "When Jesus blesses those who hunger and thirst for dikaiosyne, he means both inner uprightness and outer justice. The two cannot finally be separated. Righteousness is a community that has been put right."
-  },
-  {
-    "id": "basileia",
-    "word": "βασιλεία",
-    "transliteration": "Basileia",
-    "language": "Greek",
-    "translation": "kingdom, reign, royal rule",
-    "context": "The central theme of Jesus's preaching — the kingdom of God.",
-    "definition": "The reign or rule of a king, and so by extension the realm in which that king rules. Translators reach for both senses: 'kingdom' for the realm, 'reign' for the active rule of God.",
-    "verses": [
-      "Matthew 6:33",
-      "Mark 1:15",
-      "Luke 17:21"
-    ],
-    "significance": "The kingdom in Jesus's preaching is not a place but a happening — the active reign of God breaking in among his people. It is at hand, in the midst of you, both now and not yet. To pray 'your kingdom come' is to pray for that reign to be unmistakable."
-  },
-  {
     "id": "bara",
     "word": "בָּרָא",
     "transliteration": "Bara",
@@ -604,11 +7,7 @@
     "translation": "create (from nothing)",
     "context": "The opening verb of the Bible — 'In the beginning God created' — and a word reserved exclusively for divine action throughout the Hebrew scriptures.",
     "definition": "A Hebrew verb used only with God as its subject, distinguishing divine creation from human making or crafting. Unlike other Hebrew words for making (asah, yatsar), bara carries the sense of bringing forth something entirely new, often out of nothing. Its exclusive divine subject is theologically significant.",
-    "verses": [
-      "Genesis 1:1",
-      "Isaiah 40:28",
-      "Psalm 51:10"
-    ],
+    "verses": ["Genesis 1:1", "Isaiah 40:28", "Psalm 51:10"],
     "significance": "Because bara is never used of human activity, it marks a categorical distinction between Creator and creature. When David prays 'Create in me a clean heart,' he uses this word — asking for the kind of new beginning only God can bring about."
   },
   {
@@ -619,11 +18,7 @@
     "translation": "word, thing, matter, event",
     "context": "The word of the Lord came to the prophets; events in Israel's history were called dĕbarim — words and things at once.",
     "definition": "A remarkable Hebrew noun that means both word and thing simultaneously — a linguistic fact that reflects the Hebrew conviction that speech is not merely descriptive but creative and effective. The phrase debar YHWH, the word of the LORD, drives the prophetic books from first to last.",
-    "verses": [
-      "Jeremiah 1:4",
-      "Isaiah 55:11",
-      "Amos 3:1"
-    ],
+    "verses": ["Jeremiah 1:4", "Isaiah 55:11", "Amos 3:1"],
     "significance": "That the same word means both 'word' and 'event' says something profound: in biblical thought, divine speech is not commentary on reality but the engine of it. What God says, happens. The creation narrative shows this — God speaks, and there is light."
   },
   {
@@ -634,11 +29,7 @@
     "translation": "justice, judgment, ordinance",
     "context": "One of the great ethical terms of the prophets — what the Lord requires and what Israel repeatedly failed to practice.",
     "definition": "From the verb shaphat, to judge or govern. Mishpat carries the full range of judicial and ethical meaning: a legal decision, an ordinance, the act of judging rightly, and the state of justice as a social reality. The prophets use it in tandem with tzedakah (righteousness) as the twin pillars of the just society God demands.",
-    "verses": [
-      "Micah 6:8",
-      "Amos 5:24",
-      "Isaiah 1:17"
-    ],
+    "verses": ["Micah 6:8", "Amos 5:24", "Isaiah 1:17"],
     "significance": "Mishpat is not only about courtrooms — it is about the ordering of communal life so that the poor, the widow, the orphan, and the alien receive what is due them. Where mishpat is absent, the prophets say, no amount of religious observance is acceptable to God."
   },
   {
@@ -649,11 +40,7 @@
     "translation": "prophet, spokesman",
     "context": "The Hebrew word for prophet — one who speaks on behalf of another, specifically the one who speaks for God to the people.",
     "definition": "Likely from a root meaning to call or to announce. A nabi is fundamentally a spokesperson — the one sent by God to declare the divine word. The office is distinct from that of priest or king and often stands in tension with both. Plural: nebi'im, the Prophets, the second division of the Hebrew canon.",
-    "verses": [
-      "Exodus 7:1",
-      "Deuteronomy 18:18",
-      "Jeremiah 1:5"
-    ],
+    "verses": ["Exodus 7:1", "Deuteronomy 18:18", "Jeremiah 1:5"],
     "significance": "The nabi does not primarily predict the future — the prophet's first task is to confront the present. Israel's prophets spoke judgment into comfortable religion, comfort into despair, and always did so because they had heard a word they could not stay silent about."
   },
   {
@@ -664,11 +51,7 @@
     "translation": "holiness, that which is set apart",
     "context": "The dominant category of Israel's ritual and moral life — applied to God, the Temple, the Sabbath, and the people themselves.",
     "definition": "From a root meaning to cut off, separate, or set apart. Qodesh names the fundamental characteristic of God — his absolute otherness — and, derivatively, everything consecrated to him. The Holy of Holies is qodesh haqqodashim: the set-apart of the set-apart. Israel was called to be a goy qadosh, a holy nation.",
-    "verses": [
-      "Isaiah 6:3",
-      "Leviticus 11:44",
-      "Exodus 3:5"
-    ],
+    "verses": ["Isaiah 6:3", "Leviticus 11:44", "Exodus 3:5"],
     "significance": "Holiness in scripture is not primarily about moral purity but about divine otherness — the uncrossable distance between the Creator and his creation. The dramatic arc of redemption is that this terrifying holiness does not consume the sinner but, in Christ, comes near."
   },
   {
@@ -679,11 +62,7 @@
     "translation": "compassion, tender mercies",
     "context": "The deep, visceral compassion — often used in the plural to intensify the emotion — that God is said to have for his people.",
     "definition": "A plural noun from rechem, meaning womb. Rachamim names the deep, bodily love a mother has for her child — mercy that is as physical and involuntary as a heartbeat. When God is said to have rachamim, the image is maternal, organic, and overwhelming. The singular racham is often translated 'compassion' or 'mercy.'",
-    "verses": [
-      "Isaiah 49:15",
-      "Psalm 103:13",
-      "Lamentations 3:22"
-    ],
+    "verses": ["Isaiah 49:15", "Psalm 103:13", "Lamentations 3:22"],
     "significance": "That the Hebrew word for compassion is rooted in the word for womb tells us everything about its character. God's mercy is not a policy decision but something like a mother's ache for her child — a feeling that cannot be reasoned away. The Book of Lamentations clings to this truth amid ruins."
   },
   {
@@ -694,11 +73,7 @@
     "translation": "ram's horn, trumpet",
     "context": "The instrument blown at Sinai, before the walls of Jericho, at the Day of Atonement, and anticipated at the last day.",
     "definition": "A wind instrument made from a ram's horn, used throughout Israel's history for public proclamation: mustering armies, marking feast days, announcing the jubilee year, and signaling the presence of God. Its sound is described as tekiah (a long blast) or shevarim (broken blasts), each carrying specific liturgical meaning.",
-    "verses": [
-      "Exodus 19:16–19",
-      "Joshua 6:4–5",
-      "1 Thessalonians 4:16"
-    ],
+    "verses": ["Exodus 19:16–19", "Joshua 6:4–5", "1 Thessalonians 4:16"],
     "significance": "The shofar marks the boundary between the ordinary and the momentous. At Sinai it announced the arrival of God; before Jericho it accompanied the power of obedient faith; at the New Year (Rosh Hashanah) it awakens the soul to repentance. Paul heard its echo in the last trumpet that will announce the resurrection."
   },
   {
@@ -709,11 +84,7 @@
     "translation": "remember, be mindful of",
     "context": "A verb at the heart of Israel's covenant faith — God remembers his people, and Israel is commanded to remember what God has done.",
     "definition": "The Hebrew word for memory carries a force that English underestimates. To zakar is not simply to recall mentally but to act on what is recalled — God 'remembering' Noah meant God moving to rescue him. Israel's call to remember the Exodus means re-entering it as if present. Memory, in Hebrew, is not passive.",
-    "verses": [
-      "Genesis 8:1",
-      "Exodus 20:8",
-      "Luke 22:19"
-    ],
+    "verses": ["Genesis 8:1", "Exodus 20:8", "Luke 22:19"],
     "significance": "Because Israel's faith is rooted in history, memory is a theological act. The Passover, the Sabbath, the Psalms — all are structures of communal remembrance. Jesus's words at the Last Supper, 'Do this in remembrance of me,' place the Eucharist inside this tradition: active, covenant-binding memory."
   },
   {
@@ -724,11 +95,7 @@
     "translation": "love, beloved affection",
     "context": "The most common Hebrew word for love — used of God's love for Israel, of human love for God, and of romantic love in the Song of Solomon.",
     "definition": "From the verb ahav, to love. Ahavah encompasses a broad range of love: romantic desire (Song of Solomon), familial devotion (Abraham's love for Isaac), and the covenant love God bears his people. Unlike hesed, which emphasizes loyalty and obligation, ahavah leans toward warm personal feeling and desire.",
-    "verses": [
-      "Deuteronomy 6:5",
-      "Song of Solomon 2:4–5",
-      "Hosea 11:1"
-    ],
+    "verses": ["Deuteronomy 6:5", "Song of Solomon 2:4–5", "Hosea 11:1"],
     "significance": "When Deuteronomy commands Israel to love God with all the heart, it uses ahavah — the same word as romantic love. The prophets, especially Hosea, use marital imagery to describe God's relationship with Israel, with ahavah as the love betrayed by idolatry and renewed in grace."
   },
   {
@@ -739,11 +106,7 @@
     "translation": "priest, minister",
     "context": "The intermediary between God and Israel — the one who offered sacrifice, maintained the sanctuary, and pronounced the blessing.",
     "definition": "The Hebrew word for priest, applied to those consecrated for the service of the sanctuary. Kohanim were drawn from the tribe of Levi, specifically from the line of Aaron. Their role was threefold: to offer sacrifice on Israel's behalf, to maintain and guard the holy space, and to teach Torah and pronounce the priestly blessing.",
-    "verses": [
-      "Leviticus 1:7",
-      "Numbers 6:22–27",
-      "Hebrews 7:26–27"
-    ],
+    "verses": ["Leviticus 1:7", "Numbers 6:22–27", "Hebrews 7:26–27"],
     "significance": "The Letter to the Hebrews presents Christ as the final and definitive kohen — a high priest after the order of Melchizedek who has passed through the heavens and whose one sacrifice renders all others complete. The old priesthood was scaffolding; the new high priest is what the scaffolding was holding up."
   },
   {
@@ -754,11 +117,7 @@
     "translation": "angel, messenger",
     "context": "The same Hebrew word describes both human messengers and the heavenly beings sent by God — the distinction is context, not vocabulary.",
     "definition": "From a root meaning to send on a mission. A malak is simply a sent one — a messenger. Context determines whether the messenger is human (a royal envoy) or heavenly (a divine emissary). The malak YHWH, the angel of the LORD, appears at critical junctures in the narrative, often speaking as if he were God himself.",
-    "verses": [
-      "Genesis 16:7–13",
-      "Judges 13:3–23",
-      "Luke 1:26"
-    ],
+    "verses": ["Genesis 16:7–13", "Judges 13:3–23", "Luke 1:26"],
     "significance": "The angel of the LORD in the Old Testament is a figure of enduring theological interest — speaking divine first-person speech, accepting worship, yet distinct from God. Many in the Christian tradition have read these appearances as pre-incarnate encounters with the Son. Whether or not, they establish that God's messengers are not background figures but bearers of his very presence."
   },
   {
@@ -769,11 +128,7 @@
     "translation": "servant, slave, worshiper",
     "context": "The word that describes Israel's bondage in Egypt, Moses's relationship to God, and the suffering Servant of Isaiah.",
     "definition": "Eved covers the full spectrum from chattel slavery to voluntary, honored service. The great figures of faith are called eved YHWH — servant of the LORD — as a title of distinction. Isaiah's four Servant Songs describe a mysterious figure who bears Israel's calling, suffers vicariously, and is vindicated by God.",
-    "verses": [
-      "Isaiah 42:1",
-      "Isaiah 52:13–53:12",
-      "Philippians 2:7"
-    ],
+    "verses": ["Isaiah 42:1", "Isaiah 52:13–53:12", "Philippians 2:7"],
     "significance": "That God's greatest figures — Abraham, Moses, David — are called his servants, and that the Messiah himself takes the form of a servant, inverts every human hierarchy. Paul sees Christ's kenosis — his self-emptying as eved — as the pattern for all Christian community: to have the mind of the one who became a slave."
   },
   {
@@ -784,11 +139,7 @@
     "translation": "heart, mind, will",
     "context": "The Hebrew seat of thought, will, and emotion — not sentiment alone but the entire inner life of a person.",
     "definition": "The Hebrew lev (also levav) corresponds not to the emotional heart of English usage but to the whole interior life: what one thinks, wills, intends, and feels. To love God with the whole lev is to orient every faculty toward him. The hardening of Pharaoh's lev is the hardening of his will and reason, not just his emotions.",
-    "verses": [
-      "Deuteronomy 6:5",
-      "Proverbs 4:23",
-      "Ezekiel 36:26"
-    ],
+    "verses": ["Deuteronomy 6:5", "Proverbs 4:23", "Ezekiel 36:26"],
     "significance": "Ezekiel's promise of a new heart — lev hadash — is one of the great covenant promises of the Old Testament. The old heart of stone, set against God, will be replaced by a heart of flesh, soft and responsive to his Spirit. The New Testament presents this as fulfilled in the indwelling of the Holy Spirit."
   },
   {
@@ -799,11 +150,7 @@
     "translation": "hand (of God), power, authority",
     "context": "The 'hand of God' or 'mighty hand of God' is one of the most common images in the Hebrew Bible for divine power in action.",
     "definition": "The primary Hebrew word for hand, frequently extended metaphorically to mean power, authority, and agency. The phrase yad chazakah, the strong hand, describes God's act of deliverance in the Exodus. The hand of the LORD coming upon the prophets signals the onset of prophetic vision or overwhelming presence.",
-    "verses": [
-      "Deuteronomy 4:34",
-      "Ezekiel 1:3",
-      "Isaiah 41:10"
-    ],
+    "verses": ["Deuteronomy 4:34", "Ezekiel 1:3", "Isaiah 41:10"],
     "significance": "The yad YHWH is not mere metaphor — it names the specific, historical intervention of God in the world. When Israel remembered the Exodus they remembered a strong hand and an outstretched arm. The incarnation, for the early Christians, was the ultimate reaching of that hand into human flesh."
   },
   {
@@ -814,11 +161,7 @@
     "translation": "return, repent, turn back",
     "context": "The Old Testament's word for repentance — not primarily an inner feeling but a physical turning around, a change of direction.",
     "definition": "A verb meaning to turn, to return, to come back. The prophetic call to repentance is shubah, return — often addressed to a people who have turned away from God and are called to reverse course. It is a spatial metaphor: sin is movement away from God; repentance is the turn that heads home.",
-    "verses": [
-      "Hosea 6:1",
-      "Joel 2:12–13",
-      "Malachi 3:7"
-    ],
+    "verses": ["Hosea 6:1", "Joel 2:12–13", "Malachi 3:7"],
     "significance": "Israel's prophets nearly all use shub as their fundamental call. What is remarkable is that the turning is possible at all — it is not earned or achieved but offered. The father in Luke 15 runs toward the returning son while he is still far off, dramatizing what shub looks like from God's side."
   },
   {
@@ -829,11 +172,7 @@
     "translation": "mighty warrior, hero, champion",
     "context": "Used of Israel's greatest warriors, of the divine name 'Mighty God,' and of the expected Messiah.",
     "definition": "From the root gabar, to be strong, to prevail. Gibor names a man of outstanding strength, courage, or valor — a warrior, a champion. David's elite soldiers are called his giborim. But the term is also applied to God himself: El Gibor, Mighty God, one of Isaiah's names for the coming ruler whose shoulders will bear the government.",
-    "verses": [
-      "Isaiah 9:6",
-      "Joshua 1:14",
-      "Psalm 24:8"
-    ],
+    "verses": ["Isaiah 9:6", "Joshua 1:14", "Psalm 24:8"],
     "significance": "Israel's kings were valued for military might, and the Messiah's names in Isaiah 9 include El Gibor — Mighty God. The paradox of the New Testament is that this divine warrior came not with sword but with a towel, and won the greatest battle through a cross. The power of God, Paul says, looks like weakness to the world."
   },
   {
@@ -844,11 +183,7 @@
     "translation": "worship, work, service",
     "context": "The same Hebrew word covers labor, ritual service, and worship — the Bible does not sharply distinguish them.",
     "definition": "From the verb avad (the same root as eved). Avodah names work in its broadest sense: agricultural labor, the service of the Levites and priests in the Temple, and the worship of God. Its range insists that there is no sacred/secular divide at the root of Hebrew thought — all faithful work is service, and all worship is work.",
-    "verses": [
-      "Numbers 18:7",
-      "Exodus 12:25–26",
-      "Romans 12:1"
-    ],
+    "verses": ["Numbers 18:7", "Exodus 12:25–26", "Romans 12:1"],
     "significance": "Paul's call to offer our bodies as a living sacrifice, our 'spiritual worship,' uses a Greek word (latreia) that translates precisely this Hebrew avodah. The blurring of work and worship is not an accident of biblical language — it is the theology. To tend a garden or serve a neighbor is to perform avodah before God."
   },
   {
@@ -859,11 +194,7 @@
     "translation": "blessing, gift, benediction",
     "context": "The blessing passed from God to his people and through his people to the world — the great thread of the covenant narrative.",
     "definition": "From the root barak, to bless, related to the word for knee — suggesting a bowing, a gift given from a position of generosity. A berakah is the concrete good that flows from a blessing: favor, fruitfulness, prosperity, peace. The Aaronic blessing is a berakah; the promises to Abraham are a berakah for all nations.",
-    "verses": [
-      "Genesis 12:2–3",
-      "Numbers 6:24–26",
-      "Ephesians 1:3"
-    ],
+    "verses": ["Genesis 12:2–3", "Numbers 6:24–26", "Ephesians 1:3"],
     "significance": "The biblical story can be read as the journey of the berakah: God blesses Abraham so that all families of the earth might be blessed. Paul tells the Ephesians they are blessed with every spiritual blessing in Christ — the full weight of the promise arriving at last in the Messiah."
   },
   {
@@ -874,11 +205,7 @@
     "translation": "continually, daily, perpetually",
     "context": "The word that describes the daily offerings of the Temple — the continual burnt offering that kept the fire on the altar never going out.",
     "definition": "An adverb and adjective meaning always, continually, without cessation. In the priestly legislation, the tamid is the 'regular offering' — a lamb offered morning and evening every day without exception. It names a rhythm of worship that is unbroken, day after day, as the pulse of Israel's life before God.",
-    "verses": [
-      "Numbers 28:3–6",
-      "Psalm 34:1",
-      "Hebrews 7:25"
-    ],
+    "verses": ["Numbers 28:3–6", "Psalm 34:1", "Hebrews 7:25"],
     "significance": "The tamid offering structured Israel's days the way morning and evening prayer would later structure monastic life — an unbroken offering before God. Hebrews interprets Christ's intercession using this imagery: he lives to make intercession tamid, always and without ceasing, as the sacrifice that never needs repeating."
   },
   {
@@ -889,11 +216,7 @@
     "translation": "people, nation (of common kinship)",
     "context": "The Hebrew word for God's covenant people — more intimate than goy (nation), carrying the sense of family and kinship.",
     "definition": "The primary Hebrew word for a people as a community of common origin or covenant relationship. Whereas goy often applies to foreign nations, am carries a warmth of solidarity: am YHWH, the people of the LORD. The phrase am segulah, treasured people, expresses Israel's unique covenant standing.",
-    "verses": [
-      "Exodus 6:7",
-      "Deuteronomy 7:6",
-      "1 Peter 2:9–10"
-    ],
+    "verses": ["Exodus 6:7", "Deuteronomy 7:6", "1 Peter 2:9–10"],
     "significance": "Peter borrows Exodus and Deuteronomy's language wholesale to address the church: 'You are a chosen people, a royal priesthood, a holy nation.' The identity God carved out for Israel — am, people, kin — is extended in the New Testament to all who are in Christ, Jew and Gentile together."
   },
   {
@@ -904,11 +227,7 @@
     "translation": "truth, reality, that which is unconcealed",
     "context": "The Greek word behind Jesus's 'I am the way and the truth and the life,' carrying philosophical depth the English translation barely hints at.",
     "definition": "From a-letheia — literally 'un-hiddenness' or 'not-forgetting.' Greek philosophers used it for the nature of reality disclosed when illusion is stripped away. In the New Testament it takes on covenantal overtones from the Hebrew emet, naming not just correct propositions but the trustworthy faithfulness of God and the full reality of what is in Christ.",
-    "verses": [
-      "John 14:6",
-      "John 8:32",
-      "John 17:17"
-    ],
+    "verses": ["John 14:6", "John 8:32", "John 17:17"],
     "significance": "When Pilate asks 'What is truth?' and the answer is standing right in front of him, John is making a point as much philosophical as spiritual. In Christ, aletheia has a face — truth is not a system but a person. To know the truth, in John's Gospel, is to know Jesus."
   },
   {
@@ -919,11 +238,7 @@
     "translation": "resurrection, rising up",
     "context": "The Greek word for resurrection — the bodily rising from the dead that is the cornerstone of the Christian proclamation.",
     "definition": "From ana (up) and histemi (to stand). Anastasis means a standing up, a rising. In the New Testament it becomes the technical term for the bodily resurrection of the dead — the reversal of death that happened to Jesus and is promised to all who are in him. Anastasis is never a merely spiritual concept in the New Testament; it always carries bodily overtones.",
-    "verses": [
-      "Luke 24:46",
-      "1 Corinthians 15:12–13",
-      "John 11:25"
-    ],
+    "verses": ["Luke 24:46", "1 Corinthians 15:12–13", "John 11:25"],
     "significance": "Paul tells the Corinthians that if there is no anastasis, their faith is empty and they are still in their sins. The resurrection is not an optional metaphor for the early Christians — it is the hinge of history, the event that makes every other claim possible. To preach the gospel is to preach anastasis."
   },
   {
@@ -934,11 +249,7 @@
     "translation": "baptize, immerse, plunge",
     "context": "The word describing John's river practice and the rite instituted by Jesus as the entry point into the Christian community.",
     "definition": "From an older verb bapto, to dip or plunge. Baptizo means to immerse in a liquid, to dye by soaking, or to overwhelm. The practice John brought to the Jordan and Jesus commanded at his ascension carries this physical image: going under and coming up — death and resurrection enacted in water.",
-    "verses": [
-      "Matthew 3:6",
-      "Romans 6:3–4",
-      "Galatians 3:27"
-    ],
+    "verses": ["Matthew 3:6", "Romans 6:3–4", "Galatians 3:27"],
     "significance": "Paul reads baptism as enacted theology: going down into the water is burial with Christ, coming up is resurrection. The act says in water what the creed says in words. That the verb specifically means to immerse — not merely to sprinkle — underscores the totality of what is claimed: nothing held back, wholly submerged in Christ."
   },
   {
@@ -949,11 +260,7 @@
     "translation": "power, ability, mighty work",
     "context": "The power at work in the miracles of Jesus, the resurrection, and the coming of the Spirit at Pentecost.",
     "definition": "The Greek word for power in the sense of inherent ability, force, or capacity. In the New Testament it refers to miraculous works (the dunameis, mighty works, of Jesus), the power of the resurrection, and above all the power of the Holy Spirit given to the church. English 'dynamic' and 'dynamite' come from this root.",
-    "verses": [
-      "Acts 1:8",
-      "Romans 1:16",
-      "1 Corinthians 1:18"
-    ],
+    "verses": ["Acts 1:8", "Romans 1:16", "1 Corinthians 1:18"],
     "significance": "Paul's claim that the gospel is the dunamis of God for salvation overturns expectations at every level. Rome had dunamis — armies, legions, the power to crucify. God's power looks like a crucified Jew and an empty tomb. The Spirit's dunamis does not coerce but transforms — from the inside, one person at a time."
   },
   {
@@ -964,11 +271,7 @@
     "translation": "gospel, good news",
     "context": "The word translated 'gospel' — the good news about Jesus that the first Christians announced as a world-altering proclamation.",
     "definition": "From eu (good) and angelos (messenger) — literally, a good message or good news. In the Greco-Roman world it was used for imperial announcements of victory, accession, or peace. The early Christians borrowed this public, political term and applied it to Jesus — their emperor had a better euangelion, one that outlasted Rome.",
-    "verses": [
-      "Mark 1:1",
-      "Romans 1:16–17",
-      "Isaiah 52:7 (background)"
-    ],
+    "verses": ["Mark 1:1", "Romans 1:16–17", "Isaiah 52:7 (background)"],
     "significance": "Calling the story of Jesus a euangelion was an act of political audacity in the Roman Empire. Caesar's birth, victories, and decrees were announced as good news. To proclaim a different euangelion — one centered on a crucified provincial — was to plant a flag of rival allegiance that the Empire eventually understood as subversive."
   },
   {
@@ -979,11 +282,7 @@
     "translation": "holy, saint, set apart",
     "context": "The Greek equivalent of Hebrew qodesh — used of God, of sacred things, and (remarkably) as the standard New Testament word for ordinary believers.",
     "definition": "The Greek adjective for holy or set apart, corresponding directly to the Hebrew qodesh. In the Septuagint it translates qodesh throughout. In the New Testament, hagioi — holy ones, saints — is Paul's ordinary term for Christian believers. Not a superlative few but the standard description of the community in Christ.",
-    "verses": [
-      "Revelation 4:8",
-      "Romans 1:7",
-      "1 Peter 1:15–16"
-    ],
+    "verses": ["Revelation 4:8", "Romans 1:7", "1 Peter 1:15–16"],
     "significance": "That Paul addresses his letters to the hagioi in Rome or Corinth — communities with very visible failures — is deliberately provocative. Holiness is not first an achievement but a status conferred by the Holy One. The task is then to become in life what you already are in Christ."
   },
   {
@@ -994,11 +293,7 @@
     "translation": "fellowship, communion, sharing, participation",
     "context": "The word describing the life of the early Jerusalem community and the shared participation in Christ that makes the church more than a club.",
     "definition": "From koinos, common. Koinonia names a sharing in common — whether of material goods, of suffering, of joy, or of participation in someone's life. In the New Testament it describes the Jerusalem church's sharing of possessions, partnership in the gospel, the Lord's Supper as communion, and the believer's participation in the life of Christ himself.",
-    "verses": [
-      "Acts 2:42",
-      "1 Corinthians 10:16",
-      "Philippians 1:5"
-    ],
+    "verses": ["Acts 2:42", "1 Corinthians 10:16", "Philippians 1:5"],
     "significance": "Koinonia is not mere socializing. Paul uses it to describe the Lord's Supper as a participation — a real sharing in — the body and blood of Christ. The community that gathers around this table is constituted by a common life that runs deeper than friendship: it is a sharing in the divine life itself."
   },
   {
@@ -1009,11 +304,7 @@
     "translation": "repentance, change of mind, transformation",
     "context": "The first word of both John the Baptist's and Jesus's public preaching, often flattened into mere emotional regret.",
     "definition": "From meta (after, beyond, change) and nous (mind). Metanoia is a profound reorientation of the entire person — a change of mind that is also a change of direction. It goes beyond guilt or remorse to a new way of seeing and therefore a new way of living. The English word 'repentance' (from Latin poenitentia, penalty) unfortunately leans toward punishment rather than transformation.",
-    "verses": [
-      "Matthew 4:17",
-      "Acts 3:19",
-      "2 Corinthians 7:10"
-    ],
+    "verses": ["Matthew 4:17", "Acts 3:19", "2 Corinthians 7:10"],
     "significance": "Jesus's first sermon word is metanoia — not a call to try harder but a call to see differently. The kingdom of heaven changes what is visible. Those who perceive it differently will live differently. Metanoia is what happens when you see that everything has changed and recalibrate your whole life accordingly."
   },
   {
@@ -1024,11 +315,7 @@
     "translation": "glory, honor, splendor",
     "context": "The Greek word that translates Hebrew kavod — used of God's manifest presence, of the honor due to persons, and of the final transformation of believers.",
     "definition": "Originally the Greek word for opinion or reputation — what others think of you. In the Septuagint it translates Hebrew kavod (weight, glory), shifting its meaning entirely toward objective divine splendor. In the New Testament doxa names the radiant, overwhelming presence of God, the honor of Christ at his resurrection, and the future state awaiting believers.",
-    "verses": [
-      "John 1:14",
-      "Romans 8:18",
-      "2 Corinthians 3:18"
-    ],
+    "verses": ["John 1:14", "Romans 8:18", "2 Corinthians 3:18"],
     "significance": "John says the Word became flesh and they beheld his doxa — the divine glory dwelling in a human body. Paul says believers are being transformed from doxa to doxa into the same image. The story of creation and redemption is, among other things, the story of divine glory seeking to fill the earth through a renewed humanity."
   },
   {
@@ -1039,11 +326,7 @@
     "translation": "life (true life, divine life)",
     "context": "Distinct from bios (biological life) in the New Testament — zoe names the life of the age to come, the life that is in God, the life Christ came to give.",
     "definition": "Greek has several words for life; zoe in the New Testament is specifically elevated to name the life that belongs to God and is given through Christ. John's Gospel uses it 36 times — zoe aionios, eternal life, is not simply life that goes on forever but life of a qualitatively different order, beginning now.",
-    "verses": [
-      "John 10:10",
-      "John 1:4",
-      "1 John 5:12"
-    ],
+    "verses": ["John 10:10", "John 1:4", "1 John 5:12"],
     "significance": "Jesus says he came that they might have zoe, and have it abundantly. This is not a promise of longevity but of a share in the life that belongs to God. The Gospel of John identifies Jesus himself as the zoe — not a teacher of life but the life itself, such that to have him is to have life, and to be without him is death regardless of biological status."
   },
   {
@@ -1054,11 +337,7 @@
     "translation": "save, rescue, heal, make whole",
     "context": "The verb behind 'salvation' — a word the New Testament applies to healing, rescue from danger, and eternal redemption without distinguishing sharply between them.",
     "definition": "To save, rescue, preserve, heal, or make whole. In the Gospels it describes Jesus healing the sick, and the same word — 'your faith has saved you' — is spoken both to the woman healed of a hemorrhage and to the sinners whose sins are forgiven. The breadth is deliberate: sozo names a total rescue of the whole person.",
-    "verses": [
-      "Luke 8:48",
-      "Acts 4:12",
-      "Romans 10:9"
-    ],
+    "verses": ["Luke 8:48", "Acts 4:12", "Romans 10:9"],
     "significance": "The narrowing of sozo to mean only 'spiritual salvation' loses something the New Testament insists on. Jesus healed bodies, fed crowds, calmed storms — and all of it is the saving work of the one whose name means 'YHWH saves.' The full scope of redemption is physical, social, and cosmic, not only spiritual."
   },
   {
@@ -1069,11 +348,7 @@
     "translation": "God, deity",
     "context": "The standard Greek word for God, used in the Septuagint to translate Elohim and adopted wholesale by the New Testament.",
     "definition": "The primary Greek word for deity or divinity. In pagan usage it could apply to any god; the Septuagint and New Testament restrict it overwhelmingly to the God of Israel. John's prologue uses it with precision: the Word was with ton theon (the God, with the article, the Father) and the Word was theos (God in nature, without article) — a distinction that drove centuries of theological reflection.",
-    "verses": [
-      "John 1:1–2",
-      "John 20:28",
-      "Hebrews 1:8"
-    ],
+    "verses": ["John 1:1–2", "John 20:28", "Hebrews 1:8"],
     "significance": "Thomas's confession in John 20 — 'My Lord and my God' — is the climax of the Gospel: a Jewish monotheist addressing the risen Jesus with the word theos. The New Testament's high Christology is not a later development but present from the first generation, in the mouths of those who knew him."
   },
   {
@@ -1084,11 +359,7 @@
     "translation": "Lord, master, owner",
     "context": "The Septuagint's translation of YHWH, and the word the earliest Christian confession — 'Jesus is Lord' — applied to Christ.",
     "definition": "The Greek word for lord, master, or owner — one who has authority and to whom others are accountable. In the Septuagint it translates the divine name YHWH throughout the Old Testament. The earliest Christian confession, kurios Iesous (Jesus is Lord), was therefore a staggering claim: this person bears the divine name.",
-    "verses": [
-      "Philippians 2:9–11",
-      "Romans 10:9",
-      "1 Corinthians 8:6"
-    ],
+    "verses": ["Philippians 2:9–11", "Romans 10:9", "1 Corinthians 8:6"],
     "significance": "When Caesar's subjects said 'Caesar is Lord' (kurios Kaisar), and Christians said 'Jesus is Lord' (kurios Iesous), both parties understood the claim. The one Lord of Israel and the cosmos is not Caesar but the crucified and risen Jesus. The confession was not private piety — it was public allegiance with political consequences."
   },
   {
@@ -1099,11 +370,7 @@
     "translation": "heart, inner person, will",
     "context": "The Greek counterpart to Hebrew lev — the whole inner life of a person, seat of thought and decision, not merely emotion.",
     "definition": "Like Hebrew lev, kardia in the New Testament is not primarily emotional but volitional and cognitive — the center of the human person's inner life, including mind, will, memory, and feeling. Jesus says it is from the kardia that evil thoughts proceed; Paul prays that Christ might dwell in the kardia of the Ephesians.",
-    "verses": [
-      "Matthew 22:37",
-      "Romans 10:10",
-      "Ephesians 3:17"
-    ],
+    "verses": ["Matthew 22:37", "Romans 10:10", "Ephesians 3:17"],
     "significance": "The reduction of the heart to mere sentiment is foreign to both testaments. When God writes his law on the kardia (as promised in Jeremiah and enacted in the New Covenant), the whole person is being claimed and reformed — not just the feelings but the will, the memory, and the habits of thought."
   },
   {
@@ -1114,11 +381,7 @@
     "translation": "flesh, human nature, physical body",
     "context": "A complex New Testament word ranging from the neutral 'body' to the deeply loaded 'fallen human nature in opposition to the Spirit.'",
     "definition": "The Greek word for flesh, physical substance, or the body as mortal and creaturely. In John's Gospel sarx is used neutrally — the Word became sarx (flesh). In Paul it becomes more complex: sarx can mean simply the physical body, or it can name the fallen, sin-oriented human nature that stands in opposition to the Spirit of God.",
-    "verses": [
-      "John 1:14",
-      "Romans 8:5–8",
-      "Galatians 5:16–17"
-    ],
+    "verses": ["John 1:14", "Romans 8:5–8", "Galatians 5:16–17"],
     "significance": "John's audacity is that the Word became sarx — the divine took on the very stuff that Paul associates with human weakness and sin-orientation. The incarnation dignifies the physical even as Paul names the sinful tendency of unaided human nature. Sarx is not the body as evil, but the body as it is apart from the renewing Spirit."
   },
   {
@@ -1129,11 +392,7 @@
     "translation": "end, goal, completion, fulfillment",
     "context": "The word for 'end' that means not termination but completion — the goal toward which something moves.",
     "definition": "From the root tel-, to achieve or accomplish. Telos names the completion of something, its perfection, the goal toward which a thing is aimed. Jesus's final word on the cross in John — tetelestai, 'it is finished/accomplished' — is from this root: not 'it is over' but 'it is complete.' Aristotle used telos to describe the proper end of a thing — what it fully is when fully realized.",
-    "verses": [
-      "John 19:30",
-      "Romans 10:4",
-      "1 Timothy 1:5"
-    ],
+    "verses": ["John 19:30", "Romans 10:4", "1 Timothy 1:5"],
     "significance": "Paul says Christ is the telos of the Torah — its goal, its completion, the one it was always pointing toward. When Jesus cries tetelestai, he is not announcing defeat but achievement: the mission is accomplished, the sacrifice accepted, the redemption complete. The cross is a telos, not a terminus."
   },
   {
@@ -1144,11 +403,7 @@
     "translation": "propitiation, atoning sacrifice",
     "context": "A theologically precise word describing how Christ's death deals with the problem of sin before a holy God.",
     "definition": "From the verb hilaskomai — to appease, to make propitious, to atone. Hilasmos names the act or means by which divine wrath against sin is satisfied and the relationship between God and humanity is restored. In the Septuagint the related hilasterion translates the Hebrew kapporeth — the mercy seat, the lid of the ark where the blood of atonement was sprinkled.",
-    "verses": [
-      "1 John 2:2",
-      "1 John 4:10",
-      "Romans 3:25"
-    ],
+    "verses": ["1 John 2:2", "1 John 4:10", "Romans 3:25"],
     "significance": "John says Jesus is the hilasmos for our sins, and not only ours but for the whole world. The word insists that the cross is not only a moral example but an objective act: the holy wrath of God against all that destroys his creation has been met, borne, and exhausted in the Son. Love and justice embrace at the cross."
   },
   {
@@ -1159,11 +414,7 @@
     "translation": "service, ministry, table-service",
     "context": "The root of the English word 'deacon' — service in the New Testament ranges from waiting on tables to the apostolic ministry of the word.",
     "definition": "Service rendered for the benefit of another, particularly practical, hands-on ministry. The word carries connotations of waiting on tables and meeting practical needs — not prestigious service but humble, concrete care. Paradoxically the New Testament applies it both to the humble service of the poor and to the highest apostolic calling.",
-    "verses": [
-      "Acts 6:1–4",
-      "Romans 12:7",
-      "2 Corinthians 5:18"
-    ],
+    "verses": ["Acts 6:1–4", "Romans 12:7", "2 Corinthians 5:18"],
     "significance": "When the apostles distinguish between the diakonia of the word and the diakonia of tables, they do not rank them — both are service, both are ministry. Paul applies the same word to his apostolic calling that Luke uses for the widows' food distribution. In Christ's kingdom, serving at table and preaching the gospel are not separate categories."
   },
   {
@@ -1174,11 +425,7 @@
     "translation": "prayer, place of prayer",
     "context": "The standard New Testament word for prayer — appearing dozens of times as both the act itself and occasionally the place where it happens.",
     "definition": "From pros (toward) and euchomai (to wish, to pray) — literally, prayer oriented toward God. It is the most general and comprehensive Greek word for prayer in the New Testament, covering petition, intercession, thanksgiving, and worship. Jewish communities sometimes called their meeting places proseuchai — houses of prayer.",
-    "verses": [
-      "Matthew 21:13",
-      "Colossians 4:2",
-      "Philippians 4:6"
-    ],
+    "verses": ["Matthew 21:13", "Colossians 4:2", "Philippians 4:6"],
     "significance": "Jesus quotes Isaiah calling the Temple a 'house of proseuche for all nations.' The scope of prayer in the New Testament is vast: Paul commands proseuche with thanksgiving in everything, in all circumstances. It is not a technique but a posture — the continuous orientation of one's whole life toward God."
   },
   {
@@ -1189,11 +436,7 @@
     "translation": "comforter, advocate, helper, counselor",
     "context": "Jesus's own title for the Holy Spirit in John's Gospel — the one he promises to send when he goes.",
     "definition": "From para (alongside) and kaleo (to call) — one called alongside to help. In the legal world a parakletos was a defense advocate. Jesus uses it for the Holy Spirit in John 14–16, promising that this Advocate will teach, remind, convict, and lead the disciples into all truth after his departure. John also applies the title to Jesus himself in 1 John 2:1.",
-    "verses": [
-      "John 14:16–17",
-      "John 16:7–8",
-      "1 John 2:1"
-    ],
+    "verses": ["John 14:16–17", "John 16:7–8", "1 John 2:1"],
     "significance": "The Parakletos is not a consolation prize for Christ's absence — Jesus says it is to the disciples' advantage that he goes, so that the Parakletos can come. The Spirit does not represent an absent Christ; the Spirit is the mode in which the risen Christ remains present — inside the community, inside the believer, teaching, guiding, and interceding."
   }
 ]

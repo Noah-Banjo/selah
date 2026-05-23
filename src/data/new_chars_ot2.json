@@ -1,0 +1,628 @@
+[
+  {
+    "id": "nathan",
+    "name": "Nathan",
+    "fullName": "Nathan the prophet",
+    "description": "Court prophet to David who confronted the king's sin with a parable and announced the Davidic covenant.",
+    "period": "united monarchy (c. 1000 – 960 BC)",
+    "birthplace": "unknown",
+    "locations": ["Jerusalem", "Gibeon"],
+    "birthYear": -1020,
+    "biography": [
+      "Nathan served as the chief prophet in the court of King David during the height of the united monarchy. He was the prophet to whom God delivered the unconditional promise that would shape all of Israel's future hope: David's house and kingdom would be established forever, and God would be a father to his son. Nathan was the messenger of the covenant Israel would hold onto through every subsequent disaster.",
+      "When David committed adultery with Bathsheba and arranged the death of her husband Uriah, Nathan was the man God sent. He came not with an accusation but with a story about a rich man who had stolen the one beloved lamb of a poor man — and let David pronounce the verdict before telling him, 'You are the man.' David confessed at once. Nathan announced that the child conceived in adultery would die, but that David himself would not. The exchange between them is one of scripture's most dramatic acts of prophetic courage.",
+      "Nathan appears a third time in old age, when David is dying and his son Adonijah moves to seize the throne. He goes to Bathsheba and coaches her on how to approach the king, then enters himself to confirm her words. Between them they secure Solomon's anointing that same day. He named Solomon 'Jedidiah' — beloved of the Lord — at his birth. The three great acts of Nathan's life were delivering the covenant, confronting sin, and ensuring the right succession."
+    ],
+    "references": [
+      { "ref": "2 Samuel 7", "note": "Nathan delivers the Davidic covenant" },
+      { "ref": "2 Samuel 12:1–15", "note": "The parable of the stolen lamb" },
+      { "ref": "1 Kings 1:11–45", "note": "Nathan and Bathsheba secure Solomon's throne" }
+    ],
+    "relationships": [
+      { "characterId": "david", "type": "Prophet", "description": "Court prophet who both announced God's covenant with him and confronted his gravest sin." },
+      { "characterId": "bathsheba", "type": "Ally", "description": "Partnered with her to secure Solomon's accession to the throne." },
+      { "characterId": "solomon", "type": "Ally", "description": "Named him Jedidiah at birth and helped place him on the throne." }
+    ]
+  },
+  {
+    "id": "joab",
+    "name": "Joab",
+    "fullName": "Joab, son of Zeruiah",
+    "description": "David's formidable military commander whose fierce loyalty and ruthless judgment made him indispensable and dangerous.",
+    "period": "united monarchy (c. 1010 – 970 BC)",
+    "birthplace": "Bethlehem, Judah",
+    "locations": ["Bethlehem", "Jerusalem", "Rabbah", "the forest of Ephraim", "Hebron"],
+    "birthYear": -1015,
+    "biography": [
+      "Joab son of Zeruiah was David's nephew — his sister Zeruiah's son — and the commanding general of his armies from the earliest days of his reign. He was the first to take Jerusalem from the Jebusites, clearing the way for David's capital. He led Israel's armies to victories that extended David's kingdom from the Euphrates to the border of Egypt. No one questioned his courage or his tactical brilliance.",
+      "But Joab was also a man who operated by his own code of honor. He murdered Abner, Saul's general, in cold blood to avenge his brother Asahel's death — an act David publicly mourned and privately could not punish. He killed Absalom against David's explicit orders, finding him hanging in an oak by his hair and driving three javelins through him. He confronted David himself, once, with characteristic bluntness: stop weeping for your dead traitor-son and go speak to your army before they all walk away.",
+      "When David lay dying, Joab backed Adonijah's bid for the throne — the wrong choice. Solomon came to power instead, and David's parting instructions to his son included dealing with Joab's unpunished blood. Joab fled to the tabernacle and clung to the horns of the altar. Solomon sent Benaiah, who killed him there. He was buried in his own house in the wilderness. He was a man who served God's anointed without ever quite submitting to God."
+    ],
+    "references": [
+      { "ref": "2 Samuel 3:22–27", "note": "Joab murders Abner" },
+      { "ref": "2 Samuel 18:9–15", "note": "He kills Absalom against David's orders" },
+      { "ref": "1 Kings 2:28–34", "note": "His death at the altar" }
+    ],
+    "relationships": [
+      { "characterId": "david", "type": "General", "description": "Lifelong commander and nephew who served him brilliantly and challenged him repeatedly." },
+      { "characterId": "absalom", "type": "Rival", "description": "First worked to restore him, then killed him in defiance of David's orders." },
+      { "characterId": "solomon", "type": "Rival", "description": "Backed Adonijah against him and was executed on his orders." }
+    ]
+  },
+  {
+    "id": "uriah",
+    "name": "Uriah",
+    "fullName": "Uriah the Hittite",
+    "description": "One of David's thirty mighty warriors, whose moral integrity in refusing comfort while his comrades fought shamed the king who would arrange his death.",
+    "period": "united monarchy (c. 1010 – 999 BC)",
+    "birthplace": "unknown (of Hittite descent)",
+    "locations": ["Jerusalem", "Rabbah"],
+    "birthYear": -1010,
+    "biography": [
+      "Uriah the Hittite is listed in 2 Samuel 23 among the thirty mighty warriors of David, the elite inner circle of the king's fighting force. He was by all appearances a loyal and distinguished soldier, a man who had absorbed Israel's values of covenant fidelity so completely that his behavior in the crisis would put his king to shame.",
+      "When David summoned him back from the siege of Rabbah — hoping Uriah would sleep with his wife Bathsheba and cover the king's adultery — Uriah refused to go home. The ark and Israel and Judah dwell in tents, he told David; how could he eat and drink and lie with his wife while his comrades were sleeping in open fields? He maintained that refusal even after David got him drunk. David sent him back to Joab carrying his own death warrant: put Uriah in the front of the heaviest fighting and then withdraw from him.",
+      "Uriah died in the assault on Rabbah, his life taken to hide his king's sin. He does not speak in scripture; he only acts with unstained integrity in the two days he is visible. His name would be preserved in the genealogy of Jesus: Matthew lists 'the wife of Uriah' in the line of the Messiah — a small, indelible marker of what David had done and what had nonetheless come from it."
+    ],
+    "references": [
+      { "ref": "2 Samuel 11:6–17", "note": "Recalled from battle; refuses to go home; sent to his death" },
+      { "ref": "2 Samuel 23:39", "note": "Listed among David's thirty mighty warriors" },
+      { "ref": "Matthew 1:6", "note": "His wife Bathsheba named in the genealogy of Jesus" }
+    ],
+    "relationships": [
+      { "characterId": "david", "type": "King", "description": "The king who had him killed to conceal the adultery with his wife." },
+      { "characterId": "bathsheba", "type": "Husband", "description": "Husband whose death David arranged after taking her." },
+      { "characterId": "joab", "type": "Commander", "description": "The general who carried out David's orders and placed him in the front line." }
+    ]
+  },
+  {
+    "id": "jezebel",
+    "name": "Jezebel",
+    "fullName": "Jezebel, daughter of Ethbaal",
+    "description": "Phoenician queen who killed the prophets of the Lord and was thrown from a window.",
+    "period": "c. 895 – 841 BC",
+    "birthplace": "Sidon",
+    "locations": ["Sidon", "Samaria", "Jezreel"],
+    "birthYear": -895,
+    "biography": [
+      "Jezebel was the daughter of Ethbaal, king of the Sidonians, and brought her father's gods with her into Israel's court. She supported four hundred and fifty prophets of Baal and four hundred prophets of Asherah at the royal table, and she killed the prophets of the Lord wherever she could find them. Obadiah hid a hundred of them in two caves.",
+      "When Naboth refused to sell Ahab the family vineyard, it was Jezebel who took the matter in hand. She wrote letters in the king's name, set up false witnesses, and had Naboth executed. Elijah pronounced her doom: dogs would eat her by the wall of Jezreel.",
+      "Years later Jehu came up to Jezreel in his chariot. Jezebel painted her eyes, dressed her hair, and looked down from a window. 'Is it peace, you Zimri, murderer of your master?' she asked. Jehu shouted up to her eunuchs and they threw her down. The horses trampled her; the dogs ate her body. Only her skull, feet, and the palms of her hands were left for burial."
+    ],
+    "references": [
+      { "ref": "1 Kings 18:13", "note": "Killing the prophets of the Lord" },
+      { "ref": "1 Kings 21", "note": "Naboth's vineyard" },
+      { "ref": "2 Kings 9:30–37", "note": "Death at Jezreel" }
+    ],
+    "relationships": [
+      { "characterId": "ahab", "type": "Husband", "description": "King of Israel whose reign she shaped." },
+      { "characterId": "elijah", "type": "Rival", "description": "Prophet she could not kill and could not silence." }
+    ]
+  },
+  {
+    "id": "elijah",
+    "name": "Elijah",
+    "fullName": "Elijah the Tishbite",
+    "description": "Wilderness prophet who confronted King Ahab and the prophets of Baal.",
+    "period": "9th century BC (active c. 870 BC)",
+    "birthplace": "Tishbe in Gilead",
+    "locations": ["Tishbe", "Cherith", "Zarephath", "Mount Carmel", "Mount Horeb", "the Jordan"],
+    "birthYear": -895,
+    "biography": [
+      "Elijah erupts into scripture without genealogy or introduction, announcing to King Ahab that there would be no rain in Israel until he said so. The drought lasted three years. Elijah survived it fed by ravens at a desert brook, then by an unending jar of flour in a widow's home in Zarephath.",
+      "The contest on Mount Carmel ended the famine. Four hundred and fifty prophets of Baal called on their god from morning to evening with no answer; Elijah drenched his altar three times with water and prayed once, and fire fell. The drought broke that day in a small cloud rising from the sea.",
+      "He fled the wrath of Queen Jezebel into the wilderness, was fed by an angel, and came at last to Mount Horeb where God passed by — not in wind, earthquake, or fire, but in a sound of sheer silence. He anointed Elisha as his successor and was taken up to heaven in a whirlwind, his mantle falling to the younger prophet at the Jordan."
+    ],
+    "references": [
+      { "ref": "1 Kings 18", "note": "Contest with the prophets of Baal on Carmel" },
+      { "ref": "1 Kings 19", "note": "The still small voice at Horeb" },
+      { "ref": "2 Kings 2:1–12", "note": "Taken up in a whirlwind" }
+    ],
+    "relationships": [
+      { "characterId": "ahab", "type": "Rival", "description": "Confronted him over Baal worship and the murder of Naboth." },
+      { "characterId": "jezebel", "type": "Rival", "description": "The queen whose threat drove him into the wilderness." },
+      { "characterId": "elisha", "type": "Disciple", "description": "Threw his mantle on Elisha at the plow; his successor in the prophetic office." }
+    ]
+  },
+  {
+    "id": "elisha",
+    "name": "Elisha",
+    "fullName": "Elisha, son of Shaphat",
+    "description": "Successor of Elijah; prophet of double portion and quiet miracles.",
+    "period": "9th century BC (active c. 850–800 BC)",
+    "birthplace": "Abel-meholah",
+    "locations": ["Abel-meholah", "Gilgal", "Jericho", "Bethel", "Samaria", "Damascus"],
+    "birthYear": -880,
+    "biography": [
+      "Elijah found Elisha plowing with twelve yoke of oxen and threw his mantle across his shoulders. Elisha slaughtered the oxen, used the plows for firewood, fed his neighbors, and followed the older prophet. When Elijah was taken up, Elisha picked up the fallen mantle and parted the Jordan with it on his return.",
+      "Where Elijah's ministry was dramatic and confrontational, Elisha's was strung through with smaller miracles done close to the ground: purifying a poisoned spring, multiplying a widow's oil, raising the Shunammite woman's son, healing the leprosy of the Syrian commander Naaman in the Jordan.",
+      "He served as prophet across the reigns of four kings of Israel. On his deathbed the king of Israel wept over him; even after his death, the touch of his bones revived a corpse hastily thrown into his grave. His name means 'God is salvation' — the same root from which the names Joshua and Jesus come."
+    ],
+    "references": [
+      { "ref": "1 Kings 19:19–21", "note": "Called from the plow" },
+      { "ref": "2 Kings 4", "note": "The widow's oil and the Shunammite's son" },
+      { "ref": "2 Kings 5", "note": "The healing of Naaman" }
+    ],
+    "relationships": [
+      { "characterId": "elijah", "type": "Mentor", "description": "Received a double portion of his spirit at the Jordan." }
+    ]
+  },
+  {
+    "id": "hezekiah",
+    "name": "Hezekiah",
+    "fullName": "Hezekiah, king of Judah",
+    "description": "Reforming king of Judah who trusted God through the Assyrian siege of Jerusalem and was given fifteen extra years of life.",
+    "period": "c. 740 – 686 BC",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "the temple"],
+    "birthYear": -740,
+    "biography": [
+      "Hezekiah came to the throne of Judah during the crisis years of the Assyrian empire and immediately set to work dismantling the high places and smashing the bronze serpent Moses had made, which had become an object of incense-burning. He reopened and purified the temple, reestablished the Passover, and centralized worship in Jerusalem in a manner no king before him had quite attempted. The text gives him the highest commendation of any Judean king: there was no one like him before or after.",
+      "Sennacherib of Assyria came against Judah and besieged Jerusalem. His field commander stood outside the walls and shouted in Hebrew to the people on the battlements: your king is trusting in a god who can't save you, just like the gods of all the other nations we've destroyed. Hezekiah went to the temple, spread the letter before the Lord, and prayed. Isaiah sent word that Sennacherib would not enter the city. That night the angel of the Lord struck down a hundred and eighty-five thousand in the Assyrian camp; Sennacherib went home and was killed by his sons.",
+      "When Hezekiah fell mortally ill, he prayed and wept, and God through Isaiah promised him fifteen more years. In those years he showed his treasury to envoys from Babylon — an act Isaiah told him would cost his descendants dearly, for everything he showed them would one day go there. He died in peace, but his indiscretion had seeded a prophecy of exile."
+    ],
+    "references": [
+      { "ref": "2 Kings 18–19", "note": "The Assyrian siege and Isaiah's deliverance" },
+      { "ref": "2 Kings 20:1–11", "note": "Hezekiah's illness and the fifteen years" },
+      { "ref": "Isaiah 36–39", "note": "The parallel account in Isaiah" }
+    ],
+    "relationships": [
+      { "characterId": "isaiah", "type": "Prophet", "description": "The prophet who counseled him through the Assyrian crisis and announced his extended life." },
+      { "characterId": "josiah", "type": "Descendant", "description": "Great-grandson who would carry Hezekiah's reform further." }
+    ]
+  },
+  {
+    "id": "josiah",
+    "name": "Josiah",
+    "fullName": "Josiah, king of Judah",
+    "description": "Boy king whose discovery of the lost Law scroll ignited the last great reform of Judah.",
+    "period": "c. 648 – 609 BC",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "the temple", "Megiddo"],
+    "birthYear": -648,
+    "biography": [
+      "Josiah became king of Judah at eight years old, after his grandfather Manasseh's long reign of apostasy and his father Amon's short and equally faithless one. He began seeking the Lord at sixteen and by his twenties was actively dismantling the altars to foreign gods his predecessors had erected, tearing them down across Judah and even into the territory of the old northern kingdom.",
+      "In his eighteenth year, while workers were repairing the temple, the high priest Hilkiah found the Book of the Law — almost certainly Deuteronomy — which had apparently been lost. When it was read to Josiah, he tore his clothes in grief and sent a delegation to inquire of the Lord. The prophetess Huldah replied that all the curses written in the book would fall on Jerusalem, but not in Josiah's lifetime — because he had a tender heart and humbled himself before God.",
+      "Josiah gathered all Judah and read the covenant aloud, then led the most thoroughgoing Passover celebration recorded since the time of Samuel. He removed the mediums and the household gods and the idols. He came as close as any king of Judah to the full obedience Deuteronomy required. He died at Megiddo fighting Pharaoh Neco — an inexplicable act of intervention that cost him his life. Jeremiah lamented him, and the people mourned for years."
+    ],
+    "references": [
+      { "ref": "2 Kings 22", "note": "Discovery of the Book of the Law" },
+      { "ref": "2 Kings 23:1–30", "note": "The great reform and his death at Megiddo" },
+      { "ref": "2 Chronicles 35:25", "note": "Jeremiah's lament for Josiah" }
+    ],
+    "relationships": [
+      { "characterId": "jeremiah", "type": "Companion", "description": "The prophet who lamented his death and ministered during his reign." },
+      { "characterId": "hezekiah", "type": "Ancestor", "description": "Great-grandfather whose reforms he extended and surpassed." },
+      { "characterId": "zephaniah", "type": "Companion", "description": "Prophet active during his reign who may have helped catalyze the reform." }
+    ]
+  },
+  {
+    "id": "isaiah",
+    "name": "Isaiah",
+    "fullName": "Isaiah, son of Amoz",
+    "description": "Prophet to Judah whose oracles span judgment, exile, and the coming Servant.",
+    "period": "8th century BC (active c. 740–680 BC)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "the temple"],
+    "birthYear": -760,
+    "biography": [
+      "Isaiah received his call in the year King Uzziah died — a vision in the temple of the Lord enthroned, attended by six-winged seraphim, the doorposts shaking and the house full of smoke. 'Whom shall I send?' the voice asked. 'Here am I,' Isaiah answered. 'Send me.'",
+      "For four decades he served as prophet to the kings of Judah while the Assyrian empire pressed in. He counseled Ahaz to trust God rather than political alliance, advised Hezekiah through Sennacherib's siege of Jerusalem, and saw the city spared overnight by an angel of the Lord. He also foresaw a deeper exile yet to come.",
+      "The second half of the book that bears his name turns away from judgment toward consolation — 'comfort, comfort my people' — and toward a mysterious Servant of the Lord who would be pierced for the transgressions of the many. The early church would read those chapters as a portrait of Christ written seven hundred years before he came."
+    ],
+    "references": [
+      { "ref": "Isaiah 6", "note": "The vision in the temple" },
+      { "ref": "Isaiah 40", "note": "Comfort, comfort my people" },
+      { "ref": "Isaiah 53", "note": "The Suffering Servant" }
+    ],
+    "relationships": [
+      { "characterId": "hezekiah", "type": "Companion", "description": "Counseled him through the Assyrian siege and announced his extra years of life." },
+      { "characterId": "micah", "type": "Companion", "description": "Contemporary prophet who shared his vision of judgment and hope for Judah." },
+      { "characterId": "jesus", "type": "Successor", "description": "Foretold the Suffering Servant who would bear the sins of many." }
+    ]
+  },
+  {
+    "id": "jeremiah",
+    "name": "Jeremiah",
+    "fullName": "Jeremiah, son of Hilkiah",
+    "description": "The weeping prophet called in his youth who preached through Judah's fall to Babylon.",
+    "period": "late 7th – early 6th century BC (active c. 627–585 BC)",
+    "birthplace": "Anathoth, in Benjamin",
+    "locations": ["Anathoth", "Jerusalem", "the temple court", "Egypt"],
+    "birthYear": -650,
+    "biography": [
+      "Jeremiah was called to prophesy as a young man, perhaps still a teenager, from the priestly town of Anathoth just outside Jerusalem. God told him he had been set apart from the womb for this work; Jeremiah replied that he did not know how to speak. He was given words nonetheless, and a task few prophets have received in such stark form: to pluck up and break down, to destroy and overthrow, before building and planting.",
+      "He preached through the reigns of Josiah, Jehoiakim, and Zedekiah, watching the nation he loved move inexorably toward catastrophe. He was beaten, put in stocks, thrown into a cistern, and told repeatedly to stop prophesying. He could not stop. His 'confessions' — private arguments with God that have no parallel in the other prophets — record a man repeatedly at the end of his resources, crying out that he would speak no more and then unable to contain the fire.",
+      "He lived to see Jerusalem fall, the temple burned, and the people marched to Babylon. He himself was taken by a remnant to Egypt, prophesying to the end. His letter to the exiles in Babylon — to build houses, plant gardens, and seek the welfare of the city — became scripture's most practical counsel for life in a foreign land, and his promise of a new covenant written on the heart is quoted at length in the Letter to the Hebrews."
+    ],
+    "references": [
+      { "ref": "Jeremiah 1:4–10", "note": "The call from the womb" },
+      { "ref": "Jeremiah 29:1–14", "note": "The letter to the exiles" },
+      { "ref": "Jeremiah 31:31–34", "note": "The new covenant" }
+    ],
+    "relationships": [
+      { "characterId": "josiah", "type": "Companion", "description": "Lamented his death at Megiddo and ministered through his reform." },
+      { "characterId": "ezekiel", "type": "Companion", "description": "Contemporary prophet whose ministry among the exiles in Babylon overlapped with his." }
+    ]
+  },
+  {
+    "id": "ezekiel",
+    "name": "Ezekiel",
+    "fullName": "Ezekiel, son of Buzi",
+    "description": "Priest-turned-prophet who saw the glory of God in Babylon and enacted Israel's judgment in dramatic sign-acts.",
+    "period": "early 6th century BC (active c. 593–571 BC)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "Tel-abib", "Babylon", "the Chebar canal"],
+    "birthYear": -623,
+    "biography": [
+      "Ezekiel was a priest deported to Babylon in 597 BC with the first wave of exiles, before the final fall of Jerusalem. On the banks of the Chebar canal he received his inaugural vision: a storm wind from the north, a great cloud with brightness, and four living creatures with four faces — like a chariot-throne of overwhelming complexity and mobility. The Lord was not confined to Jerusalem; his glory could travel. It was the most important claim the vision could make to the exiles.",
+      "Ezekiel's prophecies are among the strangest in scripture: he lay on his left side for three hundred and ninety days to bear the iniquity of Israel, then forty days on his right for Judah. He cut off his hair and divided it into thirds — burned, struck with a sword, scattered to the wind. He was told not to mourn when his wife, the delight of his eyes, died suddenly — a sign-act too costly to perform willingly. Throughout all this he spoke the same message in different registers: Jerusalem would fall because of its faithlessness.",
+      "After the fall, the oracles changed. The valley of dry bones rose again in the great vision of chapter 37. The scattered bones came together, flesh came on them, breath entered them — 'O dry bones, hear the word of the Lord.' The final nine chapters describe in exacting detail a new temple, a new priesthood, a new division of the land, and the river of life flowing from under the threshold. His vision would shape Revelation's imagery twenty-five centuries later."
+    ],
+    "references": [
+      { "ref": "Ezekiel 1", "note": "The vision of the chariot-throne" },
+      { "ref": "Ezekiel 37:1–14", "note": "The valley of dry bones" },
+      { "ref": "Ezekiel 47:1–12", "note": "The river flowing from the temple" }
+    ],
+    "relationships": [
+      { "characterId": "jeremiah", "type": "Companion", "description": "Contemporary prophet who also foretold Babylon's destruction and promised restoration." },
+      { "characterId": "daniel", "type": "Companion", "description": "Mentioned by Ezekiel as a righteous figure; contemporary exile in Babylon." }
+    ]
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel",
+    "fullName": "Daniel of Judah",
+    "description": "Judean exile who served Babylon's kings with unwavering faithfulness and received apocalyptic visions of world history.",
+    "period": "early 6th – late 6th century BC (active c. 605–535 BC)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "Babylon", "Susa"],
+    "birthYear": -621,
+    "biography": [
+      "Daniel was among the first Judeans deported to Babylon by Nebuchadnezzar, chosen with three companions for their intelligence and suitability to serve in the royal court. They were given Babylonian names; Daniel was renamed Belteshazzar. From the beginning he resolved to honor the covenant: he requested vegetables and water rather than the king's food, and at the end of the test period he and his companions were found healthier than those who had eaten the royal rations.",
+      "He served as interpreter of dreams and visions across the reigns of Nebuchadnezzar, Belshazzar, and into the Persian period of Darius and Cyrus. He interpreted the writing on the wall at Belshazzar's feast on the night Babylon fell. Under Darius he was thrown into the lions' den for continuing to pray to God three times a day in defiance of a royal decree; he was found unharmed in the morning. The narrative portions of Daniel are stories of faithfulness maintained at mortal risk.",
+      "The apocalyptic visions of the second half of the book describe four world empires, the Ancient of Days on his throne, a figure like a Son of Man coming on the clouds to receive dominion, and the resurrection of the dead — the first clear teaching on it in the Hebrew Bible. Jesus would use the phrase 'Son of Man' more than any other self-designation, and Daniel's vision stands behind it."
+    ],
+    "references": [
+      { "ref": "Daniel 1", "note": "Resolve to keep the food laws in Babylon" },
+      { "ref": "Daniel 6", "note": "The lions' den" },
+      { "ref": "Daniel 7:13–14", "note": "The Son of Man and the Ancient of Days" }
+    ],
+    "relationships": [
+      { "characterId": "hananiah", "type": "Companion", "description": "One of his three Judean companions in the Babylonian court." },
+      { "characterId": "ezekiel", "type": "Companion", "description": "Contemporary prophet named by Ezekiel alongside Noah and Job as a model of righteousness." }
+    ]
+  },
+  {
+    "id": "hananiah",
+    "name": "Hananiah",
+    "fullName": "Hananiah, Mishael, and Azariah (Shadrach, Meshach, and Abednego)",
+    "description": "Daniel's three companions who refused to worship Nebuchadnezzar's golden statue and were preserved unharmed in the fiery furnace.",
+    "period": "early 6th century BC (c. 605–570 BC)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "Babylon", "the plain of Dura"],
+    "birthYear": -620,
+    "biography": [
+      "Hananiah, Mishael, and Azariah were among the Judean youths selected with Daniel for training in Nebuchadnezzar's court. They were given Babylonian names — Shadrach, Meshach, and Abednego — but maintained their identity with the God of Israel. Together with Daniel they had resolved to refuse the king's food rather than violate the covenant. They shared his success and his danger.",
+      "The crisis came when Nebuchadnezzar erected a gold statue sixty cubits high on the plain of Dura and commanded all officials to fall and worship at the sound of the music. The three refused. Brought before the king, they gave one of the most remarkable statements of faith in all scripture: 'our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of your hand, O king. But if not, be it known to you, O king, that we will not serve your gods.' The 'but if not' is the most honest hinge in their declaration.",
+      "They were thrown into the furnace so hot it killed the soldiers who threw them in. Nebuchadnezzar, looking in, saw four figures walking in the fire — the fourth like a son of the gods. He called them out; the fire had not touched them, not even the smell of smoke on their cloaks. Nebuchadnezzar made a decree protecting the God of Israel across his empire. They were promoted; the narrative records nothing more of their lives, which is perhaps fitting — the furnace was the moment for which they are remembered."
+    ],
+    "references": [
+      { "ref": "Daniel 1:6–7", "note": "Named and renamed in Babylon" },
+      { "ref": "Daniel 3:1–30", "note": "The fiery furnace and the fourth figure" },
+      { "ref": "Hebrews 11:34", "note": "Those who quenched the power of fire" }
+    ],
+    "relationships": [
+      { "characterId": "daniel", "type": "Companion", "description": "Fellow exile and companion in faithfulness from Jerusalem to the Babylonian court." }
+    ]
+  },
+  {
+    "id": "esther",
+    "name": "Esther",
+    "fullName": "Esther (Hadassah), daughter of Abihail",
+    "description": "Jewish queen of Persia who risked her life to save her people from annihilation.",
+    "period": "5th century BC (c. 480 BC)",
+    "birthplace": "Persia (Susa)",
+    "locations": ["Susa", "the palace of Ahasuerus"],
+    "birthYear": -500,
+    "biography": [
+      "Esther was a Jewish orphan raised by her cousin Mordecai in the Persian capital Susa. When King Ahasuerus — Xerxes I — deposed Queen Vashti and held a kingdom-wide search for a new queen, Esther was brought to the palace. She concealed her nationality on Mordecai's instruction and won the favor of everyone she met, eventually winning the king's as well. She was crowned queen of Persia without anyone at court knowing she was Jewish.",
+      "When Haman, the king's chief minister, persuaded Ahasuerus to issue an edict calling for the annihilation of all Jews throughout the empire, Mordecai came to Esther. Her initial hesitation — approaching the king uninvited meant death unless he extended his scepter — was answered by Mordecai's penetrating question: 'who knows whether you have not come to the kingdom for such a time as this?' She asked the Jews of Susa to fast for her three days and then went.",
+      "She approached the king twice before presenting her request, wisely building his goodwill. She exposed Haman at a banquet and the king condemned him on the very gallows he had built for Mordecai. The edict could not be rescinded under Persian law, but a new edict permitted the Jews to defend themselves. Esther is remarkable for a biblical book: it never mentions the name of God, yet every turn of the story implies his hidden providence. The feast of Purim was established to remember it."
+    ],
+    "references": [
+      { "ref": "Esther 2:1–18", "note": "Esther chosen as queen" },
+      { "ref": "Esther 4:14–16", "note": "For such a time as this" },
+      { "ref": "Esther 7–8", "note": "Haman's downfall; the counter-edict" }
+    ],
+    "relationships": [
+      { "characterId": "mordecai", "type": "Guardian", "description": "The cousin who raised her and urged her to act for her people." }
+    ]
+  },
+  {
+    "id": "mordecai",
+    "name": "Mordecai",
+    "fullName": "Mordecai, son of Jair",
+    "description": "Jewish official in Susa who refused to bow to Haman and whose faithfulness to his people made the deliverance of the Jews possible.",
+    "period": "5th century BC (c. 480 BC)",
+    "birthplace": "Persia (descended from Kish of Benjamin)",
+    "locations": ["Susa", "the king's gate"],
+    "birthYear": -510,
+    "biography": [
+      "Mordecai was a Jew of the tribe of Benjamin, a descendant of the exile from Jerusalem, who sat at the king's gate in Susa — a position of civic status in the Persian court. He had raised his orphaned cousin Hadassah as his own daughter. When she was taken to the palace as a candidate for queen, he walked near the harem courtyard daily to learn how she was doing, a detail that communicates something about the man.",
+      "His refusal to bow to Haman — the grounds are not fully explained, perhaps a matter of conscience before a long-standing Israelite suspicion of Amalekites — set the crisis in motion. He tore his clothes and put on sackcloth when the edict against the Jews was issued; he refused to let Esther ignore what was happening. His counsel to her was quietly theological: relief and deliverance will come for the Jews from another place if you remain silent, but you and your father's house will perish — and perhaps this is your moment.",
+      "When the plot was reversed, Mordecai rode through the city in royal robes and was appointed to Haman's office. His name was preserved in letters sent to all provinces establishing the feast of Purim. He is the only figure in the book whose character and courage match Esther's — which is to say, he is also the kind of person who acts as if providence is real."
+    ],
+    "references": [
+      { "ref": "Esther 2:5–11", "note": "Mordecai and the raising of Esther" },
+      { "ref": "Esther 3:1–6", "note": "Refusing to bow to Haman" },
+      { "ref": "Esther 9:20–28", "note": "Establishing the feast of Purim" }
+    ],
+    "relationships": [
+      { "characterId": "esther", "type": "Guardian", "description": "Raised her as his daughter and urged her to act to save their people." }
+    ]
+  },
+  {
+    "id": "ezra",
+    "name": "Ezra",
+    "fullName": "Ezra, son of Seraiah",
+    "description": "Priest and scribe who led a return of exiles to Jerusalem and reconstituted Israelite life around the Law of Moses.",
+    "period": "5th century BC (active c. 458 BC)",
+    "birthplace": "Babylon",
+    "locations": ["Babylon", "Jerusalem"],
+    "birthYear": -480,
+    "biography": [
+      "Ezra was a priest descended from Aaron and a scribe skilled in the Law of Moses. He led a second wave of returning exiles from Babylon to Jerusalem in the seventh year of King Artaxerxes, armed with a royal letter that gave him remarkable authority to administer the Law of God and the law of the king across the whole province of Beyond the River. He had devoted himself to study and to teaching the statutes of Israel.",
+      "He arrived in Jerusalem and was confronted almost immediately with a serious problem: many of the men of Judah, including priests and Levites, had married foreign women in violation of the separations required by the Law. Ezra's response was not anger but grief so intense that it became public — he sat appalled, tore his garments, pulled hair from his beard and head, and sat until the evening sacrifice. A great assembly gathered around him. The intermarriages were eventually dissolved, a process whose pain is not minimized in the text.",
+      "In the book of Nehemiah, Ezra appears again, standing on a raised wooden platform before the Water Gate, reading from the Book of the Law from daybreak until noon. The Levites helped the people understand what was read, and as they understood, they wept. Ezra told them not to weep but to eat and drink and rejoice, for the day was holy. The scene is the central act of religious reconstitution after the exile."
+    ],
+    "references": [
+      { "ref": "Ezra 7:1–10", "note": "Ezra's lineage and his devotion to the Law" },
+      { "ref": "Ezra 9–10", "note": "The crisis of intermarriage" },
+      { "ref": "Nehemiah 8:1–12", "note": "The public reading of the Law" }
+    ],
+    "relationships": [
+      { "characterId": "nehemiah", "type": "Companion", "description": "Governed Jerusalem alongside him; together they led the reconstitution of Jewish life." },
+      { "characterId": "zerubbabel", "type": "Predecessor", "description": "Led the first return of exiles decades before Ezra's own return." }
+    ]
+  },
+  {
+    "id": "nehemiah",
+    "name": "Nehemiah",
+    "fullName": "Nehemiah, son of Hacaliah",
+    "description": "Cupbearer to the Persian king who returned to Jerusalem and rebuilt its walls in fifty-two days despite fierce opposition.",
+    "period": "5th century BC (active c. 445 BC)",
+    "birthplace": "Persia (of Judean descent)",
+    "locations": ["Susa", "Jerusalem"],
+    "birthYear": -480,
+    "biography": [
+      "Nehemiah served as cupbearer to King Artaxerxes of Persia — a position of remarkable trust, close to the person of the king. When his brother Hanani returned from Judah with news that Jerusalem's walls were broken down and its gates burned, Nehemiah wept and mourned for days, fasting and praying. He went to the king with sadness in his face — dangerous for a cupbearer — and received permission to return to Jerusalem as governor.",
+      "He arrived in the night and inspected the walls in secret before revealing his plan. He rallied the people with a direct appeal — 'Come, let us build the wall of Jerusalem, that we may no longer suffer derision' — and the work began. Opposition came from Sanballat the Horonite and Tobiah the Ammonite, who first mocked, then threatened. Nehemiah responded with prayer and set half the people to work and half to guard with spears, bows, and swords. The wall was completed in fifty-two days.",
+      "His memoirs — unusual in their directness and their regular parenthetical prayers — show a man of practical energy and intense piety who could organize a building project and pray simultaneously. He dealt with economic exploitation of the poor, restored the Levites' provisions, confronted Sabbath-breaking, and tackled the same intermarriage problem Ezra had faced. He ends the book with a prayer that God will remember him for good — a vulnerable, honest ending for a man who had held an empire's trust and given it to a ruined city."
+    ],
+    "references": [
+      { "ref": "Nehemiah 1–2", "note": "The cupbearer's grief and the king's permission" },
+      { "ref": "Nehemiah 4", "note": "Work with weapons at hand" },
+      { "ref": "Nehemiah 6:15–16", "note": "The wall finished in fifty-two days" }
+    ],
+    "relationships": [
+      { "characterId": "ezra", "type": "Companion", "description": "Priest and scribe who administered the Law while Nehemiah governed the city." },
+      { "characterId": "zerubbabel", "type": "Predecessor", "description": "Governor of the first return who began the rebuilding of the temple." }
+    ]
+  },
+  {
+    "id": "zerubbabel",
+    "name": "Zerubbabel",
+    "fullName": "Zerubbabel, son of Shealtiel",
+    "description": "Governor of Judah and grandson of King Jehoiachin who led the first return of exiles and oversaw the rebuilding of the second temple.",
+    "period": "late 6th century BC (active c. 538–515 BC)",
+    "birthplace": "Babylon",
+    "locations": ["Babylon", "Jerusalem", "the temple mount"],
+    "birthYear": -560,
+    "biography": [
+      "Zerubbabel was a descendant of the royal house of David — his grandfather Jehoiachin had been the king of Judah who surrendered to Nebuchadnezzar and lived out his captivity in Babylon. When Cyrus of Persia issued his decree permitting the Jews to return and rebuild the temple, it was Zerubbabel who was appointed governor of the restored province of Judah and who led the first contingent of returning exiles home.",
+      "He began the work of rebuilding the altar and laying the foundation of the new temple alongside the high priest Jeshua. When the foundation was laid, the old men who had seen Solomon's temple wept, and the younger generation shouted with joy, so that you could not distinguish the weeping from the celebration. The work soon stalled under the opposition of the people of the land, and remained stopped for sixteen years.",
+      "The prophets Haggai and Zechariah roused him to action, and Zerubbabel completed the rebuilding in 515 BC. Haggai addressed him as a signet ring, the reversal of the curse on his grandfather Jehoiachin. Zechariah saw him completing the temple with his hands, and delivered the oracle that would echo for centuries: 'Not by might, nor by power, but by my Spirit, says the Lord of hosts.' He appears in both Matthew's and Luke's genealogies of Jesus as a link in the Davidic line."
+    ],
+    "references": [
+      { "ref": "Ezra 3:8–13", "note": "Foundation laid; weeping and shouting together" },
+      { "ref": "Haggai 2:23", "note": "Zerubbabel named as God's signet ring" },
+      { "ref": "Zechariah 4:6–10", "note": "Not by might but by my Spirit" }
+    ],
+    "relationships": [
+      { "characterId": "haggai", "type": "Companion", "description": "Prophet who urged him to resume the temple construction after sixteen years of delay." },
+      { "characterId": "zechariah-prophet", "type": "Companion", "description": "Prophesied the completion of the temple through his hands." },
+      { "characterId": "ezra", "type": "Predecessor", "description": "Led the first return of exiles which Ezra's own later mission built upon." },
+      { "characterId": "nehemiah", "type": "Predecessor", "description": "His governorship made possible the later work of Nehemiah in Jerusalem." }
+    ]
+  },
+  {
+    "id": "haggai",
+    "name": "Haggai",
+    "fullName": "Haggai the prophet",
+    "description": "Post-exilic prophet who rebuked the returned exiles for building their own houses while the temple lay in ruins.",
+    "period": "late 6th century BC (active 520 BC)",
+    "birthplace": "unknown",
+    "locations": ["Jerusalem"],
+    "birthYear": -570,
+    "biography": [
+      "Haggai prophesied in Jerusalem in 520 BC, the second year of King Darius, in a ministry of remarkable precision: his four messages are dated to the exact month and day. The situation he addressed was straightforward and uncomfortable: the returned exiles were living in paneled houses while the house of God lay in ruins. 'Consider your ways,' he said. 'You have sown much and harvested little; you eat but you never have enough; you drink but you never have your fill.'",
+      "The call to rebuild the temple was met with excuses — it was not the right time, they said. Haggai's response was to turn the logic of their condition into prophecy: the heavens have withheld their dew and the earth its produce because you are running to your own houses and neglecting mine. He promised that if they obeyed, God would take pleasure in the rebuilt temple and would be glorified. Zerubbabel the governor and Jeshua the high priest led the people to respond and the work was resumed within the month.",
+      "His second message addressed discouragement: the new temple looked like nothing compared to Solomon's, and the old men who remembered it perhaps wept. Haggai told them to take courage — the glory of the latter house would exceed the glory of the former. He addressed Zerubbabel as God's chosen servant, a signet ring, the beginning of a reversal of the judgment on his grandfather. His book is short — two chapters — but its pastoral directness had immediate results."
+    ],
+    "references": [
+      { "ref": "Haggai 1:1–15", "note": "The call to rebuild; Zerubbabel responds" },
+      { "ref": "Haggai 2:6–9", "note": "The glory of the latter house" },
+      { "ref": "Haggai 2:20–23", "note": "Zerubbabel as God's signet ring" }
+    ],
+    "relationships": [
+      { "characterId": "zerubbabel", "type": "Companion", "description": "The governor he urged to resume the temple construction." },
+      { "characterId": "zechariah-prophet", "type": "Companion", "description": "Fellow post-exilic prophet who prophesied alongside him in the same year." }
+    ]
+  },
+  {
+    "id": "zechariah-prophet",
+    "name": "Zechariah",
+    "fullName": "Zechariah, son of Berechiah",
+    "description": "Post-exilic prophet of eight night visions who saw the restoration of Jerusalem and the coming of a humble king on a donkey.",
+    "period": "late 6th century BC (active c. 520–518 BC)",
+    "birthplace": "unknown (priestly lineage; returned from Babylon)",
+    "locations": ["Jerusalem"],
+    "birthYear": -565,
+    "biography": [
+      "Zechariah was a priest and prophet who began his ministry in the same year as Haggai, the second year of Darius. He received a series of eight night visions that constitute one of the most complex symbolic sequences in the Old Testament: a man among the myrtle trees, four horns and four craftsmen, a man with a measuring line, a heavenly court cleansing the high priest Joshua, a golden lampstand flanked by two olive trees, a flying scroll, a woman in a basket, and four chariots of the four winds. Together they proclaimed that Jerusalem would be rebuilt and that God's purposes had not been abandoned.",
+      "He delivered a message to Zerubbabel that has become one of the most quoted lines from the minor prophets: 'Not by might, nor by power, but by my Spirit, says the Lord of hosts.' He foresaw the stone with seven eyes laid before Joshua, the Branch who would rebuild the temple, and a day when many nations would seek the Lord in Jerusalem.",
+      "The second part of his book — chapters 9 through 14 — shifts to a more apocalyptic register and has been heavily read by the early church as prophecy of Christ. It contains the oracle that Jesus enacted at the triumphal entry: 'your king is coming to you, righteous and having salvation, humble and mounted on a donkey.' And the dark word: 'they will look on me, the one they have pierced, and they will mourn.' John and Revelation would both invoke Zechariah at the crucifixion and the last days."
+    ],
+    "references": [
+      { "ref": "Zechariah 4:6", "note": "Not by might nor by power" },
+      { "ref": "Zechariah 9:9", "note": "Your king comes on a donkey" },
+      { "ref": "Zechariah 12:10", "note": "They will look on me whom they have pierced" }
+    ],
+    "relationships": [
+      { "characterId": "haggai", "type": "Companion", "description": "Fellow prophet who ministered alongside him during the temple rebuilding." },
+      { "characterId": "zerubbabel", "type": "Companion", "description": "The governor whose hands would complete the temple according to his prophecy." },
+      { "characterId": "jesus", "type": "Successor", "description": "His prophecy of the humble king on a donkey was enacted at the triumphal entry." }
+    ]
+  },
+  {
+    "id": "malachi",
+    "name": "Malachi",
+    "fullName": "Malachi the prophet",
+    "description": "Last of the Old Testament prophets, whose six disputes with a complacent community ended with the promise of a coming Elijah.",
+    "period": "5th century BC (c. 450–400 BC)",
+    "birthplace": "unknown",
+    "locations": ["Jerusalem"],
+    "birthYear": -480,
+    "biography": [
+      "Malachi — whose name means 'my messenger' — prophesied in the generation after Ezra and Nehemiah, when the restored community had settled back into the spiritual negligence the reforms had sought to correct. His book is structured as six disputes, in each of which he states a charge and the people respond with denial. 'How have you loved us?' they ask, and he answers through history. 'How have we wearied you?' they ask, and he answers through their words.",
+      "The charges were precise: priests were offering blind, lame, and sick animals that they would not dare present to their Persian governor, let alone to God. Men were divorcing the wives of their youth to marry foreign women. People were robbing God in tithes and offerings. They had grown weary of divine service and thought evildoers were the ones who really prospered. The tone throughout is of a community that has not broken publicly from God but has drifted into a quiet contempt for him.",
+      "The book ends with two promises and a warning. A messenger would come to prepare the way; then suddenly the Lord himself would come to his temple. And before the great and dreadful day of the Lord, God would send the prophet Elijah. The four-hundred-year silence between the Testaments begins after this verse. When the New Testament opens, John the Baptist comes, and Jesus immediately identifies him as the Elijah whom Malachi had promised."
+    ],
+    "references": [
+      { "ref": "Malachi 1:6–14", "note": "The profanity of the priests' offerings" },
+      { "ref": "Malachi 3:1", "note": "I will send my messenger to prepare the way" },
+      { "ref": "Malachi 4:5–6; Matthew 11:14", "note": "The promise of Elijah; Jesus identifies it with John" }
+    ],
+    "relationships": [
+      { "characterId": "ezra", "type": "Companion", "description": "Later contemporary who ministered in the same generation of the restored community." },
+      { "characterId": "elijah", "type": "Predecessor", "description": "Promised that one in the spirit of Elijah would come before the great day of the Lord." }
+    ]
+  },
+  {
+    "id": "jonah",
+    "name": "Jonah",
+    "fullName": "Jonah, son of Amittai",
+    "description": "Prophet who fled God's call to preach to Nineveh.",
+    "period": "8th century BC",
+    "birthplace": "Gath-hepher, Galilee",
+    "locations": ["Gath-hepher", "Joppa", "the belly of the great fish", "Nineveh"],
+    "birthYear": -790,
+    "biography": [
+      "Told by God to go east and preach against Nineveh — the capital of an empire infamous for cruelty — Jonah boarded a ship sailing west to Tarshish, the farthest known port in the opposite direction. A storm overtook the ship; the sailors, drawing lots, discovered he was the cause and at his own insistence threw him overboard.",
+      "A great fish swallowed him. From its belly he prayed. After three days and nights it spat him out on dry land. He walked east this time and delivered the shortest, sourest sermon in scripture: 'forty days more, and Nineveh shall be overthrown.' The whole city, from king to cattle, repented. God relented.",
+      "Jonah was furious. He had not wanted Nineveh saved — he had known, he says, that God was gracious and slow to anger and merciful, and that was the trouble. The book ends with God asking him a question about a withered plant and a city of a hundred and twenty thousand people who did not know their right hand from their left, and does not record his answer."
+    ],
+    "references": [
+      { "ref": "Jonah 1–2", "note": "The storm and the great fish" },
+      { "ref": "Jonah 3", "note": "The repentance of Nineveh" },
+      { "ref": "Matthew 12:38–41", "note": "The sign of Jonah" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Successor", "description": "His three days in the great fish was a sign of the resurrection." }
+    ]
+  },
+  {
+    "id": "amos",
+    "name": "Amos",
+    "fullName": "Amos of Tekoa",
+    "description": "Shepherd-prophet of the southern hill country sent north to denounce the wealthy.",
+    "period": "8th century BC (active c. 760–750 BC)",
+    "birthplace": "Tekoa, in Judah",
+    "locations": ["Tekoa", "Bethel", "Samaria"],
+    "birthYear": -790,
+    "biography": [
+      "Amos was a shepherd and dresser of sycamore figs from Tekoa, ten miles south of Jerusalem. The Lord sent him north into the prosperous kingdom of Israel during the reign of Jeroboam II, when the rich slept on ivory beds and trampled the poor for a pair of sandals.",
+      "He opened with judgments on the surrounding nations — Damascus, Gaza, Tyre, Edom, Ammon, Moab — and then, when his hearers were nodding along, turned and announced judgment on Israel itself. Five visions of judgment followed: locusts, fire, a plumb line, a basket of summer fruit, the Lord by the altar.",
+      "Amaziah, priest of Bethel, ordered him back to Judah to prophesy there for his bread. Amos answered that he was no professional prophet, no prophet's son, just a herdsman summoned by the Lord. Then he delivered the most famous line of his book: 'let justice roll down like waters and righteousness like an ever-flowing stream.'"
+    ],
+    "references": [
+      { "ref": "Amos 5:24", "note": "Let justice roll down like waters" },
+      { "ref": "Amos 7:10–17", "note": "Amaziah at Bethel" },
+      { "ref": "Amos 9:11–15", "note": "I will raise up the booth of David" }
+    ],
+    "relationships": [
+      { "characterId": "hosea", "type": "Companion", "description": "Contemporary prophet to the northern kingdom." }
+    ]
+  },
+  {
+    "id": "hosea",
+    "name": "Hosea",
+    "fullName": "Hosea, son of Beeri",
+    "description": "Prophet commanded to marry an unfaithful wife as a sign of God's love for Israel.",
+    "period": "8th century BC (active c. 755–725 BC)",
+    "birthplace": "the northern kingdom of Israel",
+    "locations": ["Samaria", "Jezreel"],
+    "birthYear": -785,
+    "biography": [
+      "Take to yourself a wife of whoredom and have children of whoredom, the Lord said — 'for the land commits great whoredom by forsaking the Lord.' Hosea married Gomer. She bore three children whose names were prophetic acts: Jezreel ('God scatters'), Lo-ruhamah ('not pitied'), Lo-ammi ('not my people').",
+      "Gomer left him. Hosea bought her back from a slave block for fifteen shekels and a homer of barley — about half the price of a slave. The personal anguish became the prophet's most piercing image. 'How can I give you up, O Ephraim?' the Lord cries. 'My heart recoils within me; my compassion grows warm and tender.'",
+      "He prophesied through the long decline of the northern kingdom, before its fall to Assyria in 722 BC. His oracles thread judgment with the most tender lines in the prophetic books: 'I will heal their apostasy; I will love them freely.' Matthew would later read Hosea's line about a son called out of Egypt as a prophecy of Christ."
+    ],
+    "references": [
+      { "ref": "Hosea 1", "note": "Marriage to Gomer and the naming of the children" },
+      { "ref": "Hosea 3:1–3", "note": "Buying her back" },
+      { "ref": "Hosea 11:1; Matthew 2:15", "note": "Out of Egypt I called my son" }
+    ],
+    "relationships": [
+      { "characterId": "amos", "type": "Companion", "description": "Contemporary prophet to the northern kingdom." }
+    ]
+  },
+  {
+    "id": "micah",
+    "name": "Micah",
+    "fullName": "Micah of Moresheth",
+    "description": "Country prophet whose three short lines still summarize the prophets: justice, mercy, humility.",
+    "period": "8th century BC (active c. 735–700 BC)",
+    "birthplace": "Moresheth-gath, in Judah",
+    "locations": ["Moresheth-gath", "Jerusalem"],
+    "birthYear": -750,
+    "biography": [
+      "Micah came from a small town in the Judean foothills, a few miles southwest of Jerusalem. He prophesied in the days of Jotham, Ahaz, and Hezekiah — through the Assyrian destruction of the northern kingdom — and his oracles cut against the urban elite of both capitals, Samaria and Jerusalem.",
+      "He saw the rulers and prophets selling their work for money, taking bribes, and announcing peace where there was none. He answered with judgment, and with a quiet vision of a coming ruler from Bethlehem Ephrathah, 'whose coming forth is from of old, from ancient days.' Matthew would name the line as Herod's chief priests cited it: this is where the Messiah is to be born.",
+      "The most quoted line from Micah is also one of the simplest in the Hebrew Bible: 'he has shown you, O man, what is good; and what does the Lord require of you but to do justice, and to love mercy, and to walk humbly with your God.' Three verbs that have stood as a summary of prophetic religion ever since."
+    ],
+    "references": [
+      { "ref": "Micah 5:2", "note": "Bethlehem Ephrathah" },
+      { "ref": "Micah 6:8", "note": "Do justice, love mercy, walk humbly" },
+      { "ref": "Matthew 2:6", "note": "Quoted to Herod by the chief priests" }
+    ],
+    "relationships": [
+      { "characterId": "isaiah", "type": "Companion", "description": "Older contemporary in Jerusalem during the Assyrian crisis." }
+    ]
+  },
+  {
+    "id": "zephaniah",
+    "name": "Zephaniah",
+    "fullName": "Zephaniah, son of Cushi",
+    "description": "Prophet of royal descent who announced the Day of the Lord with scorching intensity and then turned to a vision of the remnant's joy.",
+    "period": "7th century BC (active c. 640–625 BC)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem"],
+    "birthYear": -650,
+    "biography": [
+      "Zephaniah traced his lineage back four generations to Hezekiah — almost certainly the reforming king — making him the only prophet we know to have been of royal blood. He prophesied in the days of Josiah, early in the reign before the great reform, when Jerusalem still showed the marks of Manasseh's long apostasy. The city was full of those who swore by Baal and those who swore by the Lord; the princes were like roaring lions and evening wolves; the prophets were wanton and faithless.",
+      "His opening chapters are among the most intense announcements of judgment in the Old Testament. The Day of the Lord would consume everything: humans and animals, birds and fish, the idolaters and the complacent ones who said in their hearts that the Lord would do neither good nor harm. The Latin version of one verse — dies irae, dies illa, a day of wrath, a day of darkness and gloom — became the lyric of medieval requiem masses, the song sung over the dead for a thousand years.",
+      "But the book does not end in ash. In chapter 3 the voice shifts: 'Sing aloud, O daughter of Zion; shout, O Israel! Rejoice and exult with all your heart, O daughter of Jerusalem! The Lord has taken away the judgments against you.' God himself will rejoice over his people with gladness and quiet them with his love and exult over them with loud singing — the most tender image of God's delight in his people in any of the prophets."
+    ],
+    "references": [
+      { "ref": "Zephaniah 1:14–18", "note": "The great day of the Lord — the dies irae" },
+      { "ref": "Zephaniah 2:3", "note": "Seek the Lord; seek righteousness; seek humility" },
+      { "ref": "Zephaniah 3:14–17", "note": "The Lord rejoices over his people with singing" }
+    ],
+    "relationships": [
+      { "characterId": "josiah", "type": "Companion", "description": "Prophesied early in his reign, perhaps contributing to the atmosphere of the great reform." },
+      { "characterId": "hezekiah", "type": "Ancestor", "description": "The reforming king four generations back from whom he traced his royal descent." },
+      { "characterId": "jeremiah", "type": "Companion", "description": "Younger contemporary who continued prophesying through the period Zephaniah helped initiate." }
+    ]
+  }
+]
