@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import {
   BrowserRouter,
   NavLink,
@@ -45,6 +46,7 @@ function NavBar() {
   }, [open]);
 
   return (
+    <>
     <header className={`nav${open ? ' nav--menu-open' : ''}`}>
       <div className="nav__inner">
         <Link className="logo" to="/" aria-label="Selah home">
@@ -79,6 +81,9 @@ function NavBar() {
         </button>
       </div>
 
+    </header>
+
+    {createPortal(
       <div
         className={`nav__overlay${open ? ' nav__overlay--open' : ''}`}
         role="dialog"
@@ -99,8 +104,10 @@ function NavBar() {
             </NavLink>
           ))}
         </nav>
-      </div>
-    </header>
+      </div>,
+      document.body
+    )}
+    </>
   );
 }
 
