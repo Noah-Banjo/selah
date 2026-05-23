@@ -5,6 +5,7 @@ import characters from '../data/characters.json';
 import { findLocationByLabel } from '../data/locationLookup';
 import { categorize } from '../data/relationshipCategories';
 import { useBookmarks } from '../hooks/useBookmarks';
+import { useNote } from '../hooks/useNotes';
 
 const charactersById = characters.reduce((acc, c) => {
   acc[c.id] = c;
@@ -25,6 +26,7 @@ function CharacterProfilePage() {
   const [toast, setToast] = useState(null);
   const { toggle, isBookmarked } = useBookmarks();
   const bookmarked = character ? isBookmarked(character.id) : false;
+  const { text: note, update: updateNote } = useNote(id);
 
   const handleShare = async () => {
     try {
@@ -224,6 +226,27 @@ function CharacterProfilePage() {
             </div>
           </div>
         )}
+
+        <div className="profile__section profile__notes-section">
+          <h2 className="profile__section-title">My Notes</h2>
+          <textarea
+            className="profile__notes"
+            placeholder={`Your personal notes on ${character.name}…`}
+            value={note}
+            onChange={(e) => updateNote(e.target.value)}
+            aria-label={`Personal notes about ${character.name}`}
+            rows={5}
+          />
+          {note && (
+            <button
+              type="button"
+              className="profile__notes-clear"
+              onClick={() => updateNote('')}
+            >
+              Clear notes
+            </button>
+          )}
+        </div>
       </div>
     </section>
   );
