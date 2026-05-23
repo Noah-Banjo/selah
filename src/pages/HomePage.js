@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { WelcomeOverlay } from '../components/WelcomeOverlay';
 import characters from '../data/characters.json';
 import locations from '../data/locations.json';
 import words from '../data/words.json';
@@ -123,6 +124,7 @@ function HomePage() {
 
   return (
     <>
+      <WelcomeOverlay />
       <Helmet>
         <title>Selah — Explore the Biblical World</title>
         <meta name="description" content="An interactive atlas of the biblical world. Explore maps, characters, timelines, and original Hebrew and Greek words." />
