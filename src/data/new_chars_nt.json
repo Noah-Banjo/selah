@@ -1,0 +1,671 @@
+[
+  {
+    "id": "jesus",
+    "name": "Jesus",
+    "fullName": "Jesus of Nazareth",
+    "description": "The central figure of the New Testament — teacher, healer, and the one whom his followers proclaimed risen from the dead.",
+    "period": "New Testament era (c. 4 BC – c. 30 AD)",
+    "birthplace": "Bethlehem, Judea",
+    "locations": ["Bethlehem", "Egypt", "Nazareth", "Capernaum", "Jerusalem", "Judea", "Galilee", "Samaria"],
+    "birthYear": -4,
+    "biography": [
+      "Born in Bethlehem during the reign of Herod the Great, Jesus grew up in Nazareth of Galilee as the son of Mary and her husband Joseph, a carpenter. His birth was announced by angels and witnessed by shepherds and, shortly after, by magi from the east. After a period in Egypt to escape Herod's violence, the family returned and settled in Nazareth, where he lived in obscurity for three decades. At twelve he was already remarkable, sitting among the teachers in the Jerusalem temple, asking and answering questions that astonished them.",
+      "Around 27 or 28 AD he came to his cousin John at the Jordan to be baptized, and began a ministry that lasted roughly three years. He called twelve disciples, taught in synagogues and on hillsides, healed the sick, gave sight to the blind, and raised the dead. His teaching — gathered in the Sermon on the Mount, the parables, and his debates with religious leaders — turned the religious assumptions of his day inside out: the last would be first, the meek would inherit the earth, sinners and outcasts had a place at the table. He described his mission as bringing the kingdom of God near, and he claimed for himself an authority that his followers understood to be divine.",
+      "He was arrested in Jerusalem during the Passover, tried before the Jewish council and the Roman prefect Pontius Pilate, crucified outside the city walls, and buried. Three days later, by the witness of his followers, he was raised. He appeared to Mary Magdalene, to the Twelve, to more than five hundred people, and finally, forty days after the resurrection, ascended from the Mount of Olives. The church he left behind carried his name and his message across the known world within a generation. His life, death, and resurrection became the hinge of history on which two millennia of faith have turned."
+    ],
+    "references": [
+      { "ref": "Luke 2:1–20", "note": "Birth in Bethlehem" },
+      { "ref": "Matthew 5–7", "note": "The Sermon on the Mount" },
+      { "ref": "John 20:1–18", "note": "The resurrection and appearance to Mary Magdalene" }
+    ],
+    "relationships": [
+      { "characterId": "mary-mother", "type": "Mother", "description": "Born of her in Bethlehem; she followed him through ministry to the cross." },
+      { "characterId": "joseph-father", "type": "Father", "description": "Adoptive father who protected him in infancy and raised him as a carpenter's son." },
+      { "characterId": "john-the-baptist", "type": "Relative", "description": "Cousin who baptized him and prepared the way for his ministry." },
+      { "characterId": "peter", "type": "Disciple", "description": "Chief among the Twelve, whom he named the rock on which the church would be built." },
+      { "characterId": "mary-magdalene", "type": "Companion", "description": "Devoted follower to whom he first appeared after the resurrection." },
+      { "characterId": "judas-iscariot", "type": "Disciple", "description": "One of the Twelve who betrayed him for thirty pieces of silver." },
+      { "characterId": "lazarus", "type": "Friend", "description": "Friend whom he raised from the dead after four days in the tomb." },
+      { "characterId": "david", "type": "Ancestor", "description": "His Davidic lineage fulfills the messianic promises of the Hebrew scriptures." },
+      { "characterId": "abraham", "type": "Ancestor", "description": "The seed promised to Abraham in whom all nations would be blessed." },
+      { "characterId": "melchizedek", "type": "Predecessor", "description": "The Letter to the Hebrews identifies his priesthood as being after the order of Melchizedek." }
+    ]
+  },
+  {
+    "id": "mary-mother",
+    "name": "Mary",
+    "fullName": "Mary of Nazareth",
+    "description": "Young woman of Galilee who said yes to the angel's announcement and bore, raised, and outlived Jesus of Nazareth.",
+    "period": "New Testament era (c. 20 BC – c. 41 AD)",
+    "birthplace": "Nazareth, Galilee",
+    "locations": ["Nazareth", "Bethlehem", "Egypt", "Jerusalem", "Cana", "Ephesus"],
+    "birthYear": -20,
+    "biography": [
+      "Mary was a young woman of Nazareth, betrothed to Joseph the carpenter, when the angel Gabriel appeared to her with an announcement that would reshape the world. Her response — 'let it be to me according to your word' — has been read for two thousand years as a model of faith under impossible circumstances. The child she conceived was born not in a house but in a manger in Bethlehem, welcomed by shepherds and later by magi who followed a star. Within months, Joseph had bundled the family to Egypt after another angelic warning; they returned only after Herod's death.",
+      "She appears at intervals throughout her son's public ministry: she was with him at the wedding in Cana where he turned water into wine, prompting his first recorded miracle; she traveled with the company that followed him through Galilee; and she stood at the foot of the cross, watching him die. From the cross Jesus entrusted her to the care of the beloved disciple. She is listed among those gathered in the upper room at Pentecost, present at the birth of the church as she had been at the birth of its founder.",
+      "Her song — the Magnificat, sung to her cousin Elizabeth — is among the most ancient hymns in the Christian tradition. It speaks of a God who scatters the proud, pulls down the mighty, and fills the hungry with good things. Tradition places her later years in Ephesus under the care of John. She is remembered above all for the quality of her consent: hearing what no woman had ever been asked, she said yes."
+    ],
+    "references": [
+      { "ref": "Luke 1:26–56", "note": "The Annunciation and the Magnificat" },
+      { "ref": "John 2:1–5", "note": "Prompts the miracle at Cana" },
+      { "ref": "John 19:25–27", "note": "At the foot of the cross" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Son", "description": "Bore him in Bethlehem; followed him through ministry and stood at his cross." },
+      { "characterId": "joseph-father", "type": "Husband", "description": "The carpenter who protected her and the child through the years in Nazareth." },
+      { "characterId": "john-the-baptist", "type": "Relative", "description": "Her cousin Elizabeth's son, whose leaping in the womb greeted her visit." },
+      { "characterId": "john-zebedee", "type": "Companion", "description": "Entrusted with her care by Jesus from the cross." },
+      { "characterId": "david", "type": "Ancestor", "description": "Her lineage traces to the house of David, fulfilling messianic expectation." }
+    ]
+  },
+  {
+    "id": "joseph-father",
+    "name": "Joseph",
+    "fullName": "Joseph of Nazareth",
+    "description": "Carpenter of Nazareth and adoptive father of Jesus, a righteous man who sheltered the Holy Family through its most vulnerable years.",
+    "period": "New Testament era (c. 40 BC – c. 10 AD)",
+    "birthplace": "Bethlehem, Judea",
+    "locations": ["Bethlehem", "Egypt", "Nazareth", "Jerusalem"],
+    "birthYear": -40,
+    "biography": [
+      "Joseph was a carpenter of Nazareth who belonged to the line of David. He was betrothed to Mary when she returned from her cousin Elizabeth's home carrying a child he had not fathered. Unwilling to disgrace her publicly, he resolved to divorce her quietly — until an angel appeared to him in a dream and told him the child was of the Holy Spirit. He took Mary as his wife, named the child Jesus as instructed, and by that act of naming made Jesus his legal son and heir to the Davidic line.",
+      "He was a man of action expressed through obedience to dreams. Three times an angel spoke to him in sleep and three times he rose and moved the family accordingly: first to Bethlehem to register for the census, then in the night to Egypt when Herod's men were coming for the infant, and then back to Israel when the danger had passed. He settled the family in Nazareth of Galilee and raised Jesus in his trade. When the twelve-year-old Jesus was found debating teachers in the Jerusalem temple, it was Joseph and Mary who had searched for him three days in anguish.",
+      "After that Passover account, Joseph disappears from the Gospels entirely. He is absent from Jesus's ministry, absent from the cross, and absent from the resurrection. Tradition has long concluded that he died before Jesus's public work began — a quiet craftsman who gave the Son of God a human family, a legal lineage, and a trade, and then stepped out of the story."
+    ],
+    "references": [
+      { "ref": "Matthew 1:18–25", "note": "Dream, betrothal, and naming of Jesus" },
+      { "ref": "Matthew 2:13–23", "note": "Flight to Egypt and return to Nazareth" },
+      { "ref": "Luke 2:41–52", "note": "The boy Jesus in the temple" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Son", "description": "Adoptive father who gave him the lineage of David and the trade of a carpenter." },
+      { "characterId": "mary-mother", "type": "Wife", "description": "The woman he chose to protect rather than disgrace when he did not understand her pregnancy." },
+      { "characterId": "david", "type": "Ancestor", "description": "The line through which he gave Jesus the legal right to the throne of Israel." }
+    ]
+  },
+  {
+    "id": "john-the-baptist",
+    "name": "John the Baptist",
+    "fullName": "John the Baptizer, son of Zechariah",
+    "description": "Desert prophet and forerunner of Jesus who prepared the way by calling Israel to repentance and baptizing in the Jordan.",
+    "period": "New Testament era (c. 5 BC – c. 29 AD)",
+    "birthplace": "Judean hill country",
+    "locations": ["Judean wilderness", "the Jordan River", "Machaerus"],
+    "birthYear": -5,
+    "biography": [
+      "John was born to Zechariah the priest and Elizabeth, an elderly couple who had prayed their whole lives for a child. Gabriel announced his birth to Zechariah in the temple; Zechariah doubted and was struck mute until the naming day. His birth was six months before Jesus's, his mother a relative of Mary's. He grew up in the wilderness and emerged as a public figure in the mode of Elijah — dressed in camel's hair, living on locusts and wild honey, baptizing in the Jordan and calling the crowds to repentance in preparation for one who was coming after him.",
+      "When Jesus came to the Jordan and asked to be baptized, John recognized him and demurred: 'I need to be baptized by you.' Jesus insisted, and at his baptism the Spirit descended as a dove and a voice from heaven spoke over him. John continued his ministry until his confrontation with Herod Antipas over the king's illegal marriage to his brother's wife, Herodias. For this boldness he was arrested and imprisoned at the fortress of Machaerus.",
+      "From prison he sent messengers to Jesus asking whether he was the one to come, or whether they should wait for another. Jesus's answer pointed to the works: the blind see, the lame walk, the dead are raised, the poor hear good news. Herodias's daughter danced at Herod's birthday feast; as reward she was offered anything she wanted and, prompted by her mother, asked for John's head on a platter. Jesus would call him the greatest of those born of women — and the one in whom the spirit of Elijah had come."
+    ],
+    "references": [
+      { "ref": "Luke 1:57–80", "note": "Birth and Zechariah's blessing" },
+      { "ref": "Matthew 3:1–17", "note": "His ministry and the baptism of Jesus" },
+      { "ref": "Mark 6:17–29", "note": "Imprisonment and death at Herod's feast" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Relative", "description": "Cousin who baptized him and whose coming he spent his life preparing." },
+      { "characterId": "mary-mother", "type": "Relative", "description": "His mother Elizabeth was a relative of Mary, connecting the two families." },
+      { "characterId": "peter", "type": "Companion", "description": "Peter and Andrew were among those who moved from his movement to follow Jesus." }
+    ]
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "fullName": "Simon Peter, son of Jonah",
+    "description": "Fisherman from Galilee who became the leading apostle — bold, impulsive, and ultimately the foundational voice of the early church.",
+    "period": "New Testament era (c. 1 BC – c. 64 AD)",
+    "birthplace": "Bethsaida, Galilee",
+    "locations": ["Bethsaida", "Capernaum", "Jerusalem", "Antioch", "Rome"],
+    "birthYear": -1,
+    "biography": [
+      "Simon was a fisherman working the Sea of Galilee with his brother Andrew when Jesus walked along the shore and called them both. Jesus renamed him Cephas — in Greek, Petros, Peter, the rock — a name that came to define the role he would play. He was among the innermost three, present at the Transfiguration, first to confess that Jesus was the Messiah, and first to rebuke him when he spoke of suffering and death. His passion ran ahead of his judgment: he drew a sword in Gethsemane, cut off a servant's ear, and then by a charcoal fire in the high priest's courtyard denied three times that he had ever known the man.",
+      "After the resurrection, Jesus met him on the beach with a charcoal fire and three questions — do you love me? — one for each denial. He was restored, and the restoration held. On the day of Pentecost he stood before a Jerusalem crowd and preached the risen Christ; three thousand were baptized that day. He healed a lame man at the Beautiful Gate, stood before the Sanhedrin, carried the gospel to Cornelius the Gentile, and was imprisoned and miraculously released. Paul would confront him at Antioch over his inconsistency with Gentile believers — a sign that the first leader of the church was also its most human.",
+      "Tradition holds that he was crucified in Rome under Nero, requesting to be crucified upside down as he considered himself unworthy to die as his Lord died. Two letters bear his name; he is the source behind the Gospel of Mark. The church built on his testimony has never stopped debating which of his qualities defines him — the denial, the restoration, or the fire."
+    ],
+    "references": [
+      { "ref": "Matthew 16:13–19", "note": "The confession at Caesarea Philippi; you are the rock" },
+      { "ref": "Luke 22:54–62", "note": "The three denials by the fire" },
+      { "ref": "John 21:15–19", "note": "Restored by the risen Christ on the lakeshore" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Called him from fishing, renamed him the rock, and restored him after his denial." },
+      { "characterId": "andrew", "type": "Brother", "description": "Fishing partner and brother who first brought him to Jesus." },
+      { "characterId": "john-zebedee", "type": "Friend", "description": "Ran with him to the empty tomb and part of the inner three." },
+      { "characterId": "james-zebedee", "type": "Friend", "description": "Fellow member of the inner three who witnessed the Transfiguration." },
+      { "characterId": "barnabas", "type": "Companion", "description": "Colleague in the Jerusalem church; present at the conflict with Paul at Antioch." }
+    ]
+  },
+  {
+    "id": "andrew",
+    "name": "Andrew",
+    "fullName": "Andrew, son of Jonah",
+    "description": "Fisherman and first-called disciple who consistently brought others to Jesus.",
+    "period": "New Testament era (c. 5 BC – c. 60 AD)",
+    "birthplace": "Bethsaida, Galilee",
+    "locations": ["Bethsaida", "Capernaum", "Jerusalem", "the Jordan River"],
+    "birthYear": -5,
+    "biography": [
+      "Andrew was a fisherman from Bethsaida on the Sea of Galilee, working alongside his brother Simon. Before following Jesus, he had been a disciple of John the Baptist, and it was at the Jordan, in the school of John's movement, that he first encountered Jesus. John pointed and said, 'Behold the Lamb of God,' and Andrew followed. His first act upon meeting Jesus was to find his brother Simon and bring him — 'We have found the Messiah' — an instinct for invitation that marks his every appearance in the Gospels.",
+      "Andrew is one of the Twelve but is not among the inner three who witness the Transfiguration or the agony in Gethsemane. He appears rather in connecting moments: he is the disciple who points out the boy with five loaves and two fish before the feeding of the five thousand; he and Philip bring the inquiring Greeks to Jesus; he asks Jesus privately, with three others, about the signs of the end. He is always bringing someone, or something, to Jesus and standing back.",
+      "Tradition holds that he carried the gospel to Scythia, Greece, and Asia Minor, and was crucified on an X-shaped cross at Patras in Achaia — which became known as the St. Andrew's Cross and gave Scotland its national symbol. He is venerated as the patron of Scotland and Russia. His legacy is the theology of the introduction: not seeking a stage, but making the connection."
+    ],
+    "references": [
+      { "ref": "John 1:35–42", "note": "First called; brings Simon to Jesus" },
+      { "ref": "John 6:8–9", "note": "Points out the boy with loaves and fish" },
+      { "ref": "John 12:20–22", "note": "Brings the Greeks to Jesus with Philip" }
+    ],
+    "relationships": [
+      { "characterId": "peter", "type": "Brother", "description": "Older or younger brother whom he brought to Jesus — his most consequential introduction." },
+      { "characterId": "jesus", "type": "Mentor", "description": "The one he found at the Jordan and followed for the rest of his life." },
+      { "characterId": "john-the-baptist", "type": "Teacher", "description": "His first teacher, who pointed him toward Jesus." },
+      { "characterId": "philip-deacon", "type": "Companion", "description": "Brought the inquiring Greeks to Jesus together with him." }
+    ]
+  },
+  {
+    "id": "james-zebedee",
+    "name": "James",
+    "fullName": "James, son of Zebedee",
+    "description": "Galilean fisherman and apostle, one of Jesus's inner three, and the first of the Twelve to be martyred.",
+    "period": "New Testament era (c. 3 BC – c. 44 AD)",
+    "birthplace": "Bethsaida or Capernaum, Galilee",
+    "locations": ["Galilee", "Jerusalem", "the Sea of Galilee", "Mount Tabor"],
+    "birthYear": -3,
+    "biography": [
+      "James and his brother John were mending their fishing nets with their father Zebedee on the Sea of Galilee when Jesus called them. They left the boat and their father in a single moment. Jesus named the brothers Boanerges — sons of thunder — a nickname that captured something of their temperament. They once asked Jesus if he wanted them to call fire down from heaven on an inhospitable Samaritan village; they sent their mother to ask Jesus for the seats of highest honor in his coming kingdom. They were bold, ambitious, and devoted.",
+      "James was part of the inner circle of three — with Peter and his brother John — who alone witnessed the raising of Jairus's daughter, the glory of the Transfiguration, and the anguish of Gethsemane. He saw things most of the disciples never saw, and that privilege carried its cost. In Gethsemane he slept while Jesus prayed. After the resurrection and Pentecost, he remained a leader in the Jerusalem church.",
+      "He was the first of the Twelve to be martyred. King Herod Agrippa I, seeking to please the Jewish leaders, had James executed by the sword — a brief notice in Acts 12 that ends a life the Gospels treat as central. He died perhaps twelve to fifteen years after the crucifixion. Tradition carried his remains to Santiago de Compostela in Spain, where the cathedral bearing his name became one of the great pilgrimage destinations of the medieval world."
+    ],
+    "references": [
+      { "ref": "Mark 1:19–20", "note": "Called from the boat with his brother" },
+      { "ref": "Mark 9:2–8", "note": "Present at the Transfiguration" },
+      { "ref": "Acts 12:1–2", "note": "Executed by Herod Agrippa" }
+    ],
+    "relationships": [
+      { "characterId": "john-zebedee", "type": "Brother", "description": "His brother and fishing partner, also called by Jesus and part of the inner three." },
+      { "characterId": "jesus", "type": "Mentor", "description": "Called him from the nets and made him one of the innermost three." },
+      { "characterId": "peter", "type": "Friend", "description": "Fellow member of the inner three, present at the Transfiguration and Gethsemane." }
+    ]
+  },
+  {
+    "id": "john-zebedee",
+    "name": "John",
+    "fullName": "John, son of Zebedee",
+    "description": "Fisherman, evangelist, and the disciple whom Jesus loved, author of Gospel and letters bearing his name and of the book of Revelation.",
+    "period": "New Testament era (c. 6 BC – c. 100 AD)",
+    "birthplace": "Bethsaida or Capernaum, Galilee",
+    "locations": ["Galilee", "Jerusalem", "Samaria", "Ephesus", "Patmos"],
+    "birthYear": -6,
+    "biography": [
+      "John and his brother James — sons of Zebedee, called by Jesus the 'sons of thunder' — were fishermen on the Sea of Galilee when they were called to follow. He became one of the inner three with Peter and James, present at the raising of Jairus's daughter, at the Transfiguration, and in the garden of Gethsemane. His Gospel, written in a different register from the other three, never names him directly; it describes him only as 'the disciple whom Jesus loved,' a phrase that reads less like favoritism than like a man who had learned to define himself entirely by being loved.",
+      "He was the only male disciple standing at the foot of the cross. From the cross Jesus looked down at him and at his mother: 'Behold your son. Behold your mother.' He took her into his own home from that hour. He ran with Peter to the empty tomb on the resurrection morning, stooped to look in, and believed. After Pentecost he ministered in Jerusalem and Samaria with Peter; Paul lists him, along with Peter and James the Lord's brother, as a pillar of the Jerusalem church.",
+      "Tradition places his later decades in Ephesus, where he cared for the church and for Mary until her death. Under the emperor Domitian he was exiled to the rocky island of Patmos, where he received the visions recorded in the book of Revelation. He is said to have died of old age — the only one of the Twelve to do so. His letters return again and again to a single word: love. God is love. We love because he first loved us."
+    ],
+    "references": [
+      { "ref": "John 13:23", "note": "The disciple whom Jesus loved" },
+      { "ref": "John 19:26–27", "note": "Entrusted with Mary at the cross" },
+      { "ref": "Revelation 1:9", "note": "Exiled to Patmos" }
+    ],
+    "relationships": [
+      { "characterId": "james-zebedee", "type": "Brother", "description": "His brother, fellow son of thunder, and part of the innermost three." },
+      { "characterId": "jesus", "type": "Mentor", "description": "The beloved disciple; was entrusted with his mother from the cross." },
+      { "characterId": "mary-mother", "type": "Companion", "description": "Took her into his home after the crucifixion as Jesus had asked." },
+      { "characterId": "peter", "type": "Friend", "description": "Inner-three companion; ran with him to the empty tomb." },
+      { "characterId": "john-mark", "type": "Companion", "description": "Fellow worker in the early church whose testimony shaped the second Gospel." }
+    ]
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "fullName": "Thomas, called Didymus (the Twin)",
+    "description": "Apostle whose honest doubt became the occasion for the risen Christ's most direct claim to divinity.",
+    "period": "New Testament era (c. 1 BC – c. 72 AD)",
+    "birthplace": "Galilee",
+    "locations": ["Galilee", "Judea", "Jerusalem", "India (by tradition)"],
+    "birthYear": -1,
+    "biography": [
+      "Thomas, called Didymus — the Twin in both Aramaic and Greek — appears in the Synoptic Gospels only in the lists of the Twelve. In John's Gospel he comes alive as a distinct character: when Jesus resolved to return to Judea despite the danger, it was Thomas who said to the others, 'Let us also go, that we may die with him' — a statement that is equal parts loyalty and fatalism. When Jesus spoke of going to prepare a place and said they knew the way, it was Thomas who interrupted: 'Lord, we do not know where you are going. How can we know the way?' His questions are the honest questions.",
+      "His most famous moment came after the resurrection. He had been absent when the risen Jesus first appeared to the gathered disciples, and when they told him, he refused to believe without touching the wounds himself. Eight days later Jesus appeared again, found Thomas, and invited him to do exactly what he had said — see, touch, reach out. Thomas's response was not to touch but to confess: 'My Lord and my God' — the most direct declaration of Christ's divinity in the entire Gospel of John. Jesus's blessing fell not on Thomas but on those who would believe without seeing.",
+      "Tradition carries Thomas east further than any other apostle. According to ancient Syrian and Indian sources, he took the gospel to Parthia and Persia and finally to the Malabar coast of India, where the Thomas Christians of Kerala trace their founding to his arrival. He is said to have been martyred at Mylapore near modern Chennai around 72 AD. The ancient church he founded in India endures to this day."
+    ],
+    "references": [
+      { "ref": "John 11:16", "note": "Let us also go, that we may die with him" },
+      { "ref": "John 14:5", "note": "We do not know the way" },
+      { "ref": "John 20:24–29", "note": "Doubt, invitation, and confession" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "The Lord to whom his doubt and his faith were both directed." },
+      { "characterId": "peter", "type": "Companion", "description": "Fellow apostle of the Twelve." },
+      { "characterId": "john-zebedee", "type": "Companion", "description": "Traveled and ministered alongside him in the earliest church." }
+    ]
+  },
+  {
+    "id": "matthew",
+    "name": "Matthew",
+    "fullName": "Matthew (Levi), son of Alphaeus",
+    "description": "Tax collector at Capernaum who left his booth at a single word from Jesus and became one of the Twelve.",
+    "period": "New Testament era (c. 1 BC – c. 70 AD)",
+    "birthplace": "Galilee",
+    "locations": ["Capernaum", "Galilee", "Jerusalem"],
+    "birthYear": -1,
+    "biography": [
+      "Matthew — called Levi in Mark and Luke — was a tax collector sitting at his customs booth on the road into Capernaum when Jesus walked past and said, 'Follow me.' He got up and followed. Tax collectors in Roman Judea were despised figures: they collected duties on behalf of the occupying power, were permitted to assess charges above the required amount, and were considered collaborators with Rome and outcasts from polite Jewish society. That Jesus would invite such a man into his inner circle — and then accept an invitation to dinner at his house, surrounded by other tax collectors and sinners — was immediately scandalous to the Pharisees. Jesus's answer to their muttering was the line that defines his movement: 'Those who are well have no need of a physician.'",
+      "Matthew is listed among the Twelve in all four Gospels but speaks only rarely in the narrative. He appears to be a careful, detailed man; the Gospel that bears his name is the most systematically organized of the four, gathering Jesus's teaching into five great blocks of discourse, framing everything with a meticulous genealogy that opens with Abraham and ends with Jesus. Whether the apostle Matthew directly authored this Gospel in its present form or whether his name reflects an earlier Aramaic collection it drew on remains debated by scholars.",
+      "Tradition holds that he ministered first in Judea and then among various Gentile and Jewish communities, possibly in Ethiopia or Persia. Some traditions say he died a martyr; others that he died peacefully. What the record preserves most vividly is the moment before any of it: a man sitting at a tax booth, money changing hands — and a word, and a rising, and everything after."
+    ],
+    "references": [
+      { "ref": "Matthew 9:9–13", "note": "Called from the tax booth; dinner with sinners" },
+      { "ref": "Mark 2:14", "note": "Called as Levi, son of Alphaeus" },
+      { "ref": "Matthew 28:16–20", "note": "Present at the Great Commission on the mountain in Galilee" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Called him from his tax booth and accepted dinner at his house." },
+      { "characterId": "peter", "type": "Companion", "description": "Fellow apostle of the Twelve." },
+      { "characterId": "john-zebedee", "type": "Companion", "description": "Fellow apostle whose witness complements the Gospel Matthew's name carries." }
+    ]
+  },
+  {
+    "id": "judas-iscariot",
+    "name": "Judas Iscariot",
+    "fullName": "Judas Iscariot, son of Simon",
+    "description": "One of the Twelve who betrayed Jesus to the chief priests for thirty pieces of silver.",
+    "period": "New Testament era (c. 1 BC – c. 30 AD)",
+    "birthplace": "Kerioth, Judea",
+    "locations": ["Galilee", "Jerusalem", "Gethsemane", "the Field of Blood"],
+    "birthYear": -1,
+    "biography": [
+      "Judas Iscariot was one of the Twelve — chosen by Jesus, named in every apostolic list, entrusted with the group's money bag. His epithet 'Iscariot' most likely means 'man of Kerioth,' a town in southern Judea, which would have made him the only non-Galilean among the Twelve. John's Gospel notes that he had been a thief, pilfering from the money bag; this detail appears without dramatic buildup, as part of a character already settled into a direction. When Mary of Bethany poured expensive perfume over Jesus's feet, it was Judas who objected to the waste — not, John says, because he cared about the poor, but because he carried the bag.",
+      "His arrangement with the chief priests is narrated with a kind of terrible brevity: he went, he asked what they would give him, and they counted out thirty pieces of silver. From that moment he looked for an opportunity. It came in Gethsemane: he led the arresting party to the garden after the Last Supper, walked to Jesus, and greeted him with a kiss — the signal they had agreed upon. Jesus addressed him: 'Friend, do what you came to do.' The arrest followed; the disciples scattered.",
+      "What happened next is told in two ways. Matthew says he was seized with remorse, threw the thirty pieces back in the temple, went out, and hanged himself; the priests used the returned money to buy the potter's field, ever after called the Field of Blood. Acts says he purchased a field with the money and fell headlong so that his body burst open. Both accounts agree on the outcome: the field, the blood, and the ending of a life that had held the closest proximity to Jesus that a human being had ever held, and had chosen otherwise."
+    ],
+    "references": [
+      { "ref": "Matthew 26:14–16", "note": "Agreement with the chief priests for thirty pieces of silver" },
+      { "ref": "John 13:21–30", "note": "Jesus announces the betrayer at the Last Supper" },
+      { "ref": "Matthew 27:3–10", "note": "Remorse, the returned silver, and his death" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "The one who called him, trusted him with the common purse, and named him friend at the betrayal." },
+      { "characterId": "peter", "type": "Companion", "description": "Fellow apostle of the Twelve who witnessed the same three years and went a different way." },
+      { "characterId": "mary-magdalene", "type": "Rival", "description": "Objected when she spent lavishly on Jesus; she honored what he called waste." }
+    ]
+  },
+  {
+    "id": "mary-magdalene",
+    "name": "Mary Magdalene",
+    "fullName": "Mary of Magdala",
+    "description": "Devoted follower of Jesus from whom seven demons were cast out, and the first witness of the resurrection.",
+    "period": "New Testament era (c. 1 BC – c. 50 AD)",
+    "birthplace": "Magdala, Galilee",
+    "locations": ["Magdala", "Galilee", "Jerusalem", "the garden tomb"],
+    "birthYear": -1,
+    "biography": [
+      "Mary of Magdala — a prosperous fishing town on the western shore of the Sea of Galilee — appears in the Gospel narratives after Jesus cast seven demons from her. The ancient and medieval tradition that identified her with the unnamed sinful woman who washed Jesus's feet, or with Mary of Bethany, has been set aside by most modern scholarship; Luke carefully distinguishes her from both. What is clear is that she was healed by Jesus, that she became a devoted follower, and that she was one of a group of women who traveled with him and supported his ministry from their own means.",
+      "She is present at every crucial moment of the passion narrative in a way that most of the male disciples are not: she watched the crucifixion from nearby when the men had fled; she observed where the body was laid; she came to the tomb in the early morning while it was still dark, carrying spices to anoint the body. She found the stone rolled away, ran to tell Peter and John, ran back to the garden, and stood weeping outside the tomb after they had come and gone. She was still there when Jesus appeared — mistook him for the gardener — and then heard him say her name.",
+      "Her commission from the risen Christ was to go and tell the disciples what she had seen. She is, in the precise language of the early church, the apostle to the apostles — the first witness, the first preacher of the resurrection. Her testimony is the hinge on which everything else turns. The Gospels are unambiguous about it: the first person to whom the risen Lord appeared, in all four accounts, was a woman who had stayed when others left."
+    ],
+    "references": [
+      { "ref": "Luke 8:2", "note": "Healed of seven demons; traveled with Jesus" },
+      { "ref": "John 19:25", "note": "Standing at the foot of the cross" },
+      { "ref": "John 20:11–18", "note": "First witness of the resurrection" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Healed her and commissioned her as the first witness of the resurrection." },
+      { "characterId": "mary-mother", "type": "Companion", "description": "Stood with her at the foot of the cross." },
+      { "characterId": "peter", "type": "Companion", "description": "Ran to tell him and John of the empty tomb; he ran but she stayed." },
+      { "characterId": "john-zebedee", "type": "Companion", "description": "Present at the cross and the empty tomb alongside her." },
+      { "characterId": "martha", "type": "Companion", "description": "Fellow devoted woman follower in the network around Jesus." }
+    ]
+  },
+  {
+    "id": "martha",
+    "name": "Martha",
+    "fullName": "Martha of Bethany",
+    "description": "Sister of Mary and Lazarus, beloved friend of Jesus, whose confession of faith matches Peter's in its clarity.",
+    "period": "New Testament era (c. 1 BC – c. 50 AD)",
+    "birthplace": "Bethany, Judea",
+    "locations": ["Bethany", "Jerusalem"],
+    "birthYear": -1,
+    "biography": [
+      "Martha lived in Bethany, a village on the eastern slope of the Mount of Olives, with her sister Mary and her brother Lazarus. The household was one of the fixed points of Jesus's ministry around Jerusalem — a place of refuge and friendship in a region where his reception was often hostile. When Jesus visited, it was Martha who opened the door and ran the house; she is described as 'distracted with much serving.' She came to Jesus, frustrated that Mary sat listening instead of helping, and received a gentle redirection: 'Martha, Martha, you are anxious and troubled about many things. One thing is necessary.'",
+      "The conversation that defines her place in the Gospels came after Lazarus had died and Jesus had been sent for too late. She ran out to meet him while Mary stayed in the house. Her opening words carry both grief and faith: 'Lord, if you had been here, my brother would not have died. But even now I know that whatever you ask from God, God will give you.' Jesus told her Lazarus would rise. She spoke of the final resurrection. He said, 'I am the resurrection and the life.' She answered: 'I believe that you are the Christ, the Son of God, who is coming into the world.' It is one of the clearest confessions of faith in the Gospels — as clear as Peter's at Caesarea Philippi, and spoken out of fresh grief.",
+      "She was present at the dinner six days before the Passover when her sister anointed Jesus's feet with costly perfume. She was serving, as she always did. The act of service in John's Gospel is not a rebuke but simply her gift — the one who opens the door, sets the table, and keeps the household going while the world turns around it."
+    ],
+    "references": [
+      { "ref": "Luke 10:38–42", "note": "Distracted with serving; Jesus's gentle correction" },
+      { "ref": "John 11:20–27", "note": "Her confession of faith after Lazarus's death" },
+      { "ref": "John 12:2", "note": "Serving at the dinner before the Passover" }
+    ],
+    "relationships": [
+      { "characterId": "lazarus", "type": "Sibling", "description": "Her brother whose death and raising changed the trajectory of events leading to the Passion." },
+      { "characterId": "mary-magdalene", "type": "Companion", "description": "Fellow devoted woman in the circle of Jesus's closest friends." },
+      { "characterId": "jesus", "type": "Friend", "description": "The Lord who corrected and comforted her, and who wept at her brother's tomb." }
+    ]
+  },
+  {
+    "id": "lazarus",
+    "name": "Lazarus",
+    "fullName": "Lazarus of Bethany",
+    "description": "Brother of Mary and Martha whom Jesus raised from the dead after four days — and whose raising triggered the plot to kill Jesus.",
+    "period": "New Testament era (c. 1 BC – c. 50 AD)",
+    "birthplace": "Bethany, Judea",
+    "locations": ["Bethany", "Jerusalem"],
+    "birthYear": -1,
+    "biography": [
+      "Lazarus of Bethany is introduced with a line that carries the weight of his whole story: 'Lord, the one you love is sick.' He lived with his sisters Mary and Martha in a village just outside Jerusalem, and the household was one of Jesus's regular places of hospitality. By the time Jesus arrived, Lazarus had been in the tomb four days — a detail the Evangelist seems to emphasize deliberately, since in Jewish understanding the soul was thought to depart the body finally after three days. What happened next was therefore beyond any expectation of resuscitation.",
+      "Jesus wept at the tomb. It is the shortest verse in the Bible and one of its most profound: the one who was about to raise Lazarus from death stood in front of the sealed stone and wept with those who mourned him. Then he ordered the stone removed, prayed aloud, and called: 'Lazarus, come out.' He came out, still wrapped in burial cloths. The crowd that witnessed it divided: some believed; others went straight to the Pharisees to report it. The account in John's Gospel places this miracle as the direct trigger for the Sanhedrin's resolution to have Jesus killed — and for the plot against Lazarus's life as well, since he had become a walking testimony.",
+      "He appears one final time in John's Gospel: reclining at the table at the dinner in Bethany six days before the Passover, while Martha served and Mary anointed Jesus's feet. He says nothing. He simply is — the man who was dead and is alive — present at a meal that already carries the shadow of another death and another rising."
+    ],
+    "references": [
+      { "ref": "John 11:1–44", "note": "The death and raising of Lazarus" },
+      { "ref": "John 11:35", "note": "Jesus wept" },
+      { "ref": "John 12:1–2", "note": "Reclining at table at the dinner in Bethany" }
+    ],
+    "relationships": [
+      { "characterId": "martha", "type": "Sibling", "description": "His sister who ran to meet Jesus and made her confession of faith in his absence." },
+      { "characterId": "jesus", "type": "Friend", "description": "The one who loved him, wept at his tomb, and called him out of death." },
+      { "characterId": "nicodemus", "type": "Companion", "description": "Both were prominent figures in Judea whose encounters with Jesus set off ripples in the religious establishment." }
+    ]
+  },
+  {
+    "id": "nicodemus",
+    "name": "Nicodemus",
+    "fullName": "Nicodemus, a ruler of the Jews",
+    "description": "Pharisee and member of the Sanhedrin who came to Jesus at night and grew from secret inquirer to public defender.",
+    "period": "New Testament era (c. 10 BC – c. 50 AD)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem"],
+    "birthYear": -10,
+    "biography": [
+      "Nicodemus was a Pharisee and a member of the Sanhedrin, the ruling council of Jewish religious life in Jerusalem. He came to Jesus by night — the hour is deliberate in John's Gospel, where night and darkness carry the weight of not yet understanding — and opened with a polite enough acknowledgment: 'Rabbi, we know you are a teacher come from God, for no one can do these signs that you do unless God is with him.' Jesus cut past the courtesy and into the center of things: unless a person is born again — or born from above, the Greek is ambiguous — they cannot see the kingdom of God. Nicodemus's literalism brought him back to the womb; Jesus's answer opened into one of the most famous sentences ever spoken: 'For God so loved the world, that he gave his only Son.'",
+      "He appears a second time in chapter 7, when the chief priests and Pharisees are denouncing Jesus without a hearing. Nicodemus raises a procedural question — does our law judge a man without first giving him a hearing? — and is met with mockery: 'Are you from Galilee too?' It is a half-step out of the shadow, cautious and deniable, but it is a step. The third appearance is after the crucifixion. Joseph of Arimathea had gone to Pilate to ask for the body; Nicodemus came bearing myrrh and aloes, about seventy-five pounds of it — a royal quantity for a burial. He is no longer coming by night for secrecy; he is carrying a small fortune of spices in broad public view.",
+      "The Gospel of John gives no conversion scene and no record of what became of him. It simply traces the arc: the man who came by night, the man who raised a procedural defense, the man who carried spices. Something had been happening across those three years in the shadow of his public life, and by the end of it he was willing to be seen."
+    ],
+    "references": [
+      { "ref": "John 3:1–21", "note": "The nighttime conversation; you must be born again" },
+      { "ref": "John 7:50–51", "note": "Raises a procedural defense of Jesus before the council" },
+      { "ref": "John 19:39–42", "note": "Brings spices for the burial alongside Joseph of Arimathea" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Came to him by night with questions and was met with the heart of the gospel." },
+      { "characterId": "lazarus", "type": "Companion", "description": "Both were Judean figures whose encounters with Jesus cost them standing in the religious establishment." }
+    ]
+  },
+  {
+    "id": "zacchaeus",
+    "name": "Zacchaeus",
+    "fullName": "Zacchaeus, chief tax collector of Jericho",
+    "description": "Short-statured chief tax collector of Jericho whose lunch invitation from Jesus turned into instant and radical transformation.",
+    "period": "New Testament era (c. 10 BC – c. 40 AD)",
+    "birthplace": "Jericho, Judea",
+    "locations": ["Jericho"],
+    "birthYear": -10,
+    "biography": [
+      "Zacchaeus was the chief tax collector in Jericho, an important customs point on the road from the Jordan valley. As a chief tax collector he would have supervised other collectors and profited substantially — he was, Luke notes, rich. When Jesus passed through Jericho, Zacchaeus wanted to see him but was too short to see over the crowd; he ran ahead and climbed a sycamore tree, which is both undignified and entirely practical. It is the image Luke leaves us: a wealthy, powerful, despised man up in a tree because he wanted to see Jesus.",
+      "Jesus stopped under the tree, looked up, and told Zacchaeus to come down — he was going to stay at his house today. The crowd grumbled: 'He has gone in to be the guest of a man who is a sinner.' What happened at that meal is not described. What happened after is: Zacchaeus stood up and announced that he would give half his possessions to the poor and pay back anyone he had defrauded four times over. The repayment formula — fourfold — exceeded even what Mosaic law required for willful theft. It was not coerced restitution; it was the overflow of an encounter.",
+      "Jesus's response is Luke's summary statement of his whole mission: 'Today salvation has come to this house, since he also is a son of Abraham. For the Son of Man came to seek and save the lost.' Zacchaeus had not prayed a prayer or completed a course of instruction. He had climbed a tree to get a look at someone, and found himself called down by name and invited home by that same someone. The transformation that followed was as spontaneous as the tree-climbing that preceded it."
+    ],
+    "references": [
+      { "ref": "Luke 19:1–10", "note": "The sycamore tree, the lunch invitation, and the transformation" },
+      { "ref": "Luke 19:9–10", "note": "Salvation has come to this house; the Son of Man came to seek the lost" }
+    ],
+    "relationships": [
+      { "characterId": "jesus", "type": "Mentor", "description": "Looked up at him in the tree, called him down by name, and changed everything by asking to stay at his house." }
+    ]
+  },
+  {
+    "id": "barnabas",
+    "name": "Barnabas",
+    "fullName": "Barnabas (Joseph), a Levite from Cyprus",
+    "description": "Generous-hearted apostle and traveling companion of Paul whose gift for encouragement opened doors for unlikely people.",
+    "period": "New Testament era (c. 5 BC – c. 61 AD)",
+    "birthplace": "Cyprus",
+    "locations": ["Jerusalem", "Antioch", "Cyprus", "Asia Minor", "Galatia"],
+    "birthYear": -5,
+    "biography": [
+      "His given name was Joseph, but the Jerusalem church called him Barnabas — son of encouragement — and the nickname tells his story. He was a Levite from Cyprus who sold a field and laid the proceeds at the apostles' feet in the earliest days of the community, at a time when such generosity set the tone for what the church was becoming. When Saul of Tarsus arrived in Jerusalem after his dramatic conversion on the Damascus road, the other disciples were understandably afraid of him; Barnabas was the one who took him, brought him to the apostles, and vouched for what had happened. Without that intervention the subsequent history of the church might have looked different.",
+      "He was sent by the Jerusalem church to investigate the remarkable growth happening in Antioch, where Greeks were being converted in large numbers. He arrived, saw the grace of God, rejoiced — and then went to Tarsus to find Saul and bring him to Antioch, where they worked together for a year. From Antioch the Holy Spirit set them apart for the first missionary journey: Cyprus, Pamphylia, Pisidia, Lystra, Derbe. They preached in synagogues, were received and rejected, were stoned, moved on, and came back to Antioch with a story of what God had done among the Gentiles.",
+      "Their partnership ended over a dispute about John Mark, who had turned back from the first journey and whom Paul refused to take on the second. Barnabas took Mark and returned to Cyprus; Paul took Silas in a different direction. The parting was sharp, but both missions went forward. Paul would later write that Mark was useful to him — which may owe something to the second chance Barnabas gave him. Barnabas left the record quietly, carrying on the work of encouragement that had defined him from the beginning."
+    ],
+    "references": [
+      { "ref": "Acts 4:36–37", "note": "Sells a field and gives the proceeds to the apostles" },
+      { "ref": "Acts 9:26–27", "note": "Vouches for Paul before the suspicious Jerusalem church" },
+      { "ref": "Acts 15:36–41", "note": "The sharp disagreement with Paul over John Mark" }
+    ],
+    "relationships": [
+      { "characterId": "peter", "type": "Companion", "description": "Fellow leader of the Jerusalem church and fellow worker in the earliest years." },
+      { "characterId": "stephen", "type": "Companion", "description": "Part of the same Jerusalem community in which Stephen was the first martyr." },
+      { "characterId": "silas", "type": "Companion", "description": "Both served as delegates from Jerusalem to Antioch; Paul chose Silas when the Barnabas partnership ended." },
+      { "characterId": "john-mark", "type": "Companion", "description": "His cousin whom he defended against Paul's judgment and took on a second chance to Cyprus." },
+      { "characterId": "timothy", "type": "Companion", "description": "Part of the same network of early church workers and missionaries." }
+    ]
+  },
+  {
+    "id": "stephen",
+    "name": "Stephen",
+    "fullName": "Stephen, deacon and proto-martyr",
+    "description": "One of the first seven deacons of the Jerusalem church, whose sermon before the Sanhedrin and subsequent stoning made him the first Christian martyr.",
+    "period": "New Testament era (c. 5 BC – c. 34 AD)",
+    "birthplace": "unknown (possibly a Hellenistic Jewish diaspora community)",
+    "locations": ["Jerusalem"],
+    "birthYear": -5,
+    "biography": [
+      "Stephen appears in Acts as one of seven men chosen to serve tables in the Jerusalem community — an arrangement made to free the apostles for prayer and preaching, and to address a dispute between Hebrew-speaking and Greek-speaking Jewish Christians over the daily distribution of food. The seven were to be men of good reputation, full of the Spirit and of wisdom. Stephen is described as a man full of faith and the Holy Spirit, and distinguished from the others by what followed: he worked great wonders and signs among the people and was drawn into disputation with members of the synagogue of the Freedmen.",
+      "Unable to match his wisdom in argument, his opponents arranged for false witnesses to accuse him before the Sanhedrin of speaking blasphemy against the temple and the law of Moses. Stephen's defense is the longest speech in the book of Acts — a sweeping retelling of the history of Israel from Abraham to Solomon, ending in a direct accusation: 'You stiff-necked people, uncircumcised in heart and ears, you always resist the Holy Spirit.' He looked up and said he saw the heavens open and the Son of Man standing at the right hand of God. The crowd covered their ears, dragged him outside the city, and stoned him.",
+      "As the stones fell he prayed in the pattern of his Lord: 'Lord Jesus, receive my spirit'; 'Lord, do not hold this sin against them.' The witnesses laid their garments at the feet of a young man named Saul. Stephen's death scattered the Jerusalem church in the first great persecution — and scattered the gospel across Judea and Samaria. He is venerated as the proto-martyr, the first, and his dying prayer for his killers may be the seed from which Saul of Tarsus could not entirely escape."
+    ],
+    "references": [
+      { "ref": "Acts 6:1–7", "note": "Chosen as one of the seven deacons" },
+      { "ref": "Acts 7:1–53", "note": "His speech before the Sanhedrin" },
+      { "ref": "Acts 7:54–60", "note": "Stoning and his dying prayer" }
+    ],
+    "relationships": [
+      { "characterId": "barnabas", "type": "Companion", "description": "Part of the same Jerusalem community in the earliest years of the church." },
+      { "characterId": "philip-deacon", "type": "Companion", "description": "Fellow deacon appointed alongside him to serve the Greek-speaking community." }
+    ]
+  },
+  {
+    "id": "timothy",
+    "name": "Timothy",
+    "fullName": "Timothy of Lystra",
+    "description": "Paul's closest coworker and spiritual son, whose mixed Jewish-Gentile background made him a living symbol of the church's reconciling mission.",
+    "period": "New Testament era (c. 17 AD – c. 97 AD)",
+    "birthplace": "Lystra, Lycaonia (modern Turkey)",
+    "locations": ["Lystra", "Iconium", "Thessalonica", "Corinth", "Ephesus", "Rome"],
+    "birthYear": 17,
+    "biography": [
+      "Timothy was born in Lystra in the province of Galatia to a Jewish mother named Eunice and a Greek father. His grandmother Lois had passed the faith to his mother, and his mother to him; Paul would later write that from childhood he had known the sacred scriptures. When Paul arrived in Lystra on his second missionary journey, the believers there spoke well of Timothy, and Paul invited him to join the mission. To ease his reception in Jewish communities, Paul had him circumcised — not as a theological requirement but as a practical concession to the sensitivities of those he would encounter.",
+      "He became Paul's most trusted companion. Paul sent him on delicate missions when he could not go himself: to Thessalonica to strengthen a church under persecution, to Corinth to remind the fractious congregation of Paul's ways in Christ, to Ephesus as his representative to address serious doctrinal disorder. He was listed as co-sender in six of Paul's letters; Paul called him 'my beloved and faithful child in the Lord,' 'my fellow worker,' and 'the only one who has a genuine concern for your welfare.' The two letters addressed to him personally — 1 and 2 Timothy — are the most intimate of Paul's surviving correspondence.",
+      "The letter 2 Timothy reads as a final testament, written from imprisonment, urging Timothy to hold fast to what he has been taught, to preach the word in season and out of season, to guard the deposit. 'I have fought the good fight, I have finished the race,' Paul wrote. 'Do your best to come to me soon.' Tradition holds that Timothy served as the first bishop of Ephesus and was martyred under the emperor Nerva or Domitian after confronting a pagan festival procession."
+    ],
+    "references": [
+      { "ref": "Acts 16:1–3", "note": "Paul meets Timothy in Lystra and takes him along" },
+      { "ref": "1 Corinthians 4:17", "note": "My beloved and faithful child in the Lord" },
+      { "ref": "2 Timothy 1:5", "note": "His grandmother Lois and mother Eunice" }
+    ],
+    "relationships": [
+      { "characterId": "barnabas", "type": "Companion", "description": "Part of the same missionary network of the early church." },
+      { "characterId": "silas", "type": "Companion", "description": "Traveled with him and Paul on the second missionary journey." },
+      { "characterId": "lydia", "type": "Companion", "description": "Part of the same Macedonian mission that saw the Philippian church founded." },
+      { "characterId": "priscilla", "type": "Companion", "description": "Fellow worker in Ephesus where she and Aquila had established a church in their home." }
+    ]
+  },
+  {
+    "id": "lydia",
+    "name": "Lydia",
+    "fullName": "Lydia of Thyatira, dealer in purple cloth",
+    "description": "Successful merchant from Thyatira whose household was the first in Europe to be baptized, and whose home became the founding center of the Philippian church.",
+    "period": "New Testament era (c. 10 AD – c. 60 AD)",
+    "birthplace": "Thyatira, Lydia (modern Turkey)",
+    "locations": ["Thyatira", "Philippi", "Macedonia"],
+    "birthYear": 10,
+    "biography": [
+      "Lydia was a dealer in purple cloth from the city of Thyatira, settled in Philippi, a leading city of Macedonia. Purple fabric was one of the luxury commodities of the ancient world — its dye extracted at great labor from murex shellfish — and its trade was profitable. She appears to have been a woman of independent means, able to manage her own household and business. She was already a worshiper of the God of Israel — a Gentile drawn to Jewish monotheism — when Paul and his companions arrived in Philippi on the second missionary journey.",
+      "There was no synagogue in Philippi, so on the Sabbath Paul went to the riverside, where a group of women had gathered to pray. He sat down and spoke to them. Lydia was listening, and Luke records a precise and beautiful detail: 'the Lord opened her heart to pay attention to what was said by Paul.' She was baptized with her household, and immediately invited the missionaries to stay at her house. She pressed the invitation: 'If you have judged me to be faithful to the Lord, come to my house and stay.' They came.",
+      "Her home became the base of operations for the Philippian mission and, it appears, the meeting place of the church that would grow from it. The letter to the Philippians — the most affectionate of Paul's letters — was written to this community. Lydia does not appear in it by name, but the women who 'labored side by side with me in the gospel' whom Paul mentions are likely part of the same circle she helped establish. She is remembered as the first convert in Europe and the first host of the European church."
+    ],
+    "references": [
+      { "ref": "Acts 16:13–15", "note": "Encountered at the riverside, her heart opened, and baptized with her household" },
+      { "ref": "Acts 16:40", "note": "Paul and Silas return to her house after their release from prison" },
+      { "ref": "Philippians 4:2–3", "note": "The women who labored in the gospel at Philippi" }
+    ],
+    "relationships": [
+      { "characterId": "silas", "type": "Companion", "description": "Was present with Paul when she was baptized and returned to her house after imprisonment." },
+      { "characterId": "timothy", "type": "Companion", "description": "Part of the same Macedonian mission that planted the church in Philippi." },
+      { "characterId": "priscilla", "type": "Companion", "description": "Fellow businesswoman and church-founding figure in the early Pauline mission." }
+    ]
+  },
+  {
+    "id": "priscilla",
+    "name": "Priscilla",
+    "fullName": "Priscilla (Prisca), wife of Aquila",
+    "description": "Tentmaker, teacher, and church founder whose name appears before her husband's in most of the New Testament's references to the pair.",
+    "period": "New Testament era (c. 10 AD – c. 68 AD)",
+    "birthplace": "likely Rome",
+    "locations": ["Rome", "Corinth", "Ephesus"],
+    "birthYear": 10,
+    "biography": [
+      "Priscilla and her husband Aquila were Jewish tentmakers who had been expelled from Rome under the emperor Claudius's edict against Jews around 49 AD. They settled in Corinth, where Paul arrived and lodged with them — they shared the same trade — and they became his close partners in the Corinthian mission. When Paul left Corinth for Ephesus, they traveled with him. He left them there; they planted themselves in the city and established a church in their home.",
+      "It was in Ephesus that they encountered Apollos — a compelling preacher from Alexandria, eloquent and learned in the scriptures, who knew only the baptism of John. Priscilla and Aquila took him aside privately and 'explained to him the way of God more accurately.' The scene is notable both for its delicacy — they corrected a gifted man without humiliating him publicly — and for the fact that Priscilla is named first in this account, as she is in most of the six New Testament passages that mention the pair.",
+      "Paul greets them warmly in his letters, calls them his fellow workers in Christ Jesus, and notes that they 'risked their necks' for his life. They returned to Rome at some point — greeted in Romans 16 — and the church that met in their home in both cities suggests a household of unusual energy and hospitality. The theological tradition has often speculated that Priscilla may have had a hand in the composition of the Letter to the Hebrews, given the anonymity of that letter and the combination of learning and pastoral warmth it displays. The evidence is circumstantial; the quality of mind the speculation imagines is entirely consistent with what the text shows."
+    ],
+    "references": [
+      { "ref": "Acts 18:1–3", "note": "Meets Paul in Corinth; they share the tentmaking trade" },
+      { "ref": "Acts 18:26", "note": "She and Aquila instruct Apollos more accurately" },
+      { "ref": "Romans 16:3–5", "note": "Greeted as fellow workers who risked their lives for Paul" }
+    ],
+    "relationships": [
+      { "characterId": "aquila", "type": "Husband", "description": "Her husband and constant partner in tentmaking, hospitality, and church planting." },
+      { "characterId": "apollos", "type": "Mentor", "description": "Took him aside with Aquila and instructed him more fully in the faith." },
+      { "characterId": "timothy", "type": "Companion", "description": "Fellow worker in Ephesus where their household church formed a center of the mission." },
+      { "characterId": "lydia", "type": "Companion", "description": "Fellow businesswoman and church-hosting figure in the Pauline mission." }
+    ]
+  },
+  {
+    "id": "aquila",
+    "name": "Aquila",
+    "fullName": "Aquila of Pontus, tentmaker",
+    "description": "Jewish tentmaker from Pontus whose home in Corinth and Ephesus became a church, and who partnered with his wife Priscilla to instruct Apollos in the faith.",
+    "period": "New Testament era (c. 10 AD – c. 68 AD)",
+    "birthplace": "Pontus (on the Black Sea coast, modern Turkey)",
+    "locations": ["Pontus", "Rome", "Corinth", "Ephesus"],
+    "birthYear": 10,
+    "biography": [
+      "Aquila was a Jewish tentmaker from Pontus who, along with his wife Priscilla, was expelled from Rome under the emperor Claudius's edict ordering Jews to leave the city around 49 AD. They settled in Corinth, and when Paul arrived in the city shortly after, he found them and lodged with them, sharing their trade. The workshop became a place of conversation and partnership; Paul spent eighteen months in Corinth, and the tentmakers' household was at the center of it.",
+      "When Paul left for Ephesus, Aquila and Priscilla accompanied him and stayed when he continued east. They established a church in their home in Ephesus, one of the significant port cities of Asia Minor. It was here that they encountered the preacher Apollos from Alexandria — learned, eloquent, powerful in his knowledge of the scriptures, but familiar only with John's baptism. Aquila and Priscilla took him aside privately and explained the faith more completely. Apollos then crossed to Achaia and made a substantial impact there.",
+      "Aquila's name is always paired with Priscilla's; she is named first in most of the references, which has led scholars to speculate about her relative prominence. What the pair share is a pattern of hospitality and faithful work that made their home a base of operations wherever they lived. Paul greets them in Romans 16 as his fellow workers who risked their lives for him, and mentions the church that meets in their house. The tent they made together held more than leather."
+    ],
+    "references": [
+      { "ref": "Acts 18:1–3", "note": "Met Paul in Corinth; expelled from Rome under Claudius" },
+      { "ref": "Acts 18:26", "note": "He and Priscilla instruct Apollos more fully" },
+      { "ref": "Romans 16:3–5", "note": "Greeted as fellow workers in Christ who risked their lives for Paul" }
+    ],
+    "relationships": [
+      { "characterId": "priscilla", "type": "Wife", "description": "His wife and constant partner in every city, every trade, and every church meeting in their home." },
+      { "characterId": "apollos", "type": "Mentor", "description": "Took him aside with Priscilla and explained the faith more fully." },
+      { "characterId": "timothy", "type": "Companion", "description": "Fellow worker in the Ephesian mission." }
+    ]
+  },
+  {
+    "id": "apollos",
+    "name": "Apollos",
+    "fullName": "Apollos of Alexandria",
+    "description": "Eloquent Alexandrian preacher who became a prominent figure in the Corinthian church after Priscilla and Aquila deepened his understanding of the faith.",
+    "period": "New Testament era (c. 10 AD – c. 70 AD)",
+    "birthplace": "Alexandria, Egypt",
+    "locations": ["Alexandria", "Ephesus", "Corinth", "Achaia"],
+    "birthYear": 10,
+    "biography": [
+      "Apollos was an Alexandrian Jew — Alexandria, the great intellectual center of the Hellenistic world, with one of the largest Jewish communities outside Judea and a tradition of sophisticated scriptural interpretation. He arrived in Ephesus described in terms that crowd onto each other: eloquent, competent in the scriptures, instructed in the way of the Lord, fervent in spirit, accurate in his teaching about Jesus, bold in the synagogue. The one qualification on this portrait is that he knew only the baptism of John. He had an incomplete gospel.",
+      "Priscilla and Aquila heard him in the Ephesian synagogue, recognized what was missing, and took him aside privately to explain the way of God more fully. There is no scene of conflict, no public correction — only a private conversation that apparently changed everything. He sailed from Ephesus to Achaia with letters of commendation from the church there; in Corinth he became a figure of such influence that one of the factions in that contentious church identified itself as 'of Apollos,' in contrast to those who said 'I am of Paul.' Paul addressed this with some frustration: 'I planted, Apollos watered, but God gave the growth.'",
+      "The Letter to Titus mentions sending Apollos out; Paul seems to regard him as a trusted colleague even as he resists the personality cult forming around him. Martin Luther, followed by many scholars since, proposed Apollos as the author of the Letter to the Hebrews — noting the Alexandrian style, the sophisticated use of the Septuagint, and the anonymity of the letter. The theory cannot be proved but it suits a man of his background. He passes through the record as a brief and brilliant light: trained in one tradition, corrected by a tentmaker and his wife, and then launched into a mission that outlasted all of them."
+    ],
+    "references": [
+      { "ref": "Acts 18:24–28", "note": "Arrives in Ephesus; instructed by Priscilla and Aquila" },
+      { "ref": "1 Corinthians 3:4–9", "note": "The Apollos faction; I planted, Apollos watered" },
+      { "ref": "Titus 3:13", "note": "Paul sends greetings regarding Apollos" }
+    ],
+    "relationships": [
+      { "characterId": "priscilla", "type": "Mentor", "description": "She and Aquila took him aside and explained the way of God more accurately." },
+      { "characterId": "aquila", "type": "Mentor", "description": "He and Priscilla instructed him more fully in the faith in Ephesus." },
+      { "characterId": "silas", "type": "Companion", "description": "Fellow worker in the broader Pauline network of churches." },
+      { "characterId": "timothy", "type": "Companion", "description": "Fellow missionary and companion in the same network of Pauline communities." }
+    ]
+  },
+  {
+    "id": "silas",
+    "name": "Silas",
+    "fullName": "Silas (Silvanus), prophet and Roman citizen",
+    "description": "Jerusalem prophet and Roman citizen who replaced Barnabas as Paul's chief traveling companion on the second missionary journey.",
+    "period": "New Testament era (c. 5 BC – c. 65 AD)",
+    "birthplace": "Jerusalem (probable)",
+    "locations": ["Jerusalem", "Antioch", "Philippi", "Thessalonica", "Corinth", "Macedonia"],
+    "birthYear": -5,
+    "biography": [
+      "Silas — known also by his Latin name Silvanus — was a leader in the Jerusalem church, a prophet, and apparently a Roman citizen, which would prove useful. After the council of Jerusalem sent a delegation to Antioch to communicate its decision on the Gentile question, Silas was one of two chosen as messengers, a role that required both trust and ability to speak. He and Judas Barsabbas delivered the letter and then 'with many words encouraged and strengthened the brothers.' When Paul and Barnabas parted over the question of John Mark, it was Silas whom Paul chose as his new companion.",
+      "The second missionary journey with Paul took Silas through Syria and Cilicia, into Galatia where they recruited Timothy, and then — driven by a vision of a man from Macedonia — across into Europe for the first time. In Philippi they were beaten with rods and imprisoned without trial. At midnight, Paul and Silas were praying and singing hymns — the prisoners were listening — when an earthquake opened every door and broke every chain. The jailer, about to kill himself, was stopped by Paul's shout: 'We are all here.' By morning the jailer and his household had been baptized and the missionaries had been sent on their way with an apology.",
+      "Silas continued with Paul through Thessalonica and Beroea, was left behind when Paul escaped a violent mob, and eventually reunited with him in Corinth. He is listed as co-sender of both letters to the Thessalonians, and Peter's first letter names Silvanus as its secretary — a sign of the range of his connections in the earliest church. He passes from the record after these mentions, a steady and gifted figure who carried the gospel across the Aegean in the key years of its expansion."
+    ],
+    "references": [
+      { "ref": "Acts 15:22–32", "note": "Chosen to carry the Jerusalem council's letter to Antioch" },
+      { "ref": "Acts 16:25–34", "note": "Imprisoned in Philippi; earthquake and the jailer's conversion" },
+      { "ref": "1 Thessalonians 1:1", "note": "Listed as co-sender with Paul and Timothy" }
+    ],
+    "relationships": [
+      { "characterId": "barnabas", "type": "Companion", "description": "Part of the same Jerusalem leadership circle; Paul chose him when the Barnabas partnership ended." },
+      { "characterId": "timothy", "type": "Companion", "description": "Recruited together on the second journey; all three listed as co-senders of the Thessalonian letters." },
+      { "characterId": "lydia", "type": "Companion", "description": "Was with Paul when they first met Lydia at the riverside in Philippi." },
+      { "characterId": "apollos", "type": "Companion", "description": "Fellow worker in the early missionary network." }
+    ]
+  },
+  {
+    "id": "philip-deacon",
+    "name": "Philip",
+    "fullName": "Philip the Evangelist, deacon of Jerusalem",
+    "description": "One of the seven deacons who became a pioneering evangelist, bringing the gospel to Samaria and baptizing an Ethiopian official on a desert road.",
+    "period": "New Testament era (c. 5 BC – c. 60 AD)",
+    "birthplace": "unknown (possibly a Hellenistic Jewish community)",
+    "locations": ["Jerusalem", "Samaria", "the Gaza road", "Azotus", "Caesarea Maritima"],
+    "birthYear": -5,
+    "biography": [
+      "Philip was among the seven men chosen to serve the Greek-speaking widows of the Jerusalem church, appointed alongside Stephen when the apostles found themselves overstretched. He shares with Stephen the distinction of moving from table service to public proclamation; unlike Stephen, he was not martyred but scattered by the persecution that followed Stephen's death. He went to Samaria — a region Jews and Samaritans had kept carefully apart for centuries — and preached Christ there. The crowds listened, unclean spirits came out with shouts, the paralyzed and lame were healed. When the Jerusalem church heard that Samaria had received the word of God, they sent Peter and John.",
+      "The most vivid episode in his story came when an angel told him to go south on the desert road toward Gaza. There he encountered an Ethiopian official — a eunuch, treasurer to Candace the queen of the Ethiopians — reading Isaiah 53 in his chariot. Philip ran alongside, was invited in, and explained that the suffering servant Isaiah described was Jesus. The official asked what prevented him from being baptized; Philip baptized him in a pool beside the road; and the Spirit carried Philip away, setting him down in Azotus, from which he traveled north preaching in every town until he reached Caesarea.",
+      "He settled in Caesarea, where Paul and his companions stayed with him before the final journey to Jerusalem — and where Luke notes that Philip had four daughters who prophesied. That detail, almost in passing, anchors a life of remarkable range: deacon, preacher, cross-cultural missionary, father of women prophets, and host of the apostle whose letters describe the community Philip had spent his life building."
+    ],
+    "references": [
+      { "ref": "Acts 6:5", "note": "Chosen as one of the seven deacons" },
+      { "ref": "Acts 8:4–25", "note": "Mission to Samaria" },
+      { "ref": "Acts 8:26–40", "note": "The Ethiopian official on the Gaza road" }
+    ],
+    "relationships": [
+      { "characterId": "stephen", "type": "Companion", "description": "Fellow deacon appointed alongside him; his martyrdom scattered Philip into the broader mission." },
+      { "characterId": "andrew", "type": "Companion", "description": "Brought the Greeks who sought Jesus to him together at the feast." },
+      { "characterId": "peter", "type": "Companion", "description": "Peter and John were sent to Samaria to follow up the mission Philip had begun there." }
+    ]
+  },
+  {
+    "id": "john-mark",
+    "name": "John Mark",
+    "fullName": "John Mark, cousin of Barnabas",
+    "description": "Young companion of the earliest missionaries who abandoned a journey, received a second chance, and left his name on the oldest of the four Gospels.",
+    "period": "New Testament era (c. 12 AD – c. 68 AD)",
+    "birthplace": "Jerusalem",
+    "locations": ["Jerusalem", "Cyprus", "Pamphylia", "Antioch", "Rome"],
+    "birthYear": 12,
+    "biography": [
+      "John Mark — his Jewish name was John, his Latin surname Mark — was the son of a Jerusalem woman named Mary whose house appears to have been a gathering place for the earliest believers. When Peter was miraculously released from prison, he went directly to her house and knocked at the gate, suggesting it was well known as a meeting point. Mark was a cousin of Barnabas, and he joined Paul and Barnabas on their first missionary journey as a helper. But when the party reached Perga in Pamphylia, Mark left them and returned to Jerusalem. The text gives no explanation; Paul apparently regarded it as a defection.",
+      "The matter returned to the surface when Paul and Barnabas began planning a second journey and Barnabas proposed taking Mark along again. Paul refused. The disagreement was sharp enough to divide the partnership: Barnabas took Mark and sailed to Cyprus; Paul took Silas and went through Syria and Cilicia. It was a painful rupture. What happened to Mark in those years is not recorded, but the trajectory changed. Paul's letter to the Colossians, written from prison, sends greetings from Mark and asks the recipients to welcome him. His second letter to Timothy asks Timothy to bring Mark when he comes, 'for he is very useful to me for ministry.' The young man who had turned back had become someone Paul sought.",
+      "The Gospel of Mark — almost certainly the earliest of the four written — stands behind the testimony of Peter, whose secretary or interpreter Mark was according to the early church father Papias. The Gospel has the urgency of eyewitness memory: events happen 'immediately,' Jesus is perpetually on the move, the disciples are shown with unsparing honesty. Whatever failure shadowed his early career, Mark left the most vivid portrait of Jesus in motion that any of the evangelists produced. He is venerated as the founder of the church in Alexandria, Egypt."
+    ],
+    "references": [
+      { "ref": "Acts 12:25; 13:5", "note": "Joins Paul and Barnabas as a helper on the first journey" },
+      { "ref": "Acts 15:37–39", "note": "Barnabas defends him; the partnership with Paul breaks over him" },
+      { "ref": "2 Timothy 4:11", "note": "He is very useful to me for ministry" }
+    ],
+    "relationships": [
+      { "characterId": "barnabas", "type": "Relative", "description": "His cousin who defended him against Paul's judgment and gave him a second chance." },
+      { "characterId": "peter", "type": "Companion", "description": "Peter's interpreter and likely source behind the Gospel of Mark." },
+      { "characterId": "silas", "type": "Companion", "description": "Fellow worker in the Pauline mission in its later stage." },
+      { "characterId": "john-zebedee", "type": "Companion", "description": "Fellow participant in the Jerusalem community whose witness informed early Gospel tradition." },
+      { "characterId": "timothy", "type": "Companion", "description": "Both were young coworkers rehabilitated and trusted by Paul in the later years of his ministry." }
+    ]
+  }
+]
