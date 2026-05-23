@@ -148,14 +148,6 @@ function MapPage() {
         <meta name="twitter:description" content="Trace biblical journeys, kingdoms, and cities across the ancient Near East — from Eden to Patmos." />
       </Helmet>
 
-      {mobileOpen && (
-        <div
-          className="map-drawer-backdrop"
-          onClick={() => setMobileOpen(false)}
-          aria-hidden="true"
-        />
-      )}
-
       <div className={`map-controls${mobileOpen ? ' map-controls--open' : ''}`}>
         <button
           type="button"
@@ -244,21 +236,25 @@ function MapPage() {
         className="map-routes-btn"
         onClick={() => setMobileOpen((v) => !v)}
         aria-expanded={mobileOpen}
-        aria-label="Open journey picker"
+        aria-label="Toggle journey picker"
       >
-        {journey ? (
-          <>
-            <span
-              className="map-routes-btn__swatch"
-              style={{ backgroundColor: journey.color }}
-              aria-hidden="true"
-            />
-            {journey.name}
-          </>
-        ) : (
-          'Trace a Journey'
-        )}
-        <span aria-hidden="true">{mobileOpen ? '↓' : '↑'}</span>
+        <span className="map-routes-btn__label">
+          {journey ? (
+            <>
+              <span
+                className="map-routes-btn__swatch"
+                style={{ backgroundColor: journey.color }}
+                aria-hidden="true"
+              />
+              {journey.name}'s Journey
+            </>
+          ) : (
+            'Trace a Journey'
+          )}
+        </span>
+        <span className="map-routes-btn__caret" aria-hidden="true">
+          {mobileOpen ? '▲' : '▼'}
+        </span>
       </button>
 
       <MapContainer
