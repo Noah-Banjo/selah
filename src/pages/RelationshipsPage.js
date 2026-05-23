@@ -53,6 +53,8 @@ function buildGraph(focusId) {
   return { nodes, links: Array.from(edgeMap.values()) };
 }
 
+const ALL_CATEGORIES = new Set(['family', 'friendship', 'discipleship', 'rivalry']);
+
 function RelationshipsPage() {
   const [searchParams] = useSearchParams();
   const focusId = searchParams.get('focus');
@@ -61,6 +63,22 @@ function RelationshipsPage() {
   const containerRef = useRef(null);
   const [hovered, setHovered] = useState(null);
   const [graphReady, setGraphReady] = useState(false);
+  const [activeCategories, setActiveCategories] = useState(ALL_CATEGORIES);
+
+  const activeCatKey = [...activeCategories].sort().join(',');
+
+  const toggleCategory = (cat) => {
+    setActiveCategories((prev) => {
+      const next = new Set(prev);
+      if (next.has(cat)) {
+        if (next.size === 1) return prev;
+        next.delete(cat);
+      } else {
+        next.add(cat);
+      }
+      return next;
+    });
+  };
 
   useEffect(() => {
     setGraphReady(false);
@@ -72,7 +90,8 @@ function RelationshipsPage() {
     const width = rect.width || 800;
     const height = rect.height || 600;
 
-    const { nodes, links } = buildGraph(focusId);
+    const { nodes, links: allLinks } = buildGraph(focusId);
+    const links = allLinks.filter((l) => activeCategories.has(l.category));
 
     const neighborIds = new Set();
     if (focusId) {
@@ -249,7 +268,8 @@ function RelationshipsPage() {
       simulation.stop();
       svg.selectAll('*').remove();
     };
-  }, [focusId, navigate]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focusId, navigate, activeCatKey]);
 
   const focusCharacter = focusId
     ? characters.find((c) => c.id === focusId)
@@ -283,18 +303,21 @@ function RelationshipsPage() {
           )}
         </header>
 
-        <ul className="graph-legend">
+        <div className="graph-cat-filters" role="group" aria-label="Filter by relationship type">
           {Object.entries(CATEGORY_LABELS).map(([key, label]) => (
-            <li key={key} className="graph-legend__item">
-              <span
-                className="graph-legend__line"
-                style={{ backgroundColor: CATEGORY_COLORS[key] }}
-                aria-hidden="true"
-              />
+            <button
+              key={key}
+              type="button"
+              className={`graph-cat-chip${activeCategories.has(key) ? ' graph-cat-chip--active' : ''}`}
+              style={{ '--cat-color': CATEGORY_COLORS[key] }}
+              onClick={() => toggleCategory(key)}
+              aria-pressed={activeCategories.has(key)}
+            >
+              <span className="graph-cat-chip__line" aria-hidden="true" />
               {label}
-            </li>
+            </button>
           ))}
-        </ul>
+        </div>
 
         <p className="graph-mobile-notice" role="note">
           Best viewed on desktop — pinch to zoom and drag to pan on touch

@@ -264,6 +264,16 @@ function VerticalTimeline({ data }) {
 
 function TimelinePage() {
   const isMobile = useIsMobile();
+  const [selectedEra, setSelectedEra] = useState(null);
+
+  const filteredCharacters = useMemo(() => {
+    if (!selectedEra) return characters;
+    const era = ERAS.find((e) => e.id === selectedEra);
+    if (!era) return characters;
+    return characters.filter(
+      (c) => typeof c.birthYear === 'number' && c.birthYear >= era.from && c.birthYear < era.to
+    );
+  }, [selectedEra]);
 
   return (
     <section className="page timeline-page">
@@ -288,16 +298,35 @@ function TimelinePage() {
           </p>
         </header>
 
+        <div className="timeline-era-filters" role="group" aria-label="Filter by era">
+          {ERAS.map((era) => (
+            <button
+              key={era.id}
+              type="button"
+              className={`timeline-era-chip${selectedEra === era.id ? ' timeline-era-chip--active' : ''}`}
+              style={{ '--era-accent': era.accent }}
+              onClick={() => setSelectedEra((prev) => (prev === era.id ? null : era.id))}
+              aria-pressed={selectedEra === era.id}
+            >
+              <span className="timeline-era-chip__dot" aria-hidden="true" />
+              {era.label}
+            </button>
+          ))}
+        </div>
+
         <Legend />
 
         <p className="timeline-scroll-hint" aria-hidden="true">
           {isMobile ? '↕ Scroll vertically to explore' : '↔ Scroll horizontally to explore'}
+          {selectedEra && (
+            <> · {filteredCharacters.length} character{filteredCharacters.length !== 1 ? 's' : ''} shown</>
+          )}
         </p>
 
         {isMobile ? (
-          <VerticalTimeline data={characters} />
+          <VerticalTimeline data={filteredCharacters} />
         ) : (
-          <HorizontalTimeline data={characters} />
+          <HorizontalTimeline data={filteredCharacters} />
         )}
 
         <p className="timeline-note">
