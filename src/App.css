@@ -1366,6 +1366,7 @@
 .leaflet-container {
   font-family: var(--font-body);
   background: var(--bg);
+  touch-action: none;
 }
 
 .leaflet-control-attribution {
