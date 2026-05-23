@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import characters from '../data/characters.json';
 import { findLocationByLabel } from '../data/locationLookup';
 import { categorize } from '../data/relationshipCategories';
+import { useBookmarks } from '../hooks/useBookmarks';
 
 const charactersById = characters.reduce((acc, c) => {
   acc[c.id] = c;
@@ -22,6 +23,8 @@ function CharacterProfilePage() {
   const { id } = useParams();
   const character = characters.find((c) => c.id === id);
   const [toast, setToast] = useState(null);
+  const { toggle, isBookmarked } = useBookmarks();
+  const bookmarked = character ? isBookmarked(character.id) : false;
 
   const handleShare = async () => {
     try {
@@ -94,6 +97,17 @@ function CharacterProfilePage() {
                 <span aria-hidden="true">→</span>
               </Link>
             )}
+            <button
+              type="button"
+              className={`bookmark-button${bookmarked ? ' bookmark-button--saved' : ''}`}
+              onClick={() => toggle(character.id)}
+              aria-label={bookmarked ? 'Remove bookmark' : 'Bookmark this character'}
+            >
+              <span className="bookmark-button__icon" aria-hidden="true">
+                {bookmarked ? '★' : '☆'}
+              </span>
+              {bookmarked ? 'Saved' : 'Save'}
+            </button>
             <button
               type="button"
               className="share-button"
