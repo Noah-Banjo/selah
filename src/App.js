@@ -90,6 +90,14 @@ function NavBar() {
         aria-modal="true"
         aria-hidden={!open}
       >
+        <button
+          type="button"
+          className="nav__overlay-close"
+          aria-label="Close menu"
+          onClick={() => setOpen(false)}
+        >
+          ×
+        </button>
         <nav className="nav__overlay-links" aria-label="Mobile primary">
           {NAV_ITEMS.map((item) => (
             <NavLink

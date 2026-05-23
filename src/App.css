@@ -2614,6 +2614,30 @@
   pointer-events: auto;
 }
 
+.nav__overlay-close {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.25rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--gold);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.nav__overlay-close:hover {
+  border-color: var(--gold);
+  background: rgba(201, 168, 76, 0.08);
+}
+
 .nav__overlay-links {
   display: flex;
   flex-direction: column;
