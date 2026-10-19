@@ -10,6 +10,7 @@ import {
   Tooltip,
   Popup,
   useMap,
+  useMapEvents,
 } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -18,6 +19,7 @@ import journeys from '../data/journeys.json';
 
 const CENTER = [31.7683, 35.2137];
 const ZOOM = 5;
+const LABEL_MIN_ZOOM = 8;
 
 const MARKER_STYLE = {
   color: '#8a6f24',
@@ -72,6 +74,19 @@ function MapEffects({ focusCoords, focusZoom, fitBounds }) {
   return null;
 }
 
+function ZoomWatcher({ onZoom }) {
+  const map = useMapEvents({ zoomend: () => onZoom(map.getZoom()) });
+  return null;
+}
+
+function modernLabel(loc) {
+  if (!loc.modernName) return loc.modernCountry || '';
+  if (loc.modernCountry && loc.modernCountry !== loc.modernName) {
+    return `${loc.modernName}, ${loc.modernCountry}`;
+  }
+  return loc.modernName;
+}
+
 function MapPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const focusedLocationId = searchParams.get('location');
@@ -80,6 +95,8 @@ function MapPage() {
 
   const [journeySearch, setJourneySearch] = useState('');
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [zoom, setZoom] = useState(ZOOM);
+  const showLabels = !journey && zoom >= LABEL_MIN_ZOOM;
 
   const markerRefs = useRef({});
 
@@ -270,6 +287,8 @@ function MapPage() {
           maxNativeZoom={13}
         />
 
+        <ZoomWatcher onZoom={setZoom} />
+
         <MapEffects
           focusCoords={focusedLocation?.coords}
           focusZoom={focusedLocation ? 8 : undefined}
@@ -298,6 +317,18 @@ function MapPage() {
                 mouseout: (e) => e.target.setStyle(baseStyle),
               }}
             >
+              <Tooltip
+                key={`${loc.id}-${showLabels}`}
+                permanent={showLabels}
+                direction="right"
+                offset={[10, 0]}
+                className={showLabels ? 'loc-label' : undefined}
+              >
+                <strong className="loc-label__name">{loc.name}</strong>
+                {modernLabel(loc) && (
+                  <span className="loc-label__modern">{modernLabel(loc)}</span>
+                )}
+              </Tooltip>
               <Popup className="map-popup">
                 <h3 className="map-popup__name">{loc.name}</h3>
                 {loc.hebrewOrGreekName && (
