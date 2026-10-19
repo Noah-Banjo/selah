@@ -19,7 +19,7 @@ import journeys from '../data/journeys.json';
 
 const CENTER = [31.7683, 35.2137];
 const ZOOM = 5;
-const LABEL_MIN_ZOOM = 8;
+const LABEL_MIN_ZOOM = 6;
 
 const MARKER_STYLE = {
   color: '#8a6f24',
@@ -282,9 +282,8 @@ function MapPage() {
         worldCopyJump
       >
         <TileLayer
-          attribution="Tiles &copy; Esri &mdash; Source: Esri"
-          url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
-          maxNativeZoom={13}
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
         <ZoomWatcher onZoom={setZoom} />
