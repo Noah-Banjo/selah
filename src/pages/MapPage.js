@@ -265,8 +265,9 @@ function MapPage() {
         worldCopyJump
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution="Tiles &copy; Esri &mdash; Source: Esri"
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
+          maxNativeZoom={13}
         />
 
         <MapEffects
